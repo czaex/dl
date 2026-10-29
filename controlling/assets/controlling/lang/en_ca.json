@@ -1,0 +1,12 @@
+{
+  "options.showAll": "Show All",
+  "options.showConflicts": "Show Conflicts",
+  "options.showNone": "Show Unbound",
+  "options.availableKeys": "Available Keys",
+  "options.sort": "Sort",
+  "options.sortNone": "None",
+  "options.sortAZ": "A->Zed",
+  "options.sortZA": "Zed->A",
+  "options.toggleFree": "Toggle Free",
+  "options.confirmReset": "Confirm?"
+}

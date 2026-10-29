@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "LGPL-3.0-or-later"
+issueTrackerURL= "https://github.com/illusivesoulworks/caelus/issues"
+[[mods]]
+    modId = "caelus"
+    version = "8.0.1+1.21.4"
+    displayName = "Caelus API"
+    displayURL = "https://github.com/illusivesoulworks/caelus"
+    logoFile="caelus_icon.png"
+    authors = "Illusive Soulworks"
+    description = '''An API to provide developers access to the elytra's fall flying mechanics through an entity attribute.'''
+[[mixins]]
+    config = "caelus.mixins.json"
+[[dependencies.caelus]]
+    modId = "neoforge"
+    type="required"
+    versionRange = "[21.4.123,)"
+    ordering = "NONE"
+    side = "BOTH"
+[[dependencies.caelus]]
+    modId = "minecraft"
+    type="required"
+    versionRange = "[1.21.4, 1.22)"
+    ordering = "NONE"
+    side = "BOTH"

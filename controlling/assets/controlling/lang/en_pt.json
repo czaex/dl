@@ -1,0 +1,12 @@
+{
+  "options.showAll": "Reveal All",
+  "options.showConflicts": "Parley",
+  "options.showNone": "Untethered",
+  "options.availableKeys": "Untethered Keys",
+  "options.sort": "Filter",
+  "options.sortNone": "Naught",
+  "options.sortAZ": "Bow->Stern",
+  "options.sortZA": "Stern->Bow",
+  "options.toggleFree": "Lootable Keys",
+  "options.confirmReset": "Click to seal ye fate!"
+}
