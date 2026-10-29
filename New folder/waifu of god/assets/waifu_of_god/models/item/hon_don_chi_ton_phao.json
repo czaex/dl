@@ -1,0 +1,6 @@
+{
+  "parent": "waifu_of_god:displaysettings/hop_the_de_than_khi.item",
+  "textures": {
+    "layer0": "waifu_of_god:item/hop_the_de_than_khi"
+  }
+}

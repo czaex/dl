@@ -1,0 +1,49 @@
+{
+  "parent": "dragonminez:patternz",
+  "criteria": {
+    "majinbuuarmor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:majin_buu_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:majin_buu_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:majin_buu_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.majinbuuarmor.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "dragonminez:majin_buu_armor_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.majinbuuarmor.title"
+    }
+  },
+  "requirements": [
+    [
+      "majinbuuarmor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

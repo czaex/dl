@@ -1,0 +1,17 @@
+{
+  "renderer": "epic_fight_avalon:mesh_item",
+  "texture": "efn:textures/item/weapon/fire_exsiliumgladius.png",
+  "texture_l": "efn:textures/item/weapon/fire_exsiliumgladius_light.png",
+  "mesh_main":"efn:weapon/fire_exsiliumgladius_main",
+"mesh_off":"efn:weapon/fire_exsiliumgladius_off",
+  "trail": {
+    "color": [195,195,195],
+    "begin_pos": [-0.1, 0.05, 0.0],
+    "end_pos": [-0.1, 0.55, -2.55],
+    "lifetime": 6,
+    "interpolations": 5,
+    "texture_path": "efn:textures/trail/exsilium2.png",
+    "particle_type": "efn:bloom_trail"
+  },
+  "appeared_in_afterimage":false
+}

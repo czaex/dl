@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_sword"
+    },
+    "title": {
+      "translate": "advancements.skill_dismantle_cut_the_world.title"
+    },
+    "description": {
+      "translate": "advancements.skill_dismantle_cut_the_world.descr"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "skill_dismantle_cut_the_world_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:skill_dismantle"
+}

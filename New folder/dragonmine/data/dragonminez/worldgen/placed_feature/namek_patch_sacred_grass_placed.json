@@ -1,0 +1,21 @@
+{
+  "feature": "dragonminez:namek_patch_sacred_grass_configured",
+  "placement": [
+    {
+      "type": "minecraft:noise_threshold_count",
+      "above_noise": 10,
+      "below_noise": 5,
+      "noise_level": -0.800000011920929
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

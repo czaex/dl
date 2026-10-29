@@ -1,0 +1,35 @@
+{
+  "type": "dragonminez:kikono_crafting",
+  "crafting_time": 200,
+  "energy_cost": 1000,
+  "output": {
+    "item": "dragonminez:a13_armor_leggings"
+  },
+  "pattern": {
+    "item": "dragonminez:pattern_a13"
+  },
+  "slot_1": {
+    "item": "dragonminez:kikono_cloth"
+  },
+  "slot_2": {
+    "item": "dragonminez:kikono_cloth"
+  },
+  "slot_3": {
+    "item": "dragonminez:kikono_cloth"
+  },
+  "slot_4": {
+    "item": "dragonminez:kikono_cloth"
+  },
+  "slot_6": {
+    "item": "dragonminez:kikono_cloth"
+  },
+  "slot_7": {
+    "item": "dragonminez:kikono_string"
+  },
+  "slot_9": {
+    "item": "dragonminez:kikono_string"
+  },
+  "template": {
+    "item": "minecraft:iron_leggings"
+  }
+}

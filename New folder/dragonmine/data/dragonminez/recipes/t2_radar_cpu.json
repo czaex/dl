@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "dragonminez",
+  "key": {
+    "C": {
+      "item": "dragonminez:t2_radar_chip"
+    },
+    "O": {
+      "item": "minecraft:observer"
+    },
+    "R": {
+      "item": "minecraft:comparator"
+    },
+    "T": {
+      "item": "dragonminez:t1_radar_cpu"
+    }
+  },
+  "pattern": [
+    "RCR",
+    "TTT",
+    "OCO"
+  ],
+  "result": {
+    "item": "dragonminez:t2_radar_cpu"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:magenta_wool"
+    },
+    "title": {
+      "translate": "advancements.battle_rozetsu.title"
+    },
+    "description": {
+      "translate": "advancements.battle_rozetsu.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "battle_rozetsu_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:battle_choso"
+}

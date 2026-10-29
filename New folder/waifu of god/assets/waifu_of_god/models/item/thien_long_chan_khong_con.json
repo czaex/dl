@@ -1,0 +1,6 @@
+{
+  "parent": "waifu_of_god:displaysettings/thien_long_chan_khong_con.item",
+  "textures": {
+    "layer0": "waifu_of_god:item/thien_long_chan_khong_con"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "trail_effects": [
+    {
+      "start_time": 0.5,
+      "end_time": 0.9,
+      "joint": "Tool_R",
+      "item_skin_hand": "main_hand"
+    },
+    {
+      "start_time": 0.5,
+      "end_time": 0.9,
+      "joint": "Tool_R",
+      "item_skin_hand": "main_hand",
+      "lifetime": 8,
+      "texture_path": "efn:textures/trail/space_trail.png",
+      "particle_type": "efn:air_trail"
+    },
+    {
+      "start_time": 0.5,
+      "end_time": 0.9,
+      "joint": "Tool_R",
+      "item_skin_hand": "main_hand",
+      "color": [255, 255, 255],
+      "texture_path": "efn:textures/trail/power5.png"
+    },
+    {
+      "start_time": 0.5,
+      "end_time": 0.9,
+      "fade_time": 1.0,
+      "joint": "Tool_R",
+      "item_skin_hand": "off_hand",
+      "begin_pos": [-0.25, 0.2, -0.25],
+      "end_pos": [0.25, 0.4, -2.65],
+      "lifetime": 8,
+      "interpolations": 4,
+      "color": [255, 255, 255],
+      "texture_path": "efn:textures/trail/power4.png",
+      "particle_type": "efn:bloom_trail"
+    },
+    {
+      "start_time": 0.5,
+      "end_time": 0.9,
+      "fade_time": 1.0,
+      "joint": "Tool_R",
+      "item_skin_hand": "off_hand",
+      "begin_pos": [0.7, 0.8, -0.85],
+      "end_pos": [-0.3, 1.6, -2.15],
+      "lifetime": 12,
+      "interpolations": 4,
+      "color": [255, 255, 255],
+      "texture_path": "efn:textures/trail/power4.png",
+      "particle_type": "efn:bloom_trail"
+    },
+    {
+      "start_time": 0.5,
+      "end_time": 0.9,
+      "joint": "Tool_R",
+      "item_skin_hand": "off_hand",
+      "begin_pos": [0.5, 0.8, -2.05],
+      "end_pos": [-0.5, 0.8, -2.05],
+      "lifetime": 8,
+      "texture_path": "efn:textures/trail/space_trail.png",
+      "particle_type": "efn:air_trail"
+    },
+    {
+      "start_time": 0.5,
+      "end_time": 0.9,
+      "joint": "Tool_R",
+      "item_skin_hand": "off_hand",
+      "begin_pos": [0.0, 0.8, -1.0],
+      "end_pos": [0.0, 1.6, -2.55],
+      "lifetime": 8,
+      "texture_path": "efn:textures/trail/space_trail.png",
+      "particle_type": "efn:air_trail"
+    }
+  ]
+}

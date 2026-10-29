@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: UsefulMagic
+Specification-Vendor: CooStack
+Specification-Version: 2.0.0
+Implementation-Title: neoforge
+Implementation-Version: 2.0.0
+Implementation-Vendor: CooStack
+Built-On-Minecraft: 1.21.1
+

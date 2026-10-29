@@ -1,0 +1,20 @@
+{
+  "feature": "dragonminez:namek_flowers_configured",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 3
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "dragonminez:surface_in_band",
+      "bottom": 300,
+      "top": 452
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

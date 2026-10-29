@@ -1,0 +1,17 @@
+{
+  "name": "jujutsucraft:reformatory_underground",
+  "fallback": "jujutsucraft:reformatory_underground",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jujutsucraft:reformatory_underground",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

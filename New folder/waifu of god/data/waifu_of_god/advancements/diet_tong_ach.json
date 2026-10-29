@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "waifu_of_god:huyet_nguyet_diet_tong"
+    },
+    "title": {
+      "translate": "advancements.diet_tong_ach.title"
+    },
+    "description": {
+      "translate": "advancements.diet_tong_ach.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "diet_tong_ach_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "waifu_of_god:entities/diet_tong_loot"
+    ]
+  },
+  "parent": "waifu_of_god:tu_tien_gioi"
+}

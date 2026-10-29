@@ -1,0 +1,28 @@
+{
+  "jars": [
+    {
+      "identifier": {
+        "group": "org.mariadb.jdbc",
+        "artifact": "mariadb-java-client"
+      },
+      "version": {
+        "range": "[3.5.7,)",
+        "artifactVersion": "4.0.0"
+      },
+      "path": "META-INF/jarjar/mariadb-java-client-4.0.0.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "com.zaxxer",
+        "artifact": "HikariCP"
+      },
+      "version": {
+        "range": "[7.1.0,)",
+        "artifactVersion": "7.1.0"
+      },
+      "path": "META-INF/jarjar/HikariCP-7.1.0.jar",
+      "isObfuscated": false
+    }
+  ]
+}

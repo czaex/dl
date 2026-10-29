@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "waifu_of_god:ancient_am_ba_chan_kinh",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 200,
+    "separation": 150,
+    "salt": 1006529221
+  }
+}

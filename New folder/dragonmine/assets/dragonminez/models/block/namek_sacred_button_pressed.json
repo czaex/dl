@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "dragonminez:block/namek_sacred_planks"
+  }
+}

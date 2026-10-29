@@ -1,0 +1,8 @@
+{
+  "animation": "dragonminez:animations/block/dball.animation.json",
+  "flat_texture_prefix": "dragonminez:block/custom/dballnamekblock",
+  "geo_model": "dragonminez:geo/block/dballnamek.geo.json",
+  "geo_texture_prefix": "dragonminez:textures/block/custom/dballnamekblock",
+  "id": "namek_ballset",
+  "inventory_texture_format": "dragonminez:item/dball%d_namek"
+}

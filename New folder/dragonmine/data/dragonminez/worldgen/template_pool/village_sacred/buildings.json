@@ -1,0 +1,29 @@
+{
+  "name": "dragonminez:village_sacred/buildings",
+  "fallback": "minecraft:empty",
+  "elements": [{
+    "weight": 1,
+    "element": {
+      "location": "dragonminez:village_ajissa/houses/cc_namekian_house",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element"
+    }
+  },{
+    "weight": 5,
+    "element": {
+      "location": "dragonminez:village_sacred/houses/residence/sacred_house_small",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element"
+    }
+  },{
+    "weight": 4,
+    "element": {
+      "location": "dragonminez:village_sacred/houses/residence/sacred_house_big",
+      "processors": "minecraft:empty",
+      "projection": "rigid",
+      "element_type": "minecraft:single_pool_element"
+    }
+  }]
+}

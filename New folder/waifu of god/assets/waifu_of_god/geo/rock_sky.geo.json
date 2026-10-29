@@ -1,0 +1,54 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Rock_Sky",
+				"texture_width": 512,
+				"texture_height": 512,
+				"visible_bounds_width": 14,
+				"visible_bounds_height": 1630,
+				"visible_bounds_offset": [0, -813, 0]
+			},
+			"bones": [
+				{
+					"name": "CircleMagic",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "bone",
+					"parent": "CircleMagic",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-102, 0, -102],
+							"size": [204, 0, 204],
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [204, 204]}
+							}
+						},
+						{
+							"origin": [-102, -0.01, -102],
+							"size": [204, 0, 204],
+							"uv": {
+								"down": {"uv": [0, 204], "uv_size": [204, -204]}
+							}
+						}
+					]
+				},
+				{
+					"name": "RockSky",
+					"pivot": [0, -25895, 0]
+				},
+				{
+					"name": "bone2",
+					"parent": "RockSky",
+					"pivot": [0, -25895, 0],
+					"cubes": [
+						{"origin": [-47, -26044, -47], "size": [94, 149, 94], "uv": [136, 123]}
+					]
+				}
+			]
+		}
+	]
+}

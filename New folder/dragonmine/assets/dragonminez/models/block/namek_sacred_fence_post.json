@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "dragonminez:block/namek_sacred_planks"
+  }
+}

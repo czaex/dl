@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dragonminez",
+  "ingredients": [
+    {
+      "item": "dragonminez:namek_moss"
+    },
+    {
+      "item": "dragonminez:namek_moss"
+    },
+    {
+      "item": "dragonminez:namek_moss"
+    },
+    {
+      "item": "dragonminez:namek_moss"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    }
+  ],
+  "result": {
+    "item": "dragonminez:kaioshin_fruit"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_z"
+    },
+    "B": {
+      "item": "minecraft:blue_dye"
+    },
+    "K": {
+      "item": "minecraft:black_dye"
+    },
+    "N": {
+      "item": "minecraft:brown_dye"
+    },
+    "W": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "pattern": [
+    "NN  NN",
+    "NWKKWN",
+    "WBBBBW",
+    " B#BB ",
+    " BNNB ",
+    " W  W "
+  ],
+  "result": {
+    "item": "dragonminez:pattern_raditz"
+  }
+}

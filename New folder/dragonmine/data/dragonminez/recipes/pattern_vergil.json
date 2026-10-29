@@ -1,0 +1,26 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_super"
+    },
+    "B": {
+      "item": "minecraft:blue_dye"
+    },
+    "K": {
+      "item": "minecraft:black_dye"
+    }
+  },
+  "pattern": [
+    "BB  BB",
+    "BKBBKB",
+    "BBKKBB",
+    "BB#KBB",
+    "BBKKBB",
+    " BBBB "
+  ],
+  "result": {
+    "item": "dragonminez:pattern_vergil"
+  }
+}

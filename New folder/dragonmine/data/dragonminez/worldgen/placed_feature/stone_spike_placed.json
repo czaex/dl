@@ -1,0 +1,25 @@
+{
+  "feature": "dragonminez:stone_spike",
+  "placement": [
+    {
+      "type": "minecraft:noise_threshold_count",
+      "above_noise": 5,
+      "below_noise": 15,
+      "noise_level": -0.800000011920929
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 80
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

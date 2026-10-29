@@ -1,0 +1,21 @@
+{
+    "layer":"COMPOSITE_LAYER",
+    "priority":"HIGHEST",
+    "masks":
+    [
+        {
+            "livingmotion":"RUN",
+            "type":"arms"
+        }
+    ],
+    "trail_effects": [
+        {
+            "joint": "Tool_R",
+            "start_time": 0.0,
+            "end_time": 100000000.0,
+            "lifetime": 3,
+            "interpolations": 6,
+            "item_skin_hand": "main_hand"
+        }
+    ]
+}

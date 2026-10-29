@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:barrier"
+    },
+    "title": {
+      "translate": "advancements.thai_hu_dao_to.title"
+    },
+    "description": {
+      "translate": "advancements.thai_hu_dao_to.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "thai_hu_dao_to_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "waifu_of_god:khai_thien_tich_diet_dao"
+}

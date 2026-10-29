@@ -1,0 +1,118 @@
+{
+  "parent": "dragonminez:patternz",
+  "criteria": {
+    "a18armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:a18_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:a18_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:a18_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "a18armor_cell": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:a18_cell_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:a18_cell_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:a18_cell_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "a18armor_kame": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:a18_kame_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:a18_kame_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:a18_kame_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "a18armor_tournament": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:a18_tournament_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:a18_tournament_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:a18_tournament_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.a18armor.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "dragonminez:a18_armor_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.a18armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "a18armor",
+      "a18armor_kame",
+      "a18armor_tournament",
+      "a18armor_cell"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

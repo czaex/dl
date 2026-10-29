@@ -1,0 +1,42 @@
+{
+  "trail_effects": [
+    {
+      "start_time": 1.66,
+      "end_time": 2.0,
+      "joint": "Tool_L",
+      "begin_pos": [0, 0, 0],
+      "end_pos": [0, 13, 0],
+      "lifetime": 10,
+      "interpolations": 10,
+      "color": [255,255,255],
+      "texture_path": "efn:textures/trail/fsgr1.png",
+      "particle_type": "efn:bloom_trail"
+    },
+    {
+      "start_time": 1.66,
+      "end_time": 1.96,
+      "fade_time": 0.0000001,
+      "joint": "Tool_L",
+      "begin_pos": [-0.1, 0, 0],
+      "end_pos": [-0.1, 13, 0],
+      "interpolations": 10,
+      "lifetime": 55,
+      "color": [90,90,90],
+      "texture_path": "efn:textures/trail/fsgr2.png",
+      "particle_type": "efn:bloom_trail"
+    },
+    {
+      "start_time": 1.66,
+      "end_time": 1.96,
+      "fade_time": 0.0000001,
+      "joint": "Tool_L",
+      "begin_pos": [1.4, 12.8, 0.2],
+      "end_pos": [-1.4, 12.8, 0.2],
+      "interpolations": 30,
+      "lifetime": 55,
+      "color": [90,90,90],
+      "texture_path": "efn:textures/trail/end_trail.png",
+      "particle_type": "efn:bloom_trail"
+    }
+  ]
+}

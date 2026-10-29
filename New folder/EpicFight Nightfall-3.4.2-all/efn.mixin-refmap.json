@@ -1,0 +1,84 @@
+{
+  "mappings": {
+    "com/hm/efn/mixin/NearestAttackableTargetGoalMixin": {
+      "targetConditions": "f_26051_:Lnet/minecraft/world/entity/ai/targeting/TargetingConditions;"
+    },
+    "com/hm/efn/mixin/MixinKeyboardHandler": {
+      "keyPress(JIIII)V": "Lnet/minecraft/client/KeyboardHandler;m_90893_(JIIII)V"
+    },
+    "com/hm/efn/mixin/MixinMouseHandler": {
+      "onPress": "Lnet/minecraft/client/MouseHandler;m_91530_(JIII)V",
+      "onMove": "Lnet/minecraft/client/MouseHandler;m_91561_(JDD)V"
+    },
+    "com/hm/efn/mixin/MouseHandlerMixin": {
+      "turnPlayer": "Lnet/minecraft/client/MouseHandler;m_91523_()V"
+    },
+    "com/hm/efn/mixin/compat/cataclysm/MixinLLibraryBossMonster": {
+      "canBeAffected(Lnet/minecraft/world/effect/MobEffectInstance;)Z": "Lcom/github/L_Ender/cataclysm/entity/AnimationMonster/BossMonsters/LLibrary_Boss_Monster;m_7301_(Lnet/minecraft/world/effect/MobEffectInstance;)Z"
+    },
+    "com/hm/efn/mixin/CameraAccessor": {
+      "setPosition": "m_90584_(DDD)V"
+    },
+    "com/hm/efn/mixin/UtilMixin": {
+      "getMillis": "Lnet/minecraft/Util;m_137550_()J"
+    },
+    "com/hm/efn/mixin/compat/cataclysm/MixinIABossMonster": {
+      "canBeAffected(Lnet/minecraft/world/effect/MobEffectInstance;)Z": "Lcom/github/L_Ender/cataclysm/entity/InternalAnimationMonster/IABossMonsters/IABoss_monster;m_7301_(Lnet/minecraft/world/effect/MobEffectInstance;)Z"
+    },
+    "com/hm/efn/mixin/MixinKeyMapping": {
+      "isDown()Z": "Lnet/minecraft/client/KeyMapping;m_90857_()Z",
+      "matchesMouse": "Lnet/minecraft/client/KeyMapping;m_90830_(I)Z",
+      "consumeClick()Z": "Lnet/minecraft/client/KeyMapping;m_90859_()Z",
+      "matches": "Lnet/minecraft/client/KeyMapping;m_90832_(II)Z"
+    },
+    "com/hm/efn/mixin/MixinMob": {
+      "createBodyControl": "Lnet/minecraft/world/entity/Mob;m_7560_()Lnet/minecraft/world/entity/ai/control/BodyRotationControl;",
+      "doHurtTarget": "Lnet/minecraft/world/entity/Mob;m_7327_(Lnet/minecraft/world/entity/Entity;)Z",
+      "serverAiStep": "Lnet/minecraft/world/entity/Mob;m_6140_()V",
+      "tick": "Lnet/minecraft/world/entity/Mob;m_8119_()V",
+      "tickHeadTurn": "Lnet/minecraft/world/entity/Mob;m_5632_(FF)F"
+    }
+  },
+  "data": {
+    "searge": {
+      "com/hm/efn/mixin/NearestAttackableTargetGoalMixin": {
+        "targetConditions": "f_26051_:Lnet/minecraft/world/entity/ai/targeting/TargetingConditions;"
+      },
+      "com/hm/efn/mixin/MixinKeyboardHandler": {
+        "keyPress(JIIII)V": "Lnet/minecraft/client/KeyboardHandler;m_90893_(JIIII)V"
+      },
+      "com/hm/efn/mixin/MixinMouseHandler": {
+        "onPress": "Lnet/minecraft/client/MouseHandler;m_91530_(JIII)V",
+        "onMove": "Lnet/minecraft/client/MouseHandler;m_91561_(JDD)V"
+      },
+      "com/hm/efn/mixin/MouseHandlerMixin": {
+        "turnPlayer": "Lnet/minecraft/client/MouseHandler;m_91523_()V"
+      },
+      "com/hm/efn/mixin/compat/cataclysm/MixinLLibraryBossMonster": {
+        "canBeAffected(Lnet/minecraft/world/effect/MobEffectInstance;)Z": "Lcom/github/L_Ender/cataclysm/entity/AnimationMonster/BossMonsters/LLibrary_Boss_Monster;m_7301_(Lnet/minecraft/world/effect/MobEffectInstance;)Z"
+      },
+      "com/hm/efn/mixin/CameraAccessor": {
+        "setPosition": "m_90584_(DDD)V"
+      },
+      "com/hm/efn/mixin/UtilMixin": {
+        "getMillis": "Lnet/minecraft/Util;m_137550_()J"
+      },
+      "com/hm/efn/mixin/compat/cataclysm/MixinIABossMonster": {
+        "canBeAffected(Lnet/minecraft/world/effect/MobEffectInstance;)Z": "Lcom/github/L_Ender/cataclysm/entity/InternalAnimationMonster/IABossMonsters/IABoss_monster;m_7301_(Lnet/minecraft/world/effect/MobEffectInstance;)Z"
+      },
+      "com/hm/efn/mixin/MixinKeyMapping": {
+        "isDown()Z": "Lnet/minecraft/client/KeyMapping;m_90857_()Z",
+        "matchesMouse": "Lnet/minecraft/client/KeyMapping;m_90830_(I)Z",
+        "consumeClick()Z": "Lnet/minecraft/client/KeyMapping;m_90859_()Z",
+        "matches": "Lnet/minecraft/client/KeyMapping;m_90832_(II)Z"
+      },
+      "com/hm/efn/mixin/MixinMob": {
+        "createBodyControl": "Lnet/minecraft/world/entity/Mob;m_7560_()Lnet/minecraft/world/entity/ai/control/BodyRotationControl;",
+        "doHurtTarget": "Lnet/minecraft/world/entity/Mob;m_7327_(Lnet/minecraft/world/entity/Entity;)Z",
+        "serverAiStep": "Lnet/minecraft/world/entity/Mob;m_6140_()V",
+        "tick": "Lnet/minecraft/world/entity/Mob;m_8119_()V",
+        "tickHeadTurn": "Lnet/minecraft/world/entity/Mob;m_5632_(FF)F"
+      }
+    }
+  }
+}

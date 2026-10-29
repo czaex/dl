@@ -1,0 +1,141 @@
+{
+  "parent": "dragonminez:patternz",
+  "criteria": {
+    "gokuarmor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:goku_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:goku_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:goku_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "gokuarmor_gt": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:goku_gt_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:goku_gt_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:goku_gt_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "gokuarmor_kid": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:goku_kid_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:goku_kid_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:goku_kid_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "gokuarmor_super": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:goku_super_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:goku_super_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:goku_super_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "gokuarmor_yardrat": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:yardrat_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:yardrat_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:yardrat_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.gokuarmor.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "dragonminez:goku_armor_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.gokuarmor.title"
+    }
+  },
+  "requirements": [
+    [
+      "gokuarmor",
+      "gokuarmor_kid",
+      "gokuarmor_super",
+      "gokuarmor_gt",
+      "gokuarmor_yardrat"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

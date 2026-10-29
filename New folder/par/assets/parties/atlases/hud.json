@@ -1,0 +1,29 @@
+{
+  "sources": [
+    {
+      "type": "single",
+      "resource": "parties:gui/leader",
+      "sprite": "parties:parties/leader"
+    },
+    {
+      "type": "single",
+      "resource": "parties:gui/mana",
+      "sprite": "parties:parties/mana"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:gui/icons",
+      "sprite": "parties:vanilla/icons_sheet"
+    },
+    {
+      "type": "single",
+      "resource": "minecraft:gui/container/inventory",
+      "sprite": "parties:vanilla/inventory_sheet"
+    },
+    {
+      "type": "directory",
+      "source": "mob_effect",
+      "prefix": "mob_effect/"
+    }
+  ]
+}

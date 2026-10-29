@@ -1,0 +1,17 @@
+{
+  "asset_definition": "earth_radar",
+  "ball_set": "earth",
+  "dimensions": [
+    "minecraft:overworld",
+    "dragonminez:namek"
+  ],
+  "display_name": "Bi-Dimensional Radar",
+  "id": "fused_radar",
+  "item_registry_name": "fused_dball_radar",
+  "ranges": [
+    150,
+    300,
+    600
+  ],
+  "tooltip_key": "item.dragonminez.fused_dball_radar.tooltip"
+}

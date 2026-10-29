@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "waifu_of_god:vo_thuong_than_giap_helmet"
+    },
+    "title": {
+      "translate": "advancements.hon_nguyen_than_de.title"
+    },
+    "description": {
+      "translate": "advancements.hon_nguyen_than_de.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hon_nguyen_than_de_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "waifu_of_god:entities/vo_thuong_than_de_reward"
+    ]
+  },
+  "parent": "waifu_of_god:doat_khong_thuong_than"
+}

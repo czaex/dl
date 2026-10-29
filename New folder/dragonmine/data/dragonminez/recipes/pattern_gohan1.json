@@ -1,0 +1,29 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_z"
+    },
+    "B": {
+      "item": "minecraft:blue_dye"
+    },
+    "K": {
+      "item": "minecraft:black_dye"
+    },
+    "U": {
+      "item": "minecraft:purple_dye"
+    }
+  },
+  "pattern": [
+    "UU  UU",
+    "UUKKUU",
+    "KUUUUK",
+    "KU#UUK",
+    " UUUU ",
+    "BBUUBB"
+  ],
+  "result": {
+    "item": "dragonminez:pattern_gohan1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "placement": {
+    "type": "dragonminez:biome_aware_placement",
+    "salt": 41258963,
+    "valid_biomes": "dragonminez:sacredkai_plains"
+  },
+  "structures": [
+    {
+      "structure": "dragonminez:oldkai_pillar",
+      "weight": 1
+    }
+  ]
+}

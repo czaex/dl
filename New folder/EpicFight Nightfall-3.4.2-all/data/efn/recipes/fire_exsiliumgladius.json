@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": {
+        "item": "epicfight:netherite_longsword"
+    },
+    "addition": {
+        "item" : "minecraft:blaze_powder"
+    },
+    "result": {
+        "item": "efn:fire_exsiliumgladius"
+    },
+    "template": {
+      "item": "minecraft:ghast_tear"
+    }
+}

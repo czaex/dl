@@ -1,0 +1,22 @@
+{
+  "renderer": "efn:mesh_item_falchion",
+
+  "mesh1_texture": "efn:textures/item/weapon/crescent_moon.png",
+  "mesh1_texture_l": "efn:textures/item/weapon/crescent_moon_l.png",
+  "mesh1_main": "efn:weapon/crescent_moon",
+
+  "mesh2_texture": "efn:textures/item/weapon/crescent_moon_trans.png",
+  "mesh2_texture_l": "efn:textures/item/weapon/crescent_moon_l.png",
+  "mesh2_main": "efn:weapon/crescent_moon",
+
+  "trail": {
+    "color": [150, 150, 150],
+    "begin_pos": [0.0, 0.0, -1.3],
+    "end_pos": [0.0, 0.0, -2.6],
+    "lifetime": 4,
+    "interpolations": 8,
+    "texture_path": "efn:textures/trail/crescent_moon_trail.png",
+    "particle_type": "efn:bloom_trail"
+  },
+  "appeared_in_afterimage":false
+}

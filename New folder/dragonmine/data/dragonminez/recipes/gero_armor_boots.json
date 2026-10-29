@@ -1,0 +1,26 @@
+{
+  "type": "dragonminez:kikono_crafting",
+  "crafting_time": 200,
+  "energy_cost": 1000,
+  "output": {
+    "item": "dragonminez:gero_armor_boots"
+  },
+  "pattern": {
+    "item": "dragonminez:pattern_gero"
+  },
+  "slot_4": {
+    "item": "dragonminez:kikono_cloth"
+  },
+  "slot_6": {
+    "item": "dragonminez:kikono_cloth"
+  },
+  "slot_7": {
+    "item": "dragonminez:kikono_string"
+  },
+  "slot_9": {
+    "item": "dragonminez:kikono_string"
+  },
+  "template": {
+    "item": "minecraft:iron_boots"
+  }
+}

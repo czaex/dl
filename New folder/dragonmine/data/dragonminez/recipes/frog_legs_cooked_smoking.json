@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "group": "dragonminez",
+  "ingredient": {
+    "item": "dragonminez:frog_legs_raw"
+  },
+  "result": "dragonminez:frog_legs_cooked"
+}

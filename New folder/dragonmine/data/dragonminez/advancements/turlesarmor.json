@@ -1,0 +1,49 @@
+{
+  "parent": "dragonminez:patternz",
+  "criteria": {
+    "turlesarmor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:turles_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:turles_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:turles_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.turlesarmor.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "dragonminez:turles_armor_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.turlesarmor.title"
+    }
+  },
+  "requirements": [
+    [
+      "turlesarmor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

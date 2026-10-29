@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": {
+      "item": "efn:meen_spear"
+    },
+    "title": {
+      "translate": "advancement.efn.obtain_meen_spear.title"
+    },
+    "description": {
+      "translate": "advancement.efn.obtain_meen_spear.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["efn:meen_spear"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100,
+    "sounds": [
+      {
+        "sound": "minecraft:ui.toast.challenge_complete",
+        "pitch": 1.0,
+        "volume": 1.0
+      }
+    ]
+  }
+}

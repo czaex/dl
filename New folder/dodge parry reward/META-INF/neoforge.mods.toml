@@ -1,0 +1,42 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "dodge_parry_reward"
+version = "1.21.1-1.0.0"
+displayName = "Dodge Parry Reward"
+authors = "P1nero"
+logoFile = "logo.png"
+description = '''Grants a skill book of passive rewards (temporary buffs / instant heal) when the player lands a perfect dodge or perfect parry with Epic Fight. Ported to NeoForge 1.21.1 with the author's permission.'''
+
+# The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
+[[mixins]]
+config = "dodge_parry_reward.mixins.json"
+
+[[dependencies.dodge_parry_reward]]
+    modId = "neoforge"
+    type = "required"
+    versionRange = "[21.1.0,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.dodge_parry_reward]]
+    modId = "minecraft"
+    type = "required"
+    versionRange = "[1.21.1]"
+    ordering = "NONE"
+    side = "BOTH"
+
+# Epic Fight - hard dependency, the mod is built entirely on its skill/event API.
+[[dependencies.dodge_parry_reward]]
+    modId = "epicfight"
+    type = "required"
+    versionRange = "[21,)"
+    ordering = "AFTER"
+    side = "BOTH"
+
+# Note: Epic Fight: Skill Tree ("epicskills") is deliberately NOT declared here, matching the
+# original mod - it is only a compile-time dependency of the DPRSkillTreeProvider/DataEvents
+# datagen classes, which are exclusively invoked by the "data" Gradle run (GatherDataEvent).
+# They are never touched during normal client/server startup, so no runtime dependency exists.

@@ -1,0 +1,38 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_z"
+    },
+    "K": {
+      "item": "minecraft:black_dye"
+    },
+    "L": {
+      "item": "minecraft:lime_dye"
+    },
+    "N": {
+      "item": "minecraft:brown_dye"
+    },
+    "S": {
+      "item": "minecraft:light_gray_dye"
+    },
+    "U": {
+      "item": "minecraft:purple_dye"
+    },
+    "W": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "pattern": [
+    " W  WN",
+    "UWLLWU",
+    "KLLLLK",
+    "UL#LLU",
+    "UKSSKU",
+    "K    K"
+  ],
+  "result": {
+    "item": "dragonminez:pattern_cooler_soldier"
+  }
+}

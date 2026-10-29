@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lo_dinh",
+  "category": "building",
+  "pattern": [
+    "a a",
+    "bcb",
+    "dbd"
+  ],
+  "key": {
+    "a": {
+      "item": "waifu_of_god:linh_thach_ha_pham"
+    },
+    "b": {
+      "item": "minecraft:iron_block"
+    },
+    "c": {
+      "item": "minecraft:emerald"
+    },
+    "d": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "waifu_of_god:o_thiet_dinh",
+    "count": 1
+  }
+}

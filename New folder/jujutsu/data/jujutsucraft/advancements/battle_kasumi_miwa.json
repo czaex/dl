@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "jujutsucraft:sword_miwa_kasumi"
+    },
+    "title": {
+      "translate": "advancements.battle_kasumi_miwa.title"
+    },
+    "description": {
+      "translate": "advancements.battle_kasumi_miwa.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "battle_kasumi_miwa_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:junpei_yoshino"
+}

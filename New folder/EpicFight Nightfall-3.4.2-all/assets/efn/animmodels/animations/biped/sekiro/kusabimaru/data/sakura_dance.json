@@ -1,0 +1,117 @@
+{
+  "trail_effects": [
+    {
+      "start_time": 0.3,
+      "end_time": 0.32,
+      "joint": "Tool_L",
+      "begin_pos": [0, 2, -1],
+      "end_pos": [0, 4.5, -1],
+      "lifetime": 7,
+      "interpolations": 20,
+      "color": [255,255,255],
+      "texture_path": "efn:textures/trail/katana_trail.png",
+      "particle_type": "efn:bloom_trail"
+    },
+    {
+      "start_time": 0.53,
+      "end_time": 0.70,
+      "joint": "Tool_L",
+      "begin_pos": [0, 2, -1],
+      "end_pos": [0, 4.5, -1],
+      "lifetime": 7,
+      "interpolations": 20,
+      "color": [255,255,255],
+      "texture_path": "efn:textures/trail/katana_trail.png",
+      "particle_type": "efn:bloom_trail"
+    },
+    {
+      "start_time": 1.112,
+      "end_time": 1.21,
+      "joint": "Tool_L",
+      "begin_pos": [0, 2, -1],
+      "end_pos": [0, 4.5, -1],
+      "lifetime": 10,
+      "interpolations": 30,
+      "color": [255,255,255],
+      "texture_path": "efn:textures/trail/katana_trail.png",
+      "particle_type": "efn:bloom_trail"
+    },
+    {
+      "start_time": 0.3,
+      "end_time": 0.5,
+      "fade_time": 0.0001,
+      "joint": "Tool_L",
+      "begin_pos": [0, 2, -1],
+      "end_pos": [0, 4.5, -1],
+      "lifetime": 16,
+      "interpolations": 20,
+      "color": [255,255,255],
+      "texture_path": "efn:textures/trail/katana_trail_end.png",
+      "particle_type": "efn:bloom_trail"
+    },
+    {
+      "start_time": 0.53,
+      "end_time": 0.85 ,
+      "fade_time": 0.0001,
+      "joint": "Tool_L",
+      "begin_pos": [0, 2, -1],
+      "end_pos": [0, 4.5, -1],
+      "lifetime": 16,
+      "interpolations": 20,
+      "color": [255,255,255],
+      "texture_path": "efn:textures/trail/katana_trail_end.png",
+      "particle_type": "efn:bloom_trail"
+    },
+    {
+      "start_time": 1.112,
+      "end_time": 1.35,
+      "fade_time": 0.0001,
+      "joint": "Tool_L",
+      "begin_pos": [0, 2, -1],
+      "end_pos": [0, 4.5, -1],
+      "lifetime": 20,
+      "interpolations": 30,
+      "color": [255,255,255],
+      "texture_path": "efn:textures/trail/katana_trail_end.png",
+      "particle_type": "efn:bloom_trail"
+    },{
+      "start_time": 0.3,
+      "end_time": 0.5,
+      "fade_time": 0.0001,
+      "joint": "Tool_L",
+      "begin_pos": [0, 2, -1],
+      "end_pos": [0, 4.5, -1],
+      "lifetime": 16,
+      "interpolations": 20,
+      "color": [255,255,255],
+      "texture_path": "efn:textures/trail/katana_trail_end.png",
+      "particle_type": "efn:bloom_trail"
+    },
+    {
+      "start_time": 0.53,
+      "end_time": 0.85 ,
+      "fade_time": 0.0001,
+      "joint": "Tool_L",
+      "begin_pos": [0, 2, -1],
+      "end_pos": [0, 4.5, -1],
+      "lifetime": 16,
+      "interpolations": 20,
+      "color": [255,255,255],
+      "texture_path": "efn:textures/trail/katana_trail_end.png",
+      "particle_type": "efn:bloom_trail"
+    },
+    {
+      "start_time": 1.112,
+      "end_time": 1.35,
+      "fade_time": 0.0001,
+      "joint": "Tool_L",
+      "begin_pos": [0, 2, -1],
+      "end_pos": [0, 4.5, -1],
+      "lifetime": 20,
+      "interpolations": 30,
+      "color": [255,255,255],
+      "texture_path": "efn:textures/trail/katana_trail_end.png",
+      "particle_type": "efn:bloom_trail"
+    }
+  ]
+}

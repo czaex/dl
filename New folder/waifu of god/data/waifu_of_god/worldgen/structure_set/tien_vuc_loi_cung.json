@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "waifu_of_god:tien_vuc_loi_cung",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 500,
+    "separation": 200,
+    "salt": 137902403
+  }
+}

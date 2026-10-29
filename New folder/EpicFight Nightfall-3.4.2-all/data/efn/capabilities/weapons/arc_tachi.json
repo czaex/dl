@@ -1,0 +1,8 @@
+{
+  "type": "efn:example",
+  "attributes": {
+    "common": {
+      "impact": 2.5
+    }
+  }
+}

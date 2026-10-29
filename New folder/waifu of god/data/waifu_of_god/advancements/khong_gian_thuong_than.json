@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:barrier"
+    },
+    "title": {
+      "translate": "advancements.khong_gian_thuong_than.title"
+    },
+    "description": {
+      "translate": "advancements.khong_gian_thuong_than.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "khong_gian_thuong_than_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "waifu_of_god:u_minh_dai_than"
+}

@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": {
+        "item": "minecraft:netherite_boots"
+    },
+    "addition": {
+        "item" : "efn:duskfire_ingot"
+    },
+    "result": {
+        "item": "efn:duskfire_boots"
+    },
+    "template": {
+      "item": "minecraft:blaze_rod"
+    }
+}

@@ -1,0 +1,62 @@
+{
+  "ultimate_battle_music.config.title": "ULTIMATE BATTLE MUSIC",
+
+  "ultimate_battle_music.config.mode.on": "ON",
+  "ultimate_battle_music.config.mode.on.tooltip": "Reproducir pista ÚNICA",
+  "ultimate_battle_music.config.mode.fallback": "NORMAL",
+  "ultimate_battle_music.config.mode.fallback.tooltip": "Usar pista por DEFECTO",
+  "ultimate_battle_music.config.mode.off": "OFF",
+  "ultimate_battle_music.config.mode.off.tooltip": "SILENCIAR este tipo",
+
+  "ultimate_battle_music.config.category.music": "Música",
+  "ultimate_battle_music.config.category.detection": "Tipo de detección",
+  "ultimate_battle_music.config.category.radius": "Radio",
+  "ultimate_battle_music.config.category.bosses": "Jefes",
+  "ultimate_battle_music.config.category.volume": "Volumen",
+  "ultimate_battle_music.config.category.fade": "Fundido",
+
+  "ultimate_battle_music.config.music.enable": "Activar música de combate",
+  "ultimate_battle_music.config.music.enable.tooltip": "Interruptor principal. Si está desactivado, no hay música de combate.",
+  "ultimate_battle_music.config.music.variant_mode": "Música variante",
+  "ultimate_battle_music.config.music.illager_mode": "Música Illager",
+  "ultimate_battle_music.config.music.nether_mode": "Música del Nether",
+  "ultimate_battle_music.config.music.raid_mode": "Música de raid",
+
+  "ultimate_battle_music.config.detection.require_targeting": "Requiere objetivo al jugador",
+  "ultimate_battle_music.config.detection.require_targeting.tooltip": "Solo activa la música si un mob te está atacando.",
+  "ultimate_battle_music.config.detection.check_interval": "Intervalo de comprobación (Ticks)",
+  "ultimate_battle_music.config.detection.check_interval.tooltip": "Frecuencia de verificación. 20 = 1 segundo.",
+
+  "ultimate_battle_music.config.radius.normal": "Radio mobs normales",
+  "ultimate_battle_music.config.radius.variant": "Radio variantes",
+  "ultimate_battle_music.config.radius.illager": "Radio Illager",
+  "ultimate_battle_music.config.radius.far": "Radio hostiles lejanos",
+  "ultimate_battle_music.config.radius.creeper": "Radio Creeper",
+  "ultimate_battle_music.config.radius.creeper.tooltip": "Los Creepers solo activan música muy cerca.",
+  "ultimate_battle_music.config.radius.boss": "Radio Jefes",
+  "ultimate_battle_music.config.radius.boss.tooltip": "Detección para Wither | Warden | Ender Dragon.",
+
+  "ultimate_battle_music.config.bosses.warden_mode": "Warden Music",
+  "ultimate_battle_music.config.bosses.warden_volume": "Warden Volume (%)",
+  "ultimate_battle_music.config.bosses.wither_mode": "Wither Music",
+  "ultimate_battle_music.config.bosses.wither_volume": "Wither Volume (%)",
+  "ultimate_battle_music.config.bosses.dragon_mode": "Ender Dragon Music",
+  "ultimate_battle_music.config.bosses.dragon_volume": "Ender Dragon Volume (%)",
+
+  "ultimate_battle_music.config.volume.default": "Volumen por defecto (%)",
+  "ultimate_battle_music.config.volume.default.tooltip": "Volumen de la música de combate en el Overworld.",
+  "ultimate_battle_music.config.volume.illager": "Volumen de Illager (%)",
+  "ultimate_battle_music.config.volume.raid": "Volumen de Raid (%)",
+  "ultimate_battle_music.config.volume.nether": "Volumen del Nether (%)",
+  "ultimate_battle_music.config.volume.fluid_pitch": "Tono en fluidos (%)",
+  "ultimate_battle_music.config.volume.fluid_pitch.tooltip": "Tono en agua o lava. 75 = más grave.",
+
+  "ultimate_battle_music.config.fade.use_fade": "Fundido",
+  "ultimate_battle_music.config.fade.use_fade.tooltip": "Activa fundido de entrada/salida. Desactiva para cortes bruscos.",
+  "ultimate_battle_music.config.fade.fade_out": "Fundido de salida (Ticks)",
+  "ultimate_battle_music.config.fade.fade_out.tooltip": "Duración del fundido de salida. 60 = 3 segundos.",
+  "ultimate_battle_music.config.fade.revive_fade_in": "Fundido de entrada (Ticks)",
+  "ultimate_battle_music.config.fade.revive_fade_in.tooltip": "Tiempo de reaparición tras silencio. 40 = 2 segundos.",
+  "ultimate_battle_music.config.fade.ghost_duration": "Duración fantasma (Ticks)",
+  "ultimate_battle_music.config.fade.ghost_duration.tooltip": "Tiempo en silencio antes de detener la pista. 200 = 10 segundos."
+}

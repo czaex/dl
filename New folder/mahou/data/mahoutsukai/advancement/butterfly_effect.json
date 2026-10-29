@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "mahoutsukai:scroll_butterfly_effect"
+    },
+    "title": {
+      "translate": "advancements.butterfly_effect.title"
+    },
+    "description": {
+      "translate": "advancements.butterfly_effect.description"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "mahoutsukai:root",
+  "criteria": {
+    "butterfly_effect": {
+      "trigger": "mahoutsukai:butterfly_effect"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: TaCZ:Accel
+Implementation-Version: 1.3.3
+MixinConfigs: taczt.mixins.json
+

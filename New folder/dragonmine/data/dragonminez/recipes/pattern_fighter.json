@@ -1,0 +1,32 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_z"
+    },
+    "E": {
+      "item": "minecraft:green_dye"
+    },
+    "K": {
+      "item": "minecraft:black_dye"
+    },
+    "O": {
+      "item": "minecraft:orange_dye"
+    },
+    "S": {
+      "item": "minecraft:light_gray_dye"
+    }
+  },
+  "pattern": [
+    "EE  EE",
+    "EEKKEE",
+    "EEEEEE",
+    "OE#EEO",
+    " EEEE ",
+    " SSSS "
+  ],
+  "result": {
+    "item": "dragonminez:pattern_fighter"
+  }
+}

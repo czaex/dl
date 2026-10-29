@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dragonminez:block/rocky_cobblestone_slab"
+    },
+    "type=double": {
+      "model": "dragonminez:block/rocky_cobblestone"
+    },
+    "type=top": {
+      "model": "dragonminez:block/rocky_cobblestone_slab_top"
+    }
+  }
+}

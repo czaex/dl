@@ -1,0 +1,32 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_super"
+    },
+    "K": {
+      "item": "minecraft:black_dye"
+    },
+    "M": {
+      "item": "minecraft:magenta_dye"
+    },
+    "W": {
+      "item": "minecraft:white_dye"
+    },
+    "Y": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "pattern": [
+    "KWKKWK",
+    "MKYYKM",
+    "MKY#KM",
+    "MKYYKM",
+    "MKYYKM",
+    " KYYK "
+  ],
+  "result": {
+    "item": "dragonminez:pattern_whis"
+  }
+}

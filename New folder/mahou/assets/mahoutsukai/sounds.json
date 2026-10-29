@@ -1,0 +1,76 @@
+{
+    "fae.chime1": {
+    "category": "neutral",
+    "sounds": [
+      "mahoutsukai:chime1"
+    ]},
+    "fae.chime2": {
+    "category": "neutral",
+    "sounds": [
+      "mahoutsukai:chime2"
+    ]},
+    "fae.chime3": {
+    "category": "neutral",
+    "sounds": [
+      "mahoutsukai:chime3"
+    ]},
+    "fae.chime4": {
+    "category": "neutral",
+    "sounds": [
+      "mahoutsukai:chime4"
+    ]},
+    "beam.twinkle": {
+    "category": "neutral",
+    "sounds": [
+      "mahoutsukai:beam"
+    ]},
+    "chain.pull": {
+    "category": "neutral",
+    "sounds": [
+      "mahoutsukai:chains"
+    ]},
+  "caliburn.smite": {
+    "category": "neutral",
+    "sounds": [
+      "mahoutsukai:smite"
+    ]},
+  "mystic.explode": {
+    "category": "neutral",
+    "sounds": [
+      "mahoutsukai:explode"
+    ]},
+  "nobu.taiko1": {
+    "category": "neutral",
+    "sounds": [
+      "mahoutsukai:taiko1"
+    ]},
+  "nobu.taiko2": {
+    "category": "neutral",
+    "sounds": [
+      "mahoutsukai:taiko2"
+    ]},
+  "nobu.taiko3": {
+    "category": "neutral",
+    "sounds": [
+      "mahoutsukai:taiko3"
+    ]},
+  "nobu.taikobig": {
+    "category": "neutral",
+    "sounds": [
+      "mahoutsukai:taikobig"
+    ]},
+  "nobu.taikoboss": {
+    "category": "neutral",
+    "sounds": [
+      "mahoutsukai:taikoboss"
+    ]},
+  "nobu.taikofire": {
+    "category": "neutral",
+    "sounds": [
+      "mahoutsukai:taikofire"
+    ]}
+
+
+
+
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "jujutsucraft:broom"
+    },
+    "title": {
+      "translate": "advancements.battle_momo_nishimiya.title"
+    },
+    "description": {
+      "translate": "advancements.battle_momo_nishimiya.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "battle_momo_nishimiya_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:battle_kasumi_miwa"
+}

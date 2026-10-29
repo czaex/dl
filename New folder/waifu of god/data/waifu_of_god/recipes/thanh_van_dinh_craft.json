@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "a a",
+    "bcb",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "waifu_of_god:linh_thach_thanh_pham"
+    },
+    "b": {
+      "item": "minecraft:red_nether_bricks"
+    },
+    "c": {
+      "item": "minecraft:beacon"
+    },
+    "d": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "e": {
+      "item": "minecraft:enchanting_table"
+    }
+  },
+  "result": {
+    "item": "waifu_of_god:thanh_van_dinh",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "dragonminez:saiyan_crater",
+  "biomes": "#minecraft:is_overworld",
+  "spawn_overrides": {},
+  "step": "top_layer_modification"
+}

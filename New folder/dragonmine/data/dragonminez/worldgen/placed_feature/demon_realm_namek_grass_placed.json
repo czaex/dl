@@ -1,0 +1,20 @@
+{
+  "feature": "dragonminez:namek_patch_grass_configured",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 5
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "dragonminez:surface_in_band",
+      "bottom": 300,
+      "top": 452
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

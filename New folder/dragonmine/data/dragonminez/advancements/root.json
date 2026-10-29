@@ -1,0 +1,41 @@
+{
+  "criteria": {
+    "first_spawn_in_world": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:player"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "dragonminez:textures/block/rocky_stone.png",
+    "description": {
+      "translate": "advancements.dragonminez.root.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "dragonminez:dball4"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "first_spawn_in_world"
+    ]
+  ],
+  "rewards": {},
+  "sends_telemetry_event": true
+}

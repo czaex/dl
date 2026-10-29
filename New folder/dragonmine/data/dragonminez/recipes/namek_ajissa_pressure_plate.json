@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:namek_ajissa_planks"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "item": "dragonminez:namek_ajissa_pressure_plate"
+  },
+  "show_notification": true
+}

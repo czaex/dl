@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:book"
+        },
+        {
+            "item": "minecraft:stone_sword"
+        }
+    ],
+    "result": {
+        "item": "epicfight:skillbook",
+        "count": 1,
+        "nbt": {
+            "skill": "efn:efn_dodge"
+        }
+    }
+}

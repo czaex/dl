@@ -1,0 +1,14 @@
+{
+  "cooldown": 1200,
+  "kill_cooldown_reduction": 120,
+  "parry_cooldown_reduction": 40,
+  "dodge_cooldown_reduction": 40,
+  "skill_kill_cooldown_reduction": 1200,
+  "neutralize_target_hit_cooldown_reduction": 1000,
+
+  "skill_kill_stack_reward": 1,
+  "neutralize_target_hit_stack_reward": 5,
+
+  "neutralize_target_hit_damage_multiplier": 2.5,
+  "neutralize_target_hit_impact_multiplier": 2.5
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "a a",
+    "bcb",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "waifu_of_god:linh_thach_thuong_pham"
+    },
+    "b": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "c": {
+      "item": "minecraft:beacon"
+    },
+    "d": {
+      "item": "minecraft:raw_gold_block"
+    },
+    "e": {
+      "item": "minecraft:magma_block"
+    }
+  },
+  "result": {
+    "item": "waifu_of_god:thuong_linh_dinh",
+    "count": 1
+  }
+}

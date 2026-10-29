@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:basalt"
+    },
+    "title": {
+      "translate": "advancements.hu_khong_chi_mon_ach.title"
+    },
+    "description": {
+      "translate": "advancements.hu_khong_chi_mon_ach.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hu_khong_chi_mon_ach_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "waifu_of_god:u_minh_khai_gioi_ach"
+}

@@ -1,0 +1,11 @@
+{
+  "battle_music":       { "sounds": [{"name": "ultimate_battle_music:battle_music",       "stream": true}], "category": "music" },
+  "battle_variant":     { "sounds": [{"name": "ultimate_battle_music:battle_variant",     "stream": true}], "category": "music" },
+  "battle_illager":     { "sounds": [{"name": "ultimate_battle_music:battle_illager",     "stream": true}], "category": "music" },
+  "battle_nether":      { "sounds": [{"name": "ultimate_battle_music:battle_nether",      "stream": true}], "category": "music" },
+  "battle_raid":        { "sounds": [{"name": "ultimate_battle_music:battle_raid",        "stream": true}], "category": "music" },
+  "battle_invoker":     { "sounds": [{"name": "ultimate_battle_music:battle_invoker",     "stream": true}], "category": "music" },
+  "battle_warden":      { "sounds": [{"name": "ultimate_battle_music:battle_warden",      "stream": true}], "category": "music" },
+  "battle_wither":      { "sounds": [{"name": "ultimate_battle_music:battle_wither",      "stream": true}], "category": "music" },
+  "battle_dragon":      { "sounds": [{"name": "ultimate_battle_music:battle_enderdragon", "stream": true}], "category": "music" }
+}

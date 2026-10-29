@@ -1,0 +1,49 @@
+{
+  "parent": "dragonminez:patternz",
+  "criteria": {
+    "piccoloarmor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:piccolo_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:piccolo_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:piccolo_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.piccoloarmor.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "dragonminez:piccolo_armor_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.piccoloarmor.title"
+    }
+  },
+  "requirements": [
+    [
+      "piccoloarmor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

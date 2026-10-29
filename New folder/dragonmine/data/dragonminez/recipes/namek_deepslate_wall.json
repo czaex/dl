@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:namek_deepslate"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "dragonminez:namek_deepslate_wall"
+  },
+  "show_notification": true
+}

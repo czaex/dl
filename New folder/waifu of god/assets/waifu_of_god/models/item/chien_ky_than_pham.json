@@ -1,0 +1,6 @@
+{
+  "parent": "waifu_of_god:displaysettings/chien_ky_ha_pham.item",
+  "textures": {
+    "layer0": "waifu_of_god:item/air"
+  }
+}

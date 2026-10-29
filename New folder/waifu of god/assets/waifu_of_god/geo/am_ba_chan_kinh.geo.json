@@ -1,0 +1,106 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Âm Ba Chấn Kinh",
+				"texture_width": 400,
+				"texture_height": 400,
+				"visible_bounds_width": 21,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "magic",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Body",
+					"parent": "magic",
+					"pivot": [0, -12, 0],
+					"cubes": [
+						{"origin": [-4, -12, -5], "size": [8, 12, 4], "uv": [771, 0]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-4, 0, -7], "size": [8, 8, 8], "uv": [768, 0]}
+					]
+				},
+				{
+					"name": "1",
+					"parent": "Head",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-100, -100, -80],
+							"size": [200, 200, 0],
+							"inflate": -80,
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [200, 200]}
+							}
+						},
+						{
+							"origin": [-100, -100, 80],
+							"size": [200, 200, 0],
+							"inflate": -80,
+							"uv": {
+								"south": {"uv": [200, 0], "uv_size": [-200, 200]}
+							}
+						}
+					]
+				},
+				{
+					"name": "3",
+					"parent": "Head",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-100, -100, -80],
+							"size": [200, 200, 0],
+							"inflate": -80,
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [200, 200]}
+							}
+						},
+						{
+							"origin": [-100, -100, 80],
+							"size": [200, 200, 0],
+							"inflate": -80,
+							"uv": {
+								"south": {"uv": [200, 0], "uv_size": [-200, 200]}
+							}
+						}
+					]
+				},
+				{
+					"name": "2",
+					"parent": "Head",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-100, -100, -80],
+							"size": [200, 200, 0],
+							"inflate": -80,
+							"uv": {
+								"north": {"uv": [0, 200], "uv_size": [200, 200]}
+							}
+						},
+						{
+							"origin": [-100, -100, 80],
+							"size": [200, 200, 0],
+							"inflate": -80,
+							"uv": {
+								"south": {"uv": [200, 200], "uv_size": [-200, 200]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

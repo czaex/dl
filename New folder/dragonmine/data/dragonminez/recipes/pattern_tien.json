@@ -1,0 +1,26 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_z"
+    },
+    "E": {
+      "item": "minecraft:green_dye"
+    },
+    "R": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "pattern": [
+    "    EE",
+    "   EE ",
+    "  E#E ",
+    "REEEER",
+    "RRRRRR",
+    "  RR  "
+  ],
+  "result": {
+    "item": "dragonminez:pattern_tien"
+  }
+}

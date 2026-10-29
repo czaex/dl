@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dragonminez:block/demon_brick_slab"
+    },
+    "type=double": {
+      "model": "dragonminez:block/demon_bricks"
+    },
+    "type=top": {
+      "model": "dragonminez:block/demon_brick_slab_top"
+    }
+  }
+}

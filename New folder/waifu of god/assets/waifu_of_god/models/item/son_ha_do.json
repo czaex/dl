@@ -1,0 +1,6 @@
+{
+  "parent": "waifu_of_god:displaysettings/son_ha_do.item",
+  "textures": {
+    "layer0": "waifu_of_god:item/son_ha_do_normal"
+  }
+}

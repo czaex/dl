@@ -1,0 +1,1119 @@
+{
+  "aha": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:aha",
+        "stream": false
+      }
+    ]
+  },
+  "arasonano": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:arasonano",
+        "stream": false
+      }
+    ]
+  },
+  "poipoi": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:poipoi",
+        "stream": false
+      }
+    ]
+  },
+  "nyasong": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:nyasong",
+        "stream": false
+      }
+    ]
+  },
+  "shock_doom": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:shock-doom",
+        "stream": false
+      }
+    ]
+  },
+  "dramatic_whoosh": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:dramatic-whoosh",
+        "stream": false
+      }
+    ]
+  },
+  "dark_spell": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:dark_spell_02",
+        "stream": false
+      }
+    ]
+  },
+  "miku_okaimono": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:miku_okaimono",
+        "stream": false
+      }
+    ]
+  },
+  "miku_song1": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:miku_song1",
+        "stream": false
+      }
+    ]
+  },
+  "miku_dayo": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:mikudayo",
+        "stream": false
+      }
+    ]
+  },
+  "gasp": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:gasp",
+        "stream": false
+      },
+      {
+        "name": "waifu_of_god:oh",
+        "stream": false
+      }
+    ]
+  },
+  "smile": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:smile",
+        "stream": false
+      }
+    ]
+  },
+  "sigh": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:ehhh",
+        "stream": false
+      },
+      {
+        "name": "waifu_of_god:hmm",
+        "stream": false
+      },
+      {
+        "name": "waifu_of_god:sigh",
+        "stream": false
+      }
+    ]
+  },
+  "miku_hmmm": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:hmm-miku",
+        "stream": false
+      }
+    ]
+  },
+  "miku_scream": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:miku_scream",
+        "stream": false
+      }
+    ]
+  },
+  "miku_nani": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:miku_nani",
+        "stream": false
+      }
+    ]
+  },
+  "miku_hurt": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:miku_hurt1",
+        "stream": false
+      },
+      {
+        "name": "waifu_of_god:miku_hurt2",
+        "stream": false
+      },
+      {
+        "name": "waifu_of_god:miku_hurt3",
+        "stream": false
+      }
+    ]
+  },
+  "angry": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:angry1",
+        "stream": false
+      },
+      {
+        "name": "waifu_of_god:angry2",
+        "stream": false
+      },
+      {
+        "name": "waifu_of_god:angry3",
+        "stream": false
+      },
+      {
+        "name": "waifu_of_god:angry4",
+        "stream": false
+      }
+    ]
+  },
+  "greet": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:greet1",
+        "stream": false
+      },
+      {
+        "name": "waifu_of_god:greet2",
+        "stream": false
+      },
+      {
+        "name": "waifu_of_god:greet3",
+        "stream": false
+      },
+      {
+        "name": "waifu_of_god:greet4",
+        "stream": false
+      }
+    ]
+  },
+  "scream": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:scream1",
+        "stream": false
+      },
+      {
+        "name": "waifu_of_god:scream2",
+        "stream": false
+      },
+      {
+        "name": "waifu_of_god:scream3",
+        "stream": false
+      }
+    ]
+  },
+  "suprise": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:surprise1",
+        "stream": false
+      },
+      {
+        "name": "waifu_of_god:surprise2",
+        "stream": false
+      },
+      {
+        "name": "waifu_of_god:surprise3",
+        "stream": false
+      }
+    ]
+  },
+  "laught": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:laugh3",
+        "stream": false
+      },
+      {
+        "name": "waifu_of_god:laugh4",
+        "stream": false
+      }
+    ]
+  },
+  "hurt": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:hurt1",
+        "stream": false
+      },
+      {
+        "name": "waifu_of_god:hurt2",
+        "stream": false
+      },
+      {
+        "name": "waifu_of_god:hurt3",
+        "stream": false
+      }
+    ]
+  },
+  "nya": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:nya",
+        "stream": false
+      }
+    ]
+  },
+  "nyaaa": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:nyaaa",
+        "stream": false
+      }
+    ]
+  },
+  "senko_saying": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:senko-saying",
+        "stream": false
+      }
+    ]
+  },
+  "dark_spell_2": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:dark_spell_02",
+        "stream": false
+      }
+    ]
+  },
+  "dark_hole": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:dark_hole",
+        "stream": false
+      }
+    ]
+  },
+  "magic_spell_reverse_3": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:magic_spell_reverse_3",
+        "stream": false
+      }
+    ]
+  },
+  "nya2": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:nya2",
+        "stream": false
+      },
+      {
+        "name": "waifu_of_god:nya3",
+        "stream": false
+      }
+    ]
+  },
+  "nyahh": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:nyahh",
+        "stream": false
+      }
+    ]
+  },
+  "nya-sen": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:sen-nya",
+        "stream": false
+      }
+    ]
+  },
+  "nya_hurt": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:nya_hurt2",
+        "stream": false
+      },
+      {
+        "name": "waifu_of_god:nya_hurt1",
+        "stream": false
+      }
+    ]
+  },
+  "wolf_hurt": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:wolf_hurt1",
+        "stream": false
+      }
+    ]
+  },
+  "smile_female": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:smile_female2",
+        "stream": false
+      },
+      {
+        "name": "waifu_of_god:smile_female1",
+        "stream": false
+      }
+    ]
+  },
+  "death_nya": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:death_nya",
+        "stream": false
+      }
+    ]
+  },
+  "death_wolf": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:death_wolf",
+        "stream": false
+      }
+    ]
+  },
+  "wolf_hug": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:wolf_hug",
+        "stream": false
+      }
+    ]
+  },
+  "explosion_magic": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:black_hole_cast",
+        "stream": false
+      }
+    ]
+  },
+  "explosion": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:explosion",
+        "stream": false
+      }
+    ]
+  },
+  "lilith_combat": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:scythe_slash-01",
+        "stream": false
+      }
+    ]
+  },
+  "phase_1_combat": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:blood_cast",
+        "stream": false
+      }
+    ]
+  },
+  "god_shield": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:evocation_cast",
+        "stream": false
+      }
+    ]
+  },
+  "infinity_jump": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:fire_cast",
+        "stream": false
+      }
+    ]
+  },
+  "sword_of_light_god": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:holy_cast",
+        "stream": false
+      }
+    ]
+  },
+  "ehh_female": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:ehhh-female",
+        "stream": false
+      }
+    ]
+  },
+  "sigh_female": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:female-sigh",
+        "stream": false
+      }
+    ]
+  },
+  "yes_daddy_female": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:yes-daddy_female",
+        "stream": false
+      }
+    ]
+  },
+  "rail_gun": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:lightning_cast",
+        "stream": false
+      }
+    ]
+  },
+  "mahou_smite": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:smite",
+        "stream": false
+      }
+    ]
+  },
+  "blackholeloop": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:black_hole_loop",
+        "stream": false
+      }
+    ]
+  },
+  "fire_breath": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:fire_breath_loop",
+        "stream": false
+      }
+    ]
+  },
+  "lightning_woosh": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:lightning_woosh_01",
+        "stream": false
+      }
+    ]
+  },
+  "attacked_sky": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:heartstop_cast",
+        "stream": false
+      }
+    ]
+  },
+  "light_sword": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:glaive_slash-01",
+        "stream": false
+      },
+      {
+        "name": "waifu_of_god:glaive_slash-02",
+        "stream": false
+      }
+    ]
+  },
+  "earth_staff": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:spear_stab-01",
+        "stream": false
+      }
+    ]
+  },
+  "hop_the_de_than_khi_death_god": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:levitation_cast",
+        "stream": false
+      }
+    ]
+  },
+  "empty_silent": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:silent",
+        "stream": false
+      }
+    ]
+  },
+  "thien_quang_kiep_1": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:lightning_shockwave_cast",
+        "stream": false
+      }
+    ]
+  },
+  "prepare_than_kiep": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:gust_charge",
+        "stream": false
+      }
+    ]
+  },
+  "cua_ma_phap_3x3": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:cua_ma_phap_3x3",
+        "stream": false
+      }
+    ]
+  },
+  "earth_quake": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:ignis_earthquake",
+        "stream": false
+      }
+    ]
+  },
+  "lilith_shield_block": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:flaming_strike_swing",
+        "stream": false
+      }
+    ]
+  },
+  "punch_darkness": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:mace_slash-01",
+        "stream": false
+      }
+    ]
+  },
+  "laster_explosion": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:evangelion-laster-explosion",
+        "stream": false
+      }
+    ]
+  },
+  "thien_con": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:thien_con",
+        "stream": false
+      }
+    ]
+  },
+  "thien_con_1": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:anchor_slam-01",
+        "stream": false
+      }
+    ]
+  },
+  "thien_con_2": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:axe_slash-01",
+        "stream": false
+      }
+    ]
+  },
+  "thien_con_3": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:mace_slam-01",
+        "stream": false
+      }
+    ]
+  },
+  "thien_tru_1": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:ignis_hurt2",
+        "stream": false
+      }
+    ]
+  },
+  "thien_con_hurt": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:ignis_hurt2",
+        "stream": false
+      }
+    ]
+  },
+  "loi_dien_chain": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:electrocute_loop",
+        "stream": false
+      }
+    ]
+  },
+  "breath": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:fire_breath_loop",
+        "stream": false
+      }
+    ]
+  },
+  "han_tinh_thuong_target": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:frost_step",
+        "stream": false
+      }
+    ]
+  },
+  "luc_dao_huyen_am_attack": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:acid_spit_cast",
+        "stream": false
+      }
+    ]
+  },
+  "hurt_female_2": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:hurt_female2",
+        "stream": false
+      }
+    ]
+  },
+  "shield_huyen_am_1": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:ice_block_impact",
+        "stream": false
+      }
+    ]
+  },
+  "explosion_ultimate_magic": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:explosion_ultimate_magic",
+        "stream": false
+      }
+    ]
+  },
+  "explosion_magic_wave": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:evocation_cast",
+        "stream": false
+      }
+    ]
+  },
+  "shout_wave": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:shout_wave",
+        "stream": false
+      }
+    ]
+  },
+  "shout_fire": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:shout_fire_breath",
+        "stream": false
+      }
+    ]
+  },
+  "shout_lightning": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:shout_lightning",
+        "stream": false
+      }
+    ]
+  },
+  "shout_aura": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:shout_aura",
+        "stream": false
+      }
+    ]
+  },
+  "shout_soul": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:shout_soul",
+        "stream": false
+      }
+    ]
+  },
+  "explosion_ice": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:explosion_ice",
+        "stream": false
+      }
+    ]
+  },
+  "ice_start": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:ice_block_cast",
+        "stream": false
+      }
+    ]
+  },
+  "laser_hit": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:laser_hit",
+        "stream": false
+      }
+    ]
+  },
+  "laser_loop": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:laser_loop",
+        "stream": false
+      }
+    ]
+  },
+  "tele_portal": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:tele_portal",
+        "stream": false
+      }
+    ]
+  },
+  "laser_impact": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:laser_impact",
+        "stream": false
+      }
+    ]
+  },
+  "frost_hoa_han_song_cuc": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:frost_cloak",
+        "stream": false
+      }
+    ]
+  },
+  "time_stop": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:time_stop",
+        "stream": false
+      }
+    ]
+  },
+  "ice_projectile": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:ice_impact",
+        "stream": false
+      }
+    ]
+  },
+  "freeze_time_2": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:time-freeze-tension",
+        "stream": false
+      }
+    ]
+  },
+  "dap_khong": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:dap_khong",
+        "stream": false
+      }
+    ]
+  },
+  "hu_khong_punch": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:hu_khong_punch",
+        "stream": false
+      }
+    ]
+  },
+  "punch_open_space": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:space_punch_open",
+        "stream": false
+      }
+    ]
+  },
+  "punch_close_space": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:space_punch_close",
+        "stream": false
+      }
+    ]
+  },
+  "time_reverse": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:time_reverse",
+        "stream": false
+      }
+    ]
+  },
+  "time_slow": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:time_slow",
+        "stream": false
+      }
+    ]
+  },
+  "time_stop_1": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:time_stop_1",
+        "stream": false
+      }
+    ]
+  },
+  "time_speed": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:time_speed",
+        "stream": false
+      }
+    ]
+  },
+  "luan_hoi_beam": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:beam_luan_hoi",
+        "stream": false
+      }
+    ]
+  },
+  "son_ha_do": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:son_ha_do_turning",
+        "stream": false
+      }
+    ]
+  },
+  "wind_1": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:wind_1",
+        "stream": false
+      }
+    ]
+  },
+  "sweep_vo_thuong": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:sweep_vo_thuong",
+        "stream": false
+      }
+    ]
+  },
+  "sweep_u_minh": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:sweep_u_minh",
+        "stream": false
+      }
+    ]
+  },
+  "sweep_loi_diet": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:sweep_loi_diet",
+        "stream": false
+      }
+    ]
+  },
+  "tinh_than_cong_kich": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:tinh_than_cong_kich",
+        "stream": false
+      }
+    ]
+  },
+  "theme_thien_loi_thanh_nu": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:theme_thien_loi_thanh_nu",
+        "stream": false
+      }
+    ]
+  },
+  "theme_to_thach_thanh_nu": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:theme_to_thach_thanh_nu",
+        "stream": false
+      }
+    ]
+  },
+  "disc_nhan_qua_nu_de": {
+    "subtitle": "subtitles.disc_nhan_qua_nu_de",
+    "sounds": [
+      {
+        "name": "waifu_of_god:nolyric_mono_nhan_qua_nu_de",
+        "stream": false
+      }
+    ]
+  },
+  "disc_hu_khong_nu_de": {
+    "subtitle": "subtitles.disc_hu_khong_nu_de",
+    "sounds": [
+      {
+        "name": "waifu_of_god:nolyric_mono_hu_khong_nu_de",
+        "stream": false
+      }
+    ]
+  },
+  "disc_u_minh_nu_de": {
+    "subtitle": "subtitles.disc_u_minh_nu_de",
+    "sounds": [
+      {
+        "name": "waifu_of_god:nolyric_mono_u_minh_nu_de",
+        "stream": false
+      }
+    ]
+  },
+  "disc_mot_doi_nguyen_vi_nang": {
+    "subtitle": "subtitles.disc_mot_doi_nguyen_vi_nang",
+    "sounds": [
+      {
+        "name": "waifu_of_god:nolyric_mono_u_minh_than_vuc_goi_ten",
+        "stream": false
+      }
+    ]
+  },
+  "disc_huyet_nguyet_diet_tong": {
+    "subtitle": "subtitles.disc_huyet_nguyet_diet_tong",
+    "sounds": [
+      {
+        "name": "waifu_of_god:nolyric_mono_huyet_nguyet_diet_tong",
+        "stream": false
+      }
+    ]
+  },
+  "disc_luan_hoi_nu_de": {
+    "subtitle": "subtitles.disc_luan_hoi_nu_de",
+    "sounds": [
+      {
+        "name": "waifu_of_god:nolyric_mono_luan_hoi_nu_de",
+        "stream": false
+      }
+    ]
+  },
+  "disc_ma_than_chien_ca": {
+    "subtitle": "subtitles.disc_ma_than_chien_ca",
+    "sounds": [
+      {
+        "name": "waifu_of_god:nolyric_mono_ma_than_chien_ca",
+        "stream": false
+      }
+    ]
+  },
+  "disc_nghich_thien_hanh": {
+    "subtitle": "subtitles.disc_nghich_thien_hanh",
+    "sounds": [
+      {
+        "name": "waifu_of_god:nolyric_mono_nghich_thien_hanh",
+        "stream": false
+      }
+    ]
+  },
+  "disc_u_minh_khai_gioi": {
+    "subtitle": "subtitles.disc_u_minh_khai_gioi",
+    "sounds": [
+      {
+        "name": "waifu_of_god:nolyric_mono_u_minh_khai_gioi",
+        "stream": false
+      }
+    ]
+  },
+  "disc_sinh_menh_nu_de": {
+    "subtitle": "subtitles.disc_sinh_menh_nu_de",
+    "sounds": [
+      {
+        "name": "waifu_of_god:nolyric_mono_sinh_menh_nu_de",
+        "stream": false
+      }
+    ]
+  },
+  "disc_phuong_diem_niet_ban": {
+    "subtitle": "subtitles.disc_phuong_diem_niet_ban",
+    "sounds": [
+      {
+        "name": "waifu_of_god:remix_phuong_diem_biet_ly",
+        "stream": false
+      }
+    ]
+  },
+  "walk_thanh": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:walk_thanh",
+        "stream": false
+      }
+    ]
+  },
+  "walk_than": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:walk_than",
+        "stream": false
+      }
+    ]
+  },
+  "disc_vo_thuong_than_de": {
+    "subtitle": "subtitles.disc_vo_thuong_than_de",
+    "sounds": [
+      {
+        "name": "waifu_of_god:vo_thuong_than_de_remix",
+        "stream": false
+      }
+    ]
+  },
+  "disc_loi_diet_nu_de": {
+    "subtitle": "subtitles.disc_loi_diet_nu_de",
+    "sounds": [
+      {
+        "name": "waifu_of_god:loi_diet_nu_de_remix",
+        "stream": false
+      }
+    ]
+  },
+  "chiet_quang_ba": {
+    "sounds": [
+      {
+        "name": "waifu_of_god:chiet_quang_ba",
+        "stream": false
+      }
+    ]
+  }
+}

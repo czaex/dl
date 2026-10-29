@@ -1,0 +1,13 @@
+{
+  "asset_definition": "porunga",
+  "ball_set": "namek",
+  "dimensions": [
+    "dragonminez:namek"
+  ],
+  "entity_height": 20.0,
+  "entity_registry_name": "porunga",
+  "entity_width": 4.0,
+  "id": "porunga",
+  "wish_count": 3,
+  "wish_screen_id": "porunga"
+}

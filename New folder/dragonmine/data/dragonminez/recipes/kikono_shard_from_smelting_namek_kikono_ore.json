@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 2.5,
+  "group": "kikono",
+  "ingredient": {
+    "item": "dragonminez:namek_kikono_ore"
+  },
+  "result": "dragonminez:kikono_shard"
+}

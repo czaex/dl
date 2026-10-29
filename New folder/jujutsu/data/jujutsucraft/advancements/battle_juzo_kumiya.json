@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_axe"
+    },
+    "title": {
+      "translate": "advancements.battle_juzo_kumiya.title"
+    },
+    "description": {
+      "translate": "advancements.battle_juzo_kumiya.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "battle_juzo_kumiya_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:battle_haruta_shigemo"
+}

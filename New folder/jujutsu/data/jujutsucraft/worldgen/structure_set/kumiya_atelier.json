@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "jujutsucraft:kumiya_atelier",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 66,
+    "separation": 57,
+    "salt": 1822712880
+  }
+}

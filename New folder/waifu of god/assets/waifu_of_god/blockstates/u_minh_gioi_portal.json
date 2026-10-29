@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "waifu_of_god:block/u_minh_gioi_portal_ew"
+    },
+    "axis=x": {
+      "model": "waifu_of_god:block/u_minh_gioi_portal_ns"
+    }
+  }
+}

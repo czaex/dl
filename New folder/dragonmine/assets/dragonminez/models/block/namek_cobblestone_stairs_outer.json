@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "dragonminez:block/namek_cobblestone",
+    "side": "dragonminez:block/namek_cobblestone",
+    "top": "dragonminez:block/namek_cobblestone"
+  }
+}

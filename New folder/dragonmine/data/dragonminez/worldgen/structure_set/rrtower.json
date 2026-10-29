@@ -1,0 +1,13 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 56345435345,
+    "separation": 24,
+    "spacing": 48,
+    "spread_type": "triangular"
+  },
+  "structures": [{
+    "structure": "dragonminez:rrtower",
+    "weight": 1
+  }]
+}

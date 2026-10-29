@@ -1,0 +1,36 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+issueTrackerURL = "https://github.com/jaredlll08/controlling/issues"
+license = "MIT"
+[[mods]]
+modId = "controlling"
+updateJSONURL = "https://updates.blamejared.com/get?n=controlling&gv=26.3&ml=neoforge"
+version = "26.3.4"
+displayName = "Controlling"
+displayURL = "https://www.curseforge.com/minecraft/mc-mods/controlling"
+authors = "Jaredlll08"
+iconFile = "icon.png"
+description = '''Adds the ability to search for keybinds using their name in the KeyBinding menu, this allows players to easily find a key binding in the menu.'''
+itemIcon = "minecraft:compass"
+[[mixins]]
+config = "controlling.mixins.json"
+[[mixins]]
+config = "controlling.neoforge.mixins.json"
+[[dependencies.controlling]]
+modId = "neoforge"
+type = "required"
+versionRange = "[26.3.0.1-beta,)"
+ordering = "NONE"
+side = "CLIENT"
+[[dependencies.controlling]]
+modId = "minecraft"
+type = "required"
+versionRange = "[26.3]"
+ordering = "NONE"
+side = "CLIENT"
+[[dependencies.controlling]]
+modId = "searchables"
+type = "required"
+versionRange = "[1.0.2,)"
+ordering = "NONE"
+side = "CLIENT"

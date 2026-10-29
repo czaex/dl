@@ -1,0 +1,7 @@
+{
+  "id": "earth_radar",
+  "item_model": "dragonminez:item/dball_radar",
+  "item_texture": "dragonminez:item/dball_radar",
+  "radar_background_texture": "dragonminez:textures/gui/radar.png",
+  "radar_dot_texture": "dragonminez:textures/gui/radar_dot.png"
+}

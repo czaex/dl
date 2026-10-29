@@ -1,0 +1,58 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Thiên Linh Quang Ảnh Trảm",
+				"texture_width": 96,
+				"texture_height": 96,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "magic",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Body",
+					"parent": "magic",
+					"pivot": [0, -12, 0],
+					"cubes": [
+						{"origin": [3, -12, -5], "size": [1, 1, 1], "uv": [92, 0]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [3, 0, -7], "size": [1, 1, 1], "uv": [92, 0]}
+					]
+				},
+				{
+					"name": "general",
+					"parent": "Head",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [0.05, -33, -17],
+							"size": [0, 66, 47],
+							"uv": {
+								"west": {"uv": [0, 0], "uv_size": [96, 96]}
+							}
+						},
+						{
+							"origin": [-0.05, -33, -17],
+							"size": [0, 66, 47],
+							"uv": {
+								"east": {"uv": [96, 0], "uv_size": [-96, 96]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

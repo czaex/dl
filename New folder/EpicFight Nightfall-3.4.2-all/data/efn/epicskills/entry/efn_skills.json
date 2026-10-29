@@ -1,0 +1,86 @@
+{
+  "nodes": [
+    {
+      "ability_points": 5,
+      "hidden": false,
+      "position_in_screen": [
+        20,
+        30
+      ],
+      "skill": "efn:parry_master"
+    },
+    {
+      "ability_points": 5,
+      "hidden": false,
+      "parents": [
+        {
+          "skill": "efn:parry_master"
+        }
+      ],
+      "position_in_screen": [
+        80,
+        30
+      ],
+      "skill": "efn:precise_parry"
+    },
+    {
+      "ability_points": 10,
+      "hidden": false,
+      "parents": [
+        {
+          "skill": "efn:precise_parry"
+        }
+      ],
+      "position_in_screen": [
+        140,
+        30
+      ],
+      "skill": "efn:indestructible"
+    },
+    {
+      "ability_points": 3,
+      "hidden": false,
+      "position_in_screen": [
+        20,
+        100
+      ],
+      "skill": "efn:efn_dodge"
+    },
+    {
+      "ability_points": 3,
+      "hidden": false,
+      "position_in_screen": [
+        80,
+        100
+      ],
+      "skill": "efn:efn_step"
+    },
+    {
+      "ability_points": 3,
+      "hidden": false,
+      "position_in_screen": [
+        140,
+        100
+      ],
+      "skill": "efn:efn_parry"
+    },
+    {
+      "ability_points": 5,
+      "hidden": false,
+      "position_in_screen": [
+        20,
+        170
+      ],
+      "skill": "efn:stomp"
+    },
+    {
+      "ability_points": 5,
+      "hidden": false,
+      "position_in_screen": [
+        80,
+        170
+      ],
+      "skill": "efn:execution"
+    }
+  ]
+}

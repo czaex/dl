@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "CAS",
+        "DBD",
+        "BAC"
+    ],
+    "key":
+    {   "A": { "item" : "minecraft:gunpowder" },
+        "B": { "item" : "efn:hf_ingot" },
+        "C": { "item" : "minecraft:iron_block" },
+        "D": { "item" : "minecraft:quartz" },
+        "S": { "item" : "minecraft:netherite_ingot" }
+    },
+    "result": {
+        "item": "efn:hf_murasama_sheath"
+        }
+}

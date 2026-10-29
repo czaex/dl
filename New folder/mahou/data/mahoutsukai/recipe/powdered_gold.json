@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "mahoutsukai:hammer"
+    }
+  ],
+  "result": {
+    "id": "mahoutsukai:powdered_gold"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mahoutsukai:mortar"
+    },
+    {
+      "item": "mahoutsukai:pestle"
+    }
+  ],
+  "result": {
+    "id": "mahoutsukai:mortar_and_pestle"
+  }
+}

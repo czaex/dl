@@ -1,0 +1,38 @@
+{
+  "parent": "dragonminez:armorstation",
+  "criteria": {
+    "patternz": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:blank_pattern_z"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.patternz.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "dragonminez:blank_pattern_z"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.patternz.title"
+    }
+  },
+  "requirements": [
+    [
+      "patternz"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

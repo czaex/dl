@@ -1,0 +1,6 @@
+{
+  "consumption": 30,
+  "max_stacks": 10,
+  "zandatsu_slash_count_require": 12,
+  "zandatsu_target_health_require": 0.3
+}

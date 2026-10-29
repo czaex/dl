@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "waifu_of_god:tien_vuc_thien_phat_loi_cung"
+    },
+    "title": {
+      "translate": "advancements.than_vuc_bau_troi_adven.title"
+    },
+    "description": {
+      "translate": "advancements.than_vuc_bau_troi_adven.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "than_vuc_bau_troi_adven_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "waifu_of_god:tu_tien_gioi"
+}

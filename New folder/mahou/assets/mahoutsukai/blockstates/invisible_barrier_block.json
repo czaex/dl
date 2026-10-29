@@ -1,0 +1,8 @@
+{
+  "forge_marker": 1,
+  "variants": {
+    "": {
+      "model": "mahoutsukai:block/invisible_barrier_block"
+    }
+  }
+}

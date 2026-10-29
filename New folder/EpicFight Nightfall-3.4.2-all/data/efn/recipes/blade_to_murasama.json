@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": {
+        "item": "efn:hf_blade"
+    },
+    "addition": {
+        "item": "efn:hf_ingot"
+    },
+    "result": {
+        "item": "efn:hf_murasama"
+    },
+    "template": {
+        "item": "minecraft:diamond"
+    }
+}

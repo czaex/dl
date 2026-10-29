@@ -1,0 +1,128 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"0": {
+			"animation_length": 1,
+			"start_delay": "0",
+			"bones": {
+				"1": {
+					"scale": {
+						"vector": [0.5, 0.5, 1]
+					}
+				},
+				"2": {
+					"scale": {
+						"vector": [0.75, 0.75, 2.15]
+					}
+				},
+				"3": {
+					"scale": {
+						"vector": [0.5, 0.5, 0.5]
+					}
+				},
+				"4": {
+					"scale": {
+						"vector": [0.75, 0.75, 0.75]
+					}
+				},
+				"general": {
+					"position": {
+						"vector": [0, 0, -4]
+					},
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"smoke": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"general2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.0": {
+							"vector": [360, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"1": {
+			"loop": true,
+			"override_previous_animation": true,
+			"start_delay": "0",
+			"bones": {
+				"general": {
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"smoke": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"general2": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"3": {
+			"loop": true,
+			"override_previous_animation": true,
+			"start_delay": "0",
+			"bones": {
+				"magic": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"smoke": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"smoke": {
+			"loop": true,
+			"animation_length": 0.91667,
+			"override_previous_animation": true,
+			"start_delay": "0",
+			"loop_delay": "0",
+			"bones": {
+				"1": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"2": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"general": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"smoke": {
+					"scale": {
+						"vector": [40, 40, 40]
+					}
+				},
+				"general2": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

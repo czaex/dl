@@ -1,0 +1,94 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Thiên Kiếm Tru Diệt",
+				"texture_width": 204,
+				"texture_height": 204,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "magic",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Body",
+					"parent": "magic",
+					"pivot": [0, -2.25, 0],
+					"cubes": [
+						{"origin": [0.5625, -2.25, -0.9375], "size": [0.1875, 0.1875, 0.1875], "uv": [121, 45]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [0.5625, 0, -1.3125], "size": [0.1875, 0.1875, 0.1875], "uv": [118, 48]}
+					]
+				},
+				{
+					"name": "general",
+					"parent": "Head",
+					"pivot": [0, 0, 0],
+					"rotation": [0, 180, 0]
+				},
+				{
+					"name": "circle1",
+					"parent": "general",
+					"pivot": [0, 0, 0.6875],
+					"rotation": [-90, 0, 0],
+					"cubes": [
+						{
+							"origin": [-5.16494, 0.03631, -4.47744],
+							"size": [10.32988, -0.07263, 10.32988],
+							"inflate": 0.05,
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [204, 204]},
+								"down": {"uv": [0, 204], "uv_size": [204, -204]}
+							}
+						}
+					]
+				},
+				{
+					"name": "circle2",
+					"parent": "general",
+					"pivot": [0, 0, 2.4375],
+					"rotation": [-90, 0, 0],
+					"cubes": [
+						{
+							"origin": [-3.36447, 0.03866, -0.92697],
+							"size": [6.72894, -0.07731, 6.72894],
+							"inflate": 0.05,
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [204, 204]},
+								"down": {"uv": [0, 204], "uv_size": [204, -204]}
+							}
+						}
+					]
+				},
+				{
+					"name": "circle3",
+					"parent": "general",
+					"pivot": [0, 0, -2.0625],
+					"rotation": [-90, 0, 0],
+					"cubes": [
+						{
+							"origin": [-2.02188, 0.04063, -4.08438],
+							"size": [4.04375, -0.08125, 4.04375],
+							"inflate": 0.05,
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [204, 204]},
+								"down": {"uv": [0, 204], "uv_size": [204, -204]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

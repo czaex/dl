@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "ultimate_battle",
+  "version": "1.0.1+mc26.3",
+  "name": "Star Battle",
+  "description": "Anime fighting with the Battle Mask: activate it to enter Battle Mode. 12 fighting styles (Blade, Martial, Ki, Shadow, Thunder, Mirage, Celestial, Cosmic, Abyss, Cipher, Lancer, Rift), a four-hit basic attack chain for each, 36 skills with cinematic ultimates, the Abyss Beast Mode and five style slots.",
+  "authors": [
+    "Jevelyn"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.jevelyn.ultimatebattle.UltimateBattle"
+    ],
+    "client": [
+      "dev.jevelyn.ultimatebattle.client.FightClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "ultimate_battle.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": ">=0.162.0"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/ultimate_battle/icon.png"
+}

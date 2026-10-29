@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "a a",
+    "bcb",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "waifu_of_god:linh_thach_tien_pham"
+    },
+    "b": {
+      "item": "minecraft:lapis_block"
+    },
+    "c": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "d": {
+      "item": "minecraft:diamond_block"
+    },
+    "e": {
+      "item": "minecraft:dragon_breath"
+    }
+  },
+  "result": {
+    "item": "waifu_of_god:tien_thien_dinh",
+    "count": 1
+  }
+}

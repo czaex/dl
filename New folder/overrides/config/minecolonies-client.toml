@@ -1,0 +1,10 @@
+
+#Alle Konfigurationen zu Kernfunktionen des Spiels
+[gameplay]
+	#minecolonies.config.enablecitizenvoices.comment [Standard: true]
+	enablecitizenvoices = true
+	#Wenn Sie einen Schaltplan in der Nähe anderer Gebäude platzieren, werden die bereits platzierten Gebäude standardmäßig so dargestellt, als ob sie sich auf Stufe 5 befänden, und mit einem blauen Umriss versehen. Sie können dies deaktivieren, indem Sie diese Option auf false setzen. [Standard: true]
+	neighborbuildingrendering = true
+	#minecolonies.config.colonyteamborders.comment [Standard: true]
+	colonyteamborders = true
+

@@ -1,0 +1,49 @@
+{
+  "parent": "dragonminez:patternsuper",
+  "criteria": {
+    "keflaarmor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:kefla_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:kefla_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:kefla_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.keflaarmor.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "dragonminez:kefla_armor_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.keflaarmor.title"
+    }
+  },
+  "requirements": [
+    [
+      "keflaarmor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

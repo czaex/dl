@@ -1,0 +1,96 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Quang Minh Hộ Thể",
+				"texture_width": 204,
+				"texture_height": 204,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "magic",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Body",
+					"parent": "magic",
+					"pivot": [0, -12, 0],
+					"cubes": [
+						{"origin": [4, -12, -5], "size": [0, 0, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [4, 0, -7], "size": [0, 0, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "general",
+					"parent": "Head",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "circle1",
+					"parent": "general",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-15, 0, -15],
+							"size": [30, 0, 30],
+							"inflate": 0.01,
+							"pivot": [0, 0, 0],
+							"rotation": [90, 0, 0],
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [100, 100]},
+								"down": {"uv": [0, 100], "uv_size": [100, -100]}
+							}
+						}
+					]
+				},
+				{
+					"name": "circle2",
+					"parent": "general",
+					"pivot": [0, 0, -3],
+					"cubes": [
+						{
+							"origin": [-11, 0, -14],
+							"size": [22, 0, 22],
+							"inflate": 0.01,
+							"pivot": [0, 0, -3],
+							"rotation": [90, 0, 0],
+							"uv": {
+								"up": {"uv": [104, 0], "uv_size": [100, 100]},
+								"down": {"uv": [104, 100], "uv_size": [100, -100]}
+							}
+						}
+					]
+				},
+				{
+					"name": "circle3",
+					"parent": "general",
+					"pivot": [0, 0, 3],
+					"cubes": [
+						{
+							"origin": [-15, 0, -12],
+							"size": [30, 0, 30],
+							"inflate": 0.01,
+							"pivot": [0, 0, 3],
+							"rotation": [90, 0, 0],
+							"uv": {
+								"up": {"uv": [0, 104], "uv_size": [100, 100]},
+								"down": {"uv": [0, 204], "uv_size": [100, -100]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

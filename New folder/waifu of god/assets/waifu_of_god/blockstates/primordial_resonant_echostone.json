@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "waifu_of_god:custom/primordial_resonant_echostone_particle"
+    },
+    "facing=east": {
+      "model": "waifu_of_god:custom/primordial_resonant_echostone_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "waifu_of_god:custom/primordial_resonant_echostone_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "waifu_of_god:custom/primordial_resonant_echostone_particle",
+      "y": 270
+    }
+  }
+}

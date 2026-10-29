@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_apple"
+    },
+    "title": {
+      "translate": "advancements.khai_linh_canh.title"
+    },
+    "description": {
+      "translate": "advancements.khai_linh_canh.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "khai_linh_canh_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "waifu_of_god:entities/khai_linh_loot"
+    ]
+  },
+  "parent": "waifu_of_god:tu_tien_gioi"
+}

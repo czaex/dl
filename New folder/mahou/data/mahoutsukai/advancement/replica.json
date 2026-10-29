@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "mahoutsukai:replica"
+    },
+    "title": {
+      "translate": "advancements.replica.title"
+    },
+    "description": {
+      "translate": "advancements.replica.description"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "mahoutsukai:root",
+  "criteria": {
+    "replica": {
+      "trigger": "mahoutsukai:replica"
+    }
+  }
+}

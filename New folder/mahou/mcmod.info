@@ -1,0 +1,9 @@
+[{
+    "modid": "mahoutsukai",
+    "name": "Mahou Tsukai",
+    "description": "Mahou Tsukai - a magic mod based on catalysts and blood.",
+    "mcversion": "${mcversion}",
+    "url": "https://www.curseforge.com/minecraft/mc-mods/mahou-tsukai",
+    "authorList": ["stepsword"],
+    "version":"${version}"
+}]

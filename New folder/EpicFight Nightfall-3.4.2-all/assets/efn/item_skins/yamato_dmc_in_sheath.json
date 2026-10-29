@@ -1,0 +1,20 @@
+{
+  "renderer": "efn:mesh_item",
+
+  "mesh1_texture": "efn:textures/item/weapon/yamato_dmc.png",
+  "mesh1_main": "efn:weapon/yamato_dmc_in_sheath",
+
+  "mesh2_texture": "efn:textures/item/weapon/yamato_dmc.png",
+  "mesh2_main": "efn:weapon/yamato_dmc",
+
+  "trail": {
+    "color": [120,120,120],
+    "begin_pos": [0.0, 0.2, -0.5],
+    "end_pos": [0.0, 0.4, -2.05],
+    "lifetime": 4,
+    "interpolations": 3,
+    "texture_path": "efn:textures/trail/power3.png",
+    "particle_type": "efn:bloom_trail"
+  },
+  "appeared_in_afterimage":false
+}

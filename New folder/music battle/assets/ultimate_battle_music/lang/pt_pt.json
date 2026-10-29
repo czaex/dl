@@ -1,0 +1,62 @@
+{
+  "ultimate_battle_music.config.title": "ULTIMATE BATTLE MUSIC",
+
+  "ultimate_battle_music.config.mode.on": "ON",
+  "ultimate_battle_music.config.mode.on.tooltip": "Tocar faixa ÚNICA",
+  "ultimate_battle_music.config.mode.fallback": "NORMAL",
+  "ultimate_battle_music.config.mode.fallback.tooltip": "Usar faixa PADRÃO",
+  "ultimate_battle_music.config.mode.off": "OFF",
+  "ultimate_battle_music.config.mode.off.tooltip": "MUDO para este tipo",
+
+  "ultimate_battle_music.config.category.music": "Música",
+  "ultimate_battle_music.config.category.detection": "Tipo de detecção",
+  "ultimate_battle_music.config.category.radius": "Raio",
+  "ultimate_battle_music.config.category.bosses": "Chefes",
+  "ultimate_battle_music.config.category.volume": "Volume",
+  "ultimate_battle_music.config.category.fade": "Fade",
+
+  "ultimate_battle_music.config.music.enable": "Ativar música de combate",
+  "ultimate_battle_music.config.music.enable.tooltip": "Interruptor principal. Se off, sem música de combate.",
+  "ultimate_battle_music.config.music.variant_mode": "Música variante",
+  "ultimate_battle_music.config.music.illager_mode": "Música Illager",
+  "ultimate_battle_music.config.music.nether_mode": "Música Nether",
+  "ultimate_battle_music.config.music.raid_mode": "Música raid",
+
+  "ultimate_battle_music.config.detection.require_targeting": "Exigir alvo no player",
+  "ultimate_battle_music.config.detection.require_targeting.tooltip": "Só ativa se mob estiver te atacando.",
+  "ultimate_battle_music.config.detection.check_interval": "Intervalo de verificação (Ticks)",
+  "ultimate_battle_music.config.detection.check_interval.tooltip": "Frequência. 20 = 1 segundo.",
+
+  "ultimate_battle_music.config.radius.normal": "Raio mobs normais",
+  "ultimate_battle_music.config.radius.variant": "Raio variantes",
+  "ultimate_battle_music.config.radius.illager": "Raio Illager",
+  "ultimate_battle_music.config.radius.far": "Raio inimigos distantes",
+  "ultimate_battle_music.config.radius.creeper": "Raio Creeper",
+  "ultimate_battle_music.config.radius.creeper.tooltip": "Creeper só ativa perto.",
+  "ultimate_battle_music.config.radius.boss": "Raio Chefes",
+  "ultimate_battle_music.config.radius.boss.tooltip": "Detecção Wither | Warden | Dragão Ender.",
+
+  "ultimate_battle_music.config.bosses.warden_mode": "Warden Music",
+  "ultimate_battle_music.config.bosses.warden_volume": "Warden Volume (%)",
+  "ultimate_battle_music.config.bosses.wither_mode": "Wither Music",
+  "ultimate_battle_music.config.bosses.wither_volume": "Wither Volume (%)",
+  "ultimate_battle_music.config.bosses.dragon_mode": "Ender Dragon Music",
+  "ultimate_battle_music.config.bosses.dragon_volume": "Ender Dragon Volume (%)",
+
+  "ultimate_battle_music.config.volume.default": "Default Volume (%)",
+  "ultimate_battle_music.config.volume.default.tooltip": "Volume combate Overworld.",
+  "ultimate_battle_music.config.volume.illager": "Illager Volume (%)",
+  "ultimate_battle_music.config.volume.raid": "Raid Volume (%)",
+  "ultimate_battle_music.config.volume.nether": "Nether Volume (%)",
+  "ultimate_battle_music.config.volume.fluid_pitch": "Fluid Pitch (%)",
+  "ultimate_battle_music.config.volume.fluid_pitch.tooltip": "Pitch na água ou lava. 75 = mais grave.",
+
+  "ultimate_battle_music.config.fade.use_fade": "Fade",
+  "ultimate_battle_music.config.fade.use_fade.tooltip": "Ativar fade in/out. Desligar para cortes secos.",
+  "ultimate_battle_music.config.fade.fade_out": "Fade out (Ticks)",
+  "ultimate_battle_music.config.fade.fade_out.tooltip": "Duração fade out. 60 = 3s.",
+  "ultimate_battle_music.config.fade.revive_fade_in": "Fade in (Ticks)",
+  "ultimate_battle_music.config.fade.revive_fade_in.tooltip": "Volta após silêncio. 40 = 2s.",
+  "ultimate_battle_music.config.fade.ghost_duration": "Ghost Duration (Ticks)",
+  "ultimate_battle_music.config.fade.ghost_duration.tooltip": "Toca em silêncio antes de parar. 200 = 10s."
+}

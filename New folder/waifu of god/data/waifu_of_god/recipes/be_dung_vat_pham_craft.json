@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "waifu_of_god:linh_thach_than_pham"
+    },
+    "b": {
+      "item": "minecraft:sculk_shrieker"
+    },
+    "c": {
+      "item": "minecraft:stone_bricks"
+    },
+    "d": {
+      "item": "minecraft:respawn_anchor"
+    }
+  },
+  "result": {
+    "item": "waifu_of_god:be_trung_bay",
+    "count": 1
+  }
+}

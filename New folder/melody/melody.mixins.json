@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "package": "de.keksuccino.melody.mixin.mixins.common",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "client.AccessorMixinKeyMapping",
+    "client.AccessorMixinSoundEngine",
+    "client.AccessorMixinSoundManager",
+    "client.MixinSoundEngine"
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "plugin": "de.keksuccino.melody.mixin.MelodyMixinPlugin",
+  "minVersion": "0.8"
+}

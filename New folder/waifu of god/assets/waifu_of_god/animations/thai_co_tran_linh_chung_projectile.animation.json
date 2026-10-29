@@ -1,0 +1,123 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"0": {
+			"animation_length": 6,
+			"start_delay": "0",
+			"bones": {
+				"circle": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"Circle2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"6.0": {
+							"vector": [0, -360, 0]
+						}
+					},
+					"scale": {
+						"vector": [4, 4, 4]
+					}
+				},
+				"aura": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"1": {
+			"animation_length": 6,
+			"start_delay": "0",
+			"bones": {
+				"Circle2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"6.0": {
+							"vector": [0, -360, 0]
+						}
+					},
+					"scale": {
+						"vector": [4, 4, 4]
+					}
+				},
+				"aura": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"Circle1": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"6.0": {
+							"vector": [0, 360, 0]
+						}
+					},
+					"scale": {
+						"vector": [3.25, 3.25, 3.25]
+					}
+				}
+			}
+		},
+		"3": {
+			"animation_length": 0.75,
+			"override_previous_animation": true,
+			"start_delay": "0",
+			"bones": {
+				"Circle2": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"scale": {
+						"vector": [4, 4, 4]
+					}
+				},
+				"aura1": {
+					"scale": {
+						"0.1667": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [200, 200, 200]
+						},
+						"0.75": {
+							"vector": [300, 300, 300]
+						}
+					}
+				},
+				"aura2": {
+					"scale": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.4583": {
+							"vector": [300, 300, 300]
+						},
+						"0.75": {
+							"vector": [400, 400, 400]
+						}
+					}
+				},
+				"Circle1": {
+					"scale": {
+						"vector": [3.25, 3.25, 3.25]
+					}
+				},
+				"aura": {
+					"position": {
+						"vector": [0, 20, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

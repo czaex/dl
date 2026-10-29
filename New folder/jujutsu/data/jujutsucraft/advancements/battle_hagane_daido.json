@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "jujutsucraft:split_soul_katana"
+    },
+    "title": {
+      "translate": "advancements.battle_hagane_daido.title"
+    },
+    "description": {
+      "translate": "advancements.battle_hagane_daido.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "battle_hagane_daido_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:battle_miguel_2"
+}

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: efn
+Specification-Vendor: super_awesome_baby
+Specification-Version: 1
+Implementation-Title: EpicFight：Nightfall
+Implementation-Version: 3.4.2
+Implementation-Vendor: super_awesome_baby
+Implementation-Timestamp: 2026-09-30T11:51:04+0800
+MixinConfigs: efn.mixins.json
+

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "dragonminez",
+  "key": {
+    "B": {
+      "item": "minecraft:stone_button"
+    },
+    "P": {
+      "item": "minecraft:purple_stained_glass_pane"
+    },
+    "R": {
+      "item": "dragonminez:radar_piece"
+    },
+    "T": {
+      "item": "dragonminez:t1_radar_cpu"
+    }
+  },
+  "pattern": [
+    "  R",
+    "PPT",
+    " B "
+  ],
+  "result": {
+    "item": "dragonminez:purple_scouter"
+  },
+  "show_notification": true
+}

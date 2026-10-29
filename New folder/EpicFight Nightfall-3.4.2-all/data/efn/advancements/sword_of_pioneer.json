@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": {
+      "item": "efn:sword_of_pioneer"
+    },
+    "title": {
+      "translate": "advancement.efn.obtain_sword_of_pioneer.title"
+    },
+    "description": {
+      "translate": "advancement.efn.obtain_sword_of_pioneer.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["efn:sword_of_pioneer"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

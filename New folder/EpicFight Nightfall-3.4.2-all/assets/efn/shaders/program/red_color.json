@@ -1,0 +1,21 @@
+{
+  "blend": {
+    "func": "add",
+    "srcrgb": "one",
+    "dstrgb": "zero"
+  },
+  "vertex": "efn:blit",
+  "fragment": "efn:red_color",
+  "attributes": [ "Position" ],
+  "samplers": [
+    { "name": "DiffuseSampler" }
+  ],
+  "uniforms": [
+    { "name": "ProjMat",    "type": "matrix4x4", "count": 16, "values": [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0 ] },
+    { "name": "OutSize",    "type": "float",     "count": 2,  "values": [ 1.0, 1.0 ] },
+    { "name": "RedIntensity", "type": "float",   "count": 1,  "values": [ 0.3 ] },
+    { "name": "Alpha",      "type": "float",     "count": 1,  "values": [ 1 ] },
+    { "name": "Time",       "type": "float",     "count": 1,  "values": [ 0 ] },
+    { "name": "RedReduceFactor", "type": "float", "count": 1, "values": [ 0.5 ] }
+  ]
+}

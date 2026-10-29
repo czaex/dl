@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"1": {
+			"animation_length": 8.5,
+			"start_delay": "0",
+			"bones": {
+				"RockSky": {
+					"scale": {
+						"0.0": {
+							"vector": [1, 1, 1]
+						},
+						"8.0": {
+							"vector": [1, 1, 1]
+						},
+						"8.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

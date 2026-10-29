@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "dragonminez",
+  "key": {
+    "D": {
+      "item": "minecraft:red_dye"
+    },
+    "E": {
+      "item": "dragonminez:vehicle_engine"
+    },
+    "P": {
+      "item": "dragonminez:vehicle_plating"
+    },
+    "S": {
+      "item": "dragonminez:vehicle_seat"
+    },
+    "W": {
+      "item": "minecraft:black_wool"
+    }
+  },
+  "pattern": [
+    "PDP",
+    "SES",
+    "W W"
+  ],
+  "result": {
+    "item": "dragonminez:car_red"
+  },
+  "show_notification": true
+}

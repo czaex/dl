@@ -1,0 +1,17 @@
+{
+	"trail_effects": [
+		{
+			"start_time": 0.1,
+			"end_time": 0.4,
+			"joint": "hurt",
+			"item_skin_hand": "off_hand",
+			"begin_pos": [0.0, 0, 0],
+			"end_pos": [0.0, 0, -1.85],
+			"lifetime": 10,
+			"interpolations": 4,
+			"color": [255,255,255],
+			"texture_path": "efn:textures/trail/power3.png",
+			"particle_type": "efn:bloom_trail"
+		}
+	]
+}

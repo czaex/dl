@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ink_sac"
+    },
+    "title": {
+      "translate": "advancements.skill_dabura_3.title"
+    },
+    "description": {
+      "translate": "advancements.skill_dabura_3.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "skill_dabura_3_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:skill_dabura_2"
+}

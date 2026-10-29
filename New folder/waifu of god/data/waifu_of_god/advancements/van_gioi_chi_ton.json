@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:barrier"
+    },
+    "title": {
+      "translate": "advancements.van_gioi_chi_ton.title"
+    },
+    "description": {
+      "translate": "advancements.van_gioi_chi_ton.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "van_gioi_chi_ton_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "waifu_of_god:thien_to_chi_chu"
+}

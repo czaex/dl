@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "ASA",
+        "SBS",
+        "ACA"
+    ],
+    "key":
+    {
+        "A": { "item" : "minecraft:flint" },
+        "B": { "item" : "minecraft:netherite_ingot" },
+        "C": { "item" : "epicfight:netherite_spear" },
+        "S": { "item" : "minecraft:stonecutter" }
+    },
+    "result": {
+        "item": "efn:thornwheel"
+        }
+}

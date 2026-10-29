@@ -1,0 +1,32 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_z"
+    },
+    "N": {
+      "item": "minecraft:brown_dye"
+    },
+    "O": {
+      "item": "minecraft:orange_dye"
+    },
+    "S": {
+      "item": "minecraft:light_gray_dye"
+    },
+    "W": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "pattern": [
+    "NW  WN",
+    "OOWWOO",
+    "OOOOOO",
+    "SO#OOS",
+    "WOOOOW",
+    "W OO W"
+  ],
+  "result": {
+    "item": "dragonminez:pattern_gero"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "waifu_of_god:thanh_vuc_loi_phat",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 4000,
+    "separation": 1999,
+    "salt": 257450075
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "waifu_of_god:displaysettings/hu_khong_than_quyen.item",
+  "textures": {
+    "layer0": "waifu_of_god:item/hu_khong_than_quyen"
+  }
+}

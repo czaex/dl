@@ -1,0 +1,95 @@
+{
+  "parent": "dragonminez:patternz",
+  "criteria": {
+    "trunksarmor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:trunks_z_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:trunks_z_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:trunks_z_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "trunksarmor_kid": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:trunks_kid_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:trunks_kid_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:trunks_kid_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "trunksarmor_super": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:trunks_super_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:trunks_super_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:trunks_super_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.trunksarmor.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "dragonminez:trunks_z_armor_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.trunksarmor.title"
+    }
+  },
+  "requirements": [
+    [
+      "trunksarmor",
+      "trunksarmor_super",
+      "trunksarmor_kid"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

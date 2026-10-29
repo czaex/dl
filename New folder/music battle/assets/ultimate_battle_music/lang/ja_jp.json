@@ -1,0 +1,62 @@
+{
+  "ultimate_battle_music.config.title": "ULTIMATE BATTLE MUSIC",
+
+  "ultimate_battle_music.config.mode.on": "ON",
+  "ultimate_battle_music.config.mode.on.tooltip": "ユニークなトラックを再生",
+  "ultimate_battle_music.config.mode.fallback": "NORMAL",
+  "ultimate_battle_music.config.mode.fallback.tooltip": "デフォルトトラックを使用",
+  "ultimate_battle_music.config.mode.off": "OFF",
+  "ultimate_battle_music.config.mode.off.tooltip": "このタイプを無音にする",
+
+  "ultimate_battle_music.config.category.music": "音楽",
+  "ultimate_battle_music.config.category.detection": "検出タイプ",
+  "ultimate_battle_music.config.category.radius": "範囲",
+  "ultimate_battle_music.config.category.bosses": "ボス",
+  "ultimate_battle_music.config.category.volume": "音量",
+  "ultimate_battle_music.config.category.fade": "フェード",
+
+  "ultimate_battle_music.config.music.enable": "戦闘音楽を有効化",
+  "ultimate_battle_music.config.music.enable.tooltip": "メイントグル。OFFの場合、戦闘音楽は再生されません。",
+  "ultimate_battle_music.config.music.variant_mode": "バリエーション音楽",
+  "ultimate_battle_music.config.music.illager_mode": "イリジャー音楽",
+  "ultimate_battle_music.config.music.nether_mode": "ネザー音楽",
+  "ultimate_battle_music.config.music.raid_mode": "レイド音楽",
+
+  "ultimate_battle_music.config.detection.require_targeting": "モブがプレイヤーをターゲットしている必要あり",
+  "ultimate_battle_music.config.detection.require_targeting.tooltip": "モブがあなたを攻撃している時のみ音楽を再生。",
+  "ultimate_battle_music.config.detection.check_interval": "チェック間隔（ティック）",
+  "ultimate_battle_music.config.detection.check_interval.tooltip": "戦闘チェック頻度。20 = 1秒。",
+
+  "ultimate_battle_music.config.radius.normal": "通常モブ範囲",
+  "ultimate_battle_music.config.radius.variant": "バリエーションモブ範囲",
+  "ultimate_battle_music.config.radius.illager": "イリジャー範囲",
+  "ultimate_battle_music.config.radius.far": "遠距離敵対モブ範囲",
+  "ultimate_battle_music.config.radius.creeper": "クリーパー範囲",
+  "ultimate_battle_music.config.radius.creeper.tooltip": "クリーパーは通常かなり近距離でのみ発動。",
+  "ultimate_battle_music.config.radius.boss": "ボス範囲",
+  "ultimate_battle_music.config.radius.boss.tooltip": "ウィザー | ウォーデン | エンダードラゴンの検出範囲。",
+
+  "ultimate_battle_music.config.bosses.warden_mode": "ウォーデン音楽",
+  "ultimate_battle_music.config.bosses.warden_volume": "ウォーデン音量 (%)",
+  "ultimate_battle_music.config.bosses.wither_mode": "ウィザー音楽",
+  "ultimate_battle_music.config.bosses.wither_volume": "ウィザー音量 (%)",
+  "ultimate_battle_music.config.bosses.dragon_mode": "エンダードラゴン音楽",
+  "ultimate_battle_music.config.bosses.dragon_volume": "エンダードラゴン音量 (%)",
+
+  "ultimate_battle_music.config.volume.default": "デフォルト音量 (%)",
+  "ultimate_battle_music.config.volume.default.tooltip": "オーバーワールド通常戦闘音楽の音量。",
+  "ultimate_battle_music.config.volume.illager": "イリジャー音量 (%)",
+  "ultimate_battle_music.config.volume.raid": "レイド音量 (%)",
+  "ultimate_battle_music.config.volume.nether": "ネザー音量 (%)",
+  "ultimate_battle_music.config.volume.fluid_pitch": "液体ピッチ (%)",
+  "ultimate_battle_music.config.volume.fluid_pitch.tooltip": "水または溶岩内のピッチ。75 = より低い音。",
+
+  "ultimate_battle_music.config.fade.use_fade": "フェード",
+  "ultimate_battle_music.config.fade.use_fade.tooltip": "フェードイン・アウトを有効化。無効で即切り替え。",
+  "ultimate_battle_music.config.fade.fade_out": "フェードアウト（ティック）",
+  "ultimate_battle_music.config.fade.fade_out.tooltip": "フェードアウト時間。60 = 3秒。",
+  "ultimate_battle_music.config.fade.revive_fade_in": "フェードイン（ティック）",
+  "ultimate_battle_music.config.fade.revive_fade_in.tooltip": "無音後の復帰時間。40 = 2秒。",
+  "ultimate_battle_music.config.fade.ghost_duration": "ゴースト時間（ティック）",
+  "ultimate_battle_music.config.fade.ghost_duration.tooltip": "停止前に無音で再生される時間。200 = 10秒。"
+}

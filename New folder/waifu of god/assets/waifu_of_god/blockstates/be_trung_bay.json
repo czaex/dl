@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "waifu_of_god:custom/be_trung_bay_particle"
+    },
+    "blockstate=1": {
+      "model": "waifu_of_god:block/be_trung_bay_blockstate_0"
+    },
+    "blockstate=2": {
+      "model": "waifu_of_god:block/be_trung_bay_blockstate_1"
+    },
+    "blockstate=3": {
+      "model": "waifu_of_god:block/be_trung_bay_blockstate_2"
+    },
+    "blockstate=4": {
+      "model": "waifu_of_god:block/be_trung_bay_blockstate_3"
+    },
+    "blockstate=5": {
+      "model": "waifu_of_god:block/be_trung_bay_blockstate_4"
+    },
+    "blockstate=6": {
+      "model": "waifu_of_god:block/be_trung_bay_blockstate_5"
+    },
+    "blockstate=7": {
+      "model": "waifu_of_god:block/be_trung_bay_blockstate_6"
+    },
+    "blockstate=8": {
+      "model": "waifu_of_god:block/be_trung_bay_blockstate_7"
+    },
+    "blockstate=9": {
+      "model": "waifu_of_god:block/be_trung_bay_blockstate_8"
+    }
+  }
+}

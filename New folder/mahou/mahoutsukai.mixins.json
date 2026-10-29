@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "package": "stepsword.mahoutsukai.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "refmap": "mahoutsukai.refmap.json",
+  "client": [
+    "MixinItemRenderer",
+    "MixinRenderChunkRegion",
+    "MixinBookViewScreen"
+  ],
+  "mixins": [
+    "MixinAbstractVillager",
+    "MixinCancelLogging",
+    "MixinEnderMan",
+    "MixinEntityFireImmunity",
+    "MixinLecternBlockEntity",
+    "MixinMob",
+    "MixinShulker",
+    "MixinItemDestroy",
+    "MixinItemStack",
+    "MixinWitherBoss"
+  ],
+  "minVersion": "0.8.3"
+}

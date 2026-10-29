@@ -1,0 +1,42 @@
+modLoader = "kotlinforforge" #mandatory
+loaderVersion = "[4,)" #mandatory
+license = "GPL-3.0" # Review your options at https://choosealicense.com/.
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+[[mods]] #mandatory
+modId = "usefulmagic" #mandatory
+version = "2.0.0" #mandatory
+displayName = "UsefulMagic" #mandatory
+#updateJSONURL="https://change.me.example.invalid/updates.json" #optional (see https://docs.neoforged.net/docs/misc/updatechecker/)
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional (displayed in the mod UI)
+logoFile = "usefulmagic.png" #optional
+credits = "" #optional
+authors = "CooStack" #optional
+description = '''UsefulMagic made by CooStack''' #mandatory (Supports multiline text)
+[[mixins]]
+config = "usefulmagic.mixins.json"
+[[mixins]]
+config = "usefulmagic.neoforge.mixins.json"
+[[dependencies.usefulmagic]] #optional
+modId = "neoforge" #mandatory
+type = "required" #mandatory (Can be one of "required", "optional", "incompatible" or "discouraged")
+versionRange = "[21.1.200,)" #mandatory
+ordering = "NONE" # The order that this dependency should load in relation to your mod, required to be either 'BEFORE' or 'AFTER' if the dependency is not mandatory
+side = "BOTH" # Side this dependency is applied on - 'BOTH', 'CLIENT' or 'SERVER'
+[[dependencies.usefulmagic]]
+modId = "minecraft"
+type = "required" #mandatory (Can be one of "required", "optional", "incompatible" or "discouraged")
+versionRange = "[1.21.1, 1.22)"
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.usefulmagic]]
+modId = "cooparticlesapi"
+type = "required" #mandatory (Can be one of "required", "optional", "incompatible" or "discouraged")
+versionRange = "[2.0.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+# Features are specific properties of the game environment, that you may want to declare you require. This example declares
+# that your mod requires GL version 3.2 or higher. Other features will be added. They are side aware so declaring this won't
+# stop your mod loading on the server for example.
+#[features.usefulmagic]
+#openGLVersion="[3.2,)"

@@ -1,0 +1,120 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Địa Tâm Chấn Tỏa Projectile",
+				"texture_width": 340,
+				"texture_height": 220,
+				"visible_bounds_width": 14,
+				"visible_bounds_height": 130.5,
+				"visible_bounds_offset": [0, -64.75, 0]
+			},
+			"bones": [
+				{
+					"name": "general",
+					"pivot": [0, -2080, 0]
+				},
+				{
+					"name": "circle1",
+					"parent": "general",
+					"pivot": [0, -2080, 0]
+				},
+				{
+					"name": "1",
+					"parent": "circle1",
+					"pivot": [0, -2080, 0],
+					"cubes": [
+						{
+							"origin": [-102, -2079.99, -102],
+							"size": [204, 0, 204],
+							"uv": {
+								"up": {"uv": [204, 0], "uv_size": [-204, 204]}
+							}
+						},
+						{
+							"origin": [-102, -2080.01, -102],
+							"size": [204, 0, 204],
+							"uv": {
+								"down": {"uv": [204, 204], "uv_size": [-204, -204]}
+							}
+						}
+					]
+				},
+				{
+					"name": "circle2",
+					"parent": "general",
+					"pivot": [0, -2080, 0]
+				},
+				{
+					"name": "2",
+					"parent": "circle2",
+					"pivot": [0, -2080, 0],
+					"cubes": [
+						{
+							"origin": [-102, -2079.99, -102],
+							"size": [204, 0, 204],
+							"uv": {
+								"up": {"uv": [204, 0], "uv_size": [-204, 204]}
+							}
+						},
+						{
+							"origin": [-102, -2080.01, -102],
+							"size": [204, 0, 204],
+							"uv": {
+								"down": {"uv": [204, 204], "uv_size": [-204, -204]}
+							}
+						}
+					]
+				},
+				{
+					"name": "circle3",
+					"parent": "general",
+					"pivot": [0, -2080, 0]
+				},
+				{
+					"name": "3",
+					"parent": "circle3",
+					"pivot": [0, -2080, 0],
+					"cubes": [
+						{
+							"origin": [-102, -2079.99, -102],
+							"size": [204, 0, 204],
+							"uv": {
+								"up": {"uv": [204, 0], "uv_size": [-204, 204]}
+							}
+						},
+						{
+							"origin": [-102, -2080.01, -102],
+							"size": [204, 0, 204],
+							"uv": {
+								"down": {"uv": [204, 204], "uv_size": [-204, -204]}
+							}
+						}
+					]
+				},
+				{
+					"name": "main",
+					"parent": "general",
+					"pivot": [0, -2080, 0],
+					"cubes": [
+						{
+							"origin": [-102, -2079.99, -102],
+							"size": [204, 0, 204],
+							"uv": {
+								"up": {"uv": [323, 0], "uv_size": [-116, 116]}
+							}
+						},
+						{
+							"origin": [-102, -2080.01, -102],
+							"size": [204, 0, 204],
+							"uv": {
+								"down": {"uv": [323, 116], "uv_size": [-116, -116]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

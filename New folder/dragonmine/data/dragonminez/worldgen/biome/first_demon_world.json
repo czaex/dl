@@ -1,0 +1,56 @@
+{
+  "carvers": {},
+  "downfall": 0.0,
+  "effects": {
+    "fog_color": 14836266,
+    "foliage_color": 6961706,
+    "grass_color": 6961706,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:crimson_spore"
+      },
+      "probability": 0.01
+    },
+    "sky_color": 14836266,
+    "water_color": 9054750,
+    "water_fog_color": 3804168
+  },
+  "features": [
+    [],
+    [],
+    [
+      "dragonminez:demon_realm_rock_spire_placed",
+      "dragonminez:demon_realm_crystal_spire_placed"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "dragonminez:demon_realm_ambient_light_placed"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "dragonminez:wild_enemy": [],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 2.0
+}

@@ -1,0 +1,28 @@
+{
+  "name": "jujutsucraft:shopping_street_crossroad",
+  "fallback": "jujutsucraft:shopping_street_end",
+  "elements": [
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jujutsucraft:shopping_street_road",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jujutsucraft:shopping_street_gate",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

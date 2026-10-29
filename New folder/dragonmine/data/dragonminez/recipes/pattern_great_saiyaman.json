@@ -1,0 +1,32 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_z"
+    },
+    "E": {
+      "item": "minecraft:green_dye"
+    },
+    "K": {
+      "item": "minecraft:black_dye"
+    },
+    "L": {
+      "item": "minecraft:lime_dye"
+    },
+    "R": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "pattern": [
+    "ER  RE",
+    "EEKKEE",
+    "KELLEK",
+    "KE#LEK",
+    "KEEEEK",
+    "RRRRRR"
+  ],
+  "result": {
+    "item": "dragonminez:pattern_great_saiyaman"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_frog_legs_raw": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:frog_legs_raw"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "dragonminez:frog_legs_cooked_smoking"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_frog_legs_raw",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dragonminez:frog_legs_cooked_smoking"
+    ]
+  },
+  "sends_telemetry_event": false
+}

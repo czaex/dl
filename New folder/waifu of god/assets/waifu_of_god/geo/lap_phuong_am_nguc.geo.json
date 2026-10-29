@@ -1,0 +1,53 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Lập Phuong Âm Ngục",
+				"texture_width": 200,
+				"texture_height": 200,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "cube",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-29, -29, -29],
+							"size": [58, 58, 58],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [58, 58]},
+								"east": {"uv": [0, 0], "uv_size": [58, 58]},
+								"south": {"uv": [0, 0], "uv_size": [58, 58]},
+								"west": {"uv": [0, 0], "uv_size": [58, 58]},
+								"up": {"uv": [0, 0], "uv_size": [58, 58]},
+								"down": {"uv": [0, 58], "uv_size": [58, -58]}
+							}
+						}
+					]
+				},
+				{
+					"name": "cube2",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-23, -23, -23],
+							"size": [46, 46, 46],
+							"uv": {
+								"north": {"uv": [0, 73], "uv_size": [58, 58]},
+								"east": {"uv": [0, 73], "uv_size": [58, 58]},
+								"south": {"uv": [0, 73], "uv_size": [58, 58]},
+								"west": {"uv": [0, 73], "uv_size": [58, 58]},
+								"up": {"uv": [0, 73], "uv_size": [58, 58]},
+								"down": {"uv": [0, 131], "uv_size": [58, -58]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

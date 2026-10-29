@@ -1,0 +1,42 @@
+{
+  "parent": "dragonminez:root",
+  "criteria": {
+    "cellarena": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "dragonminez:cell_arena"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.cellarena.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:quartz_block"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.cellarena.title"
+    }
+  },
+  "requirements": [
+    [
+      "cellarena"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

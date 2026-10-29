@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "dragonminez",
+  "key": {
+    "E": {
+      "item": "dragonminez:vehicle_engine"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "H": {
+      "item": "dragonminez:vehicle_propeller"
+    },
+    "P": {
+      "item": "dragonminez:vehicle_plating"
+    },
+    "S": {
+      "item": "dragonminez:vehicle_seat"
+    }
+  },
+  "pattern": [
+    "HGH",
+    "SES",
+    "PEP"
+  ],
+  "result": {
+    "item": "dragonminez:cc576"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:book"
+        },
+        {
+            "item": "epicfight:iron_dagger"
+        }
+    ],
+    "result": {
+        "item": "epicfight:skillbook",
+        "count": 1,
+        "nbt": {
+            "skill": "efn:efn_step"
+        }
+    }
+}

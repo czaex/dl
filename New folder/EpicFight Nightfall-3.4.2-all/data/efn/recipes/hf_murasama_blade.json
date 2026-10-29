@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        " AB",
+        "ABA",
+        "SA "
+    ],
+    "key":
+    {
+        "A": { "item" : "minecraft:diamond" },
+        "B": { "item" : "efn:hf_ingot" },
+        "S": { "item" : "minecraft:netherite_ingot" }
+    },
+    "result": {
+        "item": "efn:hf_murasama_blade"
+        }
+}

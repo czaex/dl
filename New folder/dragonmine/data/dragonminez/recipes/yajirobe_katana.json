@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "dragonminez",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "  I",
+    "GI ",
+    "SG "
+  ],
+  "result": {
+    "item": "dragonminez:yajirobe_katana"
+  },
+  "show_notification": true
+}

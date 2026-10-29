@@ -1,0 +1,6 @@
+{
+  "parent": "waifu_of_god:displaysettings/hac_viem_hoan.item",
+  "textures": {
+    "layer0": "waifu_of_god:item/hac_viem_hoan"
+  }
+}

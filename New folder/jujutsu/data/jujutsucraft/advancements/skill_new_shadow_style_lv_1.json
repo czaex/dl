@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "jujutsucraft:sword_kusakabe"
+    },
+    "title": {
+      "translate": "advancements.skill_new_shadow_style_lv_1.title"
+    },
+    "description": {
+      "translate": "advancements.skill_new_shadow_style_lv_1.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "skill_new_shadow_style_lv_1_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:skill_new_shadow_style"
+}

@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "dragonminez:fixed_placement",
+    "fixed_x": -70,
+    "fixed_z": -72,
+    "salt": 59173046
+  },
+  "structures": [
+    {
+      "structure": "dragonminez:gomah_cradle",
+      "weight": 1
+    }
+  ]
+}

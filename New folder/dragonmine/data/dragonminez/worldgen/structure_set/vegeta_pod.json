@@ -1,0 +1,13 @@
+{
+  "placement": {
+    "type": "dragonminez:biome_aware_placement",
+    "salt": 77889900,
+    "valid_biomes": "#dragonminez:is_rockybiome"
+  },
+  "structures": [
+    {
+      "structure": "dragonminez:vegeta_pod",
+      "weight": 1
+    }
+  ]
+}

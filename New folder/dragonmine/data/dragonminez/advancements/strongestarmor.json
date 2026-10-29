@@ -1,0 +1,49 @@
+{
+  "parent": "dragonminez:patternz",
+  "criteria": {
+    "strongestarmor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:strongest_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:strongest_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:strongest_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.strongestarmor.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "dragonminez:strongest_armor_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.strongestarmor.title"
+    }
+  },
+  "requirements": [
+    [
+      "strongestarmor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

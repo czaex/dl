@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": {
+      "item": "efn:hf_murasama"
+    },
+    "title": {
+      "translate": "advancement.efn.obtain_hf_murasama.title"
+    },
+    "description": {
+      "translate": "advancement.efn.obtain_hf_murasama.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["efn:hf_murasama"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 150,
+    "function": "efn:reward/obtain_murasama"
+  }
+}

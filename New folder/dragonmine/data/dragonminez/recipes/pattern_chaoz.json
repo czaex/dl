@@ -1,0 +1,35 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_z"
+    },
+    "E": {
+      "item": "minecraft:green_dye"
+    },
+    "R": {
+      "item": "minecraft:red_dye"
+    },
+    "S": {
+      "item": "minecraft:light_gray_dye"
+    },
+    "W": {
+      "item": "minecraft:white_dye"
+    },
+    "Y": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "pattern": [
+    "EE  EE",
+    "EERREE",
+    "YEEEEY",
+    "YE#WEY",
+    "YERREY",
+    "S    S"
+  ],
+  "result": {
+    "item": "dragonminez:pattern_chaoz"
+  }
+}

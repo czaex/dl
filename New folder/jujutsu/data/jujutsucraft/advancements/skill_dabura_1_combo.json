@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "title": {
+      "translate": "advancements.skill_dabura_1_combo.title"
+    },
+    "description": {
+      "translate": "advancements.skill_dabura_1_combo.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "skill_dabura_1_combo_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:skill_dabura_4"
+}

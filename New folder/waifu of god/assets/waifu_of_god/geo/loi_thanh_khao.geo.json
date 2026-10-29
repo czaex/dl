@@ -1,0 +1,133 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Lôi Thánh Khảo",
+				"texture_width": 360,
+				"texture_height": 570,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 2,
+				"visible_bounds_offset": [0, 0, 0]
+			},
+			"bones": [
+				{
+					"name": "general2",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "portal",
+					"parent": "general2",
+					"pivot": [0, -0.525, 0]
+				},
+				{
+					"name": "1",
+					"parent": "portal",
+					"pivot": [0, -0.525, 0],
+					"cubes": [
+						{
+							"origin": [-11, -0.05, -11],
+							"size": [22, 0, 22],
+							"uv": {
+								"up": {"uv": [0, 366], "uv_size": [204, 204]}
+							}
+						},
+						{
+							"origin": [-11, -0.5, -11],
+							"size": [22, 0, 22],
+							"uv": {
+								"down": {"uv": [0, 570], "uv_size": [204, -204]}
+							}
+						}
+					]
+				},
+				{
+					"name": "2",
+					"parent": "portal",
+					"pivot": [0, -4.525, 0],
+					"rotation": [0, 90, 0],
+					"cubes": [
+						{
+							"origin": [-6, -4.05, -6],
+							"size": [12, 0, 12],
+							"uv": {
+								"up": {"uv": [0, 366], "uv_size": [204, 204]}
+							}
+						},
+						{
+							"origin": [-6, -4.5, -6],
+							"size": [12, 0, 12],
+							"uv": {
+								"down": {"uv": [0, 570], "uv_size": [204, -204]}
+							}
+						}
+					]
+				},
+				{
+					"name": "lightning",
+					"parent": "general2",
+					"pivot": [0, 0, 0],
+					"rotation": [-90, 0, 0]
+				},
+				{
+					"name": "general",
+					"parent": "lightning",
+					"pivot": [0, 0, 0],
+					"rotation": [0, -90, 0]
+				},
+				{
+					"name": "Halo2",
+					"parent": "general",
+					"pivot": [0, -254.54497, -0.00001],
+					"rotation": [-90, 0, 45],
+					"cubes": [
+						{
+							"origin": [-172.92893, -254.54997, -180.00001],
+							"size": [7, 0, 7],
+							"pivot": [-176.50001, -254.54497, -176.5],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"down": {"uv": [360, 0], "uv_size": [-360, 360]}
+							}
+						},
+						{
+							"origin": [-172.92893, -254.53997, -180.00001],
+							"size": [7, 0, 7],
+							"pivot": [-176.50001, -254.54497, -176.5],
+							"rotation": [0, 90, 0],
+							"uv": {
+								"up": {"uv": [360, 360], "uv_size": [-360, -360]}
+							}
+						}
+					]
+				},
+				{
+					"name": "Halo",
+					"parent": "lightning",
+					"pivot": [0, -254.54497, -0.00001],
+					"rotation": [-90, 0, 45],
+					"cubes": [
+						{
+							"origin": [-176.46447, -249.54997, -176.46448],
+							"size": [7, 0, 7],
+							"pivot": [-176.49999, -254.54497, -176.50003],
+							"rotation": [54.73561, 30, -54.73561],
+							"uv": {
+								"down": {"uv": [360, 0], "uv_size": [-360, 360]}
+							}
+						},
+						{
+							"origin": [-176.46447, -249.53997, -176.46448],
+							"size": [7, 0, 7],
+							"pivot": [-176.49999, -254.54497, -176.50003],
+							"rotation": [54.73561, 30, -54.73561],
+							"uv": {
+								"up": {"uv": [360, 360], "uv_size": [-360, -360]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

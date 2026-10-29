@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 600,
+  "experience": 0.35,
+  "group": "dragonminez",
+  "ingredient": {
+    "item": "dragonminez:giant_turtle_raw"
+  },
+  "result": "dragonminez:giant_turtle_cooked"
+}

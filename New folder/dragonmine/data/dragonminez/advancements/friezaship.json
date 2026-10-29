@@ -1,0 +1,42 @@
+{
+  "parent": "dragonminez:namekdim",
+  "criteria": {
+    "friezaship": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "dragonminez:frieza_ship"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.friezaship.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:iron_block"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.friezaship.title"
+    }
+  },
+  "requirements": [
+    [
+      "friezaship"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

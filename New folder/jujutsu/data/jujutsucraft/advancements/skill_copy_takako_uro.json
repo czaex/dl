@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ice"
+    },
+    "title": {
+      "translate": "advancements.skill_copy_takako_uro.title"
+    },
+    "description": {
+      "translate": "advancements.skill_copy_takako_uro.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "skill_copy_takako_uro_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:skill_copy_dhruv_lakdawalla"
+}

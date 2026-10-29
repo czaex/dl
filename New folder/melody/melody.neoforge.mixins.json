@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "de.keksuccino.melody.mixin.mixins.neoforge",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "plugin": "de.keksuccino.melody.mixin.MelodyMixinPlugin",
+  "minVersion": "0.8"
+}

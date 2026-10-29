@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "waifu_of_god:nghich_thien_hanh"
+    },
+    "title": {
+      "translate": "advancements.chan_tien_canh.title"
+    },
+    "description": {
+      "translate": "advancements.chan_tien_canh.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "chan_tien_canh_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "waifu_of_god:entities/chan_tienloot"
+    ]
+  },
+  "parent": "waifu_of_god:do_kiep_canh"
+}

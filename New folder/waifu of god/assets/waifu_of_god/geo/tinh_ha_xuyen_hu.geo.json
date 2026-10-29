@@ -1,0 +1,96 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Tinh Hà Xuyên Hư",
+				"texture_width": 500,
+				"texture_height": 500,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "magic",
+					"pivot": [0, -24, 0]
+				},
+				{
+					"name": "Body",
+					"parent": "magic",
+					"pivot": [0, -12, 0],
+					"cubes": [
+						{"origin": [3, -12, -2], "size": [1, 0, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [3, 0, -4], "size": [1, 0, 0], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "general1",
+					"parent": "Head",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [0, -6, -6],
+							"size": [0, 12, 2],
+							"inflate": 0.05,
+							"pivot": [0, 0, -5],
+							"rotation": [90, 0, 0],
+							"uv": {
+								"east": {"uv": [0, 500], "uv_size": [82, -248]},
+								"west": {"uv": [82, 500], "uv_size": [-82, -248]}
+							}
+						},
+						{
+							"origin": [0, -9, -8],
+							"size": [0, 18, 6],
+							"inflate": 0.025,
+							"pivot": [0, 0, -5],
+							"rotation": [90, 0, 0],
+							"uv": {
+								"east": {"uv": [250, 500], "uv_size": [250, -250]},
+								"west": {"uv": [500, 500], "uv_size": [-250, -250]}
+							}
+						}
+					]
+				},
+				{
+					"name": "general2",
+					"parent": "Head",
+					"pivot": [0, 0, 0],
+					"rotation": [0, 90, 0],
+					"cubes": [
+						{
+							"origin": [0, -7, -1.5],
+							"size": [0, 14, 3],
+							"inflate": 0.05,
+							"pivot": [0, 0, 0],
+							"rotation": [90, 0, 0],
+							"uv": {
+								"east": {"uv": [82, 500], "uv_size": [82, -248]},
+								"west": {"uv": [164, 500], "uv_size": [-82, -248]}
+							}
+						},
+						{
+							"origin": [0, -11, -3],
+							"size": [0, 22, 6],
+							"inflate": 0.025,
+							"pivot": [0, 0, 0],
+							"rotation": [90, 0, 0],
+							"uv": {
+								"east": {"uv": [250, 250], "uv_size": [250, -250]},
+								"west": {"uv": [500, 250], "uv_size": [-250, -250]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

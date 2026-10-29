@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": {
+      "item": "efn:nf_dual_sword"
+    },
+    "title": {
+      "translate": "advancement.efn.obtain_nf_dual_sword.title"
+    },
+    "description": {
+      "translate": "advancement.efn.obtain_nf_dual_sword.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["efn:nf_dual_sword"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

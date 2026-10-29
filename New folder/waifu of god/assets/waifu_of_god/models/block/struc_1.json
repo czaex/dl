@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "waifu_of_god:block/air-64x128",
+    "particle": "waifu_of_god:block/air-64x128"
+  },
+  "render_type": "cutout"
+}

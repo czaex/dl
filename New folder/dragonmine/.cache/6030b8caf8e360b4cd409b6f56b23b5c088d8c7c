@@ -1,0 +1,21 @@
+// 1.20.1	2026-10-21T19:12:58.6970339	Tags for minecraft:worldgen/biome mod id dragonminez
+293006e6a64a4eccf61028a191cbed2026591ca1 data/dragonminez/tags/worldgen/biome/has_dinosaurs.json
+4d579c1e2f17345057c8d8d50773dfd8d2d563e4 data/dragonminez/tags/worldgen/biome/has_giant_fish.json
+ff13fafcc6c847d2ce8a4262842bf1316dc580ea data/dragonminez/tags/worldgen/biome/has_giant_turtle.json
+f148285c61f3e2b7cc835c7168ad943552633f2a data/dragonminez/tags/worldgen/biome/has_robots.json
+6f64a89eec900ec4f2a239e93444b7ed7c12e4c0 data/dragonminez/tags/worldgen/biome/has_sabertooth.json
+64c7072c15aa681269e595ef1e39300b4be76f91 data/dragonminez/tags/worldgen/biome/has_saibamans.json
+6b8225ae7269b6c26439bef764da01858f3c6812 data/dragonminez/tags/worldgen/biome/is_desertlike.json
+b235ac1561ea2203e4310f7b5aa4813ee6a008a3 data/dragonminez/tags/worldgen/biome/is_gerolab.json
+eaf839648fc1535a2317bd3107fb89b416782439 data/dragonminez/tags/worldgen/biome/is_htc.json
+0029695121f73483484be6ea23c7eadc419bdb7c data/dragonminez/tags/worldgen/biome/is_land.json
+9f98ddb14a80489c1c324579efa2160eae11eb0a data/dragonminez/tags/worldgen/biome/is_mountainlike.json
+597dca3ecfa1d4a4e6bc25e05d34a02e6a8fe147 data/dragonminez/tags/worldgen/biome/is_namekworld.json
+a61df439deb919a4bf6d54e7435b30a4aff1d948 data/dragonminez/tags/worldgen/biome/is_otherworld.json
+8b7608926641c0e80c1b266f27cec9ea3bcc0806 data/dragonminez/tags/worldgen/biome/is_plains.json
+c75c5a66c3491a0ef0ee751c3e8298d245805111 data/dragonminez/tags/worldgen/biome/is_plainslike.json
+64c7072c15aa681269e595ef1e39300b4be76f91 data/dragonminez/tags/worldgen/biome/is_rockybiome.json
+f9facbc7d3ad54589194f8ba15b62a0c503eda4b data/dragonminez/tags/worldgen/biome/is_sacredkai.json
+97da90530b83bae6e08be954e016a452f35ba5cc data/dragonminez/tags/worldgen/biome/is_sacredland.json
+43b795f3f28b1ae6fe593eb34a4f978b0c0c3cef data/dragonminez/tags/worldgen/biome/is_swamplike.json
+64c7072c15aa681269e595ef1e39300b4be76f91 data/minecraft/tags/worldgen/biome/is_overworld.json

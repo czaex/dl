@@ -1,0 +1,62 @@
+{
+  "ultimate_battle_music.config.title": "ULTIMATE BATTLE MUSIC",
+
+  "ultimate_battle_music.config.mode.on": "ON",
+  "ultimate_battle_music.config.mode.on.tooltip": "Воспроизводить УНИКАЛЬНЫЙ трек",
+  "ultimate_battle_music.config.mode.fallback": "NORMAL",
+  "ultimate_battle_music.config.mode.fallback.tooltip": "Использовать трек по УМОЛЧАНИЮ",
+  "ultimate_battle_music.config.mode.off": "OFF",
+  "ultimate_battle_music.config.mode.off.tooltip": "Отключить этот тип",
+
+  "ultimate_battle_music.config.category.music": "Музыка",
+  "ultimate_battle_music.config.category.detection": "Тип обнаружения",
+  "ultimate_battle_music.config.category.radius": "Радиус",
+  "ultimate_battle_music.config.category.bosses": "Боссы",
+  "ultimate_battle_music.config.category.volume": "Громкость",
+  "ultimate_battle_music.config.category.fade": "Затухание",
+
+  "ultimate_battle_music.config.music.enable": "Включить боевую музыку",
+  "ultimate_battle_music.config.music.enable.tooltip": "Главный переключатель. Если выключено — музыка не играет.",
+  "ultimate_battle_music.config.music.variant_mode": "Вариантная музыка",
+  "ultimate_battle_music.config.music.illager_mode": "Музыка иллагеров",
+  "ultimate_battle_music.config.music.nether_mode": "Музыка Незера",
+  "ultimate_battle_music.config.music.raid_mode": "Музыка рейда",
+
+  "ultimate_battle_music.config.detection.require_targeting": "Моб должен целиться в игрока",
+  "ultimate_battle_music.config.detection.require_targeting.tooltip": "Музыка включается только если моб атакует вас.",
+  "ultimate_battle_music.config.detection.check_interval": "Интервал проверки (тики)",
+  "ultimate_battle_music.config.detection.check_interval.tooltip": "Частота проверки боя. 20 = 1 секунда.",
+
+  "ultimate_battle_music.config.radius.normal": "Радиус обычных мобов",
+  "ultimate_battle_music.config.radius.variant": "Радиус вариантов",
+  "ultimate_battle_music.config.radius.illager": "Радиус иллагеров",
+  "ultimate_battle_music.config.radius.far": "Радиус дальних врагов",
+  "ultimate_battle_music.config.radius.creeper": "Радиус криперов",
+  "ultimate_battle_music.config.radius.creeper.tooltip": "Криперы обычно активируют музыку только вблизи.",
+  "ultimate_battle_music.config.radius.boss": "Радиус боссов",
+  "ultimate_battle_music.config.radius.boss.tooltip": "Обнаружение: Wither | Warden | Эндер-дракон.",
+
+  "ultimate_battle_music.config.bosses.warden_mode": "Музыка Варден",
+  "ultimate_battle_music.config.bosses.warden_volume": "Громкость Варден (%)",
+  "ultimate_battle_music.config.bosses.wither_mode": "Музыка Иссушителя",
+  "ultimate_battle_music.config.bosses.wither_volume": "Громкость Иссушителя (%)",
+  "ultimate_battle_music.config.bosses.dragon_mode": "Музыка Эндер-дракона",
+  "ultimate_battle_music.config.bosses.dragon_volume": "Громкость Эндер-дракона (%)",
+
+  "ultimate_battle_music.config.volume.default": "Громкость по умолчанию (%)",
+  "ultimate_battle_music.config.volume.default.tooltip": "Громкость обычной боевой музыки в обычном мире.",
+  "ultimate_battle_music.config.volume.illager": "Громкость иллагеров (%)",
+  "ultimate_battle_music.config.volume.raid": "Громкость рейда (%)",
+  "ultimate_battle_music.config.volume.nether": "Громкость Незера (%)",
+  "ultimate_battle_music.config.volume.fluid_pitch": "Высота звука в жидкостях (%)",
+  "ultimate_battle_music.config.volume.fluid_pitch.tooltip": "Высота звука в воде или лаве. 75 = ниже.",
+
+  "ultimate_battle_music.config.fade.use_fade": "Затухание",
+  "ultimate_battle_music.config.fade.use_fade.tooltip": "Включить fade-in/fade-out. Выключить для мгновенного перехода.",
+  "ultimate_battle_music.config.fade.fade_out": "Затухание (тики)",
+  "ultimate_battle_music.config.fade.fade_out.tooltip": "Длительность затухания. 60 = 3 секунды.",
+  "ultimate_battle_music.config.fade.revive_fade_in": "Появление (тики)",
+  "ultimate_battle_music.config.fade.revive_fade_in.tooltip": "Время возврата после тишины. 40 = 2 секунды.",
+  "ultimate_battle_music.config.fade.ghost_duration": "Призрачная длительность (тики)",
+  "ultimate_battle_music.config.fade.ghost_duration.tooltip": "Время тихого воспроизведения перед остановкой. 200 = 10 секунд."
+}

@@ -1,0 +1,32 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_super"
+    },
+    "K": {
+      "item": "minecraft:black_dye"
+    },
+    "N": {
+      "item": "minecraft:brown_dye"
+    },
+    "W": {
+      "item": "minecraft:white_dye"
+    },
+    "Y": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "pattern": [
+    "  NN  ",
+    " KWWK ",
+    "KKKKKK",
+    "KK#KKK",
+    "KK  KK",
+    "Y    Y"
+  ],
+  "result": {
+    "item": "dragonminez:pattern_majin21"
+  }
+}

@@ -1,0 +1,3289 @@
+{
+  "aquifers_enabled": false,
+  "default_block": {
+    "Name": "dragonminez:demon_rock"
+  },
+  "default_fluid": {
+    "Name": "minecraft:air"
+  },
+  "disable_mob_generation": false,
+  "legacy_random_source": false,
+  "noise": {
+    "height": 832,
+    "min_y": -64,
+    "size_horizontal": 1,
+    "size_vertical": 1
+  },
+  "noise_router": {
+    "barrier": 0.0,
+    "continents": 0.0,
+    "depth": {
+      "type": "minecraft:y_clamped_gradient",
+      "from_value": -1.0,
+      "from_y": -64,
+      "to_value": 1.0,
+      "to_y": 768
+    },
+    "erosion": 0.0,
+    "final_density": {
+      "type": "minecraft:interpolated",
+      "argument": {
+        "type": "minecraft:max",
+        "argument1": {
+          "type": "minecraft:min",
+          "argument1": {
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "minecraft:add",
+              "argument1": {
+                "type": "minecraft:add",
+                "argument1": 64.0,
+                "argument2": {
+                  "type": "minecraft:mul",
+                  "argument1": 6.0,
+                  "argument2": {
+                    "type": "minecraft:shifted_noise",
+                    "noise": "dragonminez:demon_realm_hills",
+                    "shift_x": 5000.0,
+                    "shift_y": 0.0,
+                    "shift_z": -5000.0,
+                    "xz_scale": 1.0,
+                    "y_scale": 0.0
+                  }
+                }
+              },
+              "argument2": {
+                "type": "minecraft:add",
+                "argument1": {
+                  "type": "minecraft:mul",
+                  "argument1": 30.0,
+                  "argument2": {
+                    "type": "minecraft:mul",
+                    "argument1": {
+                      "type": "minecraft:clamp",
+                      "input": {
+                        "type": "minecraft:add",
+                        "argument1": 0.1,
+                        "argument2": {
+                          "type": "minecraft:mul",
+                          "argument1": 2.0,
+                          "argument2": {
+                            "type": "minecraft:shifted_noise",
+                            "noise": "dragonminez:demon_realm_mesa",
+                            "shift_x": 7000.0,
+                            "shift_y": 0.0,
+                            "shift_z": -7000.0,
+                            "xz_scale": 1.0,
+                            "y_scale": 0.0
+                          }
+                        }
+                      },
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "argument2": {
+                      "type": "minecraft:cube",
+                      "argument": {
+                        "type": "minecraft:add",
+                        "argument1": 1.0,
+                        "argument2": {
+                          "type": "minecraft:mul",
+                          "argument1": -1.0,
+                          "argument2": {
+                            "type": "minecraft:abs",
+                            "argument": {
+                              "type": "minecraft:noise",
+                              "noise": "dragonminez:demon_realm_crags",
+                              "xz_scale": 1.0,
+                              "y_scale": 0.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "argument2": {
+                  "type": "minecraft:mul",
+                  "argument1": 7.0,
+                  "argument2": {
+                    "type": "minecraft:square",
+                    "argument": {
+                      "type": "minecraft:clamp",
+                      "input": {
+                        "type": "minecraft:mul",
+                        "argument1": 4.0,
+                        "argument2": {
+                          "type": "minecraft:add",
+                          "argument1": -0.45,
+                          "argument2": {
+                            "type": "minecraft:shifted_noise",
+                            "noise": "dragonminez:demon_realm_pillars",
+                            "shift_x": 9000.0,
+                            "shift_y": 0.0,
+                            "shift_z": -9000.0,
+                            "xz_scale": 1.0,
+                            "y_scale": 0.0
+                          }
+                        }
+                      },
+                      "max": 1.0,
+                      "min": 0.0
+                    }
+                  }
+                }
+              }
+            },
+            "argument2": {
+              "type": "minecraft:mul",
+              "argument1": -1.0,
+              "argument2": {
+                "type": "minecraft:y_clamped_gradient",
+                "from_value": -64.0,
+                "from_y": -64,
+                "to_value": 768.0,
+                "to_y": 768
+              }
+            }
+          },
+          "argument2": {
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "minecraft:y_clamped_gradient",
+              "from_value": -64.0,
+              "from_y": -64,
+              "to_value": 768.0,
+              "to_y": 768
+            },
+            "argument2": {
+              "type": "minecraft:mul",
+              "argument1": -1.0,
+              "argument2": -72.0
+            }
+          }
+        },
+        "argument2": {
+          "type": "minecraft:max",
+          "argument1": {
+            "type": "minecraft:min",
+            "argument1": {
+              "type": "minecraft:min",
+              "argument1": {
+                "type": "minecraft:add",
+                "argument1": {
+                  "type": "minecraft:max",
+                  "argument1": {
+                    "type": "minecraft:add",
+                    "argument1": {
+                      "type": "minecraft:add",
+                      "argument1": 300.0,
+                      "argument2": {
+                        "type": "minecraft:spline",
+                        "spline": {
+                          "coordinate": {
+                            "type": "minecraft:noise",
+                            "noise": "dragonminez:demon_realm_islands",
+                            "xz_scale": 1.0,
+                            "y_scale": 0.0
+                          },
+                          "points": [
+                            {
+                              "derivative": 0.0,
+                              "location": -1.0,
+                              "value": 2.0
+                            },
+                            {
+                              "derivative": 0.0,
+                              "location": -0.2,
+                              "value": 6.0
+                            },
+                            {
+                              "derivative": 0.0,
+                              "location": 0.0,
+                              "value": 12.0
+                            },
+                            {
+                              "derivative": 0.0,
+                              "location": 0.12,
+                              "value": 16.0
+                            },
+                            {
+                              "derivative": 0.0,
+                              "location": 0.2,
+                              "value": 20.0
+                            },
+                            {
+                              "derivative": 0.0,
+                              "location": 0.35,
+                              "value": 26.0
+                            },
+                            {
+                              "derivative": 0.0,
+                              "location": 0.55,
+                              "value": 40.0
+                            },
+                            {
+                              "derivative": 0.0,
+                              "location": 0.8,
+                              "value": 58.0
+                            },
+                            {
+                              "derivative": 0.0,
+                              "location": 1.0,
+                              "value": 66.0
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "argument2": {
+                      "type": "minecraft:add",
+                      "argument1": {
+                        "type": "minecraft:mul",
+                        "argument1": 3.0,
+                        "argument2": {
+                          "type": "minecraft:shifted_noise",
+                          "noise": "dragonminez:demon_realm_hills",
+                          "shift_x": 2600.0,
+                          "shift_y": 0.0,
+                          "shift_z": -2600.0,
+                          "xz_scale": 1.0,
+                          "y_scale": 0.0
+                        }
+                      },
+                      "argument2": {
+                        "type": "minecraft:mul",
+                        "argument1": 90.0,
+                        "argument2": {
+                          "type": "minecraft:mul",
+                          "argument1": {
+                            "type": "minecraft:clamp",
+                            "input": {
+                              "type": "minecraft:mul",
+                              "argument1": 6.0,
+                              "argument2": {
+                                "type": "minecraft:add",
+                                "argument1": -0.6,
+                                "argument2": {
+                                  "type": "minecraft:noise",
+                                  "noise": "dragonminez:demon_realm_pillars",
+                                  "xz_scale": 1.0,
+                                  "y_scale": 0.0
+                                }
+                              }
+                            },
+                            "max": 1.0,
+                            "min": 0.0
+                          },
+                          "argument2": {
+                            "type": "minecraft:clamp",
+                            "input": {
+                              "type": "minecraft:mul",
+                              "argument1": 2.0,
+                              "argument2": {
+                                "type": "minecraft:shifted_noise",
+                                "noise": "dragonminez:demon_realm_rock_height",
+                                "shift_x": 1200.0,
+                                "shift_y": 0.0,
+                                "shift_z": -1200.0,
+                                "xz_scale": 1.0,
+                                "y_scale": 0.0
+                              }
+                            },
+                            "max": 1.0,
+                            "min": 0.0
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "argument2": {
+                    "type": "minecraft:add",
+                    "argument1": 300.0,
+                    "argument2": {
+                      "type": "minecraft:add",
+                      "argument1": {
+                        "type": "minecraft:mul",
+                        "argument1": 30.0,
+                        "argument2": {
+                          "type": "minecraft:clamp",
+                          "input": {
+                            "type": "minecraft:mul",
+                            "argument1": 0.08333333333333333,
+                            "argument2": {
+                              "type": "minecraft:add",
+                              "argument1": 130.0,
+                              "argument2": {
+                                "type": "minecraft:mul",
+                                "argument1": -1.0,
+                                "argument2": {
+                                  "type": "dragonminez:tunnel_distance",
+                                  "offset_x": 700,
+                                  "offset_z": 450,
+                                  "spacing": 2048
+                                }
+                              }
+                            }
+                          },
+                          "max": 1.0,
+                          "min": 0.0
+                        }
+                      },
+                      "argument2": {
+                        "type": "minecraft:mul",
+                        "argument1": 5.0,
+                        "argument2": {
+                          "type": "minecraft:shifted_noise",
+                          "noise": "dragonminez:demon_realm_hills",
+                          "shift_x": 8800.0,
+                          "shift_y": 0.0,
+                          "shift_z": -8800.0,
+                          "xz_scale": 1.0,
+                          "y_scale": 0.0
+                        }
+                      }
+                    }
+                  }
+                },
+                "argument2": {
+                  "type": "minecraft:mul",
+                  "argument1": -1.0,
+                  "argument2": {
+                    "type": "minecraft:y_clamped_gradient",
+                    "from_value": -64.0,
+                    "from_y": -64,
+                    "to_value": 768.0,
+                    "to_y": 768
+                  }
+                }
+              },
+              "argument2": {
+                "type": "minecraft:add",
+                "argument1": {
+                  "type": "minecraft:y_clamped_gradient",
+                  "from_value": -64.0,
+                  "from_y": -64,
+                  "to_value": 768.0,
+                  "to_y": 768
+                },
+                "argument2": {
+                  "type": "minecraft:mul",
+                  "argument1": -1.0,
+                  "argument2": {
+                    "type": "minecraft:add",
+                    "argument1": 252.0,
+                    "argument2": {
+                      "type": "minecraft:mul",
+                      "argument1": -1.0,
+                      "argument2": {
+                        "type": "minecraft:mul",
+                        "argument1": 24.0,
+                        "argument2": {
+                          "type": "minecraft:square",
+                          "argument": {
+                            "type": "minecraft:clamp",
+                            "input": {
+                              "type": "minecraft:mul",
+                              "argument1": 1.6,
+                              "argument2": {
+                                "type": "minecraft:add",
+                                "argument1": -0.1,
+                                "argument2": {
+                                  "type": "minecraft:noise",
+                                  "noise": "dragonminez:demon_realm_stalactites",
+                                  "xz_scale": 1.0,
+                                  "y_scale": 0.0
+                                }
+                              }
+                            },
+                            "max": 1.0,
+                            "min": 0.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "argument2": {
+              "type": "minecraft:add",
+              "argument1": {
+                "type": "dragonminez:tunnel_distance",
+                "offset_x": 700,
+                "offset_z": 450,
+                "spacing": 2048
+              },
+              "argument2": {
+                "type": "minecraft:mul",
+                "argument1": -1.0,
+                "argument2": {
+                  "type": "minecraft:add",
+                  "argument1": 90.0,
+                  "argument2": {
+                    "type": "minecraft:mul",
+                    "argument1": 10.0,
+                    "argument2": {
+                      "type": "minecraft:shifted_noise",
+                      "noise": "dragonminez:demon_realm_hills",
+                      "shift_x": 5100.0,
+                      "shift_y": 0.0,
+                      "shift_z": -5100.0,
+                      "xz_scale": 1.0,
+                      "y_scale": 0.0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "argument2": {
+            "type": "minecraft:max",
+            "argument1": {
+              "type": "minecraft:min",
+              "argument1": {
+                "type": "minecraft:max",
+                "argument1": {
+                  "type": "minecraft:add",
+                  "argument1": {
+                    "type": "minecraft:min",
+                    "argument1": {
+                      "type": "minecraft:add",
+                      "argument1": {
+                        "type": "minecraft:add",
+                        "argument1": {
+                          "type": "minecraft:add",
+                          "argument1": 600.0,
+                          "argument2": {
+                            "type": "minecraft:mul",
+                            "argument1": 9.0,
+                            "argument2": {
+                              "type": "minecraft:noise",
+                              "noise": "dragonminez:demon_realm_hills",
+                              "xz_scale": 1.0,
+                              "y_scale": 0.0
+                            }
+                          }
+                        },
+                        "argument2": {
+                          "type": "minecraft:add",
+                          "argument1": {
+                            "type": "minecraft:add",
+                            "argument1": {
+                              "type": "minecraft:spline",
+                              "spline": {
+                                "coordinate": {
+                                  "type": "minecraft:noise",
+                                  "noise": "dragonminez:demon_realm_mesa",
+                                  "xz_scale": 1.0,
+                                  "y_scale": 0.0
+                                },
+                                "points": [
+                                  {
+                                    "derivative": 0.0,
+                                    "location": -1.0,
+                                    "value": 0.0
+                                  },
+                                  {
+                                    "derivative": 0.0,
+                                    "location": 0.05,
+                                    "value": 0.0
+                                  },
+                                  {
+                                    "derivative": 0.0,
+                                    "location": 0.18,
+                                    "value": 24.0
+                                  },
+                                  {
+                                    "derivative": 0.0,
+                                    "location": 0.3,
+                                    "value": 24.0
+                                  },
+                                  {
+                                    "derivative": 0.0,
+                                    "location": 0.42,
+                                    "value": 46.0
+                                  },
+                                  {
+                                    "derivative": 0.0,
+                                    "location": 0.54,
+                                    "value": 46.0
+                                  },
+                                  {
+                                    "derivative": 0.0,
+                                    "location": 0.66,
+                                    "value": 72.0
+                                  },
+                                  {
+                                    "derivative": 0.0,
+                                    "location": 0.8,
+                                    "value": 74.0
+                                  },
+                                  {
+                                    "derivative": 0.0,
+                                    "location": 1.0,
+                                    "value": 90.0
+                                  }
+                                ]
+                              }
+                            },
+                            "argument2": {
+                              "type": "minecraft:mul",
+                              "argument1": 10.0,
+                              "argument2": {
+                                "type": "minecraft:clamp",
+                                "input": {
+                                  "type": "minecraft:mul",
+                                  "argument1": 0.1,
+                                  "argument2": {
+                                    "type": "minecraft:add",
+                                    "argument1": 120.0,
+                                    "argument2": {
+                                      "type": "minecraft:mul",
+                                      "argument1": -1.0,
+                                      "argument2": {
+                                        "type": "dragonminez:tunnel_distance",
+                                        "offset_x": 0,
+                                        "offset_z": 0,
+                                        "spacing": 2048
+                                      }
+                                    }
+                                  }
+                                },
+                                "max": 1.0,
+                                "min": 0.0
+                              }
+                            }
+                          },
+                          "argument2": {
+                            "type": "minecraft:mul",
+                            "argument1": -1.0,
+                            "argument2": {
+                              "type": "minecraft:clamp",
+                              "input": {
+                                "type": "minecraft:mul",
+                                "argument1": 90.0,
+                                "argument2": {
+                                  "type": "minecraft:add",
+                                  "argument1": -0.28,
+                                  "argument2": {
+                                    "type": "minecraft:noise",
+                                    "noise": "dragonminez:demon_realm_abyss",
+                                    "xz_scale": 1.0,
+                                    "y_scale": 0.0
+                                  }
+                                }
+                              },
+                              "max": 22.0,
+                              "min": 0.0
+                            }
+                          }
+                        }
+                      },
+                      "argument2": {
+                        "type": "minecraft:mul",
+                        "argument1": -1.0,
+                        "argument2": {
+                          "type": "minecraft:y_clamped_gradient",
+                          "from_value": -64.0,
+                          "from_y": -64,
+                          "to_value": 768.0,
+                          "to_y": 768
+                        }
+                      }
+                    },
+                    "argument2": {
+                      "type": "minecraft:add",
+                      "argument1": {
+                        "type": "minecraft:y_clamped_gradient",
+                        "from_value": -64.0,
+                        "from_y": -64,
+                        "to_value": 768.0,
+                        "to_y": 768
+                      },
+                      "argument2": {
+                        "type": "minecraft:mul",
+                        "argument1": -1.0,
+                        "argument2": 530.0
+                      }
+                    }
+                  },
+                  "argument2": {
+                    "type": "minecraft:mul",
+                    "argument1": -1.0,
+                    "argument2": {
+                      "type": "minecraft:clamp",
+                      "input": {
+                        "type": "minecraft:mul",
+                        "argument1": 4000.0,
+                        "argument2": {
+                          "type": "minecraft:add",
+                          "argument1": -0.42,
+                          "argument2": {
+                            "type": "minecraft:noise",
+                            "noise": "dragonminez:demon_realm_abyss",
+                            "xz_scale": 1.0,
+                            "y_scale": 0.0
+                          }
+                        }
+                      },
+                      "max": 2000.0,
+                      "min": 0.0
+                    }
+                  }
+                },
+                "argument2": {
+                  "type": "minecraft:min",
+                  "argument1": {
+                    "type": "minecraft:add",
+                    "argument1": {
+                      "type": "minecraft:add",
+                      "argument1": 540.0,
+                      "argument2": {
+                        "type": "minecraft:mul",
+                        "argument1": 3.0,
+                        "argument2": {
+                          "type": "minecraft:noise",
+                          "noise": "dragonminez:otherworld_cloud_billow",
+                          "xz_scale": 1.0,
+                          "y_scale": 0.0
+                        }
+                      }
+                    },
+                    "argument2": {
+                      "type": "minecraft:mul",
+                      "argument1": -1.0,
+                      "argument2": {
+                        "type": "minecraft:y_clamped_gradient",
+                        "from_value": -64.0,
+                        "from_y": -64,
+                        "to_value": 768.0,
+                        "to_y": 768
+                      }
+                    }
+                  },
+                  "argument2": {
+                    "type": "minecraft:add",
+                    "argument1": {
+                      "type": "minecraft:y_clamped_gradient",
+                      "from_value": -64.0,
+                      "from_y": -64,
+                      "to_value": 768.0,
+                      "to_y": 768
+                    },
+                    "argument2": {
+                      "type": "minecraft:mul",
+                      "argument1": -1.0,
+                      "argument2": {
+                        "type": "minecraft:add",
+                        "argument1": 482.0,
+                        "argument2": {
+                          "type": "minecraft:mul",
+                          "argument1": -1.0,
+                          "argument2": {
+                            "type": "minecraft:mul",
+                            "argument1": 24.0,
+                            "argument2": {
+                              "type": "minecraft:square",
+                              "argument": {
+                                "type": "minecraft:clamp",
+                                "input": {
+                                  "type": "minecraft:mul",
+                                  "argument1": 1.6,
+                                  "argument2": {
+                                    "type": "minecraft:add",
+                                    "argument1": -0.1,
+                                    "argument2": {
+                                      "type": "minecraft:shifted_noise",
+                                      "noise": "dragonminez:demon_realm_stalactites",
+                                      "shift_x": 4200.0,
+                                      "shift_y": 0.0,
+                                      "shift_z": -4200.0,
+                                      "xz_scale": 1.0,
+                                      "y_scale": 0.0
+                                    }
+                                  }
+                                },
+                                "max": 1.0,
+                                "min": 0.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "argument2": {
+                "type": "minecraft:add",
+                "argument1": {
+                  "type": "dragonminez:tunnel_distance",
+                  "offset_x": 0,
+                  "offset_z": 0,
+                  "spacing": 2048
+                },
+                "argument2": {
+                  "type": "minecraft:mul",
+                  "argument1": -1.0,
+                  "argument2": {
+                    "type": "minecraft:add",
+                    "argument1": 90.0,
+                    "argument2": {
+                      "type": "minecraft:mul",
+                      "argument1": 10.0,
+                      "argument2": {
+                        "type": "minecraft:shifted_noise",
+                        "noise": "dragonminez:demon_realm_hills",
+                        "shift_x": 3300.0,
+                        "shift_y": 0.0,
+                        "shift_z": -3300.0,
+                        "xz_scale": 1.0,
+                        "y_scale": 0.0
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "argument2": {
+              "type": "minecraft:min",
+              "argument1": {
+                "type": "minecraft:add",
+                "argument1": {
+                  "type": "minecraft:add",
+                  "argument1": {
+                    "type": "minecraft:add",
+                    "argument1": 700.0,
+                    "argument2": {
+                      "type": "minecraft:mul",
+                      "argument1": 25.0,
+                      "argument2": {
+                        "type": "minecraft:noise",
+                        "noise": "dragonminez:demon_realm_rock_height",
+                        "xz_scale": 1.0,
+                        "y_scale": 0.0
+                      }
+                    }
+                  },
+                  "argument2": {
+                    "type": "minecraft:mul",
+                    "argument1": 0.22,
+                    "argument2": {
+                      "type": "minecraft:mul",
+                      "argument1": 110.0,
+                      "argument2": {
+                        "type": "minecraft:add",
+                        "argument1": -0.52,
+                        "argument2": {
+                          "type": "minecraft:noise",
+                          "noise": "dragonminez:demon_realm_rocks",
+                          "xz_scale": 1.0,
+                          "y_scale": 0.0
+                        }
+                      }
+                    }
+                  }
+                },
+                "argument2": {
+                  "type": "minecraft:mul",
+                  "argument1": -1.0,
+                  "argument2": {
+                    "type": "minecraft:y_clamped_gradient",
+                    "from_value": -64.0,
+                    "from_y": -64,
+                    "to_value": 768.0,
+                    "to_y": 768
+                  }
+                }
+              },
+              "argument2": {
+                "type": "minecraft:add",
+                "argument1": {
+                  "type": "minecraft:y_clamped_gradient",
+                  "from_value": -64.0,
+                  "from_y": -64,
+                  "to_value": 768.0,
+                  "to_y": 768
+                },
+                "argument2": {
+                  "type": "minecraft:mul",
+                  "argument1": -1.0,
+                  "argument2": {
+                    "type": "minecraft:add",
+                    "argument1": {
+                      "type": "minecraft:add",
+                      "argument1": 700.0,
+                      "argument2": {
+                        "type": "minecraft:mul",
+                        "argument1": 25.0,
+                        "argument2": {
+                          "type": "minecraft:noise",
+                          "noise": "dragonminez:demon_realm_rock_height",
+                          "xz_scale": 1.0,
+                          "y_scale": 0.0
+                        }
+                      }
+                    },
+                    "argument2": {
+                      "type": "minecraft:mul",
+                      "argument1": -1.0,
+                      "argument2": {
+                        "type": "minecraft:mul",
+                        "argument1": 110.0,
+                        "argument2": {
+                          "type": "minecraft:add",
+                          "argument1": -0.52,
+                          "argument2": {
+                            "type": "minecraft:noise",
+                            "noise": "dragonminez:demon_realm_rocks",
+                            "xz_scale": 1.0,
+                            "y_scale": 0.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "fluid_level_floodedness": 0.0,
+    "fluid_level_spread": 0.0,
+    "initial_density_without_jaggedness": {
+      "type": "minecraft:interpolated",
+      "argument": {
+        "type": "minecraft:max",
+        "argument1": {
+          "type": "minecraft:min",
+          "argument1": {
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "minecraft:add",
+              "argument1": {
+                "type": "minecraft:add",
+                "argument1": 64.0,
+                "argument2": {
+                  "type": "minecraft:mul",
+                  "argument1": 6.0,
+                  "argument2": {
+                    "type": "minecraft:shifted_noise",
+                    "noise": "dragonminez:demon_realm_hills",
+                    "shift_x": 5000.0,
+                    "shift_y": 0.0,
+                    "shift_z": -5000.0,
+                    "xz_scale": 1.0,
+                    "y_scale": 0.0
+                  }
+                }
+              },
+              "argument2": {
+                "type": "minecraft:add",
+                "argument1": {
+                  "type": "minecraft:mul",
+                  "argument1": 30.0,
+                  "argument2": {
+                    "type": "minecraft:mul",
+                    "argument1": {
+                      "type": "minecraft:clamp",
+                      "input": {
+                        "type": "minecraft:add",
+                        "argument1": 0.1,
+                        "argument2": {
+                          "type": "minecraft:mul",
+                          "argument1": 2.0,
+                          "argument2": {
+                            "type": "minecraft:shifted_noise",
+                            "noise": "dragonminez:demon_realm_mesa",
+                            "shift_x": 7000.0,
+                            "shift_y": 0.0,
+                            "shift_z": -7000.0,
+                            "xz_scale": 1.0,
+                            "y_scale": 0.0
+                          }
+                        }
+                      },
+                      "max": 1.0,
+                      "min": 0.0
+                    },
+                    "argument2": {
+                      "type": "minecraft:cube",
+                      "argument": {
+                        "type": "minecraft:add",
+                        "argument1": 1.0,
+                        "argument2": {
+                          "type": "minecraft:mul",
+                          "argument1": -1.0,
+                          "argument2": {
+                            "type": "minecraft:abs",
+                            "argument": {
+                              "type": "minecraft:noise",
+                              "noise": "dragonminez:demon_realm_crags",
+                              "xz_scale": 1.0,
+                              "y_scale": 0.0
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "argument2": {
+                  "type": "minecraft:mul",
+                  "argument1": 7.0,
+                  "argument2": {
+                    "type": "minecraft:square",
+                    "argument": {
+                      "type": "minecraft:clamp",
+                      "input": {
+                        "type": "minecraft:mul",
+                        "argument1": 4.0,
+                        "argument2": {
+                          "type": "minecraft:add",
+                          "argument1": -0.45,
+                          "argument2": {
+                            "type": "minecraft:shifted_noise",
+                            "noise": "dragonminez:demon_realm_pillars",
+                            "shift_x": 9000.0,
+                            "shift_y": 0.0,
+                            "shift_z": -9000.0,
+                            "xz_scale": 1.0,
+                            "y_scale": 0.0
+                          }
+                        }
+                      },
+                      "max": 1.0,
+                      "min": 0.0
+                    }
+                  }
+                }
+              }
+            },
+            "argument2": {
+              "type": "minecraft:mul",
+              "argument1": -1.0,
+              "argument2": {
+                "type": "minecraft:y_clamped_gradient",
+                "from_value": -64.0,
+                "from_y": -64,
+                "to_value": 768.0,
+                "to_y": 768
+              }
+            }
+          },
+          "argument2": {
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "minecraft:y_clamped_gradient",
+              "from_value": -64.0,
+              "from_y": -64,
+              "to_value": 768.0,
+              "to_y": 768
+            },
+            "argument2": {
+              "type": "minecraft:mul",
+              "argument1": -1.0,
+              "argument2": -72.0
+            }
+          }
+        },
+        "argument2": {
+          "type": "minecraft:max",
+          "argument1": {
+            "type": "minecraft:min",
+            "argument1": {
+              "type": "minecraft:min",
+              "argument1": {
+                "type": "minecraft:add",
+                "argument1": {
+                  "type": "minecraft:max",
+                  "argument1": {
+                    "type": "minecraft:add",
+                    "argument1": {
+                      "type": "minecraft:add",
+                      "argument1": 300.0,
+                      "argument2": {
+                        "type": "minecraft:spline",
+                        "spline": {
+                          "coordinate": {
+                            "type": "minecraft:noise",
+                            "noise": "dragonminez:demon_realm_islands",
+                            "xz_scale": 1.0,
+                            "y_scale": 0.0
+                          },
+                          "points": [
+                            {
+                              "derivative": 0.0,
+                              "location": -1.0,
+                              "value": 2.0
+                            },
+                            {
+                              "derivative": 0.0,
+                              "location": -0.2,
+                              "value": 6.0
+                            },
+                            {
+                              "derivative": 0.0,
+                              "location": 0.0,
+                              "value": 12.0
+                            },
+                            {
+                              "derivative": 0.0,
+                              "location": 0.12,
+                              "value": 16.0
+                            },
+                            {
+                              "derivative": 0.0,
+                              "location": 0.2,
+                              "value": 20.0
+                            },
+                            {
+                              "derivative": 0.0,
+                              "location": 0.35,
+                              "value": 26.0
+                            },
+                            {
+                              "derivative": 0.0,
+                              "location": 0.55,
+                              "value": 40.0
+                            },
+                            {
+                              "derivative": 0.0,
+                              "location": 0.8,
+                              "value": 58.0
+                            },
+                            {
+                              "derivative": 0.0,
+                              "location": 1.0,
+                              "value": 66.0
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    "argument2": {
+                      "type": "minecraft:add",
+                      "argument1": {
+                        "type": "minecraft:mul",
+                        "argument1": 3.0,
+                        "argument2": {
+                          "type": "minecraft:shifted_noise",
+                          "noise": "dragonminez:demon_realm_hills",
+                          "shift_x": 2600.0,
+                          "shift_y": 0.0,
+                          "shift_z": -2600.0,
+                          "xz_scale": 1.0,
+                          "y_scale": 0.0
+                        }
+                      },
+                      "argument2": {
+                        "type": "minecraft:mul",
+                        "argument1": 90.0,
+                        "argument2": {
+                          "type": "minecraft:mul",
+                          "argument1": {
+                            "type": "minecraft:clamp",
+                            "input": {
+                              "type": "minecraft:mul",
+                              "argument1": 6.0,
+                              "argument2": {
+                                "type": "minecraft:add",
+                                "argument1": -0.6,
+                                "argument2": {
+                                  "type": "minecraft:noise",
+                                  "noise": "dragonminez:demon_realm_pillars",
+                                  "xz_scale": 1.0,
+                                  "y_scale": 0.0
+                                }
+                              }
+                            },
+                            "max": 1.0,
+                            "min": 0.0
+                          },
+                          "argument2": {
+                            "type": "minecraft:clamp",
+                            "input": {
+                              "type": "minecraft:mul",
+                              "argument1": 2.0,
+                              "argument2": {
+                                "type": "minecraft:shifted_noise",
+                                "noise": "dragonminez:demon_realm_rock_height",
+                                "shift_x": 1200.0,
+                                "shift_y": 0.0,
+                                "shift_z": -1200.0,
+                                "xz_scale": 1.0,
+                                "y_scale": 0.0
+                              }
+                            },
+                            "max": 1.0,
+                            "min": 0.0
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "argument2": {
+                    "type": "minecraft:add",
+                    "argument1": 300.0,
+                    "argument2": {
+                      "type": "minecraft:add",
+                      "argument1": {
+                        "type": "minecraft:mul",
+                        "argument1": 30.0,
+                        "argument2": {
+                          "type": "minecraft:clamp",
+                          "input": {
+                            "type": "minecraft:mul",
+                            "argument1": 0.08333333333333333,
+                            "argument2": {
+                              "type": "minecraft:add",
+                              "argument1": 130.0,
+                              "argument2": {
+                                "type": "minecraft:mul",
+                                "argument1": -1.0,
+                                "argument2": {
+                                  "type": "dragonminez:tunnel_distance",
+                                  "offset_x": 700,
+                                  "offset_z": 450,
+                                  "spacing": 2048
+                                }
+                              }
+                            }
+                          },
+                          "max": 1.0,
+                          "min": 0.0
+                        }
+                      },
+                      "argument2": {
+                        "type": "minecraft:mul",
+                        "argument1": 5.0,
+                        "argument2": {
+                          "type": "minecraft:shifted_noise",
+                          "noise": "dragonminez:demon_realm_hills",
+                          "shift_x": 8800.0,
+                          "shift_y": 0.0,
+                          "shift_z": -8800.0,
+                          "xz_scale": 1.0,
+                          "y_scale": 0.0
+                        }
+                      }
+                    }
+                  }
+                },
+                "argument2": {
+                  "type": "minecraft:mul",
+                  "argument1": -1.0,
+                  "argument2": {
+                    "type": "minecraft:y_clamped_gradient",
+                    "from_value": -64.0,
+                    "from_y": -64,
+                    "to_value": 768.0,
+                    "to_y": 768
+                  }
+                }
+              },
+              "argument2": {
+                "type": "minecraft:add",
+                "argument1": {
+                  "type": "minecraft:y_clamped_gradient",
+                  "from_value": -64.0,
+                  "from_y": -64,
+                  "to_value": 768.0,
+                  "to_y": 768
+                },
+                "argument2": {
+                  "type": "minecraft:mul",
+                  "argument1": -1.0,
+                  "argument2": {
+                    "type": "minecraft:add",
+                    "argument1": 252.0,
+                    "argument2": {
+                      "type": "minecraft:mul",
+                      "argument1": -1.0,
+                      "argument2": {
+                        "type": "minecraft:mul",
+                        "argument1": 24.0,
+                        "argument2": {
+                          "type": "minecraft:square",
+                          "argument": {
+                            "type": "minecraft:clamp",
+                            "input": {
+                              "type": "minecraft:mul",
+                              "argument1": 1.6,
+                              "argument2": {
+                                "type": "minecraft:add",
+                                "argument1": -0.1,
+                                "argument2": {
+                                  "type": "minecraft:noise",
+                                  "noise": "dragonminez:demon_realm_stalactites",
+                                  "xz_scale": 1.0,
+                                  "y_scale": 0.0
+                                }
+                              }
+                            },
+                            "max": 1.0,
+                            "min": 0.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "argument2": {
+              "type": "minecraft:add",
+              "argument1": {
+                "type": "dragonminez:tunnel_distance",
+                "offset_x": 700,
+                "offset_z": 450,
+                "spacing": 2048
+              },
+              "argument2": {
+                "type": "minecraft:mul",
+                "argument1": -1.0,
+                "argument2": {
+                  "type": "minecraft:add",
+                  "argument1": 90.0,
+                  "argument2": {
+                    "type": "minecraft:mul",
+                    "argument1": 10.0,
+                    "argument2": {
+                      "type": "minecraft:shifted_noise",
+                      "noise": "dragonminez:demon_realm_hills",
+                      "shift_x": 5100.0,
+                      "shift_y": 0.0,
+                      "shift_z": -5100.0,
+                      "xz_scale": 1.0,
+                      "y_scale": 0.0
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "argument2": {
+            "type": "minecraft:max",
+            "argument1": {
+              "type": "minecraft:min",
+              "argument1": {
+                "type": "minecraft:max",
+                "argument1": {
+                  "type": "minecraft:add",
+                  "argument1": {
+                    "type": "minecraft:min",
+                    "argument1": {
+                      "type": "minecraft:add",
+                      "argument1": {
+                        "type": "minecraft:add",
+                        "argument1": {
+                          "type": "minecraft:add",
+                          "argument1": 600.0,
+                          "argument2": {
+                            "type": "minecraft:mul",
+                            "argument1": 9.0,
+                            "argument2": {
+                              "type": "minecraft:noise",
+                              "noise": "dragonminez:demon_realm_hills",
+                              "xz_scale": 1.0,
+                              "y_scale": 0.0
+                            }
+                          }
+                        },
+                        "argument2": {
+                          "type": "minecraft:add",
+                          "argument1": {
+                            "type": "minecraft:add",
+                            "argument1": {
+                              "type": "minecraft:spline",
+                              "spline": {
+                                "coordinate": {
+                                  "type": "minecraft:noise",
+                                  "noise": "dragonminez:demon_realm_mesa",
+                                  "xz_scale": 1.0,
+                                  "y_scale": 0.0
+                                },
+                                "points": [
+                                  {
+                                    "derivative": 0.0,
+                                    "location": -1.0,
+                                    "value": 0.0
+                                  },
+                                  {
+                                    "derivative": 0.0,
+                                    "location": 0.05,
+                                    "value": 0.0
+                                  },
+                                  {
+                                    "derivative": 0.0,
+                                    "location": 0.18,
+                                    "value": 24.0
+                                  },
+                                  {
+                                    "derivative": 0.0,
+                                    "location": 0.3,
+                                    "value": 24.0
+                                  },
+                                  {
+                                    "derivative": 0.0,
+                                    "location": 0.42,
+                                    "value": 46.0
+                                  },
+                                  {
+                                    "derivative": 0.0,
+                                    "location": 0.54,
+                                    "value": 46.0
+                                  },
+                                  {
+                                    "derivative": 0.0,
+                                    "location": 0.66,
+                                    "value": 72.0
+                                  },
+                                  {
+                                    "derivative": 0.0,
+                                    "location": 0.8,
+                                    "value": 74.0
+                                  },
+                                  {
+                                    "derivative": 0.0,
+                                    "location": 1.0,
+                                    "value": 90.0
+                                  }
+                                ]
+                              }
+                            },
+                            "argument2": {
+                              "type": "minecraft:mul",
+                              "argument1": 10.0,
+                              "argument2": {
+                                "type": "minecraft:clamp",
+                                "input": {
+                                  "type": "minecraft:mul",
+                                  "argument1": 0.1,
+                                  "argument2": {
+                                    "type": "minecraft:add",
+                                    "argument1": 120.0,
+                                    "argument2": {
+                                      "type": "minecraft:mul",
+                                      "argument1": -1.0,
+                                      "argument2": {
+                                        "type": "dragonminez:tunnel_distance",
+                                        "offset_x": 0,
+                                        "offset_z": 0,
+                                        "spacing": 2048
+                                      }
+                                    }
+                                  }
+                                },
+                                "max": 1.0,
+                                "min": 0.0
+                              }
+                            }
+                          },
+                          "argument2": {
+                            "type": "minecraft:mul",
+                            "argument1": -1.0,
+                            "argument2": {
+                              "type": "minecraft:clamp",
+                              "input": {
+                                "type": "minecraft:mul",
+                                "argument1": 90.0,
+                                "argument2": {
+                                  "type": "minecraft:add",
+                                  "argument1": -0.28,
+                                  "argument2": {
+                                    "type": "minecraft:noise",
+                                    "noise": "dragonminez:demon_realm_abyss",
+                                    "xz_scale": 1.0,
+                                    "y_scale": 0.0
+                                  }
+                                }
+                              },
+                              "max": 22.0,
+                              "min": 0.0
+                            }
+                          }
+                        }
+                      },
+                      "argument2": {
+                        "type": "minecraft:mul",
+                        "argument1": -1.0,
+                        "argument2": {
+                          "type": "minecraft:y_clamped_gradient",
+                          "from_value": -64.0,
+                          "from_y": -64,
+                          "to_value": 768.0,
+                          "to_y": 768
+                        }
+                      }
+                    },
+                    "argument2": {
+                      "type": "minecraft:add",
+                      "argument1": {
+                        "type": "minecraft:y_clamped_gradient",
+                        "from_value": -64.0,
+                        "from_y": -64,
+                        "to_value": 768.0,
+                        "to_y": 768
+                      },
+                      "argument2": {
+                        "type": "minecraft:mul",
+                        "argument1": -1.0,
+                        "argument2": 530.0
+                      }
+                    }
+                  },
+                  "argument2": {
+                    "type": "minecraft:mul",
+                    "argument1": -1.0,
+                    "argument2": {
+                      "type": "minecraft:clamp",
+                      "input": {
+                        "type": "minecraft:mul",
+                        "argument1": 4000.0,
+                        "argument2": {
+                          "type": "minecraft:add",
+                          "argument1": -0.42,
+                          "argument2": {
+                            "type": "minecraft:noise",
+                            "noise": "dragonminez:demon_realm_abyss",
+                            "xz_scale": 1.0,
+                            "y_scale": 0.0
+                          }
+                        }
+                      },
+                      "max": 2000.0,
+                      "min": 0.0
+                    }
+                  }
+                },
+                "argument2": {
+                  "type": "minecraft:min",
+                  "argument1": {
+                    "type": "minecraft:add",
+                    "argument1": {
+                      "type": "minecraft:add",
+                      "argument1": 540.0,
+                      "argument2": {
+                        "type": "minecraft:mul",
+                        "argument1": 3.0,
+                        "argument2": {
+                          "type": "minecraft:noise",
+                          "noise": "dragonminez:otherworld_cloud_billow",
+                          "xz_scale": 1.0,
+                          "y_scale": 0.0
+                        }
+                      }
+                    },
+                    "argument2": {
+                      "type": "minecraft:mul",
+                      "argument1": -1.0,
+                      "argument2": {
+                        "type": "minecraft:y_clamped_gradient",
+                        "from_value": -64.0,
+                        "from_y": -64,
+                        "to_value": 768.0,
+                        "to_y": 768
+                      }
+                    }
+                  },
+                  "argument2": {
+                    "type": "minecraft:add",
+                    "argument1": {
+                      "type": "minecraft:y_clamped_gradient",
+                      "from_value": -64.0,
+                      "from_y": -64,
+                      "to_value": 768.0,
+                      "to_y": 768
+                    },
+                    "argument2": {
+                      "type": "minecraft:mul",
+                      "argument1": -1.0,
+                      "argument2": {
+                        "type": "minecraft:add",
+                        "argument1": 482.0,
+                        "argument2": {
+                          "type": "minecraft:mul",
+                          "argument1": -1.0,
+                          "argument2": {
+                            "type": "minecraft:mul",
+                            "argument1": 24.0,
+                            "argument2": {
+                              "type": "minecraft:square",
+                              "argument": {
+                                "type": "minecraft:clamp",
+                                "input": {
+                                  "type": "minecraft:mul",
+                                  "argument1": 1.6,
+                                  "argument2": {
+                                    "type": "minecraft:add",
+                                    "argument1": -0.1,
+                                    "argument2": {
+                                      "type": "minecraft:shifted_noise",
+                                      "noise": "dragonminez:demon_realm_stalactites",
+                                      "shift_x": 4200.0,
+                                      "shift_y": 0.0,
+                                      "shift_z": -4200.0,
+                                      "xz_scale": 1.0,
+                                      "y_scale": 0.0
+                                    }
+                                  }
+                                },
+                                "max": 1.0,
+                                "min": 0.0
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "argument2": {
+                "type": "minecraft:add",
+                "argument1": {
+                  "type": "dragonminez:tunnel_distance",
+                  "offset_x": 0,
+                  "offset_z": 0,
+                  "spacing": 2048
+                },
+                "argument2": {
+                  "type": "minecraft:mul",
+                  "argument1": -1.0,
+                  "argument2": {
+                    "type": "minecraft:add",
+                    "argument1": 90.0,
+                    "argument2": {
+                      "type": "minecraft:mul",
+                      "argument1": 10.0,
+                      "argument2": {
+                        "type": "minecraft:shifted_noise",
+                        "noise": "dragonminez:demon_realm_hills",
+                        "shift_x": 3300.0,
+                        "shift_y": 0.0,
+                        "shift_z": -3300.0,
+                        "xz_scale": 1.0,
+                        "y_scale": 0.0
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "argument2": {
+              "type": "minecraft:min",
+              "argument1": {
+                "type": "minecraft:add",
+                "argument1": {
+                  "type": "minecraft:add",
+                  "argument1": {
+                    "type": "minecraft:add",
+                    "argument1": 700.0,
+                    "argument2": {
+                      "type": "minecraft:mul",
+                      "argument1": 25.0,
+                      "argument2": {
+                        "type": "minecraft:noise",
+                        "noise": "dragonminez:demon_realm_rock_height",
+                        "xz_scale": 1.0,
+                        "y_scale": 0.0
+                      }
+                    }
+                  },
+                  "argument2": {
+                    "type": "minecraft:mul",
+                    "argument1": 0.22,
+                    "argument2": {
+                      "type": "minecraft:mul",
+                      "argument1": 110.0,
+                      "argument2": {
+                        "type": "minecraft:add",
+                        "argument1": -0.52,
+                        "argument2": {
+                          "type": "minecraft:noise",
+                          "noise": "dragonminez:demon_realm_rocks",
+                          "xz_scale": 1.0,
+                          "y_scale": 0.0
+                        }
+                      }
+                    }
+                  }
+                },
+                "argument2": {
+                  "type": "minecraft:mul",
+                  "argument1": -1.0,
+                  "argument2": {
+                    "type": "minecraft:y_clamped_gradient",
+                    "from_value": -64.0,
+                    "from_y": -64,
+                    "to_value": 768.0,
+                    "to_y": 768
+                  }
+                }
+              },
+              "argument2": {
+                "type": "minecraft:add",
+                "argument1": {
+                  "type": "minecraft:y_clamped_gradient",
+                  "from_value": -64.0,
+                  "from_y": -64,
+                  "to_value": 768.0,
+                  "to_y": 768
+                },
+                "argument2": {
+                  "type": "minecraft:mul",
+                  "argument1": -1.0,
+                  "argument2": {
+                    "type": "minecraft:add",
+                    "argument1": {
+                      "type": "minecraft:add",
+                      "argument1": 700.0,
+                      "argument2": {
+                        "type": "minecraft:mul",
+                        "argument1": 25.0,
+                        "argument2": {
+                          "type": "minecraft:noise",
+                          "noise": "dragonminez:demon_realm_rock_height",
+                          "xz_scale": 1.0,
+                          "y_scale": 0.0
+                        }
+                      }
+                    },
+                    "argument2": {
+                      "type": "minecraft:mul",
+                      "argument1": -1.0,
+                      "argument2": {
+                        "type": "minecraft:mul",
+                        "argument1": 110.0,
+                        "argument2": {
+                          "type": "minecraft:add",
+                          "argument1": -0.52,
+                          "argument2": {
+                            "type": "minecraft:noise",
+                            "noise": "dragonminez:demon_realm_rocks",
+                            "xz_scale": 1.0,
+                            "y_scale": 0.0
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "lava": 0.0,
+    "ridges": 0.0,
+    "temperature": 0.0,
+    "vegetation": 0.0,
+    "vein_gap": 0.0,
+    "vein_ridged": 0.0,
+    "vein_toggle": 0.0
+  },
+  "ore_veins_enabled": false,
+  "sea_level": -64,
+  "spawn_target": [],
+  "surface_rule": {
+    "type": "minecraft:sequence",
+    "sequence": [
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "false_at_and_above": {
+            "above_bottom": 4
+          },
+          "random_name": "minecraft:demon_realm_bedrock",
+          "true_at_and_below": {
+            "above_bottom": 0
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:bedrock"
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:not",
+          "invert": {
+            "type": "minecraft:y_above",
+            "add_stone_depth": false,
+            "anchor": {
+              "absolute": 262
+            },
+            "surface_depth_multiplier": 0
+          }
+        },
+        "then_run": {
+          "type": "minecraft:sequence",
+          "sequence": [
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:stone_depth",
+                "add_surface_depth": false,
+                "offset": 0,
+                "secondary_depth_range": 0,
+                "surface_type": "floor"
+              },
+              "then_run": {
+                "type": "minecraft:sequence",
+                "sequence": [
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:noise_threshold",
+                      "max_threshold": 1.7976931348623157E308,
+                      "min_threshold": 0.55,
+                      "noise": "minecraft:nether_state_selector"
+                    },
+                    "then_run": {
+                      "type": "minecraft:block",
+                      "result_state": {
+                        "Name": "dragonminez:demon_magma_rock"
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:red_ash"
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:stone_depth",
+                "add_surface_depth": true,
+                "offset": 0,
+                "secondary_depth_range": 0,
+                "surface_type": "floor"
+              },
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "dragonminez:red_ash"
+                }
+              }
+            },
+            {
+              "type": "minecraft:block",
+              "result_state": {
+                "Name": "dragonminez:demon_rock"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:not",
+          "invert": {
+            "type": "minecraft:y_above",
+            "add_stone_depth": false,
+            "anchor": {
+              "absolute": 266
+            },
+            "surface_depth_multiplier": 0
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "dragonminez:demon_realm_crust",
+            "Properties": {
+              "natural": "true"
+            }
+          }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:not",
+          "invert": {
+            "type": "minecraft:y_above",
+            "add_stone_depth": false,
+            "anchor": {
+              "absolute": 452
+            },
+            "surface_depth_multiplier": 0
+          }
+        },
+        "then_run": {
+          "type": "minecraft:sequence",
+          "sequence": [
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:y_above",
+                "add_stone_depth": false,
+                "anchor": {
+                  "absolute": 318
+                },
+                "surface_depth_multiplier": 0
+              },
+              "then_run": {
+                "type": "minecraft:sequence",
+                "sequence": [
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:stone_depth",
+                      "add_surface_depth": false,
+                      "offset": 0,
+                      "secondary_depth_range": 0,
+                      "surface_type": "floor"
+                    },
+                    "then_run": {
+                      "type": "minecraft:block",
+                      "result_state": {
+                        "Name": "dragonminez:namek_grass_block"
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:stone_depth",
+                      "add_surface_depth": true,
+                      "offset": 0,
+                      "secondary_depth_range": 0,
+                      "surface_type": "floor"
+                    },
+                    "then_run": {
+                      "type": "minecraft:block",
+                      "result_state": {
+                        "Name": "dragonminez:namek_dirt"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:y_above",
+                "add_stone_depth": false,
+                "anchor": {
+                  "absolute": 306
+                },
+                "surface_depth_multiplier": 0
+              },
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "dragonminez:turquoise_rock"
+                }
+              }
+            },
+            {
+              "type": "minecraft:block",
+              "result_state": {
+                "Name": "dragonminez:namek_stone"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:not",
+          "invert": {
+            "type": "minecraft:y_above",
+            "add_stone_depth": false,
+            "anchor": {
+              "absolute": 492
+            },
+            "surface_depth_multiplier": 0
+          }
+        },
+        "then_run": {
+          "type": "minecraft:sequence",
+          "sequence": [
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:not",
+                "invert": {
+                  "type": "minecraft:y_above",
+                  "add_stone_depth": false,
+                  "anchor": {
+                    "absolute": 454
+                  },
+                  "surface_depth_multiplier": 0
+                }
+              },
+              "then_run": {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:y_above",
+                  "add_stone_depth": false,
+                  "anchor": {
+                    "absolute": 452
+                  },
+                  "surface_depth_multiplier": 0
+                },
+                "then_run": {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "dragonminez:makai_strata_stone",
+                    "Properties": {
+                      "natural": "true"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:not",
+                "invert": {
+                  "type": "minecraft:y_above",
+                  "add_stone_depth": false,
+                  "anchor": {
+                    "absolute": 461
+                  },
+                  "surface_depth_multiplier": 0
+                }
+              },
+              "then_run": {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:y_above",
+                  "add_stone_depth": false,
+                  "anchor": {
+                    "absolute": 459
+                  },
+                  "surface_depth_multiplier": 0
+                },
+                "then_run": {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "dragonminez:makai_strata_stone",
+                    "Properties": {
+                      "natural": "true"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:not",
+                "invert": {
+                  "type": "minecraft:y_above",
+                  "add_stone_depth": false,
+                  "anchor": {
+                    "absolute": 468
+                  },
+                  "surface_depth_multiplier": 0
+                }
+              },
+              "then_run": {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:y_above",
+                  "add_stone_depth": false,
+                  "anchor": {
+                    "absolute": 466
+                  },
+                  "surface_depth_multiplier": 0
+                },
+                "then_run": {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "dragonminez:makai_strata_stone",
+                    "Properties": {
+                      "natural": "true"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:not",
+                "invert": {
+                  "type": "minecraft:y_above",
+                  "add_stone_depth": false,
+                  "anchor": {
+                    "absolute": 475
+                  },
+                  "surface_depth_multiplier": 0
+                }
+              },
+              "then_run": {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:y_above",
+                  "add_stone_depth": false,
+                  "anchor": {
+                    "absolute": 473
+                  },
+                  "surface_depth_multiplier": 0
+                },
+                "then_run": {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "dragonminez:makai_strata_stone",
+                    "Properties": {
+                      "natural": "true"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:not",
+                "invert": {
+                  "type": "minecraft:y_above",
+                  "add_stone_depth": false,
+                  "anchor": {
+                    "absolute": 482
+                  },
+                  "surface_depth_multiplier": 0
+                }
+              },
+              "then_run": {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:y_above",
+                  "add_stone_depth": false,
+                  "anchor": {
+                    "absolute": 480
+                  },
+                  "surface_depth_multiplier": 0
+                },
+                "then_run": {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "dragonminez:makai_strata_stone",
+                    "Properties": {
+                      "natural": "true"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:not",
+                "invert": {
+                  "type": "minecraft:y_above",
+                  "add_stone_depth": false,
+                  "anchor": {
+                    "absolute": 489
+                  },
+                  "surface_depth_multiplier": 0
+                }
+              },
+              "then_run": {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:y_above",
+                  "add_stone_depth": false,
+                  "anchor": {
+                    "absolute": 487
+                  },
+                  "surface_depth_multiplier": 0
+                },
+                "then_run": {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "dragonminez:makai_strata_stone",
+                    "Properties": {
+                      "natural": "true"
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:block",
+              "result_state": {
+                "Name": "dragonminez:makai_stone",
+                "Properties": {
+                  "natural": "true"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:not",
+          "invert": {
+            "type": "minecraft:y_above",
+            "add_stone_depth": false,
+            "anchor": {
+              "absolute": 496
+            },
+            "surface_depth_multiplier": 0
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "dragonminez:demon_realm_crust",
+            "Properties": {
+              "natural": "true"
+            }
+          }
+        }
+      },
+      {
+        "type": "minecraft:sequence",
+        "sequence": [
+          {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:not",
+              "invert": {
+                "type": "minecraft:y_above",
+                "add_stone_depth": false,
+                "anchor": {
+                  "absolute": 546
+                },
+                "surface_depth_multiplier": 0
+              }
+            },
+            "then_run": {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:stone_depth",
+                "add_surface_depth": false,
+                "offset": 10,
+                "secondary_depth_range": 0,
+                "surface_type": "floor"
+              },
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "dragonminez:dark_sea_cloud"
+                }
+              }
+            }
+          },
+          {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:stone_depth",
+              "add_surface_depth": false,
+              "offset": 0,
+              "secondary_depth_range": 0,
+              "surface_type": "floor"
+            },
+            "then_run": {
+              "type": "minecraft:sequence",
+              "sequence": [
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:noise_threshold",
+                    "max_threshold": 1.7976931348623157E308,
+                    "min_threshold": 0.45,
+                    "noise": "minecraft:surface"
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:lilac_sand",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 628
+                    },
+                    "surface_depth_multiplier": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_stone",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:noise_threshold",
+                    "max_threshold": 1.7976931348623157E308,
+                    "min_threshold": 0.15,
+                    "noise": "minecraft:surface_secondary"
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_grass_block",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "dragonminez:makai_sand",
+                    "Properties": {
+                      "natural": "true"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:stone_depth",
+              "add_surface_depth": true,
+              "offset": 0,
+              "secondary_depth_range": 0,
+              "surface_type": "floor"
+            },
+            "then_run": {
+              "type": "minecraft:sequence",
+              "sequence": [
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:noise_threshold",
+                    "max_threshold": 1.7976931348623157E308,
+                    "min_threshold": 0.45,
+                    "noise": "minecraft:surface"
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:lilac_sand",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 628
+                    },
+                    "surface_depth_multiplier": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_stone",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:noise_threshold",
+                    "max_threshold": 1.7976931348623157E308,
+                    "min_threshold": 0.15,
+                    "noise": "minecraft:surface_secondary"
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_dirt",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "dragonminez:makai_sand",
+                    "Properties": {
+                      "natural": "true"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "minecraft:sequence",
+            "sequence": [
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:not",
+                  "invert": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 582
+                    },
+                    "surface_depth_multiplier": 0
+                  }
+                },
+                "then_run": {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 580
+                    },
+                    "surface_depth_multiplier": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_strata_stone",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:not",
+                  "invert": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 589
+                    },
+                    "surface_depth_multiplier": 0
+                  }
+                },
+                "then_run": {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 587
+                    },
+                    "surface_depth_multiplier": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_strata_stone",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:not",
+                  "invert": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 596
+                    },
+                    "surface_depth_multiplier": 0
+                  }
+                },
+                "then_run": {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 594
+                    },
+                    "surface_depth_multiplier": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_strata_stone",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:not",
+                  "invert": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 603
+                    },
+                    "surface_depth_multiplier": 0
+                  }
+                },
+                "then_run": {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 601
+                    },
+                    "surface_depth_multiplier": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_strata_stone",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:not",
+                  "invert": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 610
+                    },
+                    "surface_depth_multiplier": 0
+                  }
+                },
+                "then_run": {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 608
+                    },
+                    "surface_depth_multiplier": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_strata_stone",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:not",
+                  "invert": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 617
+                    },
+                    "surface_depth_multiplier": 0
+                  }
+                },
+                "then_run": {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 615
+                    },
+                    "surface_depth_multiplier": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_strata_stone",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:not",
+                  "invert": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 624
+                    },
+                    "surface_depth_multiplier": 0
+                  }
+                },
+                "then_run": {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 622
+                    },
+                    "surface_depth_multiplier": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_strata_stone",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:not",
+                  "invert": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 631
+                    },
+                    "surface_depth_multiplier": 0
+                  }
+                },
+                "then_run": {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 629
+                    },
+                    "surface_depth_multiplier": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_strata_stone",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:not",
+                  "invert": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 638
+                    },
+                    "surface_depth_multiplier": 0
+                  }
+                },
+                "then_run": {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 636
+                    },
+                    "surface_depth_multiplier": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_strata_stone",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:not",
+                  "invert": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 645
+                    },
+                    "surface_depth_multiplier": 0
+                  }
+                },
+                "then_run": {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 643
+                    },
+                    "surface_depth_multiplier": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_strata_stone",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:not",
+                  "invert": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 652
+                    },
+                    "surface_depth_multiplier": 0
+                  }
+                },
+                "then_run": {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 650
+                    },
+                    "surface_depth_multiplier": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_strata_stone",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:not",
+                  "invert": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 659
+                    },
+                    "surface_depth_multiplier": 0
+                  }
+                },
+                "then_run": {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 657
+                    },
+                    "surface_depth_multiplier": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_strata_stone",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:not",
+                  "invert": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 666
+                    },
+                    "surface_depth_multiplier": 0
+                  }
+                },
+                "then_run": {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 664
+                    },
+                    "surface_depth_multiplier": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_strata_stone",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:not",
+                  "invert": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 673
+                    },
+                    "surface_depth_multiplier": 0
+                  }
+                },
+                "then_run": {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 671
+                    },
+                    "surface_depth_multiplier": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_strata_stone",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:not",
+                  "invert": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 680
+                    },
+                    "surface_depth_multiplier": 0
+                  }
+                },
+                "then_run": {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 678
+                    },
+                    "surface_depth_multiplier": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_strata_stone",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:not",
+                  "invert": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 687
+                    },
+                    "surface_depth_multiplier": 0
+                  }
+                },
+                "then_run": {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 685
+                    },
+                    "surface_depth_multiplier": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_strata_stone",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:not",
+                  "invert": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 694
+                    },
+                    "surface_depth_multiplier": 0
+                  }
+                },
+                "then_run": {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 692
+                    },
+                    "surface_depth_multiplier": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_strata_stone",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:not",
+                  "invert": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 701
+                    },
+                    "surface_depth_multiplier": 0
+                  }
+                },
+                "then_run": {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 699
+                    },
+                    "surface_depth_multiplier": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_strata_stone",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:not",
+                  "invert": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 708
+                    },
+                    "surface_depth_multiplier": 0
+                  }
+                },
+                "then_run": {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 706
+                    },
+                    "surface_depth_multiplier": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_strata_stone",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:not",
+                  "invert": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 715
+                    },
+                    "surface_depth_multiplier": 0
+                  }
+                },
+                "then_run": {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 713
+                    },
+                    "surface_depth_multiplier": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_strata_stone",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:not",
+                  "invert": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 722
+                    },
+                    "surface_depth_multiplier": 0
+                  }
+                },
+                "then_run": {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 720
+                    },
+                    "surface_depth_multiplier": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_strata_stone",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:not",
+                  "invert": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 729
+                    },
+                    "surface_depth_multiplier": 0
+                  }
+                },
+                "then_run": {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 727
+                    },
+                    "surface_depth_multiplier": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_strata_stone",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:not",
+                  "invert": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 736
+                    },
+                    "surface_depth_multiplier": 0
+                  }
+                },
+                "then_run": {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 734
+                    },
+                    "surface_depth_multiplier": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_strata_stone",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:not",
+                  "invert": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 743
+                    },
+                    "surface_depth_multiplier": 0
+                  }
+                },
+                "then_run": {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 741
+                    },
+                    "surface_depth_multiplier": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_strata_stone",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:not",
+                  "invert": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 750
+                    },
+                    "surface_depth_multiplier": 0
+                  }
+                },
+                "then_run": {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 748
+                    },
+                    "surface_depth_multiplier": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_strata_stone",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:not",
+                  "invert": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 757
+                    },
+                    "surface_depth_multiplier": 0
+                  }
+                },
+                "then_run": {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 755
+                    },
+                    "surface_depth_multiplier": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_strata_stone",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:not",
+                  "invert": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 764
+                    },
+                    "surface_depth_multiplier": 0
+                  }
+                },
+                "then_run": {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:y_above",
+                    "add_stone_depth": false,
+                    "anchor": {
+                      "absolute": 762
+                    },
+                    "surface_depth_multiplier": 0
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "dragonminez:makai_strata_stone",
+                      "Properties": {
+                        "natural": "true"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "dragonminez:makai_stone",
+                  "Properties": {
+                    "natural": "true"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

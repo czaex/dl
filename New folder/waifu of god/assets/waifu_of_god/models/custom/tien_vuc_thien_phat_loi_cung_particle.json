@@ -1,0 +1,7 @@
+
+{
+  "parent": "waifu_of_god:displaysettings/than_vuc_bau_troi.item",
+  "textures": {
+    "particle": "waifu_of_god:block/than_vuc_bau_troi"
+  }
+}

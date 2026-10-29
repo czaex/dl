@@ -1,0 +1,32 @@
+{
+    "multilayer": {
+        "base": {
+            "priority":"HIGH",
+            "masks":
+            [
+                {
+                    "livingmotion":"ALL",
+                    "type":"none"
+                }
+            ]
+        },
+        "composite": {
+            "priority":"HIGHEST",
+            "masks":
+            [
+                {
+                    "livingmotion":"IDLE",
+                    "type":"none"
+                },
+                {
+                    "livingmotion":"WALK",
+                    "type":"arms"
+                },
+                {
+                    "livingmotion":"RUN",
+                    "type":"arms"
+                }
+            ]
+        }
+    }
+}

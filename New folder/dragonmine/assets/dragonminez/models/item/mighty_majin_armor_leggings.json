@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dragonminez:item/armors/mighty_majin_armor_leggings"
+  }
+}

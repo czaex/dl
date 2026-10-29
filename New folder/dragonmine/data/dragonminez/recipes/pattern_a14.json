@@ -1,0 +1,26 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_z"
+    },
+    "N": {
+      "item": "minecraft:brown_dye"
+    },
+    "Y": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "pattern": [
+    "    NN",
+    "   NN ",
+    "  N#  ",
+    " YN   ",
+    "NN   N",
+    "N    N"
+  ],
+  "result": {
+    "item": "dragonminez:pattern_a14"
+  }
+}

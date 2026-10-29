@@ -1,0 +1,12 @@
+{
+  "placement": {
+    "type": "dragonminez:unique_near_spawn",
+    "salt": 55667788
+  },
+  "structures": [
+    {
+      "structure": "dragonminez:kamilookout",
+      "weight": 1
+    }
+  ]
+}

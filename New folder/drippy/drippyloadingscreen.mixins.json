@@ -1,0 +1,35 @@
+{
+  "required": true,
+  "package": "de.keksuccino.drippyloadingscreen.mixin.mixins.common",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "client.AccessorMixinLoadingOverlay",
+    "client.AccessorMixinPipelineCache",
+    "client.AccessorMixinRenderSystem",
+    "client.MixinAbstractEditorElement",
+    "client.MixinCustomizationOverlay",
+    "client.MixinCustomizationOverlayUI",
+    "client.MixinElementBuilder",
+    "client.MixinImageElement",
+    "client.MixinImageMenuBackground",
+    "client.MixinLayout",
+    "client.MixinLayoutEditorScreen",
+    "client.MixinLayoutEditorUI",
+    "client.MixinLoadingOverlay",
+    "client.MixinMenuBackgroundBuilder",
+    "client.MixinPlayerEntityElement",
+    "client.MixinProgressBarElement",
+    "client.MixinScreenCustomization",
+    "client.MixinScreenCustomizationLayer"
+  ],
+  "mixins": [
+    "client.MixinFontManager",
+    "client.MixinGuiRenderState"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "drippyloadingscreen.refmap.json",
+  "plugin": "de.keksuccino.drippyloadingscreen.mixin.DrippyMixinPlugin",
+  "minVersion": "0.8"
+}

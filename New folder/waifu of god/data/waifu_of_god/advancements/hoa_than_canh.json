@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "waifu_of_god:linh_thach_trung_pham"
+    },
+    "title": {
+      "translate": "advancements.hoa_than_canh.title"
+    },
+    "description": {
+      "translate": "advancements.hoa_than_canh.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hoa_than_canh_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "waifu_of_god:entities/hoa_than_loot"
+    ]
+  },
+  "parent": "waifu_of_god:nguyen_anh_canh"
+}

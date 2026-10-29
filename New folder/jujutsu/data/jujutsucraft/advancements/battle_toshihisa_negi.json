@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "jujutsucraft:blindfold_bandage_helmet"
+    },
+    "title": {
+      "translate": "advancements.battle_toshihisa_negi.title"
+    },
+    "description": {
+      "translate": "advancements.battle_toshihisa_negi.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "battle_toshihisa_negi_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:battle_mimiko_nanako"
+}

@@ -1,0 +1,7 @@
+{
+  "animation": "dragonminez:animations/entity/dragon/shenron.animation.json",
+  "id": "shenron",
+  "model": "dragonminez:geo/entity/dragon/shenron.geo.json",
+  "renderer_type": "default",
+  "texture": "dragonminez:textures/entity/dragon/shenron.png"
+}

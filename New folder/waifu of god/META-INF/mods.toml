@@ -1,0 +1,46 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="waifu_of_god"
+version="1.0.0"
+displayName="Waifu of God"
+displayURL="https://mcreator.net"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="Trung1811"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.waifu_of_god]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.waifu_of_god]]
+    modId="curios"
+    mandatory=true
+    versionRange="[5.4.2,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.waifu_of_god]]
+    modId="geckolib"
+    mandatory=true
+    versionRange="[4.4.2,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.waifu_of_god]]
+    modId="playeranimator"
+    mandatory=true
+    versionRange="[1.0.2-rc1,)"
+    ordering="NONE"
+    side="BOTH"   
+  
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

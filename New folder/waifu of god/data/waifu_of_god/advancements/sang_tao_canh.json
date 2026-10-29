@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "waifu_of_god:linh_thach_toan_uy_pham"
+    },
+    "title": {
+      "translate": "advancements.sang_tao_canh.title"
+    },
+    "description": {
+      "translate": "advancements.sang_tao_canh.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sang_tao_canh_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "waifu_of_god:than_canh"
+}

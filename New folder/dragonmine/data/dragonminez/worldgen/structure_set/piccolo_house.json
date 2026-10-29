@@ -1,0 +1,13 @@
+{
+  "placement": {
+    "type": "dragonminez:biome_aware_placement",
+    "salt": 36925814,
+    "valid_biomes": "#dragonminez:is_plainslike"
+  },
+  "structures": [
+    {
+      "structure": "dragonminez:piccolo_house",
+      "weight": 1
+    }
+  ]
+}

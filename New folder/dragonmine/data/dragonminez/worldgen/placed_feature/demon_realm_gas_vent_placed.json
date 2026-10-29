@@ -1,0 +1,20 @@
+{
+  "feature": "dragonminez:demon_realm_gas_vent",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 3
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "dragonminez:surface_in_band",
+      "bottom": 530,
+      "top": 766
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "waifu_of_god:displaysettings/loi_dinh_chan_khien.item",
+  "textures": {
+    "layer0": "waifu_of_god:item/loi_dinh_chan_khien"
+  }
+}

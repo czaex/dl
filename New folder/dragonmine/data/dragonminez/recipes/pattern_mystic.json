@@ -1,0 +1,32 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_z"
+    },
+    "C": {
+      "item": "minecraft:cyan_dye"
+    },
+    "K": {
+      "item": "minecraft:black_dye"
+    },
+    "S": {
+      "item": "minecraft:light_gray_dye"
+    },
+    "W": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "pattern": [
+    "WW  WW",
+    "WKCCKW",
+    "WCCKCW",
+    " C#WC ",
+    " CCCC ",
+    " SSSS "
+  ],
+  "result": {
+    "item": "dragonminez:pattern_mystic"
+  }
+}

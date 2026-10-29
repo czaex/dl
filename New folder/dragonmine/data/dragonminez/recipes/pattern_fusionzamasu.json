@@ -1,0 +1,32 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_super"
+    },
+    "G": {
+      "item": "minecraft:gray_dye"
+    },
+    "K": {
+      "item": "minecraft:black_dye"
+    },
+    "R": {
+      "item": "minecraft:red_dye"
+    },
+    "W": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "pattern": [
+    "RG  GR",
+    "GKRRKG",
+    "KGRGGK",
+    "KG#GGK",
+    " KRRK ",
+    "WRRRRW"
+  ],
+  "result": {
+    "item": "dragonminez:pattern_fusionzamasu"
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "renderer": "epic_fight_avalon:mesh_item",
+  "texture": "efn:textures/item/weapon/ruinsgreatsword.png",
+  "mesh_main":"efn:weapon/ruinsgreatsword",
+   "trail": {
+    "color": [250, 250, 250],
+    "begin_pos": [-0.0, 0, -0.3],
+    "end_pos": [-0.0, 0, -2.8],
+    "lifetime": 6,
+    "interpolations": 5,
+    "texture_path": "efn:textures/trail/ngg.png",
+    "particle_type": "epicfight:swing_trail"
+  },
+  "appeared_in_afterimage":false
+}

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "minecraft:netherite_sword"
+    },
+    "title": {
+      "translate": "advancements.parties.bettertogether.title",
+      "fallback": "Better Together",
+      "color": "gold"
+    },
+    "description": {
+      "translate": "advancements.parties.bettertogether.desc",
+      "fallback": "Thanks for using Parties!\nType /party help for info.",
+      "color": "dark_gray",
+      "italic": true
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "auto": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

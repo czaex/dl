@@ -1,0 +1,49 @@
+{
+  "parent": "dragonminez:patternsuper",
+  "criteria": {
+    "granolaarmor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:granola_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:granola_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:granola_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.granolaarmor.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "dragonminez:granola_armor_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.granolaarmor.title"
+    }
+  },
+  "requirements": [
+    [
+      "granolaarmor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

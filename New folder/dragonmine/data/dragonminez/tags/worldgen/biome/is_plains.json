@@ -1,0 +1,7 @@
+{
+  "values": [
+    "minecraft:plains",
+    "minecraft:sunflower_plains",
+    "#minecraft:has_structure/village_plains"
+  ]
+}

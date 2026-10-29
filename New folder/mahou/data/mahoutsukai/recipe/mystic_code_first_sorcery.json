@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DAD",
+    "DBD",
+    "DCD"
+  ],
+  "key": {
+    "A": {
+      "item": "mahoutsukai:fae_essence"
+    },
+    "B": {
+      "item": "mahoutsukai:powdered_diamond"
+    },
+    "C": {
+      "item": "mahoutsukai:fae_essence"
+    },
+    "D": {
+      "item": "mahoutsukai:spell_cloth"
+    }
+  },
+  "result": {
+    "id": "mahoutsukai:mystic_code_first_sorcery"
+  }
+}

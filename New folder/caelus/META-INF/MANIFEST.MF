@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: Caelus API
+Specification-Vendor: Illusive Soulworks
+Specification-Version: 8.0.1+1.21.4
+Implementation-Title: neoforge
+Implementation-Version: 8.0.1+1.21.4
+Implementation-Vendor: Illusive Soulworks
+Built-On-Minecraft: 1.21.4
+

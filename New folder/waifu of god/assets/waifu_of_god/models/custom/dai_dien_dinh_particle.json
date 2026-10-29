@@ -1,0 +1,7 @@
+
+{
+  "parent": "waifu_of_god:displaysettings/dai_dien_dinh.item",
+  "textures": {
+    "particle": "waifu_of_god:block/dai_dien_dinh"
+  }
+}

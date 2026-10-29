@@ -1,0 +1,13 @@
+{
+  "type": "dragonminez:fitted_template",
+  "biomes": "#dragonminez:is_land",
+  "spawn_overrides": {},
+  "step": "top_layer_modification",
+  "template": "dragonminez:vegeta_pod",
+  "terrain_fit": {
+    "carve": 48,
+    "foundation": 48,
+    "ground_level": 0,
+    "skirt": 12
+  }
+}

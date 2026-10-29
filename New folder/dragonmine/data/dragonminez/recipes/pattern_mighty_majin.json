@@ -1,0 +1,32 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_z"
+    },
+    "E": {
+      "item": "minecraft:green_dye"
+    },
+    "N": {
+      "item": "minecraft:brown_dye"
+    },
+    "U": {
+      "item": "minecraft:purple_dye"
+    },
+    "Y": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "pattern": [
+    " NNNN ",
+    "YYYYYY",
+    "YEYYEY",
+    "YY#YYY",
+    "UUUUUU",
+    " UUUU "
+  ],
+  "result": {
+    "item": "dragonminez:pattern_mighty_majin"
+  }
+}

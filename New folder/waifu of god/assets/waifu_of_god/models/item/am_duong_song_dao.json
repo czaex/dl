@@ -1,0 +1,6 @@
+{
+  "parent": "waifu_of_god:displaysettings/am_duong_song_dao.item",
+  "textures": {
+    "layer0": "waifu_of_god:item/am_duong_song_dao"
+  }
+}

@@ -1,0 +1,63 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Lôi Vân Thiên Bạo",
+				"texture_width": 128,
+				"texture_height": 280,
+				"visible_bounds_width": 53,
+				"visible_bounds_height": 103,
+				"visible_bounds_offset": [0, 14.5, 0]
+			},
+			"bones": [
+				{
+					"name": "ulti",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "bone2",
+					"parent": "ulti",
+					"pivot": [0, 85.95, 0],
+					"cubes": [
+						{
+							"origin": [-325, 86, -325],
+							"size": [650, 0, 650],
+							"uv": {
+								"up": {"uv": [0, 144], "uv_size": [128, 128]}
+							}
+						},
+						{
+							"origin": [-325, 85, -325],
+							"size": [650, 0, 650],
+							"uv": {
+								"down": {"uv": [0, 272], "uv_size": [128, -128]}
+							}
+						}
+					]
+				},
+				{
+					"name": "bone",
+					"parent": "ulti",
+					"pivot": [0, 95.95, 0],
+					"cubes": [
+						{
+							"origin": [-220, 96, -220],
+							"size": [440, 0, 440],
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [128, 128]}
+							}
+						},
+						{
+							"origin": [-220, 95, -220],
+							"size": [440, 0, 440],
+							"uv": {
+								"down": {"uv": [0, 128], "uv_size": [128, -128]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_z"
+    },
+    "A": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "N": {
+      "item": "minecraft:brown_dye"
+    },
+    "Q": {
+      "item": "minecraft:gold_nugget"
+    }
+  },
+  "pattern": [
+    "N    N",
+    "NQ  QN",
+    " QQQQ ",
+    "  #A  ",
+    "Q    Q",
+    "QA  AQ"
+  ],
+  "result": {
+    "item": "dragonminez:pattern_broly_z"
+  }
+}

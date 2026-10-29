@@ -1,0 +1,60 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Thạch Trụ Hộ Pháp Trận",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "general2",
+					"pivot": [0, 0, 0],
+					"rotation": [-90, 0, 0]
+				},
+				{
+					"name": "3",
+					"parent": "general2",
+					"pivot": [0, 0, -8],
+					"cubes": [
+						{
+							"origin": [-8, -8, -16],
+							"size": [16, 16, 16],
+							"uv": {
+								"north": {"uv": [0, 17], "uv_size": [16, 16]},
+								"east": {"uv": [0, 0], "uv_size": [16, 16]},
+								"south": {"uv": [0, 17], "uv_size": [16, 16]},
+								"west": {"uv": [0, 0], "uv_size": [16, 16]},
+								"up": {"uv": [16, 50], "uv_size": [-16, -16]},
+								"down": {"uv": [16, 50], "uv_size": [-16, -16]}
+							}
+						}
+					]
+				},
+				{
+					"name": "4",
+					"parent": "general2",
+					"pivot": [0, 0, -8],
+					"cubes": [
+						{
+							"origin": [-6, -6, -14],
+							"size": [12, 12, 12],
+							"uv": {
+								"north": {"uv": [17, 0], "uv_size": [16, 16]},
+								"east": {"uv": [17, 0], "uv_size": [16, 16]},
+								"south": {"uv": [17, 0], "uv_size": [16, 16]},
+								"west": {"uv": [17, 0], "uv_size": [16, 16]},
+								"up": {"uv": [17, 0], "uv_size": [16, 16]},
+								"down": {"uv": [17, 16], "uv_size": [16, -16]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

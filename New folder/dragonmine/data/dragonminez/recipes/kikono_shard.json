@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dragonminez",
+  "ingredients": [
+    {
+      "item": "dragonminez:kikono_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "dragonminez:kikono_shard"
+  }
+}

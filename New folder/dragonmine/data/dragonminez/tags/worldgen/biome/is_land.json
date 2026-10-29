@@ -1,0 +1,60 @@
+{
+  "values": [
+    "#minecraft:has_structure/village_plains",
+    "#minecraft:has_structure/village_desert",
+    "#minecraft:has_structure/village_savanna",
+    "#minecraft:has_structure/village_snowy",
+    "#minecraft:has_structure/village_taiga",
+    "#minecraft:is_forest",
+    "#minecraft:is_jungle",
+    "#minecraft:is_badlands",
+    "#minecraft:is_taiga",
+    "#minecraft:is_hill",
+    "#minecraft:is_mountain",
+    "dragonminez:rocky",
+    {
+      "id": "#forge:is_plains",
+      "required": false
+    },
+    {
+      "id": "#forge:is_desert",
+      "required": false
+    },
+    {
+      "id": "#forge:is_sandy",
+      "required": false
+    },
+    {
+      "id": "#forge:is_snowy",
+      "required": false
+    },
+    {
+      "id": "#forge:is_swamp",
+      "required": false
+    },
+    {
+      "id": "#forge:is_mountain",
+      "required": false
+    },
+    {
+      "id": "#forge:is_plateau",
+      "required": false
+    },
+    {
+      "id": "#forge:is_slope",
+      "required": false
+    },
+    {
+      "id": "#forge:is_peak",
+      "required": false
+    },
+    {
+      "id": "#forge:is_lush",
+      "required": false
+    },
+    {
+      "id": "#forge:is_coniferous",
+      "required": false
+    }
+  ]
+}

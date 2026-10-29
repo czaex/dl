@@ -1,0 +1,40 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"1": {
+			"animation_length": 0.125,
+			"start_delay": "0",
+			"bones": {
+				"sword_2": {
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"sweap": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"2": {
+			"loop": true,
+			"animation_length": 0.375,
+			"start_delay": "0",
+			"loop_delay": "0",
+			"bones": {
+				"sword_2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.375": {
+							"vector": [360, 0, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

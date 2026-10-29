@@ -1,0 +1,46 @@
+{
+  "trail_effects": [
+    {
+      "start_time": 0.15,
+      "end_time": 0.9,
+      "fade_time": 1.2,
+      "joint": "Leg_R",
+      "item_skin_hand": "off_hand",
+      "begin_pos": [0.5, 1, 1.05],
+      "end_pos": [0.5, 1, -1.05],
+      "lifetime": 6,
+      "interpolations": 4,
+      "color": [255, 255, 255],
+      "texture_path": "efn:textures/trail/power4.png",
+      "particle_type": "efn:bloom_trail"
+    },
+    {
+      "start_time": 0.15,
+      "end_time": 0.9,
+      "fade_time": 1.2,
+      "joint": "Leg_L",
+      "item_skin_hand": "off_hand",
+      "begin_pos": [0.5, 1, 1.05],
+      "end_pos": [0.5, 1, -1.05],
+      "lifetime": 6,
+      "interpolations": 4,
+      "color": [255, 255, 255],
+      "texture_path": "efn:textures/trail/power4.png",
+      "particle_type": "efn:bloom_trail"
+    },
+    {
+      "start_time": 0.15,
+      "end_time": 0.9,
+      "fade_time": 1.2,
+      "joint": "Leg_L",
+      "item_skin_hand": "off_hand",
+      "begin_pos": [1.5, 1, 1.05],
+      "end_pos": [1.5, 1, -1.05],
+      "lifetime": 6,
+      "interpolations": 4,
+      "color": [255, 255, 255],
+      "texture_path": "efn:textures/trail/power4.png",
+      "particle_type": "efn:bloom_trail"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tu_luyen",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:red_dye"
+    },
+    "b": {
+      "item": "minecraft:yellow_wool"
+    }
+  },
+  "result": {
+    "item": "waifu_of_god:dem_ngoi_tu_luyen",
+    "count": 1
+  }
+}

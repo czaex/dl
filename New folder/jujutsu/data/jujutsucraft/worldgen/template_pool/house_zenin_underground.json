@@ -1,0 +1,17 @@
+{
+  "name": "jujutsucraft:house_zenin_underground",
+  "fallback": "jujutsucraft:house_zenin_underground",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jujutsucraft:house_zenin_underground",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

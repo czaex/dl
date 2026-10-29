@@ -1,0 +1,6 @@
+{
+  "parent": "waifu_of_god:displaysettings/thai_co_tran_linh_chung.item",
+  "textures": {
+    "layer0": "waifu_of_god:item/thai_co_tran_linh_chung"
+  }
+}

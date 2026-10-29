@@ -1,0 +1,7 @@
+
+{
+  "parent": "waifu_of_god:displaysettings/huyen_nguyen_dinh.item",
+  "textures": {
+    "particle": "waifu_of_god:block/huyen_nguyen_dinh"
+  }
+}

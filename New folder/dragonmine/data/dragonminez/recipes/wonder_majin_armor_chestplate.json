@@ -1,0 +1,38 @@
+{
+  "type": "dragonminez:kikono_crafting",
+  "crafting_time": 200,
+  "energy_cost": 1000,
+  "output": {
+    "item": "dragonminez:wonder_majin_armor_chestplate"
+  },
+  "pattern": {
+    "item": "dragonminez:pattern_wonder_majin"
+  },
+  "slot_1": {
+    "item": "dragonminez:kikono_cloth"
+  },
+  "slot_3": {
+    "item": "dragonminez:kikono_cloth"
+  },
+  "slot_4": {
+    "item": "dragonminez:kikono_string"
+  },
+  "slot_5": {
+    "item": "dragonminez:kikono_string"
+  },
+  "slot_6": {
+    "item": "dragonminez:kikono_string"
+  },
+  "slot_7": {
+    "item": "dragonminez:kikono_cloth"
+  },
+  "slot_8": {
+    "item": "dragonminez:kikono_cloth"
+  },
+  "slot_9": {
+    "item": "dragonminez:kikono_cloth"
+  },
+  "template": {
+    "item": "minecraft:iron_chestplate"
+  }
+}

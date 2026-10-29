@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "mahoutsukai:mortar_and_pestle"
+    }
+  ],
+  "result": {
+    "id": "mahoutsukai:powdered_quartz",
+    "count": 2
+  }
+}

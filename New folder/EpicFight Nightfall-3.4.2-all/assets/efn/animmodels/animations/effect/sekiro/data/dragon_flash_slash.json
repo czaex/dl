@@ -1,0 +1,15 @@
+{
+    "trail_effects": [
+        {
+            "start_time": 0.1,
+            "end_time": 0.52,
+            "joint": "Root",
+            "begin_pos": [0, 0, 0],
+            "end_pos": [0, 4.5, 0],
+            "lifetime": 7,
+            "interpolations": 20,
+            "color": [255,255,255],
+            "particle_type": "efn:bloom_trail"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DAD",
+    "DBD",
+    "DCD"
+  ],
+  "key": {
+    "A": {
+      "item": "mahoutsukai:powdered_gold"
+    },
+    "B": {
+      "item": "mahoutsukai:powdered_gold"
+    },
+    "C": {
+      "item": "mahoutsukai:powdered_gold"
+    },
+    "D": {
+      "item": "mahoutsukai:spell_cloth"
+    }
+  },
+  "result": {
+    "id": "mahoutsukai:mystic_code"
+  }
+}

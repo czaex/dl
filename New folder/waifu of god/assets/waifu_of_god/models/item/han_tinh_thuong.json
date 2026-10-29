@@ -1,0 +1,6 @@
+{
+  "parent": "waifu_of_god:displaysettings/han_tinh_thuong.item",
+  "textures": {
+    "layer0": "waifu_of_god:item/han_tinh_thuong"
+  }
+}

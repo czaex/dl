@@ -1,0 +1,26 @@
+{
+  "values": [
+    "minecraft:zombie",
+    "minecraft:husk",
+    "minecraft:skeleton",
+    "minecraft:stray",
+    "minecraft:bogged",
+    "minecraft:spider",
+    "minecraft:cave_spider",
+    "minecraft:witch",
+    "minecraft:pillager",
+    "minecraft:ravager",
+    "minecraft:illusioner",
+    "minecraft:stray",
+    "minecraft:vex",
+    "minecraft:evoker",
+    "minecraft:magma_cube",
+    "minecraft:elder_guardian",
+    "minecraft:wither_skeleton",
+    "minecraft:vindicator",
+    { "id": "animalgarden_bullshark:bullshark", "required": false },
+    { "id": "animalgarden_crocodile:crocodile", "required": false },
+    { "id": "animalgarden_lion:lion", "required": false },
+    { "id": "animalgarden_snowleopard:snowleopard", "required": false }
+  ]
+}

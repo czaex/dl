@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:block",
+  "pools":
+  [
+    {
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "rolls": 1,
+      "entries":
+      [
+        {
+          "type": "minecraft:item",
+          "name": "mahoutsukai:mana_circuit",
+          "functions":
+          [
+            {
+              "function": "copy_components",
+              "source": "block_entity",
+              "include":
+              [
+                "mahoutsukai:mana_circuit_mana_mahou",
+                "mahoutsukai:mana_circuit_owner_mahou"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

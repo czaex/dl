@@ -1,0 +1,18 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "exclusion_zone": {
+      "chunk_count": 6,
+      "other_set": "dragonminez:demon_village"
+    },
+    "salt": 82640175,
+    "separation": 20,
+    "spacing": 40
+  },
+  "structures": [
+    {
+      "structure": "dragonminez:gomah_camp",
+      "weight": 1
+    }
+  ]
+}

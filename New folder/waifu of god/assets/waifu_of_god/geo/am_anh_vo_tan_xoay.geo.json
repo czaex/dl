@@ -1,0 +1,57 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Âm Ảnh Vô Tận Xoáy",
+				"texture_width": 400,
+				"texture_height": 186,
+				"visible_bounds_width": 13,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "1",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-44, 1, -44],
+							"size": [88, 0, 88],
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [186, 186]}
+							}
+						},
+						{
+							"origin": [-44, 0.95, -44],
+							"size": [88, 0, 88],
+							"uv": {
+								"down": {"uv": [0, 186], "uv_size": [186, -186]}
+							}
+						}
+					]
+				},
+				{
+					"name": "2",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-92, 1.05, -92],
+							"size": [184, 0, 184],
+							"uv": {
+								"up": {"uv": [214, 0], "uv_size": [186, 186]}
+							}
+						},
+						{
+							"origin": [-92, 0.9, -92],
+							"size": [184, 0, 184],
+							"uv": {
+								"down": {"uv": [214, 186], "uv_size": [186, -186]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

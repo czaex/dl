@@ -1,0 +1,98 @@
+{
+  "trail_effects": [
+    {
+      "start_time": 0.08,
+      "end_time": 0.4,
+      "joint": "Tool_R",
+      "item_skin_hand": "main_hand"
+    },
+    {
+      "start_time": 0.08,
+      "end_time": 0.4,
+      "joint": "Tool_R",
+      "item_skin_hand": "main_hand",
+      "color": [255, 255, 255],
+      "texture_path": "efn:textures/trail/power5.png"
+    },
+    {
+      "start_time": 0.08,
+      "end_time": 0.248,
+      "fade_time": 0.5,
+      "joint": "Tool_R",
+      "item_skin_hand": "main_hand",
+      "begin_pos": [-0.25, 0.2, -1.55],
+      "end_pos": [0.25, 0.4, -3.05],
+      "lifetime": 8,
+      "interpolations": 4,
+      "color": [255, 255, 255],
+      "texture_path": "efn:textures/trail/power4.png",
+      "particle_type": "efn:bloom_trail"
+    },
+    {
+      "start_time": 0.08,
+      "end_time": 0.248,
+      "fade_time": 0.5,
+      "joint": "Tool_R",
+      "item_skin_hand": "main_hand",
+      "begin_pos": [0.25, 0.2, -1.55],
+      "end_pos": [-0.25, 0.4, -3.05],
+      "lifetime": 8,
+      "interpolations": 4,
+      "color": [255, 255, 255],
+      "texture_path": "efn:textures/trail/power4.png",
+      "particle_type": "efn:bloom_trail"
+    },
+    {
+      "start_time": 0.25,
+      "end_time": 0.4,
+      "fade_time": 0.5,
+      "joint": "Tool_R",
+      "item_skin_hand": "main_hand",
+      "begin_pos": [-0.25, 0.2, -1.55],
+      "end_pos": [0.25, 0.4, -3.05],
+      "lifetime": 8,
+      "interpolations": 4,
+      "color": [255, 255, 255],
+      "texture_path": "efn:textures/trail/power4.png",
+      "particle_type": "efn:bloom_trail"
+    },
+    {
+      "start_time": 0.25,
+      "end_time": 0.4,
+      "fade_time": 0.5,
+      "joint": "Tool_R",
+      "item_skin_hand": "main_hand",
+      "begin_pos": [0.25, 0.2, -1.55],
+      "end_pos": [-0.25, 0.4, -3.05],
+      "lifetime": 8,
+      "interpolations": 4,
+      "color": [255, 255, 255],
+      "texture_path": "efn:textures/trail/power4.png",
+      "particle_type": "efn:bloom_trail"
+    },
+    {
+      "start_time": 0.08,
+      "end_time": 0.248,
+      "fade_time": 0.5,
+      "joint": "Tool_R",
+      "item_skin_hand": "main_hand",
+      "begin_pos": [0.0, 0.8, -1.55],
+      "end_pos": [0.0, 1.6, -2.25],
+      "lifetime": 8,
+      "texture_path": "efn:textures/trail/space_trail.png",
+      "particle_type": "efn:air_trail"
+    },
+    {
+      "start_time": 0.25,
+      "end_time": 0.4,
+      "fade_time": 0.5,
+      "joint": "Tool_R",
+      "item_skin_hand": "main_hand",
+      "begin_pos": [0.0, 0.8, -1.55],
+      "end_pos": [0.0, 1.6, -2.25],
+      "lifetime": 8,
+      "texture_path": "efn:textures/trail/space_trail.png",
+      "particle_type": "efn:air_trail"
+    }
+  ]
+}

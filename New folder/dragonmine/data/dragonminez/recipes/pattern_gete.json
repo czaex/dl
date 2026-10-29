@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "dragonminez",
+  "key": {
+    "G": {
+      "item": "dragonminez:gete_scrap"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "T": {
+      "item": "dragonminez:pattern_gete"
+    }
+  },
+  "pattern": [
+    "IGI",
+    "GTG",
+    "IGI"
+  ],
+  "result": {
+    "count": 2,
+    "item": "dragonminez:pattern_gete"
+  },
+  "show_notification": true
+}

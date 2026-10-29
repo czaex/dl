@@ -1,0 +1,49 @@
+{
+  "parent": "dragonminez:patternz",
+  "criteria": {
+    "vegettoarmor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:vegetto_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:vegetto_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:vegetto_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.vegettoarmor.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "dragonminez:vegetto_armor_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.vegettoarmor.title"
+    }
+  },
+  "requirements": [
+    [
+      "vegettoarmor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

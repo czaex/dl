@@ -1,0 +1,52 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "Code: GPL-3.0; Assets: All Rights Reserved"
+issueTrackerURL = "https://github.com/Epic-Fight/epicfight/issues"
+
+[[mods]]
+modId = "epicfight"
+version = "21.17.3.1"
+displayName = "Epic Fight"
+displayURL = "https://epicfight-docs.readthedocs.io"
+logoFile = "epicfight_logo.png"
+authors = "Yesman, Gui, Asan, Wayfarer(aka squoshi), Fori, Ellet"
+description = "Adds complex game mechanics and fighting styles to your gameplay, while making Minecraft more Souls-like"
+enumExtensions = "META-INF/enum_extensions.json"
+
+[[mixins]]
+config = "epicfight.mixins.json"
+
+[[mixins]]
+config = "epicfight-platform.neoforge.mixins.json"
+
+[[mixins]]
+config = "epicfight-compat.skinlayers3d.mixins.json"
+
+[[mixins]]
+config = "epicfight-compat.geckolib.mixins.json"
+
+[[mixins]]
+config = "epicfight-compat.vampirism.mixins.json"
+
+[[mixins]]
+config = "epicfight-compat.werewolves.mixins.json"
+
+[[mixins]]
+config = "epicfight-compat.fgm.mixins.json"
+
+[[accessTransformers]]
+file = "META-INF/accesstransformer.cfg"
+
+[[dependencies."epicfight"]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.219,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies."epicfight"]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"

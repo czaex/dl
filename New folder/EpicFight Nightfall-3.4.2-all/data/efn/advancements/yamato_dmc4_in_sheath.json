@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": {
+      "item": "efn:yamato_dmc4_in_sheath"
+    },
+    "title": {
+      "translate": "advancement.efn.obtain_yamato_dmc4.title"
+    },
+    "description": {
+      "translate": "advancement.efn.obtain_yamato_dmc4.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["efn:yamato_dmc4_in_sheath"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 150,
+    "function": "efn:reward/obtain_yamato"
+  }
+}

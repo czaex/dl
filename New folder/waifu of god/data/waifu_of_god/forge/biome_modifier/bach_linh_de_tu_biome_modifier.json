@@ -1,0 +1,15 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "windswept_gravelly_hills",
+    "windswept_hills",
+    "windswept_savanna",
+    "plains"
+  ],
+  "spawners": {
+    "type": "waifu_of_god:bach_linh_de_tu",
+    "weight": 6,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

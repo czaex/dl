@@ -1,0 +1,38 @@
+{
+  "required": true,
+  "package": "com.github.L_Ender.cataclysm.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "target": "@env(DEFAULT)",
+  "refmap": "cataclysm.refmap.json",
+  "mixins": [
+    "FoodDataMixin",
+    "ItemMixin",
+    "LivingEntityMixin",
+    "NoBasaltColumnsInStructuresMixin",
+    "NoDeltasInStructuresMixin",
+    "NoGeodeInStructuresMixin",
+    "NoLakesInStructuresMixin",
+    "NoMagmaBlockInStructuresMixin",
+    "NoMultifaceGrowthFeatureInStructuresMixin",
+    "NoOreInStructuresMixin",
+    "NoteBlockInstrumentMixin",
+    "NoteBlockMixin",
+    "accessor.BeardifierAccessor",
+    "accessor.BoundingBoxAccessor",
+    "accessor.FeaturePoolElementAccessor",
+    "accessor.ListPoolElementAccessor",
+    "accessor.SinglePoolElementAccessor",
+    "accessor.StructureManagerAccessor",
+    "accessor.StructureProcessorAccessor",
+    "accessor.StructureTemplatePoolAccessor"
+  ],
+  "client": [
+    "accessor.LivingEntityRendererAccessor",
+    "Client.HumanoidArmorLayerMixin",
+    "Client.HumanoidModelMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

@@ -1,0 +1,71 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Lôi Thánh Kiếp",
+				"texture_width": 360,
+				"texture_height": 570,
+				"visible_bounds_width": 164,
+				"visible_bounds_height": 171,
+				"visible_bounds_offset": [0, 60.5, 0]
+			},
+			"bones": [
+				{
+					"name": "lightning",
+					"pivot": [0, 1626, 0]
+				},
+				{
+					"name": "general",
+					"parent": "lightning",
+					"pivot": [0, 1442, 0],
+					"rotation": [0, -90, 0]
+				},
+				{
+					"name": "Halo2",
+					"parent": "general",
+					"pivot": [0, 1525.31228, 0],
+					"rotation": [-90, 0, 45],
+					"cubes": [
+						{
+							"origin": [-478.5, 1525.30728, -478.5],
+							"size": [1843, 0, 1843],
+							"uv": {
+								"down": {"uv": [360, 0], "uv_size": [-360, 360]}
+							}
+						},
+						{
+							"origin": [-478.5, 1525.31728, -478.5],
+							"size": [1843, 0, 1843],
+							"uv": {
+								"up": {"uv": [360, 360], "uv_size": [-360, -360]}
+							}
+						}
+					]
+				},
+				{
+					"name": "Halo",
+					"parent": "lightning",
+					"pivot": [0, 1525.31228, 0],
+					"rotation": [-90, 0, 45],
+					"cubes": [
+						{
+							"origin": [-478.5, 1525.30728, -478.5],
+							"size": [1843, 0, 1843],
+							"uv": {
+								"down": {"uv": [360, 0], "uv_size": [-360, 360]}
+							}
+						},
+						{
+							"origin": [-478.5, 1525.31728, -478.5],
+							"size": [1843, 0, 1843],
+							"uv": {
+								"up": {"uv": [360, 360], "uv_size": [-360, -360]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

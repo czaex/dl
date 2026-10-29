@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "waifu_of_god:ancient_long_quyen_huy_thien",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 180,
+    "separation": 150,
+    "salt": 518946266
+  }
+}

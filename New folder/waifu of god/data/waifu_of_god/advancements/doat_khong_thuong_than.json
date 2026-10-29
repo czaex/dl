@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "waifu_of_god:nhan_qua_than_giap_helmet"
+    },
+    "title": {
+      "translate": "advancements.doat_khong_thuong_than.title"
+    },
+    "description": {
+      "translate": "advancements.doat_khong_thuong_than.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "doat_khong_thuong_than_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "waifu_of_god:entities/nhan_qua_than_vi"
+    ]
+  },
+  "parent": "waifu_of_god:luan_hoi_sieu_than"
+}

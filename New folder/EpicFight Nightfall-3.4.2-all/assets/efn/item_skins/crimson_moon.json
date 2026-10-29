@@ -1,0 +1,16 @@
+{
+  "renderer": "epic_fight_avalon:mesh_item",
+  "texture": "efn:textures/item/weapon/crimson_moon.png",
+  "texture_l": "efn:textures/item/weapon/crimson_moon_light.png",
+  "mesh_main":"efn:weapon/crimson_moon",
+ "trail": {
+        "color": [200, 200, 200],
+        "begin_pos": [0.0, 0.0, 0.1],
+        "end_pos": [0.0, 0.0, -0.9],
+        "lifetime": 6,
+        "interpolations": 10,
+        "texture_path": "efn:textures/trail/crimson_moon_trail.png",
+        "particle_type": "efn:bloom_trail"
+  },
+  "appeared_in_afterimage":false
+}

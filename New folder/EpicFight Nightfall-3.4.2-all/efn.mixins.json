@@ -1,0 +1,47 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.hm.efn.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "plugin": "com.hm.efn.mixinloader.CompatMixinPlugin",
+  "mixins": [
+    "ActionAnimationMixin",
+    "AnimationPlayerMixin",
+    "ArmaturesAccessor",
+    "GuardSkillMixin",
+    "MixinEpicFightCameraAPI",
+    "MixinInputManager",
+    "MixinMob",
+    "MixinPatchedItemInHandLayer",
+    "NearestAttackableTargetGoalMixin",
+    "ServerPlayerPatchMixin",
+    "SkillMixin",
+    "WeaponDodgeRequestMixin",
+    "WeaponGuardRequestMixin",
+    "UtilMixin",
+    "compat.cataclysm.MixinIABossMonster",
+    "compat.cataclysm.MixinLLibraryBossMonster",
+    "compat.citadel.AnimationHandlerMixin",
+    "compat.geckolib.AnimationProcessorMixin",
+    "compat.lionfishapi.AnimationHandlerMixin"
+  ],
+  "client": [
+    "AdrenalineParticleProviderMixin",
+    "CameraAccessor",
+    "EntitySnapshotMixin",
+    "LockonMixin",
+    "MixinKeyboardHandler",
+    "MixinKeyMapping",
+    "MixinMouseHandler",
+    "MouseHandlerMixin",
+    "PPlayerRendererMixin",
+    "WhiteAfterimageProviderMixin",
+    "WeaponDodgeInputMixin",
+    "WeaponGuardInputMixin",
+    "WeaponGuardInteractionMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "efn.mixin-refmap.json"
+}

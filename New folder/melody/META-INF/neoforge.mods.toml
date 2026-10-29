@@ -1,0 +1,32 @@
+modLoader = "javafml" #mandatory
+loaderVersion = "[12,)" #mandatory
+license = "MIT" # Review your options at https://choosealicense.com/.
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+[[mods]] #mandatory
+modId = "melody" #mandatory
+version = "1.0.17" #mandatory
+displayName = "Melody" #mandatory
+#updateJSONURL="https://change.me.example.invalid/updates.json" #optional (see https://docs.neoforged.net/docs/misc/updatechecker/)
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional (displayed in the mod UI)
+iconFile="melody_logo_128x128.png" #optional
+authors = "Keksuccino" #optional
+description = '''OpenAL-based library mod to play background music.''' #mandatory (Supports multiline text)
+
+[[mixins]]
+config = "melody.mixins.json"
+[[mixins]]
+config = "melody.neoforge.mixins.json"
+
+[[dependencies.melody]] #optional
+modId = "neoforge" #mandatory
+type="required" #mandatory (Can be one of "required", "optional", "incompatible" or "discouraged")
+versionRange = "[26.3.0.4-beta,)" #mandatory
+ordering = "NONE" # The order that this dependency should load in relation to your mod, required to be either 'BEFORE' or 'AFTER' if the dependency is not mandatory
+side = "BOTH" # Side this dependency is applied on - 'BOTH', 'CLIENT' or 'SERVER'
+
+[[dependencies.melody]]
+modId = "minecraft"
+type="required" #mandatory (Can be one of "required", "optional", "incompatible" or "discouraged")
+versionRange = "[26.3,26.4)"
+ordering = "NONE"
+side = "BOTH"

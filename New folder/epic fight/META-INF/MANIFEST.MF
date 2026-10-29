@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: epic_api
+Specification-Vendor: 
+Specification-Version: 1
+Implementation-Title: EpicAPI Forge
+Implementation-Version: 20.1.4.1
+Implementation-Vendor: 
+Implementation-Timestamp: 2026-07-19T05:07:23+0300
+MixinConfigs: epic_api.mixins.json
+

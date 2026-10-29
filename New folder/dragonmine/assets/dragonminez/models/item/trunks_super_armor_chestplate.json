@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dragonminez:item/armors/trunks_super_armor_chestplate"
+  }
+}

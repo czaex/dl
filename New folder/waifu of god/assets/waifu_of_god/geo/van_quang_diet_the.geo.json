@@ -1,0 +1,180 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Vạn Quang Diệt Thế",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "magic",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Body",
+					"parent": "magic",
+					"pivot": [0, -12, 0],
+					"cubes": [
+						{"origin": [3, -12, -5], "size": [1, 1, 1], "uv": [252, 0]}
+					]
+				},
+				{
+					"name": "aura",
+					"parent": "Body",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "aura1",
+					"parent": "aura",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-1, -1, -1], "size": [2, 2, 2], "inflate": 7, "uv": [94, 126]}
+					]
+				},
+				{
+					"name": "aura2",
+					"parent": "aura",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-1, -1, -1], "size": [2, 2, 2], "inflate": 5, "uv": [104, 126]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [3, 0, -7], "size": [1, 1, 1], "uv": [250, 0]}
+					]
+				},
+				{
+					"name": "circle1",
+					"parent": "Head",
+					"pivot": [0, 0, 0],
+					"rotation": [90, 0, 0],
+					"cubes": [
+						{
+							"origin": [-27, 0, -27],
+							"size": [54, 0, 54],
+							"uv": {
+								"up": {"uv": [0, 132], "uv_size": [124, 124]}
+							}
+						},
+						{
+							"origin": [-27, -0.05, -27],
+							"size": [54, 0, 54],
+							"uv": {
+								"down": {"uv": [0, 256], "uv_size": [124, -124]}
+							}
+						}
+					]
+				},
+				{
+					"name": "circle2",
+					"parent": "Head",
+					"pivot": [0, 0, 1],
+					"rotation": [90, 0, 0],
+					"cubes": [
+						{
+							"origin": [-34, 0, -33],
+							"size": [68, 0, 68],
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [124, 124]}
+							}
+						},
+						{
+							"origin": [-34, -0.05, -33],
+							"size": [68, 0, 68],
+							"uv": {
+								"down": {"uv": [0, 124], "uv_size": [124, -124]}
+							}
+						}
+					]
+				},
+				{
+					"name": "circle3",
+					"parent": "Head",
+					"pivot": [0, 0, -1],
+					"rotation": [90, 0, 0],
+					"cubes": [
+						{
+							"origin": [-22, 0.25, -23],
+							"size": [44, 0, 44],
+							"uv": {
+								"up": {"uv": [132, 0], "uv_size": [124, 124]}
+							}
+						},
+						{
+							"origin": [-22, -0.05, -23],
+							"size": [44, 0, 44],
+							"uv": {
+								"down": {"uv": [132, 124], "uv_size": [124, -124]}
+							}
+						}
+					]
+				},
+				{
+					"name": "circle4",
+					"parent": "Head",
+					"pivot": [0, 0, -1],
+					"rotation": [90, 0, 0],
+					"cubes": [
+						{
+							"origin": [-22, 0.15, -23],
+							"size": [44, 0, 44],
+							"uv": {
+								"up": {"uv": [132, 132], "uv_size": [124, 124]}
+							}
+						},
+						{
+							"origin": [-22, 0.1, -23],
+							"size": [44, 0, 44],
+							"uv": {
+								"down": {"uv": [132, 256], "uv_size": [124, -124]}
+							}
+						}
+					]
+				},
+				{
+					"name": "Laser",
+					"parent": "Head",
+					"pivot": [0, 0, 0],
+					"rotation": [90, 0, 0],
+					"cubes": [
+						{
+							"origin": [-4, -1, -4],
+							"size": [8, 6, 8],
+							"inflate": -1,
+							"uv": {
+								"north": {"uv": [100, 128], "uv_size": [2, 2]},
+								"east": {"uv": [100, 128], "uv_size": [2, 2]},
+								"south": {"uv": [100, 128], "uv_size": [2, 2]},
+								"west": {"uv": [100, 128], "uv_size": [2, 2]},
+								"up": {"uv": [100, 128], "uv_size": [2, 2]},
+								"down": {"uv": [100, 130], "uv_size": [2, -2]}
+							}
+						},
+						{
+							"origin": [-4, -2, -4],
+							"size": [8, 8, 8],
+							"inflate": -2,
+							"uv": {
+								"north": {"uv": [110, 128], "uv_size": [2, 2]},
+								"east": {"uv": [110, 128], "uv_size": [2, 2]},
+								"south": {"uv": [110, 128], "uv_size": [2, 2]},
+								"west": {"uv": [110, 128], "uv_size": [2, 2]},
+								"up": {"uv": [110, 128], "uv_size": [2, 2]},
+								"down": {"uv": [110, 130], "uv_size": [2, -2]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

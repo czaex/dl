@@ -1,0 +1,32 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_z"
+    },
+    "A": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "B": {
+      "item": "minecraft:blue_dye"
+    },
+    "M": {
+      "item": "minecraft:magenta_dye"
+    },
+    "S": {
+      "item": "minecraft:light_gray_dye"
+    }
+  },
+  "pattern": [
+    "BB  BB",
+    "BBAABB",
+    "BABBAB",
+    "BB#BBB",
+    " BBBB ",
+    "MSSSSM"
+  ],
+  "result": {
+    "item": "dragonminez:pattern_goku_gt"
+  }
+}

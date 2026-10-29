@@ -1,0 +1,20 @@
+{
+  "feature": "dragonminez:demon_realm_sea",
+  "placement": [
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "absolute": 318
+        },
+        "min_inclusive": {
+          "absolute": 318
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

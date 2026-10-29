@@ -1,0 +1,88 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"1": {
+			"animation_length": 11,
+			"override_previous_animation": true,
+			"start_delay": "0",
+			"bones": {
+				"CircleMagic": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"11.0": {
+							"vector": [0, 720, 0]
+						}
+					},
+					"scale": {
+						"10.25": {
+							"vector": [1, 1, 1]
+						},
+						"11.0": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"RockSky": {
+					"position": {
+						"vector": [0, 25895, 0]
+					},
+					"scale": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, 0]
+						},
+						"1.0": {
+							"vector": [1, 0, 1]
+						},
+						"5.0": {
+							"vector": [1, 1, 1]
+						},
+						"7.0417": {
+							"vector": [1, 1, 1]
+						},
+						"7.0833": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"2": {
+			"animation_length": 11,
+			"start_delay": "0",
+			"bones": {
+				"CircleMagic": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"11.0": {
+							"vector": [0, 720, 0]
+						}
+					},
+					"scale": {
+						"10.25": {
+							"vector": [1, 1, 1]
+						},
+						"11.0": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"RockSky": {
+					"position": {
+						"vector": [0, 0, 0]
+					},
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

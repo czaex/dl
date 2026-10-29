@@ -1,0 +1,32 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_z"
+    },
+    "E": {
+      "item": "minecraft:green_dye"
+    },
+    "K": {
+      "item": "minecraft:black_dye"
+    },
+    "N": {
+      "item": "minecraft:brown_dye"
+    },
+    "W": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "pattern": [
+    "WW  WW",
+    "WWKKWW",
+    "KWWWWK",
+    " W#WW ",
+    "NNWENN",
+    "NN  NN"
+  ],
+  "result": {
+    "item": "dragonminez:pattern_videl"
+  }
+}

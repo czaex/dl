@@ -1,0 +1,6 @@
+{
+  "parent": "waifu_of_god:displaysettings/thon_dia_hoa_kim_quyen.item",
+  "textures": {
+    "layer0": "waifu_of_god:item/thon_dia_hoa_kim_quyen"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "dragonminez:gomah_cradle",
+  "biomes": [
+    "dragonminez:first_demon_world",
+    "dragonminez:second_demon_world",
+    "dragonminez:third_demon_world"
+  ],
+  "spawn_overrides": {},
+  "step": "surface_structures"
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "dragonminez:kamilookout",
+  "criteria": {
+    "timechamber": {
+      "conditions": {
+        "to": "dragonminez:time_chamber"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.timechamber.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "dragonminez:vegeta_z_armor_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.timechamber.title"
+    }
+  },
+  "requirements": [
+    [
+      "timechamber"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

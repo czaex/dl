@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "waifu_of_god:infinite_darkness",
+  "spawners": {
+    "type": "waifu_of_god:hac_ve",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

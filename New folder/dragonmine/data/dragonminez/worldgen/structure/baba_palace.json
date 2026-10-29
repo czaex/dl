@@ -1,0 +1,14 @@
+{
+  "type": "dragonminez:fitted_template",
+  "biomes": "#minecraft:is_overworld",
+  "spawn_overrides": {},
+  "step": "top_layer_modification",
+  "template": "dragonminez:baba_palace",
+  "terrain_fit": {
+    "carve": 32,
+    "foundation": 64,
+    "ground_level": 1,
+    "skirt": 16,
+    "slope": 0.75
+  }
+}

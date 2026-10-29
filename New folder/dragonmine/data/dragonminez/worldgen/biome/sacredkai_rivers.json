@@ -1,0 +1,60 @@
+{
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "downfall": 0.0,
+  "effects": {
+    "fog_color": 14133734,
+    "foliage_color": 8115766,
+    "grass_color": 8642619,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "sky_color": 10120163,
+    "water_color": 10257128,
+    "water_fog_color": 6968736
+  },
+  "features": [
+    [],
+    [],
+    [
+      "dragonminez:sacredkai_sand_patch_placed"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "dragonminez:sacredkai_grass_patch_placed",
+      "dragonminez:sacredkai_flowers_placed"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {
+    "dragonminez:mini_buu": {
+      "charge": 1.0,
+      "energy_budget": 0.12
+    }
+  },
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "dragonminez:wild_enemy": [],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 2.0
+}

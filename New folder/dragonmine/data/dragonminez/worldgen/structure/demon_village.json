@@ -1,0 +1,6 @@
+{
+  "type": "dragonminez:demon_village",
+  "biomes": "dragonminez:third_demon_world",
+  "spawn_overrides": {},
+  "step": "surface_structures"
+}

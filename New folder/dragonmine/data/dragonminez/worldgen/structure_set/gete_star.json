@@ -1,0 +1,17 @@
+{
+  "placement": {
+    "type": "dragonminez:biome_aware_placement",
+    "min_distance_from_spawn": 1000,
+    "salt": 61937482,
+    "valid_biomes": [
+      "dragonminez:ajissa_plains",
+      "dragonminez:sacred_land"
+    ]
+  },
+  "structures": [
+    {
+      "structure": "dragonminez:gete_star",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "parent": "dragonminez:patternsuper",
+  "criteria": {
+    "vegetasuperarmor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:vegeta_super_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:vegeta_super_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:vegeta_super_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "vegetasuperarmor_whis": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:vegeta_whis_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:vegeta_whis_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:vegeta_whis_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.vegetasuperarmor.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "dragonminez:vegeta_super_armor_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.vegetasuperarmor.title"
+    }
+  },
+  "requirements": [
+    [
+      "vegetasuperarmor",
+      "vegetasuperarmor_whis"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

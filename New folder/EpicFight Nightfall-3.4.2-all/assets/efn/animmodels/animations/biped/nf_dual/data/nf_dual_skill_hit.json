@@ -1,0 +1,38 @@
+{
+    "trail_effects": [
+        {
+            "start_time": 0.0,
+            "end_time": 1.35,
+            "joint": "Tool_L",
+            "item_skin_hand": "main_hand",
+            "begin_pos": [0.0, 0.2, -0.8],
+            "end_pos": [0.0, 0.2, -1.6]
+        },
+        {
+            "start_time": 0.0,
+            "end_time": 1.35,
+            "joint": "Tool_R",
+            "item_skin_hand": "main_hand",
+            "begin_pos": [0.0, 0.2, -0.8],
+            "end_pos": [0.0, 0.2, -1.6]
+        },
+        {
+            "start_time": 0.0,
+            "end_time": 1.25,
+            "joint": "Tool_L",
+            "item_skin_hand": "main_hand",
+            "begin_pos": [0.0, -0.2, -1.8],
+            "end_pos": [0.0, -0.2, -2],
+            "texture_path": "efn:textures/trail/nds2.png"
+        },
+        {
+            "start_time": 0.0,
+            "end_time": 1.25,
+            "joint": "Tool_R",
+            "item_skin_hand": "main_hand",
+            "begin_pos": [0.0, -0.2, -1.8],
+            "end_pos": [0.0, -0.2, -2],
+            "texture_path": "efn:textures/trail/nds2.png"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_super"
+    },
+    "C": {
+      "item": "minecraft:cyan_dye"
+    },
+    "K": {
+      "item": "minecraft:black_dye"
+    },
+    "U": {
+      "item": "minecraft:purple_dye"
+    },
+    "Y": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "pattern": [
+    "KU  UK",
+    "UUKKUU",
+    "CUUUUC",
+    "CU#UUC",
+    " UUUU ",
+    " KYYK "
+  ],
+  "result": {
+    "item": "dragonminez:pattern_hit"
+  }
+}

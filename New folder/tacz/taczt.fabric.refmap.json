@@ -1,0 +1,146 @@
+{
+  "mappings": {
+    "org/admany/taczt/platform/fabric/v21/mixin/EntityKineticBulletMixin": {
+      "Lnet/minecraft/world/phys/Vec3;distanceTo(Lnet/minecraft/world/phys/Vec3;)D": "Lnet/minecraft/class_243;method_1022(Lnet/minecraft/class_243;)D"
+    },
+    "org/admany/taczt/platform/fabric/v21/mixin/EntityPathCollisionMixin": {
+      "Lnet/minecraft/world/phys/AABB;clip(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)Ljava/util/Optional;": "Lnet/minecraft/class_238;method_992(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Ljava/util/Optional;",
+      "getHitResult": "Lcom/tacz/guns/util/EntityUtil;getHitResult(Lnet/minecraft/class_1676;Lnet/minecraft/class_1297;Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lcom/tacz/guns/entity/EntityKineticBullet$EntityResult;"
+    },
+    "org/admany/taczt/platform/fabric/v21/mixin/LazyJsonDataManagerMixin": {
+      "Lnet/minecraft/server/packs/resources/Resource;openAsReader()Ljava/io/BufferedReader;": "Lnet/minecraft/class_3298;method_43039()Ljava/io/BufferedReader;",
+      "openReader": "Lcom/tacz/guns/resource/manager/LazyJsonDataManager;openReader(Lnet/minecraft/class_3300;Lnet/minecraft/class_2960;)Ljava/io/Reader;"
+    },
+    "org/admany/taczt/platform/fabric/v21/mixin/client/BedrockModelMixin": {
+      "Lnet/minecraft/client/renderer/MultiBufferSource$BufferSource;endBatch(Lnet/minecraft/client/renderer/RenderType;)V": "Lnet/minecraft/class_4597$class_4598;method_22994(Lnet/minecraft/class_1921;)V",
+      "render(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/world/item/ItemDisplayContext;Lnet/minecraft/client/renderer/RenderType;IIFFFF)V": "Lcom/tacz/guns/client/model/bedrock/BedrockModel;render(Lnet/minecraft/class_4587;Lnet/minecraft/class_811;Lnet/minecraft/class_1921;IIFFFF)V"
+    },
+    "org/admany/taczt/platform/fabric/v21/mixin/client/BedrockPartMixin": {
+      "Lcom/mojang/blaze3d/vertex/PoseStack;mulPose(Lorg/joml/Quaternionf;)V": "Lnet/minecraft/class_4587;method_22907(Lorg/joml/Quaternionf;)V",
+      "Lcom/mojang/blaze3d/vertex/PoseStack;popPose()V": "Lnet/minecraft/class_4587;method_22909()V",
+      "Lcom/mojang/blaze3d/vertex/PoseStack;pushPose()V": "Lnet/minecraft/class_4587;method_22903()V",
+      "Lcom/mojang/blaze3d/vertex/PoseStack;scale(FFF)V": "Lnet/minecraft/class_4587;method_22905(FFF)V",
+      "Lcom/mojang/blaze3d/vertex/PoseStack;translate(FFF)V": "Lnet/minecraft/class_4587;method_46416(FFF)V",
+      "render(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/world/item/ItemDisplayContext;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V": "Lcom/tacz/guns/client/model/bedrock/BedrockPart;render(Lnet/minecraft/class_4587;Lnet/minecraft/class_811;Lnet/minecraft/class_4588;IIFFFF)V",
+      "translateAndRotateAndScale": "Lcom/tacz/guns/client/model/bedrock/BedrockPart;translateAndRotateAndScale(Lnet/minecraft/class_4587;)V"
+    },
+    "org/admany/taczt/platform/fabric/v21/mixin/client/EntityBulletRendererMixin": {
+      "Lnet/minecraft/client/renderer/RenderType;energySwirl(Lnet/minecraft/resources/ResourceLocation;FF)Lnet/minecraft/client/renderer/RenderType;": "Lnet/minecraft/class_1921;method_23018(Lnet/minecraft/class_2960;FF)Lnet/minecraft/class_1921;",
+      "lambda$renderTracerAmmo$1": "Lcom/tacz/guns/client/renderer/entity/EntityBulletRenderer;lambda$renderTracerAmmo$1(Lcom/tacz/guns/entity/EntityKineticBullet;Lnet/minecraft/class_4587;FI[FLcom/tacz/guns/client/model/bedrock/BedrockModel;)V"
+    },
+    "org/admany/taczt/platform/fabric/v21/mixin/client/FunctionalBedrockPartMixin": {
+      "Lcom/mojang/blaze3d/vertex/PoseStack;popPose()V": "Lnet/minecraft/class_4587;method_22909()V",
+      "Lcom/mojang/blaze3d/vertex/PoseStack;pushPose()V": "Lnet/minecraft/class_4587;method_22903()V",
+      "render(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/world/item/ItemDisplayContext;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V": "Lcom/tacz/guns/client/model/FunctionalBedrockPart;render(Lnet/minecraft/class_4587;Lnet/minecraft/class_811;Lnet/minecraft/class_4588;IIFFFF)V"
+    },
+    "org/admany/taczt/platform/fabric/v21/mixin/client/GpuItemFrameMixin": {
+      "render(Lnet/minecraft/world/entity/decoration/ItemFrame;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V": "Lnet/minecraft/class_915;method_3994(Lnet/minecraft/class_1533;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+    },
+    "org/admany/taczt/platform/fabric/v21/mixin/client/GpuMinecraftLifecycleMixin": {
+      "Lcom/mojang/blaze3d/platform/Window;updateDisplay()V": "Lnet/minecraft/class_1041;method_15998()V",
+      "close": "Lnet/minecraft/class_310;close()V",
+      "runTick": "Lnet/minecraft/class_310;method_1523(Z)V"
+    },
+    "org/admany/taczt/platform/fabric/v21/mixin/client/GpuVertexBufferAccess": {
+      "format": "field_29339:Lnet/minecraft/class_293;",
+      "indexCount": "field_1593:I",
+      "mode": "field_27368:Lnet/minecraft/class_293$class_5596;",
+      "sequentialIndices": "field_38983:Lcom/mojang/blaze3d/systems/RenderSystem$class_5590;",
+      "vertexBufferId": "field_1594:I"
+    },
+    "org/admany/taczt/platform/fabric/v21/mixin/client/GpuWindowContextMixin": {
+      "<init>": "Lnet/minecraft/class_1041;<init>(Lnet/minecraft/class_3678;Lnet/minecraft/class_323;Lnet/minecraft/class_543;Ljava/lang/String;Ljava/lang/String;)V"
+    },
+    "org/admany/taczt/platform/fabric/v21/mixin/client/GunHudOverlayMixin": {
+      "Lnet/minecraft/client/gui/GuiGraphics;drawString(Lnet/minecraft/client/gui/Font;Ljava/lang/String;III)I": "Lnet/minecraft/class_332;method_25303(Lnet/minecraft/class_327;Ljava/lang/String;III)I",
+      "render": "Lcom/tacz/guns/client/gui/overlay/GunHudOverlay;render(Lnet/minecraft/class_332;Lnet/minecraft/class_9779;)V"
+    },
+    "org/admany/taczt/platform/fabric/v21/mixin/client/GunItemRenderProfileMixin": {
+      "renderByItem": "Lcom/tacz/guns/client/renderer/item/GunItemRendererWrapper;method_3166(Lnet/minecraft/class_1799;Lnet/minecraft/class_811;Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;II)V"
+    },
+    "org/admany/taczt/platform/fabric/v21/mixin/client/PoseNormalAccess": {
+      "trustedNormals": "field_48930:Z"
+    },
+    "org/admany/taczt/platform/fabric/v21/mixin/client/PoseStackMixin": {
+      "Lcom/mojang/blaze3d/vertex/PoseStack$Pose;": "net/minecraft/class_4587$class_4665",
+      "popPose": "Lnet/minecraft/class_4587;method_22909()V",
+      "pushPose": "Lnet/minecraft/class_4587;method_22903()V"
+    },
+    "org/admany/taczt/platform/fabric/v21/mixin/client/ScopeGeometryMixin": {
+      "Lcom/mojang/blaze3d/vertex/PoseStack;popPose()V": "Lnet/minecraft/class_4587;method_22909()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "org/admany/taczt/platform/fabric/v21/mixin/EntityKineticBulletMixin": {
+        "Lnet/minecraft/world/phys/Vec3;distanceTo(Lnet/minecraft/world/phys/Vec3;)D": "Lnet/minecraft/class_243;method_1022(Lnet/minecraft/class_243;)D"
+      },
+      "org/admany/taczt/platform/fabric/v21/mixin/EntityPathCollisionMixin": {
+        "Lnet/minecraft/world/phys/AABB;clip(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)Ljava/util/Optional;": "Lnet/minecraft/class_238;method_992(Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Ljava/util/Optional;",
+        "getHitResult": "Lcom/tacz/guns/util/EntityUtil;getHitResult(Lnet/minecraft/class_1676;Lnet/minecraft/class_1297;Lnet/minecraft/class_243;Lnet/minecraft/class_243;)Lcom/tacz/guns/entity/EntityKineticBullet$EntityResult;"
+      },
+      "org/admany/taczt/platform/fabric/v21/mixin/LazyJsonDataManagerMixin": {
+        "Lnet/minecraft/server/packs/resources/Resource;openAsReader()Ljava/io/BufferedReader;": "Lnet/minecraft/class_3298;method_43039()Ljava/io/BufferedReader;",
+        "openReader": "Lcom/tacz/guns/resource/manager/LazyJsonDataManager;openReader(Lnet/minecraft/class_3300;Lnet/minecraft/class_2960;)Ljava/io/Reader;"
+      },
+      "org/admany/taczt/platform/fabric/v21/mixin/client/BedrockModelMixin": {
+        "Lnet/minecraft/client/renderer/MultiBufferSource$BufferSource;endBatch(Lnet/minecraft/client/renderer/RenderType;)V": "Lnet/minecraft/class_4597$class_4598;method_22994(Lnet/minecraft/class_1921;)V",
+        "render(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/world/item/ItemDisplayContext;Lnet/minecraft/client/renderer/RenderType;IIFFFF)V": "Lcom/tacz/guns/client/model/bedrock/BedrockModel;render(Lnet/minecraft/class_4587;Lnet/minecraft/class_811;Lnet/minecraft/class_1921;IIFFFF)V"
+      },
+      "org/admany/taczt/platform/fabric/v21/mixin/client/BedrockPartMixin": {
+        "Lcom/mojang/blaze3d/vertex/PoseStack;mulPose(Lorg/joml/Quaternionf;)V": "Lnet/minecraft/class_4587;method_22907(Lorg/joml/Quaternionf;)V",
+        "Lcom/mojang/blaze3d/vertex/PoseStack;popPose()V": "Lnet/minecraft/class_4587;method_22909()V",
+        "Lcom/mojang/blaze3d/vertex/PoseStack;pushPose()V": "Lnet/minecraft/class_4587;method_22903()V",
+        "Lcom/mojang/blaze3d/vertex/PoseStack;scale(FFF)V": "Lnet/minecraft/class_4587;method_22905(FFF)V",
+        "Lcom/mojang/blaze3d/vertex/PoseStack;translate(FFF)V": "Lnet/minecraft/class_4587;method_46416(FFF)V",
+        "render(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/world/item/ItemDisplayContext;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V": "Lcom/tacz/guns/client/model/bedrock/BedrockPart;render(Lnet/minecraft/class_4587;Lnet/minecraft/class_811;Lnet/minecraft/class_4588;IIFFFF)V",
+        "translateAndRotateAndScale": "Lcom/tacz/guns/client/model/bedrock/BedrockPart;translateAndRotateAndScale(Lnet/minecraft/class_4587;)V"
+      },
+      "org/admany/taczt/platform/fabric/v21/mixin/client/EntityBulletRendererMixin": {
+        "Lnet/minecraft/client/renderer/RenderType;energySwirl(Lnet/minecraft/resources/ResourceLocation;FF)Lnet/minecraft/client/renderer/RenderType;": "Lnet/minecraft/class_1921;method_23018(Lnet/minecraft/class_2960;FF)Lnet/minecraft/class_1921;",
+        "lambda$renderTracerAmmo$1": "Lcom/tacz/guns/client/renderer/entity/EntityBulletRenderer;lambda$renderTracerAmmo$1(Lcom/tacz/guns/entity/EntityKineticBullet;Lnet/minecraft/class_4587;FI[FLcom/tacz/guns/client/model/bedrock/BedrockModel;)V"
+      },
+      "org/admany/taczt/platform/fabric/v21/mixin/client/FunctionalBedrockPartMixin": {
+        "Lcom/mojang/blaze3d/vertex/PoseStack;popPose()V": "Lnet/minecraft/class_4587;method_22909()V",
+        "Lcom/mojang/blaze3d/vertex/PoseStack;pushPose()V": "Lnet/minecraft/class_4587;method_22903()V",
+        "render(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/world/item/ItemDisplayContext;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V": "Lcom/tacz/guns/client/model/FunctionalBedrockPart;render(Lnet/minecraft/class_4587;Lnet/minecraft/class_811;Lnet/minecraft/class_4588;IIFFFF)V"
+      },
+      "org/admany/taczt/platform/fabric/v21/mixin/client/GpuItemFrameMixin": {
+        "render(Lnet/minecraft/world/entity/decoration/ItemFrame;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V": "Lnet/minecraft/class_915;method_3994(Lnet/minecraft/class_1533;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+      },
+      "org/admany/taczt/platform/fabric/v21/mixin/client/GpuMinecraftLifecycleMixin": {
+        "Lcom/mojang/blaze3d/platform/Window;updateDisplay()V": "Lnet/minecraft/class_1041;method_15998()V",
+        "close": "Lnet/minecraft/class_310;close()V",
+        "runTick": "Lnet/minecraft/class_310;method_1523(Z)V"
+      },
+      "org/admany/taczt/platform/fabric/v21/mixin/client/GpuVertexBufferAccess": {
+        "format": "field_29339:Lnet/minecraft/class_293;",
+        "indexCount": "field_1593:I",
+        "mode": "field_27368:Lnet/minecraft/class_293$class_5596;",
+        "sequentialIndices": "field_38983:Lcom/mojang/blaze3d/systems/RenderSystem$class_5590;",
+        "vertexBufferId": "field_1594:I"
+      },
+      "org/admany/taczt/platform/fabric/v21/mixin/client/GpuWindowContextMixin": {
+        "<init>": "Lnet/minecraft/class_1041;<init>(Lnet/minecraft/class_3678;Lnet/minecraft/class_323;Lnet/minecraft/class_543;Ljava/lang/String;Ljava/lang/String;)V"
+      },
+      "org/admany/taczt/platform/fabric/v21/mixin/client/GunHudOverlayMixin": {
+        "Lnet/minecraft/client/gui/GuiGraphics;drawString(Lnet/minecraft/client/gui/Font;Ljava/lang/String;III)I": "Lnet/minecraft/class_332;method_25303(Lnet/minecraft/class_327;Ljava/lang/String;III)I",
+        "render": "Lcom/tacz/guns/client/gui/overlay/GunHudOverlay;render(Lnet/minecraft/class_332;Lnet/minecraft/class_9779;)V"
+      },
+      "org/admany/taczt/platform/fabric/v21/mixin/client/GunItemRenderProfileMixin": {
+        "renderByItem": "Lcom/tacz/guns/client/renderer/item/GunItemRendererWrapper;method_3166(Lnet/minecraft/class_1799;Lnet/minecraft/class_811;Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;II)V"
+      },
+      "org/admany/taczt/platform/fabric/v21/mixin/client/PoseNormalAccess": {
+        "trustedNormals": "field_48930:Z"
+      },
+      "org/admany/taczt/platform/fabric/v21/mixin/client/PoseStackMixin": {
+        "Lcom/mojang/blaze3d/vertex/PoseStack$Pose;": "net/minecraft/class_4587$class_4665",
+        "popPose": "Lnet/minecraft/class_4587;method_22909()V",
+        "pushPose": "Lnet/minecraft/class_4587;method_22903()V"
+      },
+      "org/admany/taczt/platform/fabric/v21/mixin/client/ScopeGeometryMixin": {
+        "Lcom/mojang/blaze3d/vertex/PoseStack;popPose()V": "Lnet/minecraft/class_4587;method_22909()V"
+      }
+    }
+  }
+}

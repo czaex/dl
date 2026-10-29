@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": {
+        "item": "minecraft:netherite_sword"
+    },
+    "addition": {
+        "item" : "efn:deepdark_heart"
+    },
+    "result": {
+        "item": "efn:nf_dual_sword"
+    },
+    "template": {
+      "item": "minecraft:netherite_sword"
+    }
+}

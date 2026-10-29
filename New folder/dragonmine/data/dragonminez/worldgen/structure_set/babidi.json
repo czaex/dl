@@ -1,0 +1,13 @@
+{
+  "placement": {
+    "type": "dragonminez:biome_aware_placement",
+    "salt": 18273645,
+    "valid_biomes": "#dragonminez:is_mountainlike"
+  },
+  "structures": [
+    {
+      "structure": "dragonminez:babidi",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+	"trail_effects": [
+		{
+			"start_time": 0.08,
+			"end_time": 0.2425,
+			"fade_time": 0.244,
+			"joint": "Tool_R",
+			"item_skin_hand": "main_hand",
+			"lifetime": 8,
+			"interpolations": 6,
+			"color": [225,225,225],
+			"texture_path": "efn:textures/trail/katana_trail.png"
+		},
+		{
+			"start_time": 0.1,
+			"end_time": 0.2425,
+			"fade_time": 0.244,
+			"joint": "Tool_R",
+			"item_skin_hand": "main_hand",
+			"lifetime": 10,
+			"interpolations": 6,
+			"texture_path": "efn:textures/trail/katana_trail_end.png"
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "dragonminez:block/namek_ajissa_pressure_plate"
+    },
+    "powered=true": {
+      "model": "dragonminez:block/namek_ajissa_pressure_plate_down"
+    }
+  }
+}

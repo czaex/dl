@@ -1,0 +1,38 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_z"
+    },
+    "K": {
+      "item": "minecraft:black_dye"
+    },
+    "O": {
+      "item": "minecraft:orange_dye"
+    },
+    "R": {
+      "item": "minecraft:red_dye"
+    },
+    "S": {
+      "item": "minecraft:light_gray_dye"
+    },
+    "W": {
+      "item": "minecraft:white_dye"
+    },
+    "Y": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "pattern": [
+    "OO  OO",
+    "OSOOSO",
+    "OWRRWO",
+    "OS#RSO",
+    "YKWWKY",
+    "Y    Y"
+  ],
+  "result": {
+    "item": "dragonminez:pattern_a20"
+  }
+}

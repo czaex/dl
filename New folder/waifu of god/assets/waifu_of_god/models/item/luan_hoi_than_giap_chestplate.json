@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "waifu_of_god:item/luan_hoi_than"
+  }
+}

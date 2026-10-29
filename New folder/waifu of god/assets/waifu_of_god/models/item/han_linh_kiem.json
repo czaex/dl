@@ -1,0 +1,6 @@
+{
+  "parent": "waifu_of_god:displaysettings/bang_tam_kiem.item",
+  "textures": {
+    "layer0": "waifu_of_god:item/bang_tam_kiem"
+  }
+}

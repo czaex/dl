@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:rose_bush"
+    },
+    "title": {
+      "translate": "advancements.battle_nobara_kugisaki.title"
+    },
+    "description": {
+      "translate": "advancements.battle_nobara_kugisaki.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "battle_nobara_kugisaki_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:battle_megumi_fushiguro"
+}

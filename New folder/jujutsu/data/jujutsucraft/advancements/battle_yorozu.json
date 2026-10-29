@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cherry_sapling"
+    },
+    "title": {
+      "translate": "advancements.battle_yorozu.title"
+    },
+    "description": {
+      "translate": "advancements.battle_yorozu.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "battle_yorozu_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:battle_hajime_kashimo"
+}

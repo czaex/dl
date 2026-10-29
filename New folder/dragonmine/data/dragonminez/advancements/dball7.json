@@ -1,0 +1,68 @@
+{
+  "parent": "dragonminez:dball1",
+  "criteria": {
+    "dball7": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:dball1"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:dball2"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:dball3"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:dball4"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:dball5"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:dball6"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:dball7"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.dball7.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "dragonminez:dball7"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.dball7.title"
+    }
+  },
+  "requirements": [
+    [
+      "dball7"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

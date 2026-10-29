@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "minecraft:paper"
+    },
+    "C": {
+      "item": "minecraft:cyan_wool"
+    },
+    "P": {
+      "item": "dragonminez:blank_pattern_z"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "pattern": [
+    "CPC",
+    "#W#",
+    "CPC"
+  ],
+  "result": {
+    "item": "dragonminez:blank_pattern_super"
+  },
+  "show_notification": true
+}

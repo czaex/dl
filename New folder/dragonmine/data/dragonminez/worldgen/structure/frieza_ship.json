@@ -1,0 +1,14 @@
+{
+  "type": "dragonminez:fitted_template",
+  "biomes": "#dragonminez:is_namekworld",
+  "spawn_overrides": {},
+  "step": "top_layer_modification",
+  "template": "dragonminez:frieza_ship",
+  "terrain_fit": {
+    "carve": 48,
+    "foundation": 48,
+    "ground_level": 0,
+    "skirt": 12,
+    "template_foundation": true
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "parent": "dragonminez:patternz",
+  "criteria": {
+    "narukearmor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:naruke_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:naruke_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:naruke_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.narukearmor.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "dragonminez:naruke_armor_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.narukearmor.title"
+    }
+  },
+  "requirements": [
+    [
+      "narukearmor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

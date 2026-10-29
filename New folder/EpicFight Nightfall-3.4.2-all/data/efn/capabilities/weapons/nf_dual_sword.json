@@ -1,0 +1,10 @@
+{
+  "type": "efn:aetherialdusk",
+  "attributes": {
+    "common": {
+      "impact": 1.4,
+      "armor_negation":15.0,
+      "max_strikes":3
+    }
+  }
+}

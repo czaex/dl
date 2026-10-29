@@ -1,0 +1,6 @@
+{
+  "parent": "waifu_of_god:displaysettings/khong_son_an.item",
+  "textures": {
+    "layer0": "waifu_of_god:item/khong_son_an"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_super"
+    },
+    "K": {
+      "item": "minecraft:black_dye"
+    },
+    "S": {
+      "item": "minecraft:light_gray_dye"
+    },
+    "W": {
+      "item": "minecraft:white_dye"
+    },
+    "Y": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "pattern": [
+    "YK  KY",
+    "KWKKWK",
+    "KWWWWK",
+    "KW#WWK",
+    " SYYS ",
+    " YYYY "
+  ],
+  "result": {
+    "item": "dragonminez:pattern_vegeta_whis"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "animation": "dragonminez:animations/block/dball.animation.json",
+  "flat_texture_prefix": "dragonminez:block/custom/dballblock",
+  "geo_model": "dragonminez:geo/block/dball.geo.json",
+  "geo_texture_prefix": "dragonminez:textures/block/custom/dballblock",
+  "id": "earth_ballset",
+  "inventory_texture_format": "dragonminez:item/dball%d"
+}

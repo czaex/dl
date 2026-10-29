@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Fabric-Loom-Client-Only-Entries: net/nanaky/ultimate_battle_music/combat
+ /CombatDetector.class;net/nanaky/ultimate_battle_music/ModMenuIntegrati
+ on$1.class;net/nanaky/ultimate_battle_music/ModMenuIntegration.class;ne
+ t/nanaky/ultimate_battle_music/music/LoopingSoundInstance$Phase.class;n
+ et/nanaky/ultimate_battle_music/music/LoopingSoundInstance.class;net/na
+ naky/ultimate_battle_music/music/MusicManager$1.class;net/nanaky/ultima
+ te_battle_music/music/MusicManager.class;net/nanaky/ultimate_battle_mus
+ ic/UltimateBattleMusicClient.class
+Fabric-Loom-Split-Environment: true
+Fabric-Mapping-Namespace: official
+Fabric-Gradle-Version: 9.5.1
+Fabric-Loom-Version: 1.17.21
+Fabric-Mixin-Compile-Extensions-Version: 0.6.0
+Fabric-Minecraft-Version: 26.3
+Fabric-Tiny-Remapper-Version: 0.14.0
+Fabric-Loader-Version: 0.19.5
+Fabric-Mixin-Version: 0.17.4+mixin.0.8.7
+Fabric-Mixin-Group: net.fabricmc
+

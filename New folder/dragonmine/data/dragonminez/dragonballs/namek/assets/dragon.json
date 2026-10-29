@@ -1,0 +1,7 @@
+{
+  "animation": "dragonminez:animations/entity/dragon/porunga.animation.json",
+  "id": "porunga",
+  "model": "dragonminez:geo/entity/dragon/porunga.geo.json",
+  "renderer_type": "default",
+  "texture": "dragonminez:textures/entity/dragon/porunga.png"
+}

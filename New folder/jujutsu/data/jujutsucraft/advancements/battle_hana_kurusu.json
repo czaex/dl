@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "jujutsucraft:clothes_angel_chestplate"
+    },
+    "title": {
+      "translate": "advancements.battle_hana_kurusu.title"
+    },
+    "description": {
+      "translate": "advancements.battle_hana_kurusu.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "battle_hana_kurusu_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:battle_fumihiko_takaba"
+}

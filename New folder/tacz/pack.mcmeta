@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "description": {
+      "text": "taczaccelerated resources"
+    },
+    "pack_format": 15,
+    "supported_formats": [15, 34]
+  }
+}

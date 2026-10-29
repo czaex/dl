@@ -1,0 +1,6 @@
+{
+  "parent": "waifu_of_god:displaysettings/earth_staff.item",
+  "textures": {
+    "layer0": "waifu_of_god:item/earth_staff"
+  }
+}

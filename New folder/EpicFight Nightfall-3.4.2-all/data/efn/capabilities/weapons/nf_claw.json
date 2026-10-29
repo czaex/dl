@@ -1,0 +1,10 @@
+{
+  "type": "efn:beastclaw",
+  "attributes": {
+    "common": {
+      "impact": 2,
+      "armor_negation":30.0,
+      "max_strikes":5
+    }
+  }
+}

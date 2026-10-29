@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+issueTrackerURL="https://github.com/tr7zw/NotEnoughAnimations/issues"
+
+license="tr7zw Protective License"
+[[mods]]
+modId="notenoughanimations"
+version="1.12.6"
+displayName="NotEnoughAnimations"
+displayURL="https://modrinth.com/mod/not-enough-animations"
+logoFile="icon.png"
+authors="tr7zw"
+description='''
+Adding and improving animations in Third-Person.
+'''
+displayTest="IGNORE_ALL_VERSION"
+[[mixins]]
+config="notenoughanimations.mixins.json"
+[[dependencies.notenoughanimations]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="~26.3"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.notenoughanimations]]
+    modId="neoforge"
+    mandatory=true
+    versionRange="[26.0,)"
+    ordering="NONE"
+    side="BOTH"

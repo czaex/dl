@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "DBD",
+    "DDD"
+  ],
+  "key": {
+    "B": {
+      "item": "mahoutsukai:powdered_emerald"
+    },
+    "D": {
+      "item": "mahoutsukai:fae_essence"
+    }
+  },
+  "result": {
+    "id": "mahoutsukai:mana_circuit"
+  }
+}

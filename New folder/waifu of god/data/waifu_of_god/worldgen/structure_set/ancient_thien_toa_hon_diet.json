@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "waifu_of_god:ancient_thien_toa_hon_diet",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 220,
+    "separation": 180,
+    "salt": 1188479686
+  }
+}

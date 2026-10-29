@@ -1,0 +1,6 @@
+{
+  "parent": "waifu_of_god:displaysettings/tinh_ha_kiem.item",
+  "textures": {
+    "layer0": "waifu_of_god:item/tinh_ha_kiem"
+  }
+}

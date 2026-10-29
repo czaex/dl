@@ -1,0 +1,15 @@
+{
+  "renderer": "epic_fight_avalon:animation_item",
+  "texture": "efn:textures/item/weapon/nf_claw.png",
+  "mesh": "efn:weapon/nf_claw",
+  "trail": {
+    "color": [255, 255, 255],
+    "begin_pos": [0.0, 0.0, 0.15],
+    "end_pos": [0.0, 0.4, -0.15],
+    "lifetime": 5,
+    "interpolations": 1,
+    "texture_path": "efn:textures/trail/zd.png",
+    "particle_type": "efn:bloom_trail"
+  },
+  "appeared_in_afterimage":false
+}

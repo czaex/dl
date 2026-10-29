@@ -1,0 +1,602 @@
+{
+  "mappings": {
+    "net/mcreator/waifuofgod/mixins/ServerForcedChunkEntitysMixin": {
+      "tick": "Lnet/minecraft/world/entity/Entity;m_8119_()V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerCommandPermissionsMixin": {
+      "handleChatCommand": "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;m_214047_(Lnet/minecraft/network/protocol/game/ServerboundChatCommandPacket;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerOutNhanQuaMixin": {
+      "baseTick": "Lnet/minecraft/world/entity/LivingEntity;m_6075_()V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerSonHaDoGridBordersMixin": {
+      "tick": "Lnet/minecraft/server/level/ServerLevel;m_8793_(Ljava/util/function/BooleanSupplier;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerHacYemGiapLogicMixin": {
+      "tick": "Lnet/minecraft/world/entity/player/Player;m_8119_()V"
+    },
+    "net/mcreator/waifuofgod/mixins/ClientPlayerRendererGhostMixin": {
+      "render": "Lnet/minecraft/client/renderer/entity/player/PlayerRenderer;m_7392_(Lnet/minecraft/client/player/AbstractClientPlayer;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerDomainExplosionMixin": {
+      "finalizeExplosion": "Lnet/minecraft/world/level/Explosion;m_46075_(Z)V",
+      "explode": "Lnet/minecraft/world/level/Explosion;m_46061_()V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerVoThuongShapeFreezeMixin": {
+      "updateShape": "Lnet/minecraft/world/level/block/state/BlockBehaviour$BlockStateBase;m_60728_(Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerLockDimensionPacketsMixin": {
+      "send(Lnet/minecraft/network/protocol/Packet;)V": "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;m_9829_(Lnet/minecraft/network/protocol/Packet;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ClientMouseHandlersMixin": {
+      "onPress": "Lnet/minecraft/client/MouseHandler;m_91530_(JIII)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerDataEntityMixin": {
+      "tick": "Lnet/minecraft/world/entity/Entity;m_8119_()V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerKarmaSpawnMixin": {
+      "addFreshEntity": "Lnet/minecraft/server/level/ServerLevel;m_7967_(Lnet/minecraft/world/entity/Entity;)Z"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerIncreaseDmgsMixin": {
+      "baseTick": "Lnet/minecraft/world/entity/LivingEntity;m_6075_()V",
+      "hurt": "Lnet/minecraft/world/entity/LivingEntity;m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z",
+      "setHealth": "Lnet/minecraft/world/entity/LivingEntity;m_21153_(F)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerLuanHoiTargetsMixin": {
+      "baseTick": "Lnet/minecraft/world/entity/LivingEntity;m_6075_()V",
+      "setHealth": "Lnet/minecraft/world/entity/LivingEntity;m_21153_(F)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerVoThuongSpawningFreezeMixin": {
+      "spawnForChunk": "Lnet/minecraft/world/level/NaturalSpawner;m_47029_(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/LevelChunk;Lnet/minecraft/world/level/NaturalSpawner$SpawnState;ZZZ)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerKarmaCommandMixin": {
+      "hasPermission": "Lnet/minecraft/commands/CommandSourceStack;m_6761_(I)Z"
+    },
+    "net/mcreator/waifuofgod/mixins/ClientParticleEngineTimeStopsMixin": {
+      "tick": "Lnet/minecraft/client/particle/ParticleEngine;m_107388_()V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerPlayerGodsMixin": {
+      "die": "Lnet/minecraft/world/entity/LivingEntity;m_6667_(Lnet/minecraft/world/damagesource/DamageSource;)V",
+      "actuallyHurt": "Lnet/minecraft/world/entity/LivingEntity;m_6475_(Lnet/minecraft/world/damagesource/DamageSource;F)V",
+      "tick": "Lnet/minecraft/world/entity/LivingEntity;m_8119_()V",
+      "kill": "Lnet/minecraft/world/entity/LivingEntity;m_6074_()V",
+      "tickDeath": "Lnet/minecraft/world/entity/LivingEntity;m_6153_()V",
+      "baseTick": "Lnet/minecraft/world/entity/LivingEntity;m_6075_()V",
+      "hurt": "Lnet/minecraft/world/entity/LivingEntity;m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z",
+      "remove": "Lnet/minecraft/world/entity/LivingEntity;m_142687_(Lnet/minecraft/world/entity/Entity$RemovalReason;)V",
+      "setHealth": "Lnet/minecraft/world/entity/LivingEntity;m_21153_(F)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerKarmaInteractEntityMixin": {
+      "interactOn": "Lnet/minecraft/world/entity/player/Player;m_36157_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerWorldLockdownMixin": {
+      "tick": "Lnet/minecraft/server/level/ServerLevel;m_8793_(Ljava/util/function/BooleanSupplier;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ClientPlayerMouseMixin": {
+      "onPress": "Lnet/minecraft/client/MouseHandler;m_91530_(JIII)V",
+      "onScroll": "Lnet/minecraft/client/MouseHandler;m_91526_(JDD)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerLockPositionBlockClonesMixin": {
+      "addFreshEntity": "Lnet/minecraft/server/level/ServerLevel;m_7967_(Lnet/minecraft/world/entity/Entity;)Z"
+    },
+    "net/mcreator/waifuofgod/mixins/ClientEntityNoInterpolationsMixin": {
+      "lerpTo": "Lnet/minecraft/world/entity/Entity;m_6453_(DDDFFIZ)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerKarmaCraftMixin": {
+      "slotChangedCraftingGrid": "Lnet/minecraft/world/inventory/CraftingMenu;m_150546_(Lnet/minecraft/world/inventory/AbstractContainerMenu;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/inventory/CraftingContainer;Lnet/minecraft/world/inventory/ResultContainer;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ClientHacYemGiapRenderMixin": {
+      "render": "Lnet/minecraft/client/renderer/entity/EntityRenderDispatcher;m_114384_(Lnet/minecraft/world/entity/Entity;DDDFFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ClientPlayerKeyboardMixin": {
+      "keyPress": "Lnet/minecraft/client/KeyboardHandler;m_90893_(JIIII)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerDomainEntityPhysicsMixin": {
+      "teleportTo(DDD)V": "Lnet/minecraft/world/entity/Entity;m_6021_(DDD)V",
+      "tick": "Lnet/minecraft/world/entity/Entity;m_8119_()V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerKarmaPickupMixin": {
+      "playerTouch": "Lnet/minecraft/world/entity/item/ItemEntity;m_6123_(Lnet/minecraft/world/entity/player/Player;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerVoThuongCommandFreezeMixin": {
+      "performChatCommand": "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;m_246958_(Lnet/minecraft/network/protocol/game/ServerboundChatCommandPacket;Lnet/minecraft/network/chat/LastSeenMessages;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ClientPlayerMayflyControlsMixin": {
+      "tick": "Lnet/minecraft/world/entity/player/Player;m_8119_()V"
+    },
+    "net/mcreator/waifuofgod/mixins/ClientThuongTam3Mixin": {
+      "getFov": "Lnet/minecraft/client/renderer/GameRenderer;m_109141_(Lnet/minecraft/client/Camera;FZ)D"
+    },
+    "net/mcreator/waifuofgod/mixins/ClientPlayerGhostMixin": {
+      "tick": "Lnet/minecraft/world/entity/player/Player;m_8119_()V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerLevelTimeStopMixin": {
+      "tickNonPassenger": "Lnet/minecraft/server/level/ServerLevel;m_8647_(Lnet/minecraft/world/entity/Entity;)V",
+      "tickPassenger": "Lnet/minecraft/server/level/ServerLevel;m_8662_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerDomainAiConfusionMixin": {
+      "setTarget": "Lnet/minecraft/world/entity/Mob;m_6710_(Lnet/minecraft/world/entity/LivingEntity;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerPlayerDieMixin": {
+      "die": "Lnet/minecraft/server/level/ServerPlayer;m_6667_(Lnet/minecraft/world/damagesource/DamageSource;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerUniversalDeathHandlerMixin": {
+      "tick": "Lnet/minecraft/world/entity/LivingEntity;m_8119_()V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerLockPositionsMixin": {
+      "move": "Lnet/minecraft/world/entity/Entity;m_6478_(Lnet/minecraft/world/entity/MoverType;Lnet/minecraft/world/phys/Vec3;)V",
+      "teleportTo(DDD)V": "Lnet/minecraft/world/entity/Entity;m_6021_(DDD)V",
+      "moveTo(DDD)V": "Lnet/minecraft/world/entity/Entity;m_6027_(DDD)V",
+      "absMoveTo(DDD)V": "Lnet/minecraft/world/entity/Entity;m_20248_(DDD)V",
+      "tick": "Lnet/minecraft/world/entity/Entity;m_8119_()V",
+      "setPos(DDD)V": "Lnet/minecraft/world/entity/Entity;m_6034_(DDD)V",
+      "changeDimension": "Lnet/minecraft/world/entity/Entity;m_5489_(Lnet/minecraft/server/level/ServerLevel;)Lnet/minecraft/world/entity/Entity;"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerDomainItemPickupMixin": {
+      "playerTouch": "Lnet/minecraft/world/entity/item/ItemEntity;m_6123_(Lnet/minecraft/world/entity/player/Player;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ClientLevelTimeStopMixin": {
+      "tickNonPassenger": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104639_(Lnet/minecraft/world/entity/Entity;)V",
+      "tickPassenger": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104641_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ClientVoThuongParticleFreezeMixin": {
+      "tick": "Lnet/minecraft/client/particle/ParticleEngine;m_107388_()V"
+    },
+    "net/mcreator/waifuofgod/mixins/ClientCameraDistancesMixin": {
+      "Lnet/minecraft/client/Camera;move(DDD)V": "Lnet/minecraft/client/Camera;m_90568_(DDD)V",
+      "move": "m_90568_(DDD)V",
+      "setup": "Lnet/minecraft/client/Camera;m_90575_(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/world/entity/Entity;ZZF)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerEntitySyncMixin": {
+      "tick": "Lnet/minecraft/world/entity/Entity;m_8119_()V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerSonHaDoGridRegionsMixin": {
+      "tickNonPassenger": "Lnet/minecraft/server/level/ServerLevel;m_8647_(Lnet/minecraft/world/entity/Entity;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerLuanHoiThanKiemsMixin": {
+      "tickNonPassenger": "Lnet/minecraft/server/level/ServerLevel;m_8647_(Lnet/minecraft/world/entity/Entity;)V",
+      "tickPassenger": "Lnet/minecraft/server/level/ServerLevel;m_8662_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerVoThuongNeighborFreezeMixin": {
+      "neighborChanged(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;)V": "Lnet/minecraft/world/level/Level;m_46586_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;)V",
+      "updateNeighborsAt": "Lnet/minecraft/world/level/Level;m_46672_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;)V",
+      "neighborChanged(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;Z)V": "Lnet/minecraft/world/level/Level;m_213960_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;Z)V",
+      "updateNeighborsAtExceptFromFacing": "Lnet/minecraft/world/level/Level;m_46590_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/Direction;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerHuKhongGiapBarriersMixin": {
+      "tick": "Lnet/minecraft/server/level/ServerLevel;m_8793_(Ljava/util/function/BooleanSupplier;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerLivingEntityTotalHealthMixin": {
+      "tick": "Lnet/minecraft/world/entity/LivingEntity;m_8119_()V",
+      "kill": "Lnet/minecraft/world/entity/LivingEntity;m_6074_()V",
+      "hurt": "Lnet/minecraft/world/entity/LivingEntity;m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z",
+      "setHealth": "Lnet/minecraft/world/entity/LivingEntity;m_21153_(F)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerReverseLuanHoisMixin": {
+      "tick": "Lnet/minecraft/server/level/ServerLevel;m_8793_(Ljava/util/function/BooleanSupplier;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerEntityDimensionSyncsMixin": {
+      "tick": "Lnet/minecraft/server/level/ServerPlayer;m_8119_()V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerKarmaUseItemMixin": {
+      "handleUseItem": "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;m_5760_(Lnet/minecraft/network/protocol/game/ServerboundUseItemPacket;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerDomainAiTickConfusionMixin": {
+      "moveTo(Lnet/minecraft/world/entity/Entity;D)Z": "Lnet/minecraft/world/entity/ai/navigation/PathNavigation;m_5624_(Lnet/minecraft/world/entity/Entity;D)Z"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerUMinhKhongHonSetTargetMixin": {
+      "setTarget": "Lnet/minecraft/world/entity/Mob;m_6710_(Lnet/minecraft/world/entity/LivingEntity;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerDomainPlayerDropMixin": {
+      "drop(Lnet/minecraft/world/item/ItemStack;ZZ)Lnet/minecraft/world/entity/item/ItemEntity;": "Lnet/minecraft/world/entity/player/Player;m_7197_(Lnet/minecraft/world/item/ItemStack;ZZ)Lnet/minecraft/world/entity/item/ItemEntity;"
+    },
+    "net/mcreator/waifuofgod/mixins/ClientThuongTam1Mixin": {
+      "hasEffect": "Lnet/minecraft/world/entity/LivingEntity;m_21023_(Lnet/minecraft/world/effect/MobEffect;)Z"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerTickKarmaMixin": {
+      "tickNonPassenger": "Lnet/minecraft/server/level/ServerLevel;m_8647_(Lnet/minecraft/world/entity/Entity;)V",
+      "tickPassenger": "Lnet/minecraft/server/level/ServerLevel;m_8662_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ClientLuanHoiThanKiemsMixin": {
+      "tickNonPassenger": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104639_(Lnet/minecraft/world/entity/Entity;)V",
+      "tickPassenger": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104641_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerNhanQuaRegionCoreMixin": {
+      "tickNonPassenger": "Lnet/minecraft/server/level/ServerLevel;m_8647_(Lnet/minecraft/world/entity/Entity;)V",
+      "tick": "Lnet/minecraft/server/level/ServerLevel;m_8793_(Ljava/util/function/BooleanSupplier;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerUMinhKhongHonControlMixin": {
+      "tick": "Lnet/minecraft/world/entity/LivingEntity;m_8119_()V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerKhongVuGiapMixin": {
+      "causeFallDamage": "Lnet/minecraft/world/entity/player/Player;m_142535_(FFLnet/minecraft/world/damagesource/DamageSource;)Z",
+      "tick": "Lnet/minecraft/world/entity/player/Player;m_8119_()V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerTickTinhThanCongKichMixin": {
+      "travel": "Lnet/minecraft/world/entity/LivingEntity;m_7023_(Lnet/minecraft/world/phys/Vec3;)V",
+      "baseTick": "Lnet/minecraft/world/entity/LivingEntity;m_6075_()V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerPlayerPermissionTicksMixin": {
+      "tick": "Lnet/minecraft/server/level/ServerPlayer;m_8119_()V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerEntityInvulnerableMixin": {
+      "isInvulnerableTo(Lnet/minecraft/world/damagesource/DamageSource;)Z": "Lnet/minecraft/world/entity/Entity;m_6673_(Lnet/minecraft/world/damagesource/DamageSource;)Z"
+    },
+    "net/mcreator/waifuofgod/mixins/ClientMouseScrollAndMiddleClicksMixin": {
+      "onPress": "Lnet/minecraft/client/MouseHandler;m_91530_(JIII)V",
+      "onScroll": "Lnet/minecraft/client/MouseHandler;m_91526_(JDD)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerNhanQuaBlockBreakMixin": {
+      "destroyBlock": "Lnet/minecraft/server/level/ServerPlayerGameMode;m_9280_(Lnet/minecraft/core/BlockPos;)Z"
+    },
+    "net/mcreator/waifuofgod/mixins/ClientVoThuongSoundFreezeMixin": {
+      "play": "Lnet/minecraft/client/sounds/SoundEngine;m_120312_(Lnet/minecraft/client/resources/sounds/SoundInstance;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerLockDirectServerPlayerTeleportsMixin": {
+      "teleportTo(Lnet/minecraft/server/level/ServerLevel;DDDFF)V": "Lnet/minecraft/server/level/ServerPlayer;m_8999_(Lnet/minecraft/server/level/ServerLevel;DDDFF)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerForceRemoveEntitysMixin": {
+      "tickNonPassenger": "Lnet/minecraft/server/level/ServerLevel;m_8647_(Lnet/minecraft/world/entity/Entity;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerNhanQuaBlockSetBlockMixin": {
+      "setBlock(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;I)Z": "Lnet/minecraft/world/level/Level;m_7731_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;I)Z"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerNhanQuaEntityMixin": {
+      "spawnAtLocation(Lnet/minecraft/world/item/ItemStack;F)Lnet/minecraft/world/entity/item/ItemEntity;": "Lnet/minecraft/world/entity/Entity;m_5552_(Lnet/minecraft/world/item/ItemStack;F)Lnet/minecraft/world/entity/item/ItemEntity;",
+      "tick": "Lnet/minecraft/world/entity/Entity;m_8119_()V",
+      "remove": "Lnet/minecraft/world/entity/Entity;m_142687_(Lnet/minecraft/world/entity/Entity$RemovalReason;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerBeTrungBayProtectionMixin": {
+      "setBlock(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;II)Z": "Lnet/minecraft/world/level/Level;m_6933_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;II)Z",
+      "removeBlockEntity": "Lnet/minecraft/world/level/Level;m_46747_(Lnet/minecraft/core/BlockPos;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerKarmaUseItemOnMixin": {
+      "handleUseItemOn": "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;m_6371_(Lnet/minecraft/network/protocol/game/ServerboundUseItemOnPacket;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ClientCameraShakesMixin": {
+      "renderLevel": "Lnet/minecraft/client/renderer/GameRenderer;m_109089_(FJLcom/mojang/blaze3d/vertex/PoseStack;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerGhostTimeSlowMixin": {
+      "tickNonPassenger": "Lnet/minecraft/server/level/ServerLevel;m_8647_(Lnet/minecraft/world/entity/Entity;)V",
+      "tickPassenger": "Lnet/minecraft/server/level/ServerLevel;m_8662_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerCaptureLastHurtSourceMixin": {
+      "hurt": "Lnet/minecraft/world/entity/LivingEntity;m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerVoThuongEntityFreezeMixin": {
+      "guardEntityTick": "Lnet/minecraft/world/level/Level;m_46653_(Ljava/util/function/Consumer;Lnet/minecraft/world/entity/Entity;)V",
+      "tickBlockEntities": "Lnet/minecraft/world/level/Level;m_46463_()V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerKarmaWorldActionMixin": {
+      "handleUseItemOn": "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;m_6371_(Lnet/minecraft/network/protocol/game/ServerboundUseItemOnPacket;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerNhanQuaBlockRightClickBlockMixin": {
+      "useItemOn": "Lnet/minecraft/server/level/ServerPlayerGameMode;m_7179_(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerVoThuongWorldFreezeMixin": {
+      "tickBlock": "Lnet/minecraft/server/level/ServerLevel;m_184112_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;)V",
+      "tickTime": "Lnet/minecraft/server/level/ServerLevel;m_8809_()V",
+      "tickChunk": "Lnet/minecraft/server/level/ServerLevel;m_8714_(Lnet/minecraft/world/level/chunk/LevelChunk;I)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ClientEntitySyncMixin": {
+      "tickNonPassenger": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104639_(Lnet/minecraft/world/entity/Entity;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerReverseLuanHoiLivingsMixin": {
+      "dropAllDeathLoot": "Lnet/minecraft/world/entity/LivingEntity;m_6668_(Lnet/minecraft/world/damagesource/DamageSource;)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ClientThuongTam2Mixin": {
+      "setupFog": "Lnet/minecraft/client/renderer/FogRenderer;m_234172_(Lnet/minecraft/client/Camera;Lnet/minecraft/client/renderer/FogRenderer$FogMode;FZF)V"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerDomainLivingEntityMixin": {
+      "canBeAffected": "Lnet/minecraft/world/entity/LivingEntity;m_7301_(Lnet/minecraft/world/effect/MobEffectInstance;)Z",
+      "heal": "Lnet/minecraft/world/entity/LivingEntity;m_5634_(F)V",
+      "tick": "Lnet/minecraft/world/entity/LivingEntity;m_8119_()V",
+      "hurt": "Lnet/minecraft/world/entity/LivingEntity;m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z"
+    },
+    "net/mcreator/waifuofgod/mixins/ServerNhanQuaNeighborUpdateMixin": {
+      "updateNeighborsAt": "Lnet/minecraft/world/level/Level;m_46672_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;)V",
+      "neighborChanged": "Lnet/minecraft/world/level/Level;m_46586_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;)V"
+    }
+  },
+  "data": {
+    "searge": {
+      "net/mcreator/waifuofgod/mixins/ServerForcedChunkEntitysMixin": {
+        "tick": "Lnet/minecraft/world/entity/Entity;m_8119_()V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerCommandPermissionsMixin": {
+        "handleChatCommand": "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;m_214047_(Lnet/minecraft/network/protocol/game/ServerboundChatCommandPacket;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerOutNhanQuaMixin": {
+        "baseTick": "Lnet/minecraft/world/entity/LivingEntity;m_6075_()V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerSonHaDoGridBordersMixin": {
+        "tick": "Lnet/minecraft/server/level/ServerLevel;m_8793_(Ljava/util/function/BooleanSupplier;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerHacYemGiapLogicMixin": {
+        "tick": "Lnet/minecraft/world/entity/player/Player;m_8119_()V"
+      },
+      "net/mcreator/waifuofgod/mixins/ClientPlayerRendererGhostMixin": {
+        "render": "Lnet/minecraft/client/renderer/entity/player/PlayerRenderer;m_7392_(Lnet/minecraft/client/player/AbstractClientPlayer;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerDomainExplosionMixin": {
+        "finalizeExplosion": "Lnet/minecraft/world/level/Explosion;m_46075_(Z)V",
+        "explode": "Lnet/minecraft/world/level/Explosion;m_46061_()V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerVoThuongShapeFreezeMixin": {
+        "updateShape": "Lnet/minecraft/world/level/block/state/BlockBehaviour$BlockStateBase;m_60728_(Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerLockDimensionPacketsMixin": {
+        "send(Lnet/minecraft/network/protocol/Packet;)V": "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;m_9829_(Lnet/minecraft/network/protocol/Packet;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ClientMouseHandlersMixin": {
+        "onPress": "Lnet/minecraft/client/MouseHandler;m_91530_(JIII)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerDataEntityMixin": {
+        "tick": "Lnet/minecraft/world/entity/Entity;m_8119_()V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerKarmaSpawnMixin": {
+        "addFreshEntity": "Lnet/minecraft/server/level/ServerLevel;m_7967_(Lnet/minecraft/world/entity/Entity;)Z"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerIncreaseDmgsMixin": {
+        "baseTick": "Lnet/minecraft/world/entity/LivingEntity;m_6075_()V",
+        "hurt": "Lnet/minecraft/world/entity/LivingEntity;m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z",
+        "setHealth": "Lnet/minecraft/world/entity/LivingEntity;m_21153_(F)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerLuanHoiTargetsMixin": {
+        "baseTick": "Lnet/minecraft/world/entity/LivingEntity;m_6075_()V",
+        "setHealth": "Lnet/minecraft/world/entity/LivingEntity;m_21153_(F)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerVoThuongSpawningFreezeMixin": {
+        "spawnForChunk": "Lnet/minecraft/world/level/NaturalSpawner;m_47029_(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/LevelChunk;Lnet/minecraft/world/level/NaturalSpawner$SpawnState;ZZZ)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerKarmaCommandMixin": {
+        "hasPermission": "Lnet/minecraft/commands/CommandSourceStack;m_6761_(I)Z"
+      },
+      "net/mcreator/waifuofgod/mixins/ClientParticleEngineTimeStopsMixin": {
+        "tick": "Lnet/minecraft/client/particle/ParticleEngine;m_107388_()V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerPlayerGodsMixin": {
+        "die": "Lnet/minecraft/world/entity/LivingEntity;m_6667_(Lnet/minecraft/world/damagesource/DamageSource;)V",
+        "actuallyHurt": "Lnet/minecraft/world/entity/LivingEntity;m_6475_(Lnet/minecraft/world/damagesource/DamageSource;F)V",
+        "tick": "Lnet/minecraft/world/entity/LivingEntity;m_8119_()V",
+        "kill": "Lnet/minecraft/world/entity/LivingEntity;m_6074_()V",
+        "tickDeath": "Lnet/minecraft/world/entity/LivingEntity;m_6153_()V",
+        "baseTick": "Lnet/minecraft/world/entity/LivingEntity;m_6075_()V",
+        "hurt": "Lnet/minecraft/world/entity/LivingEntity;m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z",
+        "remove": "Lnet/minecraft/world/entity/LivingEntity;m_142687_(Lnet/minecraft/world/entity/Entity$RemovalReason;)V",
+        "setHealth": "Lnet/minecraft/world/entity/LivingEntity;m_21153_(F)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerKarmaInteractEntityMixin": {
+        "interactOn": "Lnet/minecraft/world/entity/player/Player;m_36157_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerWorldLockdownMixin": {
+        "tick": "Lnet/minecraft/server/level/ServerLevel;m_8793_(Ljava/util/function/BooleanSupplier;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ClientPlayerMouseMixin": {
+        "onPress": "Lnet/minecraft/client/MouseHandler;m_91530_(JIII)V",
+        "onScroll": "Lnet/minecraft/client/MouseHandler;m_91526_(JDD)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerLockPositionBlockClonesMixin": {
+        "addFreshEntity": "Lnet/minecraft/server/level/ServerLevel;m_7967_(Lnet/minecraft/world/entity/Entity;)Z"
+      },
+      "net/mcreator/waifuofgod/mixins/ClientEntityNoInterpolationsMixin": {
+        "lerpTo": "Lnet/minecraft/world/entity/Entity;m_6453_(DDDFFIZ)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerKarmaCraftMixin": {
+        "slotChangedCraftingGrid": "Lnet/minecraft/world/inventory/CraftingMenu;m_150546_(Lnet/minecraft/world/inventory/AbstractContainerMenu;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/inventory/CraftingContainer;Lnet/minecraft/world/inventory/ResultContainer;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ClientHacYemGiapRenderMixin": {
+        "render": "Lnet/minecraft/client/renderer/entity/EntityRenderDispatcher;m_114384_(Lnet/minecraft/world/entity/Entity;DDDFFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ClientPlayerKeyboardMixin": {
+        "keyPress": "Lnet/minecraft/client/KeyboardHandler;m_90893_(JIIII)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerDomainEntityPhysicsMixin": {
+        "teleportTo(DDD)V": "Lnet/minecraft/world/entity/Entity;m_6021_(DDD)V",
+        "tick": "Lnet/minecraft/world/entity/Entity;m_8119_()V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerKarmaPickupMixin": {
+        "playerTouch": "Lnet/minecraft/world/entity/item/ItemEntity;m_6123_(Lnet/minecraft/world/entity/player/Player;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerVoThuongCommandFreezeMixin": {
+        "performChatCommand": "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;m_246958_(Lnet/minecraft/network/protocol/game/ServerboundChatCommandPacket;Lnet/minecraft/network/chat/LastSeenMessages;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ClientPlayerMayflyControlsMixin": {
+        "tick": "Lnet/minecraft/world/entity/player/Player;m_8119_()V"
+      },
+      "net/mcreator/waifuofgod/mixins/ClientThuongTam3Mixin": {
+        "getFov": "Lnet/minecraft/client/renderer/GameRenderer;m_109141_(Lnet/minecraft/client/Camera;FZ)D"
+      },
+      "net/mcreator/waifuofgod/mixins/ClientPlayerGhostMixin": {
+        "tick": "Lnet/minecraft/world/entity/player/Player;m_8119_()V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerLevelTimeStopMixin": {
+        "tickNonPassenger": "Lnet/minecraft/server/level/ServerLevel;m_8647_(Lnet/minecraft/world/entity/Entity;)V",
+        "tickPassenger": "Lnet/minecraft/server/level/ServerLevel;m_8662_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerDomainAiConfusionMixin": {
+        "setTarget": "Lnet/minecraft/world/entity/Mob;m_6710_(Lnet/minecraft/world/entity/LivingEntity;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerPlayerDieMixin": {
+        "die": "Lnet/minecraft/server/level/ServerPlayer;m_6667_(Lnet/minecraft/world/damagesource/DamageSource;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerUniversalDeathHandlerMixin": {
+        "tick": "Lnet/minecraft/world/entity/LivingEntity;m_8119_()V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerLockPositionsMixin": {
+        "move": "Lnet/minecraft/world/entity/Entity;m_6478_(Lnet/minecraft/world/entity/MoverType;Lnet/minecraft/world/phys/Vec3;)V",
+        "teleportTo(DDD)V": "Lnet/minecraft/world/entity/Entity;m_6021_(DDD)V",
+        "moveTo(DDD)V": "Lnet/minecraft/world/entity/Entity;m_6027_(DDD)V",
+        "absMoveTo(DDD)V": "Lnet/minecraft/world/entity/Entity;m_20248_(DDD)V",
+        "tick": "Lnet/minecraft/world/entity/Entity;m_8119_()V",
+        "setPos(DDD)V": "Lnet/minecraft/world/entity/Entity;m_6034_(DDD)V",
+        "changeDimension": "Lnet/minecraft/world/entity/Entity;m_5489_(Lnet/minecraft/server/level/ServerLevel;)Lnet/minecraft/world/entity/Entity;"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerDomainItemPickupMixin": {
+        "playerTouch": "Lnet/minecraft/world/entity/item/ItemEntity;m_6123_(Lnet/minecraft/world/entity/player/Player;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ClientLevelTimeStopMixin": {
+        "tickNonPassenger": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104639_(Lnet/minecraft/world/entity/Entity;)V",
+        "tickPassenger": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104641_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ClientVoThuongParticleFreezeMixin": {
+        "tick": "Lnet/minecraft/client/particle/ParticleEngine;m_107388_()V"
+      },
+      "net/mcreator/waifuofgod/mixins/ClientCameraDistancesMixin": {
+        "Lnet/minecraft/client/Camera;move(DDD)V": "Lnet/minecraft/client/Camera;m_90568_(DDD)V",
+        "move": "m_90568_(DDD)V",
+        "setup": "Lnet/minecraft/client/Camera;m_90575_(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/world/entity/Entity;ZZF)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerEntitySyncMixin": {
+        "tick": "Lnet/minecraft/world/entity/Entity;m_8119_()V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerSonHaDoGridRegionsMixin": {
+        "tickNonPassenger": "Lnet/minecraft/server/level/ServerLevel;m_8647_(Lnet/minecraft/world/entity/Entity;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerLuanHoiThanKiemsMixin": {
+        "tickNonPassenger": "Lnet/minecraft/server/level/ServerLevel;m_8647_(Lnet/minecraft/world/entity/Entity;)V",
+        "tickPassenger": "Lnet/minecraft/server/level/ServerLevel;m_8662_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerVoThuongNeighborFreezeMixin": {
+        "neighborChanged(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;)V": "Lnet/minecraft/world/level/Level;m_46586_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;)V",
+        "updateNeighborsAt": "Lnet/minecraft/world/level/Level;m_46672_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;)V",
+        "neighborChanged(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;Z)V": "Lnet/minecraft/world/level/Level;m_213960_(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;Z)V",
+        "updateNeighborsAtExceptFromFacing": "Lnet/minecraft/world/level/Level;m_46590_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/Direction;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerHuKhongGiapBarriersMixin": {
+        "tick": "Lnet/minecraft/server/level/ServerLevel;m_8793_(Ljava/util/function/BooleanSupplier;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerLivingEntityTotalHealthMixin": {
+        "tick": "Lnet/minecraft/world/entity/LivingEntity;m_8119_()V",
+        "kill": "Lnet/minecraft/world/entity/LivingEntity;m_6074_()V",
+        "hurt": "Lnet/minecraft/world/entity/LivingEntity;m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z",
+        "setHealth": "Lnet/minecraft/world/entity/LivingEntity;m_21153_(F)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerReverseLuanHoisMixin": {
+        "tick": "Lnet/minecraft/server/level/ServerLevel;m_8793_(Ljava/util/function/BooleanSupplier;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerEntityDimensionSyncsMixin": {
+        "tick": "Lnet/minecraft/server/level/ServerPlayer;m_8119_()V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerKarmaUseItemMixin": {
+        "handleUseItem": "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;m_5760_(Lnet/minecraft/network/protocol/game/ServerboundUseItemPacket;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerDomainAiTickConfusionMixin": {
+        "moveTo(Lnet/minecraft/world/entity/Entity;D)Z": "Lnet/minecraft/world/entity/ai/navigation/PathNavigation;m_5624_(Lnet/minecraft/world/entity/Entity;D)Z"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerUMinhKhongHonSetTargetMixin": {
+        "setTarget": "Lnet/minecraft/world/entity/Mob;m_6710_(Lnet/minecraft/world/entity/LivingEntity;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerDomainPlayerDropMixin": {
+        "drop(Lnet/minecraft/world/item/ItemStack;ZZ)Lnet/minecraft/world/entity/item/ItemEntity;": "Lnet/minecraft/world/entity/player/Player;m_7197_(Lnet/minecraft/world/item/ItemStack;ZZ)Lnet/minecraft/world/entity/item/ItemEntity;"
+      },
+      "net/mcreator/waifuofgod/mixins/ClientThuongTam1Mixin": {
+        "hasEffect": "Lnet/minecraft/world/entity/LivingEntity;m_21023_(Lnet/minecraft/world/effect/MobEffect;)Z"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerTickKarmaMixin": {
+        "tickNonPassenger": "Lnet/minecraft/server/level/ServerLevel;m_8647_(Lnet/minecraft/world/entity/Entity;)V",
+        "tickPassenger": "Lnet/minecraft/server/level/ServerLevel;m_8662_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ClientLuanHoiThanKiemsMixin": {
+        "tickNonPassenger": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104639_(Lnet/minecraft/world/entity/Entity;)V",
+        "tickPassenger": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104641_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerNhanQuaRegionCoreMixin": {
+        "tickNonPassenger": "Lnet/minecraft/server/level/ServerLevel;m_8647_(Lnet/minecraft/world/entity/Entity;)V",
+        "tick": "Lnet/minecraft/server/level/ServerLevel;m_8793_(Ljava/util/function/BooleanSupplier;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerUMinhKhongHonControlMixin": {
+        "tick": "Lnet/minecraft/world/entity/LivingEntity;m_8119_()V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerKhongVuGiapMixin": {
+        "causeFallDamage": "Lnet/minecraft/world/entity/player/Player;m_142535_(FFLnet/minecraft/world/damagesource/DamageSource;)Z",
+        "tick": "Lnet/minecraft/world/entity/player/Player;m_8119_()V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerTickTinhThanCongKichMixin": {
+        "travel": "Lnet/minecraft/world/entity/LivingEntity;m_7023_(Lnet/minecraft/world/phys/Vec3;)V",
+        "baseTick": "Lnet/minecraft/world/entity/LivingEntity;m_6075_()V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerPlayerPermissionTicksMixin": {
+        "tick": "Lnet/minecraft/server/level/ServerPlayer;m_8119_()V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerEntityInvulnerableMixin": {
+        "isInvulnerableTo(Lnet/minecraft/world/damagesource/DamageSource;)Z": "Lnet/minecraft/world/entity/Entity;m_6673_(Lnet/minecraft/world/damagesource/DamageSource;)Z"
+      },
+      "net/mcreator/waifuofgod/mixins/ClientMouseScrollAndMiddleClicksMixin": {
+        "onPress": "Lnet/minecraft/client/MouseHandler;m_91530_(JIII)V",
+        "onScroll": "Lnet/minecraft/client/MouseHandler;m_91526_(JDD)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerNhanQuaBlockBreakMixin": {
+        "destroyBlock": "Lnet/minecraft/server/level/ServerPlayerGameMode;m_9280_(Lnet/minecraft/core/BlockPos;)Z"
+      },
+      "net/mcreator/waifuofgod/mixins/ClientVoThuongSoundFreezeMixin": {
+        "play": "Lnet/minecraft/client/sounds/SoundEngine;m_120312_(Lnet/minecraft/client/resources/sounds/SoundInstance;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerLockDirectServerPlayerTeleportsMixin": {
+        "teleportTo(Lnet/minecraft/server/level/ServerLevel;DDDFF)V": "Lnet/minecraft/server/level/ServerPlayer;m_8999_(Lnet/minecraft/server/level/ServerLevel;DDDFF)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerForceRemoveEntitysMixin": {
+        "tickNonPassenger": "Lnet/minecraft/server/level/ServerLevel;m_8647_(Lnet/minecraft/world/entity/Entity;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerNhanQuaBlockSetBlockMixin": {
+        "setBlock(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;I)Z": "Lnet/minecraft/world/level/Level;m_7731_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;I)Z"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerNhanQuaEntityMixin": {
+        "spawnAtLocation(Lnet/minecraft/world/item/ItemStack;F)Lnet/minecraft/world/entity/item/ItemEntity;": "Lnet/minecraft/world/entity/Entity;m_5552_(Lnet/minecraft/world/item/ItemStack;F)Lnet/minecraft/world/entity/item/ItemEntity;",
+        "tick": "Lnet/minecraft/world/entity/Entity;m_8119_()V",
+        "remove": "Lnet/minecraft/world/entity/Entity;m_142687_(Lnet/minecraft/world/entity/Entity$RemovalReason;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerBeTrungBayProtectionMixin": {
+        "setBlock(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;II)Z": "Lnet/minecraft/world/level/Level;m_6933_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;II)Z",
+        "removeBlockEntity": "Lnet/minecraft/world/level/Level;m_46747_(Lnet/minecraft/core/BlockPos;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerKarmaUseItemOnMixin": {
+        "handleUseItemOn": "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;m_6371_(Lnet/minecraft/network/protocol/game/ServerboundUseItemOnPacket;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ClientCameraShakesMixin": {
+        "renderLevel": "Lnet/minecraft/client/renderer/GameRenderer;m_109089_(FJLcom/mojang/blaze3d/vertex/PoseStack;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerGhostTimeSlowMixin": {
+        "tickNonPassenger": "Lnet/minecraft/server/level/ServerLevel;m_8647_(Lnet/minecraft/world/entity/Entity;)V",
+        "tickPassenger": "Lnet/minecraft/server/level/ServerLevel;m_8662_(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerCaptureLastHurtSourceMixin": {
+        "hurt": "Lnet/minecraft/world/entity/LivingEntity;m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerVoThuongEntityFreezeMixin": {
+        "guardEntityTick": "Lnet/minecraft/world/level/Level;m_46653_(Ljava/util/function/Consumer;Lnet/minecraft/world/entity/Entity;)V",
+        "tickBlockEntities": "Lnet/minecraft/world/level/Level;m_46463_()V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerKarmaWorldActionMixin": {
+        "handleUseItemOn": "Lnet/minecraft/server/network/ServerGamePacketListenerImpl;m_6371_(Lnet/minecraft/network/protocol/game/ServerboundUseItemOnPacket;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerNhanQuaBlockRightClickBlockMixin": {
+        "useItemOn": "Lnet/minecraft/server/level/ServerPlayerGameMode;m_7179_(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerVoThuongWorldFreezeMixin": {
+        "tickBlock": "Lnet/minecraft/server/level/ServerLevel;m_184112_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;)V",
+        "tickTime": "Lnet/minecraft/server/level/ServerLevel;m_8809_()V",
+        "tickChunk": "Lnet/minecraft/server/level/ServerLevel;m_8714_(Lnet/minecraft/world/level/chunk/LevelChunk;I)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ClientEntitySyncMixin": {
+        "tickNonPassenger": "Lnet/minecraft/client/multiplayer/ClientLevel;m_104639_(Lnet/minecraft/world/entity/Entity;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerReverseLuanHoiLivingsMixin": {
+        "dropAllDeathLoot": "Lnet/minecraft/world/entity/LivingEntity;m_6668_(Lnet/minecraft/world/damagesource/DamageSource;)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ClientThuongTam2Mixin": {
+        "setupFog": "Lnet/minecraft/client/renderer/FogRenderer;m_234172_(Lnet/minecraft/client/Camera;Lnet/minecraft/client/renderer/FogRenderer$FogMode;FZF)V"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerDomainLivingEntityMixin": {
+        "canBeAffected": "Lnet/minecraft/world/entity/LivingEntity;m_7301_(Lnet/minecraft/world/effect/MobEffectInstance;)Z",
+        "heal": "Lnet/minecraft/world/entity/LivingEntity;m_5634_(F)V",
+        "tick": "Lnet/minecraft/world/entity/LivingEntity;m_8119_()V",
+        "hurt": "Lnet/minecraft/world/entity/LivingEntity;m_6469_(Lnet/minecraft/world/damagesource/DamageSource;F)Z"
+      },
+      "net/mcreator/waifuofgod/mixins/ServerNhanQuaNeighborUpdateMixin": {
+        "updateNeighborsAt": "Lnet/minecraft/world/level/Level;m_46672_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;)V",
+        "neighborChanged": "Lnet/minecraft/world/level/Level;m_46586_(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;)V"
+      }
+    }
+  }
+}

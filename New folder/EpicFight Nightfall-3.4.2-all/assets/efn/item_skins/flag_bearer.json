@@ -1,0 +1,16 @@
+{
+  "renderer": "epic_fight_avalon:mesh_item",
+  "texture": "efn:textures/item/weapon/flag_bearer.png",
+  "mesh_main":"efn:weapon/flag_bearer",
+
+  "trail": {
+    "color": [150, 150, 150],
+    "begin_pos": [0.0, 0.0, -1.3],
+    "end_pos": [0.0, 0.0, -2.6],
+    "lifetime": 4,
+    "interpolations": 8,
+    "texture_path": "efn:textures/trail/crescent_moon_trail.png",
+    "particle_type": "efn:bloom_trail"
+  },
+  "appeared_in_afterimage":false
+}

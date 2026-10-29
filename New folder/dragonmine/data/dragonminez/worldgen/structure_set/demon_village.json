@@ -1,0 +1,15 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 73019284,
+    "separation": 8,
+    "spacing": 24,
+    "spread_type": "triangular"
+  },
+  "structures": [
+    {
+      "structure": "dragonminez:demon_village",
+      "weight": 1
+    }
+  ]
+}

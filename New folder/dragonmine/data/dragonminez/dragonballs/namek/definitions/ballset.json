@@ -1,0 +1,20 @@
+{
+  "asset_definition": "namek_ballset",
+  "blocks": {
+    "1": "dball1_namek",
+    "2": "dball2_namek",
+    "3": "dball3_namek",
+    "4": "dball4_namek",
+    "5": "dball5_namek",
+    "6": "dball6_namek",
+    "7": "dball7_namek"
+  },
+  "copies": 1,
+  "dimensions": [
+    "dragonminez:namek"
+  ],
+  "display_name": "Namek Dragon Ball",
+  "id": "namek",
+  "spawn_range": 1000,
+  "summon_radius": 5
+}

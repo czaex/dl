@@ -1,0 +1,29 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_z"
+    },
+    "B": {
+      "item": "minecraft:blue_dye"
+    },
+    "K": {
+      "item": "minecraft:black_dye"
+    },
+    "Y": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "pattern": [
+    "BY  YB",
+    "KBKKBK",
+    "KYBBYK",
+    " B#BB ",
+    "YBBBBY",
+    "YB  BY"
+  ],
+  "result": {
+    "item": "dragonminez:pattern_evil_buu"
+  }
+}

@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="parties"
+version="2.3.0"
+displayName="Parties"
+updateJSONURL="https://raw.githubusercontent.com/JaydenLyte/Parties/main/update.json"
+issueTrackerURL="https://github.com/JaydenLyte/Parties/issues"
+authors="Jayden Lyte"
+description='''An in-depth RPG hud and party system featuring a modular interface, unique team mechanics, and expansive mod support. Easily build custom frames for solo or party adventures, share or bundle templates, and drop seamlessly into any modpack!'''
+logoFile= "assets/parties/textures/logo.png"
+
+[[dependencies.parties]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.parties]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+
+[[mixins]]
+config = "parties.mixins.json"

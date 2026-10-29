@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "waifu_of_god:linh_thach_tien_pham"
+    },
+    "title": {
+      "translate": "advancements.thai_at_kim_tien_canh.title"
+    },
+    "description": {
+      "translate": "advancements.thai_at_kim_tien_canh.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "thai_at_kim_tien_canh_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "waifu_of_god:entities/thai_at_kim_tien_loot"
+    ]
+  },
+  "parent": "waifu_of_god:thien_tien_canh"
+}

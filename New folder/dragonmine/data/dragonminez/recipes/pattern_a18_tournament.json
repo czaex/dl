@@ -1,0 +1,29 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_z"
+    },
+    "G": {
+      "item": "minecraft:gray_dye"
+    },
+    "K": {
+      "item": "minecraft:black_dye"
+    },
+    "S": {
+      "item": "minecraft:light_gray_dye"
+    }
+  },
+  "pattern": [
+    "KK  KK",
+    "KGKKGK",
+    "KKKKKK",
+    "SK#KKS",
+    " GKKG ",
+    "SK  KS"
+  ],
+  "result": {
+    "item": "dragonminez:pattern_a18_tournament"
+  }
+}

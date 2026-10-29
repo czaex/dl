@@ -1,0 +1,136 @@
+{
+  "dragon": "shenron",
+  "wishes": [
+    {
+      "type": "item_list_wish",
+      "description": "wish.shenron.senzu.desc",
+      "items": [
+        {
+          "count": 16,
+          "itemId": "dragonminez:senzu_bean",
+          "itemType": "generic_item"
+        }
+      ],
+      "name": "wish.shenron.senzu.name"
+    },
+    {
+      "type": "attributes",
+      "amount": 100,
+      "description": "wish.shenron.attributes.desc",
+      "name": "wish.shenron.attributes.name"
+    },
+    {
+      "type": "item_list_wish",
+      "description": "wish.shenron.powerpole.desc",
+      "items": [
+        {
+          "count": 1,
+          "itemId": "dragonminez:power_pole",
+          "itemType": "generic_item"
+        }
+      ],
+      "name": "wish.shenron.powerpole.name"
+    },
+    {
+      "type": "item_list_wish",
+      "description": "wish.shenron.mightfruit.desc",
+      "items": [
+        {
+          "count": 16,
+          "itemId": "dragonminez:might_tree_fruit",
+          "itemType": "generic_item"
+        }
+      ],
+      "name": "wish.shenron.mightfruit.name"
+    },
+    {
+      "type": "item_list_wish",
+      "description": "wish.shenron.namekcpu.desc",
+      "items": [
+        {
+          "count": 4,
+          "itemId": "dragonminez:t2_radar_cpu",
+          "itemType": "generic_item"
+        }
+      ],
+      "name": "wish.shenron.namekcpu.name"
+    },
+    {
+      "type": "item_list_wish",
+      "description": "wish.shenron.saiyanship.desc",
+      "items": [
+        {
+          "count": 1,
+          "itemId": "dragonminez:saiyan_ship",
+          "itemType": "generic_item"
+        }
+      ],
+      "name": "wish.shenron.saiyanship.name"
+    },
+    {
+      "type": "passivereset",
+      "description": "wish.shenron.racialskillreset.desc",
+      "name": "wish.shenron.racialskillreset.name"
+    },
+    {
+      "type": "recustomize",
+      "description": "wish.shenron.customization.desc",
+      "name": "wish.shenron.customization.name"
+    },
+    {
+      "type": "changedifficulty",
+      "description": "wish.shenron.changedifficulty.desc",
+      "name": "wish.shenron.changedifficulty.name"
+    },
+    {
+      "type": "resetstory",
+      "description": "wish.shenron.resetstory.desc",
+      "name": "wish.shenron.resetstory.name"
+    },
+    {
+      "type": "revive",
+      "description": "wish.shenron.revive.desc",
+      "maxTargets": 3,
+      "name": "wish.shenron.revive.name"
+    },
+    {
+      "type": "item_list_wish",
+      "description": "wish.shenron.materials.desc",
+      "items": [
+        {
+          "count": 32,
+          "itemId": "dragonminez:kikono_shard",
+          "itemType": "generic_item"
+        },
+        {
+          "count": 64,
+          "itemId": "minecraft:iron_ingot",
+          "itemType": "generic_item"
+        }
+      ],
+      "name": "wish.shenron.materials.name"
+    },
+    {
+      "type": "item_list_wish",
+      "description": "wish.shenron.strongest.desc",
+      "items": [
+        {
+          "count": 1,
+          "itemId": "dragonminez:strongest_armor_chestplate",
+          "itemType": "generic_item"
+        },
+        {
+          "count": 1,
+          "itemId": "dragonminez:strongest_armor_leggings",
+          "itemType": "generic_item"
+        },
+        {
+          "count": 1,
+          "itemId": "dragonminez:strongest_armor_boots",
+          "itemType": "generic_item"
+        }
+      ],
+      "name": "wish.shenron.strongest.name"
+    }
+  ]
+}

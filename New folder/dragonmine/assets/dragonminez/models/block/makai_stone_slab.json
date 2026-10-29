@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "dragonminez:block/makai_stone",
+    "side": "dragonminez:block/makai_stone",
+    "top": "dragonminez:block/makai_stone"
+  }
+}

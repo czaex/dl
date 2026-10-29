@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "cataclysm:laser",
+    "cataclysm:deathlaser",
+    "cataclysm:emp",
+    "cataclysm:abyssal_burn",
+    "cataclysm:maledictio_magicae",
+    "cataclysm:shredder",
+    "cataclysm:player_ceraunus",
+    "cataclysm:maledictio_sagitta",
+    "cataclysm:maledictio_anima",
+    "cataclysm:maledictio",
+    "cataclysm:penetrate",
+    "cataclysm:lightning",
+    "cataclysm:storm_bringer",
+    "cataclysm:flame_strike"
+  ]
+}

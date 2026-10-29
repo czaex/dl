@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": {
+        "item": "epicfight:netherite_spear"
+    },
+    "addition": {
+        "item" : "efn:duskfire_ingot"
+    },
+    "result": {
+        "item": "efn:meen_spear"
+    },
+    "template": {
+      "item": "minecraft:nether_star"
+    }
+}

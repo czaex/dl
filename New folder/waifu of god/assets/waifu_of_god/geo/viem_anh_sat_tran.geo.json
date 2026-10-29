@@ -1,0 +1,92 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Viêm Ảnh Sát Trận",
+				"texture_width": 450,
+				"texture_height": 150,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "magic",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Body",
+					"parent": "magic",
+					"pivot": [0, -12, 0],
+					"cubes": [
+						{"origin": [3, -12, -5], "size": [1, 1, 1], "uv": [140, 0]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [3, 0, -7], "size": [1, 1, 1], "uv": [140, 0]}
+					]
+				},
+				{
+					"name": "general_1",
+					"parent": "Head",
+					"pivot": [0, 0, 0],
+					"rotation": [-90, 0, 0]
+				},
+				{
+					"name": "general_2",
+					"parent": "general_1",
+					"pivot": [0, 0, 0],
+					"rotation": [0, 90, 0],
+					"cubes": [
+						{
+							"origin": [-16, 0, -16],
+							"size": [32, 0, 32],
+							"inflate": 0.05,
+							"uv": {
+								"up": {"uv": [0, 0], "uv_size": [150, 150]},
+								"down": {"uv": [0, 150], "uv_size": [150, -150]}
+							}
+						}
+					]
+				},
+				{
+					"name": "general_3",
+					"parent": "general_1",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-16, 0, -16],
+							"size": [32, 0, 32],
+							"inflate": 0.05,
+							"uv": {
+								"up": {"uv": [150, 0], "uv_size": [150, 150]},
+								"down": {"uv": [150, 150], "uv_size": [150, -150]}
+							}
+						}
+					]
+				},
+				{
+					"name": "general_4",
+					"parent": "general_1",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-16, 0, -16],
+							"size": [32, 0, 32],
+							"inflate": 0.05,
+							"uv": {
+								"up": {"uv": [300, 0], "uv_size": [149, 150]},
+								"down": {"uv": [300, 150], "uv_size": [150, -150]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

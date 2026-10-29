@@ -1,0 +1,38 @@
+{
+  "parent": "dragonminez:radar",
+  "criteria": {
+    "dball1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:dball1"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.dball1.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "dragonminez:dball1"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.dball1.title"
+    }
+  },
+  "requirements": [
+    [
+      "dball1"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

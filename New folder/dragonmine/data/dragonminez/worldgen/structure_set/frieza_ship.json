@@ -1,0 +1,13 @@
+{
+  "placement": {
+    "type": "dragonminez:biome_aware_placement",
+    "salt": 24681357,
+    "valid_biomes": "dragonminez:ajissa_plains"
+  },
+  "structures": [
+    {
+      "structure": "dragonminez:frieza_ship",
+      "weight": 1
+    }
+  ]
+}

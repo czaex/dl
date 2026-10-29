@@ -1,0 +1,6 @@
+{
+  "type": "dragonminez:tree_of_might",
+  "biomes": "#minecraft:is_overworld",
+  "spawn_overrides": {},
+  "step": "surface_structures"
+}

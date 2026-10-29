@@ -1,0 +1,24 @@
+{
+    "multilayer": {
+        "base": {
+            "priority":"HIGH",
+            "masks":
+            [
+                {
+                    "livingmotion":"ALL",
+                    "type":"none"
+                }
+            ]
+        },
+        "composite": {
+            "priority":"HIGHEST",
+            "masks":
+            [
+                {
+                    "livingmotion":"ALL",
+                    "type":"root_upper_joints"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,7 @@
+
+{
+  "parent": "waifu_of_god:displaysettings/thanh_vuc_loi_phat.item",
+  "textures": {
+    "particle": "waifu_of_god:block/thanh_vuc_loi_phat"
+  }
+}

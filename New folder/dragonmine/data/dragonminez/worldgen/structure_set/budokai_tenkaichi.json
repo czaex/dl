@@ -1,0 +1,21 @@
+{
+  "placement": {
+    "type": "dragonminez:biome_aware_placement",
+    "salt": 62830185,
+    "valid_biomes": [
+      "minecraft:ocean",
+      "minecraft:deep_ocean",
+      "minecraft:lukewarm_ocean",
+      "minecraft:deep_lukewarm_ocean",
+      "minecraft:warm_ocean",
+      "minecraft:cold_ocean",
+      "minecraft:deep_cold_ocean"
+    ]
+  },
+  "structures": [
+    {
+      "structure": "dragonminez:budokai_tenkaichi",
+      "weight": 1
+    }
+  ]
+}

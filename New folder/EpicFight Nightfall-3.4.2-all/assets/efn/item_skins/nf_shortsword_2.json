@@ -1,0 +1,16 @@
+{
+  "renderer": "epic_fight_avalon:mesh_item",
+  "texture": "efn:textures/item/weapon/nf_shortsword_2.png",
+  "mesh_main":"efn:weapon/nf_shortsword_2",
+  "texture_l": "efn:textures/item/weapon/nf_shortsword_2_l.png",
+  "trail": {
+    "color": [150,150,150],
+    "begin_pos": [0.0, 0.0, 0.0],
+    "end_pos": [0.0, 0.2, -1.3],
+    "lifetime": 4,
+    "interpolations": 4,
+    "texture_path": "efn:textures/trail/nf_short2.png",
+    "particle_type": "efn:bloom_trail"
+  },
+  "appeared_in_afterimage":false
+}

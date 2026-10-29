@@ -1,0 +1,13 @@
+{
+  "placement": {
+    "type": "dragonminez:biome_aware_placement",
+    "salt": 99887766,
+    "valid_biomes": "#dragonminez:is_gerolab"
+  },
+  "structures": [
+    {
+      "structure": "dragonminez:gero_lab",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "namek_radar",
+  "item_model": "dragonminez:item/namekdball_radar",
+  "item_texture": "dragonminez:item/namekdball_radar",
+  "radar_background_texture": "dragonminez:textures/gui/radar.png",
+  "radar_dot_texture": "dragonminez:textures/gui/radar_dot.png"
+}

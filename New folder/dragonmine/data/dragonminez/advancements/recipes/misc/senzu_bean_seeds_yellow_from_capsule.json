@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "dragonminez:senzu_bean_seeds_yellow_from_capsule"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_yellow_capsule": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:yellow_capsule"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_yellow_capsule",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dragonminez:senzu_bean_seeds_yellow_from_capsule"
+    ]
+  },
+  "sends_telemetry_event": false
+}

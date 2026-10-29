@@ -1,0 +1,8 @@
+{
+    "parent": "mahoutsukai:block/black_fire_up",
+    "render_type": "cutout",
+    "textures": {
+        "particle": "mahoutsukai:block/black_fire_layer_0",
+        "fire": "mahoutsukai:block/black_fire_layer_0"
+    }
+}

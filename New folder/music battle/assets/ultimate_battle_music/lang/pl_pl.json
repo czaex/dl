@@ -1,0 +1,62 @@
+{
+  "ultimate_battle_music.config.title": "ULTIMATE BATTLE MUSIC",
+
+  "ultimate_battle_music.config.mode.on": "ON",
+  "ultimate_battle_music.config.mode.on.tooltip": "Odtwarzaj UNIKALNY utwór",
+  "ultimate_battle_music.config.mode.fallback": "NORMAL",
+  "ultimate_battle_music.config.mode.fallback.tooltip": "Użyj DOMYŚLNEGO utworu",
+  "ultimate_battle_music.config.mode.off": "OFF",
+  "ultimate_battle_music.config.mode.off.tooltip": "Wycisz ten typ",
+
+  "ultimate_battle_music.config.category.music": "Muzyka",
+  "ultimate_battle_music.config.category.detection": "Typ wykrywania",
+  "ultimate_battle_music.config.category.radius": "Zasięg",
+  "ultimate_battle_music.config.category.bosses": "Bossowie",
+  "ultimate_battle_music.config.category.volume": "Głośność",
+  "ultimate_battle_music.config.category.fade": "Przenikanie",
+
+  "ultimate_battle_music.config.music.enable": "Włącz muzykę walki",
+  "ultimate_battle_music.config.music.enable.tooltip": "Główny przełącznik. Gdy wyłączone, muzyka walki nie jest odtwarzana.",
+  "ultimate_battle_music.config.music.variant_mode": "Muzyka wariantowa",
+  "ultimate_battle_music.config.music.illager_mode": "Muzyka Illagerów",
+  "ultimate_battle_music.config.music.nether_mode": "Muzyka Netheru",
+  "ultimate_battle_music.config.music.raid_mode": "Muzyka raid",
+
+  "ultimate_battle_music.config.detection.require_targeting": "Wymagaj celu na graczu",
+  "ultimate_battle_music.config.detection.require_targeting.tooltip": "Muzyka uruchamia się tylko, gdy mob cię atakuje.",
+  "ultimate_battle_music.config.detection.check_interval": "Interwał sprawdzania (ticki)",
+  "ultimate_battle_music.config.detection.check_interval.tooltip": "Częstotliwość sprawdzania walki. 20 = 1 sekunda.",
+
+  "ultimate_battle_music.config.radius.normal": "Zasięg zwykłych mobów",
+  "ultimate_battle_music.config.radius.variant": "Zasięg wariantów",
+  "ultimate_battle_music.config.radius.illager": "Zasięg Illagerów",
+  "ultimate_battle_music.config.radius.far": "Zasięg dalekich wrogów",
+  "ultimate_battle_music.config.radius.creeper": "Zasięg creepera",
+  "ultimate_battle_music.config.radius.creeper.tooltip": "Creepery aktywują muzykę tylko bardzo blisko.",
+  "ultimate_battle_music.config.radius.boss": "Zasięg bossów",
+  "ultimate_battle_music.config.radius.boss.tooltip": "Wykrywanie: Wither | Warden | Smok Endu.",
+
+  "ultimate_battle_music.config.bosses.warden_mode": "Muzyka Wardena",
+  "ultimate_battle_music.config.bosses.warden_volume": "Głośność Wardena (%)",
+  "ultimate_battle_music.config.bosses.wither_mode": "Muzyka Withera",
+  "ultimate_battle_music.config.bosses.wither_volume": "Głośność Withera (%)",
+  "ultimate_battle_music.config.bosses.dragon_mode": "Muzyka Smoka Endu",
+  "ultimate_battle_music.config.bosses.dragon_volume": "Głośność Smoka Endu (%)",
+
+  "ultimate_battle_music.config.volume.default": "Domyślna głośność (%)",
+  "ultimate_battle_music.config.volume.default.tooltip": "Głośność normalnej muzyki walki w Overworld.",
+  "ultimate_battle_music.config.volume.illager": "Głośność Illagerów (%)",
+  "ultimate_battle_music.config.volume.raid": "Głośność raid (%)",
+  "ultimate_battle_music.config.volume.nether": "Głośność Netheru (%)",
+  "ultimate_battle_music.config.volume.fluid_pitch": "Wysokość dźwięku w płynach (%)",
+  "ultimate_battle_music.config.volume.fluid_pitch.tooltip": "Wysokość dźwięku w wodzie lub lawie. 75 = niższy ton.",
+
+  "ultimate_battle_music.config.fade.use_fade": "Przenikanie",
+  "ultimate_battle_music.config.fade.use_fade.tooltip": "Włącz fade in/out. Wyłącz dla natychmiastowych przejść.",
+  "ultimate_battle_music.config.fade.fade_out": "Fade out (ticki)",
+  "ultimate_battle_music.config.fade.fade_out.tooltip": "Czas zanikania. 60 = 3 sekundy.",
+  "ultimate_battle_music.config.fade.revive_fade_in": "Fade in (ticki)",
+  "ultimate_battle_music.config.fade.revive_fade_in.tooltip": "Czas powrotu po ciszy. 40 = 2 sekundy.",
+  "ultimate_battle_music.config.fade.ghost_duration": "Czas ghost (ticki)",
+  "ultimate_battle_music.config.fade.ghost_duration.tooltip": "Czas odtwarzania w ciszy przed zatrzymaniem. 200 = 10 sekund."
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "waifu_of_god:thanh_vuc_loi_phat",
+  "size": 7,
+  "max_distance_from_center": 128,
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": 121
+    },
+    "max_inclusive": {
+      "absolute": 122
+    }
+  },
+  "biomes": "waifu_of_god:loi_phat_thanh_vuc",
+  "use_expansion_hack": false
+}

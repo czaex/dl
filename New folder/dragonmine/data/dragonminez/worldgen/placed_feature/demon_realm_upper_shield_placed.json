@@ -1,0 +1,20 @@
+{
+  "feature": "dragonminez:demon_realm_tunnel_shield",
+  "placement": [
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "absolute": 493
+        },
+        "min_inclusive": {
+          "absolute": 493
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

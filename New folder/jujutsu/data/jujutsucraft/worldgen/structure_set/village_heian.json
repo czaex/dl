@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "jujutsucraft:village_heian",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 101,
+    "separation": 67,
+    "salt": 1964469372
+  }
+}

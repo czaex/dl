@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "jujutsucraft:car",
+    "jujutsucraft:truck",
+    "iron_golem",
+    "jujutsucraft:entity_scissors",
+    "jujutsucraft:ticket_gate",
+    "jujutsucraft:projectile_slash"
+  ]
+}

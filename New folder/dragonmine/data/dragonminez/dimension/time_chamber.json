@@ -1,0 +1,11 @@
+{
+  "type": "dragonminez:time_chamber",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "dragonminez:hyperbolic_time_chamber"
+    },
+    "settings": "dragonminez:time_chamber"
+  }
+}

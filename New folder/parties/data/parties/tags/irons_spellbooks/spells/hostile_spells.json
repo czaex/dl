@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "irons_spellbooks:fireball",
+    "irons_spellbooks:magic_missile",
+    "irons_spellbooks:poison_cloud",
+    "irons_spellbooks:blood_slash",
+    "irons_spellbooks:root",
+    "irons_spellbooks:blight",
+    "irons_spellbooks:acupuncture",
+    "irons_spellbooks:devour",
+    "irons_spellbooks:chain_creeper",
+    "irons_spellbooks:slow",
+    "irons_spellbooks:flaming_barrage",
+    "irons_spellbooks:ice_spikes",
+    "irons_spellbooks:chain_lightning",
+    "irons_spellbooks:poison_splash",
+    "irons_spellbooks:firefly_swarm",
+    "irons_spellbooks:earthquake",
+    "irons_spellbooks:sculk_tentacles",
+    "irons_spellbooks:ice_block"
+  ]
+}

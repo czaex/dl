@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dragonminez",
+  "ingredients": [
+    {
+      "item": "dragonminez:namek_moss"
+    },
+    {
+      "item": "dragonminez:namek_moss"
+    },
+    {
+      "item": "dragonminez:namek_moss"
+    },
+    {
+      "item": "dragonminez:namek_moss"
+    },
+    {
+      "item": "dragonminez:turtle_scale"
+    },
+    {
+      "item": "dragonminez:turtle_scale"
+    }
+  ],
+  "result": {
+    "item": "dragonminez:katchin_sprout"
+  }
+}

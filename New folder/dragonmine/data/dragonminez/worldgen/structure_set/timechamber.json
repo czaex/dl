@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "dragonminez:fixed_placement",
+    "fixed_x": 0,
+    "fixed_z": 0,
+    "salt": 11223344
+  },
+  "structures": [
+    {
+      "structure": "dragonminez:timechamber",
+      "weight": 1
+    }
+  ]
+}

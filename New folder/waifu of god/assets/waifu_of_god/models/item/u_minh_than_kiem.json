@@ -1,0 +1,6 @@
+{
+  "parent": "waifu_of_god:displaysettings/control_guard.item",
+  "textures": {
+    "layer0": "waifu_of_god:item/control_guard"
+  }
+}

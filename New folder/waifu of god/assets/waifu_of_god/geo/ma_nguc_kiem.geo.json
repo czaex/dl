@@ -1,0 +1,248 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Ma Ngục Kiếm",
+				"texture_width": 512,
+				"texture_height": 512,
+				"visible_bounds_width": 8,
+				"visible_bounds_height": 6.5,
+				"visible_bounds_offset": [0, 2.75, 0]
+			},
+			"bones": [
+				{
+					"name": "general",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "circle",
+					"parent": "general",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "1",
+					"parent": "circle",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-52, 1, -52],
+							"size": [104, 0, 104],
+							"uv": {
+								"up": {"uv": [154, 0], "uv_size": [204, 204]}
+							}
+						},
+						{
+							"origin": [-52, 0.95, -52],
+							"size": [104, 0, 104],
+							"uv": {
+								"down": {"uv": [154, 204], "uv_size": [204, -204]}
+							}
+						}
+					]
+				},
+				{
+					"name": "2",
+					"parent": "circle",
+					"pivot": [0, 1, 0],
+					"cubes": [
+						{
+							"origin": [-52, 1.05, -52],
+							"size": [104, 0, 104],
+							"uv": {
+								"up": {"uv": [0, 210], "uv_size": [302, 302]}
+							}
+						},
+						{
+							"origin": [-52, 0.9, -52],
+							"size": [104, 0, 104],
+							"uv": {
+								"down": {"uv": [0, 512], "uv_size": [302, -302]}
+							}
+						}
+					]
+				},
+				{
+					"name": "sword1",
+					"parent": "general",
+					"pivot": [-32, 52, -8],
+					"cubes": [
+						{
+							"origin": [-38, 18, -8],
+							"size": [12, 46, 0],
+							"uv": {
+								"north": {"uv": [32, 0], "uv_size": [-32, 92]},
+								"south": {"uv": [0, 0], "uv_size": [32, 92]}
+							}
+						}
+					]
+				},
+				{
+					"name": "sword5",
+					"parent": "general",
+					"pivot": [-9, 64, 31],
+					"cubes": [
+						{
+							"origin": [-15, 30, 31],
+							"size": [12, 46, 0],
+							"uv": {
+								"north": {"uv": [32, 0], "uv_size": [-32, 92]},
+								"south": {"uv": [0, 0], "uv_size": [32, 92]}
+							}
+						}
+					]
+				},
+				{
+					"name": "sword6",
+					"parent": "general",
+					"pivot": [20, 59, -18],
+					"cubes": [
+						{
+							"origin": [14, 25, -18],
+							"size": [12, 46, 0],
+							"uv": {
+								"north": {"uv": [32, 0], "uv_size": [-32, 92]},
+								"south": {"uv": [0, 0], "uv_size": [32, 92]}
+							}
+						}
+					]
+				},
+				{
+					"name": "sword2",
+					"parent": "general",
+					"pivot": [36, 53, 30],
+					"cubes": [
+						{
+							"origin": [30, 17, 30],
+							"size": [12, 48, 0],
+							"uv": {
+								"north": {"uv": [69, 0], "uv_size": [-32, 142]},
+								"south": {"uv": [37, 0], "uv_size": [32, 142]}
+							}
+						}
+					]
+				},
+				{
+					"name": "sword7",
+					"parent": "general",
+					"pivot": [-14, 67, -22],
+					"cubes": [
+						{
+							"origin": [-20, 31, -22],
+							"size": [12, 48, 0],
+							"uv": {
+								"north": {"uv": [69, 0], "uv_size": [-32, 142]},
+								"south": {"uv": [37, 0], "uv_size": [32, 142]}
+							}
+						}
+					]
+				},
+				{
+					"name": "sword8",
+					"parent": "general",
+					"pivot": [-28, 60, 18],
+					"cubes": [
+						{
+							"origin": [-34, 24, 18],
+							"size": [12, 48, 0],
+							"uv": {
+								"north": {"uv": [69, 0], "uv_size": [-32, 142]},
+								"south": {"uv": [37, 0], "uv_size": [32, 142]}
+							}
+						}
+					]
+				},
+				{
+					"name": "sword3",
+					"parent": "general",
+					"pivot": [36, 48, 10],
+					"cubes": [
+						{
+							"origin": [31, 22, 10],
+							"size": [10, 35, 0],
+							"uv": {
+								"north": {"uv": [74, 0], "uv_size": [32, 105]},
+								"south": {"uv": [106, 0], "uv_size": [-32, 105]}
+							}
+						}
+					]
+				},
+				{
+					"name": "sword9",
+					"parent": "general",
+					"pivot": [8, 44, 39],
+					"cubes": [
+						{
+							"origin": [3, 18, 39],
+							"size": [10, 35, 0],
+							"uv": {
+								"north": {"uv": [74, 0], "uv_size": [32, 105]},
+								"south": {"uv": [106, 0], "uv_size": [-32, 105]}
+							}
+						}
+					]
+				},
+				{
+					"name": "sword10",
+					"parent": "general",
+					"pivot": [8, 50, -30],
+					"cubes": [
+						{
+							"origin": [3, 24, -30],
+							"size": [10, 35, 0],
+							"uv": {
+								"north": {"uv": [74, 0], "uv_size": [32, 105]},
+								"south": {"uv": [106, 0], "uv_size": [-32, 105]}
+							}
+						}
+					]
+				},
+				{
+					"name": "sword4",
+					"parent": "general",
+					"pivot": [46, 50, -14],
+					"cubes": [
+						{
+							"origin": [42, 22, -14],
+							"size": [8, 38, 0],
+							"uv": {
+								"north": {"uv": [112, 0], "uv_size": [32, 175]},
+								"south": {"uv": [144, 0], "uv_size": [-32, 175]}
+							}
+						}
+					]
+				},
+				{
+					"name": "sword11",
+					"parent": "general",
+					"pivot": [-12, 47, -50],
+					"cubes": [
+						{
+							"origin": [-16, 19, -50],
+							"size": [8, 38, 0],
+							"uv": {
+								"north": {"uv": [112, 0], "uv_size": [32, 175]},
+								"south": {"uv": [144, 0], "uv_size": [-32, 175]}
+							}
+						}
+					]
+				},
+				{
+					"name": "sword12",
+					"parent": "general",
+					"pivot": [-35, 47, 17],
+					"cubes": [
+						{
+							"origin": [-39, 19, 17],
+							"size": [8, 38, 0],
+							"uv": {
+								"north": {"uv": [112, 0], "uv_size": [32, 175]},
+								"south": {"uv": [144, 0], "uv_size": [-32, 175]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

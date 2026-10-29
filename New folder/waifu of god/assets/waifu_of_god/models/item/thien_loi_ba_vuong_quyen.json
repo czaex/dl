@@ -1,0 +1,6 @@
+{
+  "parent": "waifu_of_god:displaysettings/thien_loi_ba_vuong_quyen.item",
+  "textures": {
+    "layer0": "waifu_of_god:item/thien_loi_ba_vuong_quyen"
+  }
+}

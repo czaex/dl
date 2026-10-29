@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dragonminez:block/adobe_slab"
+    },
+    "type=double": {
+      "model": "dragonminez:block/adobe"
+    },
+    "type=top": {
+      "model": "dragonminez:block/adobe_slab_top"
+    }
+  }
+}

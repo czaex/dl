@@ -1,0 +1,42 @@
+{
+  "parent": "dragonminez:root",
+  "criteria": {
+    "babidi": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "dragonminez:babidi"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.babidi.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:spawner"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.babidi.title"
+    }
+  },
+  "requirements": [
+    [
+      "babidi"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "jujutsucraft:bullet_ball"
+    },
+    "title": {
+      "translate": "advancements.battle_kinji_hakari.title"
+    },
+    "description": {
+      "translate": "advancements.battle_kinji_hakari.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "battle_kinji_hakari_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:battle_yuta_okkotsu"
+}

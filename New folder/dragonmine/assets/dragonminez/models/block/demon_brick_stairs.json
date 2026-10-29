@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "dragonminez:block/demon_bricks",
+    "side": "dragonminez:block/demon_bricks",
+    "top": "dragonminez:block/demon_bricks"
+  }
+}

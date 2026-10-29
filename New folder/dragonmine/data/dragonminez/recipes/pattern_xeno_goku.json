@@ -1,0 +1,32 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_super"
+    },
+    "B": {
+      "item": "minecraft:blue_dye"
+    },
+    "K": {
+      "item": "minecraft:black_dye"
+    },
+    "N": {
+      "item": "minecraft:brown_dye"
+    },
+    "R": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "pattern": [
+    "RR  RR",
+    "RRKKRR",
+    "NRKKRN",
+    "NR#KRN",
+    "BRKKRB",
+    "BR  RB"
+  ],
+  "result": {
+    "item": "dragonminez:pattern_xeno_goku"
+  }
+}

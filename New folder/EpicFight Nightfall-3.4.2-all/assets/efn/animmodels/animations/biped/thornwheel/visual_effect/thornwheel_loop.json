@@ -1,0 +1,24 @@
+{
+    "hit_shake": [
+        {
+            "phase": 1,
+            "strength": 3,
+            "duration": 20
+        }
+    ],
+    "hit_blur": [
+        {
+            "phase": 1,
+            "strength": 5,
+            "duration": 20
+        }
+    ],
+    "event_shake": {
+        "strength": 3,
+        "duration": 80
+    },
+    "event_blur": {
+        "strength": 6,
+        "duration": 80
+    }
+}

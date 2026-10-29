@@ -1,0 +1,26 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_z"
+    },
+    "B": {
+      "item": "minecraft:blue_dye"
+    },
+    "O": {
+      "item": "minecraft:orange_dye"
+    }
+  },
+  "pattern": [
+    "OO  OO",
+    "OOBBOO",
+    "BOBBOB",
+    "BO#OOB",
+    " OBBO ",
+    "B OO B"
+  ],
+  "result": {
+    "item": "dragonminez:pattern_future_gohan"
+  }
+}

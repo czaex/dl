@@ -1,0 +1,7 @@
+
+{
+  "parent": "waifu_of_god:displaysettings/khong_gian_loan_luu.item",
+  "textures": {
+    "particle": "waifu_of_god:block/khong_gian_loan_luu"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_super"
+    },
+    "E": {
+      "item": "minecraft:green_dye"
+    },
+    "L": {
+      "item": "minecraft:lime_dye"
+    },
+    "S": {
+      "item": "minecraft:light_gray_dye"
+    }
+  },
+  "pattern": [
+    "LL  LL",
+    "LEEEEL",
+    "ELLLLE",
+    "EL#LLE",
+    " LEEL ",
+    "SSEESS"
+  ],
+  "result": {
+    "item": "dragonminez:pattern_goten_super"
+  }
+}

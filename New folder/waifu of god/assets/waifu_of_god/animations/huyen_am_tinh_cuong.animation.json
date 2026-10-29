@@ -1,0 +1,30 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"1": {
+			"animation_length": 0.04167,
+			"start_delay": "0"
+		},
+		"start": {
+			"animation_length": 0.5,
+			"override_previous_animation": true,
+			"start_delay": "0",
+			"bones": {
+				"wall1": {
+					"position": {
+						"vector": [0, 579, 0]
+					},
+					"scale": {
+						"0.1667": {
+							"vector": [0, 0, 0]
+						},
+						"0.375": {
+							"vector": [1, 1, 1]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

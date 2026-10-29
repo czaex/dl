@@ -1,0 +1,32 @@
+{
+  "parent": "dragonminez:root",
+  "criteria": {
+    "found_otherworld": {
+      "conditions": {
+        "to": "dragonminez:otherworld"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.otherworld.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "dragonminez:otherworld_cloud"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.otherworld.title"
+    }
+  },
+  "requirements": [
+    [
+      "found_otherworld"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

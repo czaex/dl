@@ -1,0 +1,6 @@
+{
+  "parent": "waifu_of_god:displaysettings/hoa_han_song_cuc_kiem.item",
+  "textures": {
+    "layer0": "waifu_of_god:item/hoa_han_song_cuc_kiem"
+  }
+}

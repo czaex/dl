@@ -1,0 +1,97 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.entity_domain_ishigori",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 112,
+				"visible_bounds_height": 65,
+				"visible_bounds_offset": [0, 4.5, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body1",
+					"parent": "body",
+					"pivot": [0, 16, 0],
+					"cubes": [
+						{
+							"origin": [-16, 0, -0.5],
+							"size": [32, 32, 1],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [64, 64]},
+								"east": {"uv": [0, 0], "uv_size": [1, 1]},
+								"south": {"uv": [0, 0], "uv_size": [1, 1]},
+								"west": {"uv": [0, 0], "uv_size": [1, 1]},
+								"up": {"uv": [1, 1], "uv_size": [-1, -1]},
+								"down": {"uv": [1, 1], "uv_size": [-1, -1]}
+							}
+						}
+					]
+				},
+				{
+					"name": "body2",
+					"parent": "body",
+					"pivot": [0, 16, 0],
+					"cubes": [
+						{
+							"origin": [-16, 0, -0.5],
+							"size": [32, 32, 1],
+							"uv": {
+								"north": {"uv": [64, 0], "uv_size": [64, 64]},
+								"east": {"uv": [0, 0], "uv_size": [1, 1]},
+								"south": {"uv": [0, 0], "uv_size": [1, 1]},
+								"west": {"uv": [0, 0], "uv_size": [1, 1]},
+								"up": {"uv": [1, 1], "uv_size": [-1, -1]},
+								"down": {"uv": [1, 1], "uv_size": [-1, -1]}
+							}
+						}
+					]
+				},
+				{
+					"name": "body3",
+					"parent": "body",
+					"pivot": [0, 16, 0],
+					"cubes": [
+						{
+							"origin": [-16, 0, -0.5],
+							"size": [32, 32, 1],
+							"uv": {
+								"north": {"uv": [0, 64], "uv_size": [64, 64]},
+								"east": {"uv": [0, 0], "uv_size": [1, 1]},
+								"south": {"uv": [0, 0], "uv_size": [1, 1]},
+								"west": {"uv": [0, 0], "uv_size": [1, 1]},
+								"up": {"uv": [1, 1], "uv_size": [-1, -1]},
+								"down": {"uv": [1, 1], "uv_size": [-1, -1]}
+							}
+						}
+					]
+				},
+				{
+					"name": "body4",
+					"parent": "body",
+					"pivot": [0, 16, 0],
+					"cubes": [
+						{
+							"origin": [-16, 0, -0.5],
+							"size": [32, 32, 1],
+							"uv": {
+								"north": {"uv": [64, 64], "uv_size": [64, 64]},
+								"east": {"uv": [0, 0], "uv_size": [1, 1]},
+								"south": {"uv": [0, 0], "uv_size": [1, 1]},
+								"west": {"uv": [0, 0], "uv_size": [1, 1]},
+								"up": {"uv": [1, 1], "uv_size": [-1, -1]},
+								"down": {"uv": [1, 1], "uv_size": [-1, -1]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

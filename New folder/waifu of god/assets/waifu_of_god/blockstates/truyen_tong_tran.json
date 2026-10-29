@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "waifu_of_god:custom/truyen_tong_tran_particle"
+    },
+    "blockstate=1": {
+      "model": "waifu_of_god:block/truyen_tong_tran_blockstate_0"
+    },
+    "blockstate=2": {
+      "model": "waifu_of_god:block/truyen_tong_tran_blockstate_1"
+    },
+    "blockstate=3": {
+      "model": "waifu_of_god:block/truyen_tong_tran_blockstate_2"
+    },
+    "blockstate=4": {
+      "model": "waifu_of_god:block/truyen_tong_tran_blockstate_3"
+    },
+    "blockstate=5": {
+      "model": "waifu_of_god:block/truyen_tong_tran_blockstate_4"
+    },
+    "blockstate=6": {
+      "model": "waifu_of_god:block/truyen_tong_tran_blockstate_5"
+    },
+    "blockstate=7": {
+      "model": "waifu_of_god:block/truyen_tong_tran_blockstate_6"
+    },
+    "blockstate=8": {
+      "model": "waifu_of_god:block/truyen_tong_tran_blockstate_7"
+    }
+  }
+}

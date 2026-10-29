@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "jujutsucraft:clothes_ino_takuma_1_helmet"
+    }
+  },
+  "result": {
+    "item": "jujutsucraft:clothes_ino_takuma_2_helmet",
+    "count": 1
+  }
+}

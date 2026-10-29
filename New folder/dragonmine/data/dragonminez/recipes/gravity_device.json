@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:anvil"
+    },
+    "C": {
+      "item": "dragonminez:t1_radar_cpu"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "R": {
+      "item": "minecraft:repeater"
+    },
+    "W": {
+      "tag": "dragonminez:weighted_items"
+    }
+  },
+  "pattern": [
+    "RWR",
+    "ICI",
+    "RAR"
+  ],
+  "result": {
+    "item": "dragonminez:gravity_device"
+  },
+  "show_notification": true
+}

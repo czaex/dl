@@ -1,0 +1,37 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mahoutsukai:item/red_key_64"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [ -90, 0, -45 ],
+      "translation": [ 7.5,-4,-5 ],
+      "scale": [ 0.68,0.68,0.68 ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [ -90, 0, 15 ],
+      "translation": [ -7.5,-4,-6.8 ],
+      "scale": [ 0.68,0.68,0.68 ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [ -240, -170, 245 ],
+      "translation": [ -5.13, 3.7, -5],
+      "scale": [ 0.68, 0.68, 0.68 ]
+    },
+    "firstperson_righthand": {
+      "rotation": [ -60, -10, -25 ],
+      "translation": [ 8.13, 7.5, -8],
+      "scale": [ 0.68, 0.68, 0.68 ]
+    },
+    "ground" : {
+      "translation": [0.5,16,0.5],
+      "scale": [1.2,1.2,1.2]
+    },
+    "gui" : {
+      "rotation": [-45, -45, 90],
+      "translation": [-4,-2,0],
+      "scale": [0.88,0.88,0.88]
+    }
+  }
+}

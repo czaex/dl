@@ -1,0 +1,72 @@
+{
+  "parent": "dragonminez:patternsuper",
+  "criteria": {
+    "gammasarmor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:gamma1_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:gamma1_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:gamma1_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "gammasarmor_2": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:gamma2_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:gamma2_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:gamma2_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.gammasarmor.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "dragonminez:gamma1_armor_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.gammasarmor.title"
+    }
+  },
+  "requirements": [
+    [
+      "gammasarmor",
+      "gammasarmor_2"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

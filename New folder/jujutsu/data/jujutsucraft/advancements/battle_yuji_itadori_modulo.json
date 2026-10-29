@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "jujutsucraft:clothes_itadori_modulo_helmet"
+    },
+    "title": {
+      "translate": "advancements.battle_yuji_itadori_modulo.title"
+    },
+    "description": {
+      "translate": "advancements.battle_yuji_itadori_modulo.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "battle_yuji_itadori_modulo_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:battle_advancements"
+}

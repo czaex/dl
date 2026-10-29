@@ -1,0 +1,20 @@
+{
+  "asset_definition": "earth_ballset",
+  "blocks": {
+    "1": "dball1",
+    "2": "dball2",
+    "3": "dball3",
+    "4": "dball4",
+    "5": "dball5",
+    "6": "dball6",
+    "7": "dball7"
+  },
+  "copies": 1,
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "display_name": "Earth Dragon Ball",
+  "id": "earth",
+  "spawn_range": 1000,
+  "summon_radius": 5
+}

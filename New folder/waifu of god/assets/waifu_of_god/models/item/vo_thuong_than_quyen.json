@@ -1,0 +1,6 @@
+{
+  "parent": "waifu_of_god:displaysettings/de_than_khien.item",
+  "textures": {
+    "layer0": "waifu_of_god:item/de_than_khien"
+  }
+}

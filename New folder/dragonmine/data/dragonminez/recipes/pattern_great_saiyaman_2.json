@@ -1,0 +1,38 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_z"
+    },
+    "C": {
+      "item": "minecraft:cyan_dye"
+    },
+    "E": {
+      "item": "minecraft:green_dye"
+    },
+    "O": {
+      "item": "minecraft:orange_dye"
+    },
+    "R": {
+      "item": "minecraft:red_dye"
+    },
+    "U": {
+      "item": "minecraft:purple_dye"
+    },
+    "W": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "pattern": [
+    "EC  CE",
+    "CCUUCC",
+    "UCCCCU",
+    "UC#CCU",
+    " WWOW ",
+    " RRRR "
+  ],
+  "result": {
+    "item": "dragonminez:pattern_great_saiyaman_2"
+  }
+}

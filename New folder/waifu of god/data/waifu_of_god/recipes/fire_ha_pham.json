@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "lua_luyen_che",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "waifu_of_god:linh_thach_ha_pham"
+    },
+    "b": {
+      "item": "minecraft:blaze_powder"
+    }
+  },
+  "result": {
+    "item": "waifu_of_god:lua_ha_pham",
+    "count": 1
+  }
+}

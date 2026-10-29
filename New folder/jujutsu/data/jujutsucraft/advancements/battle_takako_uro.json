@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "jujutsucraft:domain_blue_sky"
+    },
+    "title": {
+      "translate": "advancements.battle_takako_uro.title"
+    },
+    "description": {
+      "translate": "advancements.battle_takako_uro.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "battle_takako_uro_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:battle_dhruv_lakdawalla"
+}

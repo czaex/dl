@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bone_meal"
+    },
+    "title": {
+      "translate": "advancements.battle_ogami.title"
+    },
+    "description": {
+      "translate": "advancements.battle_ogami.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "battle_ogami_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:battle_jiro_awasaka"
+}

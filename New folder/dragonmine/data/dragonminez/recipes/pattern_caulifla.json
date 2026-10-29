@@ -1,0 +1,29 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_super"
+    },
+    "K": {
+      "item": "minecraft:black_dye"
+    },
+    "M": {
+      "item": "minecraft:magenta_dye"
+    },
+    "P": {
+      "item": "minecraft:pink_dye"
+    }
+  },
+  "pattern": [
+    " PMMP ",
+    " MPPM ",
+    " K#KK ",
+    "K    K",
+    "K    K",
+    "K    K"
+  ],
+  "result": {
+    "item": "dragonminez:pattern_caulifla"
+  }
+}

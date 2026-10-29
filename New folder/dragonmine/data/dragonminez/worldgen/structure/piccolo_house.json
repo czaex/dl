@@ -1,0 +1,13 @@
+{
+  "type": "dragonminez:fitted_template",
+  "biomes": "#dragonminez:is_land",
+  "spawn_overrides": {},
+  "step": "top_layer_modification",
+  "template": "dragonminez:piccolo_house",
+  "terrain_fit": {
+    "carve": 64,
+    "foundation": 64,
+    "ground_level": 1,
+    "skirt": 16
+  }
+}

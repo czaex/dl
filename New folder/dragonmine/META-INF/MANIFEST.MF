@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: dragonminez
+Specification-Vendor: Yuseix300 & ezShokkoh
+Specification-Version: 2.2
+Implementation-Title: DragonMineZ
+Implementation-Version: 2.2
+Implementation-Vendor: Yuseix300 & ezShokkoh
+MixinConfigs: dragonminez.mixins.json
+

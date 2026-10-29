@@ -1,0 +1,62 @@
+{
+  "ultimate_battle_music.config.title": "ULTIMATE BATTLE MUSIC",
+
+  "ultimate_battle_music.config.mode.on": "ON",
+  "ultimate_battle_music.config.mode.on.tooltip": "Riproduci traccia UNICA",
+  "ultimate_battle_music.config.mode.fallback": "NORMAL",
+  "ultimate_battle_music.config.mode.fallback.tooltip": "Usa traccia PREDEFINITA",
+  "ultimate_battle_music.config.mode.off": "OFF",
+  "ultimate_battle_music.config.mode.off.tooltip": "MUTO per questo tipo",
+
+  "ultimate_battle_music.config.category.music": "Musica",
+  "ultimate_battle_music.config.category.detection": "Tipo rilevamento",
+  "ultimate_battle_music.config.category.radius": "Raggio",
+  "ultimate_battle_music.config.category.bosses": "Boss",
+  "ultimate_battle_music.config.category.volume": "Volume",
+  "ultimate_battle_music.config.category.fade": "Dissolvenza",
+
+  "ultimate_battle_music.config.music.enable": "Attiva musica di combattimento",
+  "ultimate_battle_music.config.music.enable.tooltip": "Interruttore principale. Se off, niente musica di combattimento.",
+  "ultimate_battle_music.config.music.variant_mode": "Musica variante",
+  "ultimate_battle_music.config.music.illager_mode": "Musica Illager",
+  "ultimate_battle_music.config.music.nether_mode": "Musica Nether",
+  "ultimate_battle_music.config.music.raid_mode": "Musica raid",
+
+  "ultimate_battle_music.config.detection.require_targeting": "Richiedi target sul player",
+  "ultimate_battle_music.config.detection.require_targeting.tooltip": "Attiva musica solo se un mob ti attacca.",
+  "ultimate_battle_music.config.detection.check_interval": "Intervallo check (Tick)",
+  "ultimate_battle_music.config.detection.check_interval.tooltip": "Frequenza controlli. 20 = 1 secondo.",
+
+  "ultimate_battle_music.config.radius.normal": "Raggio mob normali",
+  "ultimate_battle_music.config.radius.variant": "Raggio varianti",
+  "ultimate_battle_music.config.radius.illager": "Raggio Illager",
+  "ultimate_battle_music.config.radius.far": "Raggio nemici lontani",
+  "ultimate_battle_music.config.radius.creeper": "Raggio Creeper",
+  "ultimate_battle_music.config.radius.creeper.tooltip": "Creeper attiva musica solo vicino.",
+  "ultimate_battle_music.config.radius.boss": "Raggio Boss",
+  "ultimate_battle_music.config.radius.boss.tooltip": "Detection per Wither | Warden | Ender Dragon.",
+
+  "ultimate_battle_music.config.bosses.warden_mode": "Warden Music",
+  "ultimate_battle_music.config.bosses.warden_volume": "Warden Volume (%)",
+  "ultimate_battle_music.config.bosses.wither_mode": "Wither Music",
+  "ultimate_battle_music.config.bosses.wither_volume": "Wither Volume (%)",
+  "ultimate_battle_music.config.bosses.dragon_mode": "Ender Dragon Music",
+  "ultimate_battle_music.config.bosses.dragon_volume": "Ender Dragon Volume (%)",
+
+  "ultimate_battle_music.config.volume.default": "Volume predefinito (%)",
+  "ultimate_battle_music.config.volume.default.tooltip": "Volume della musica di combattimento nell'Overworld.",
+  "ultimate_battle_music.config.volume.illager": "Volume Illager (%)",
+  "ultimate_battle_music.config.volume.raid": "Volume Raid (%)",
+  "ultimate_battle_music.config.volume.nether": "Volume Nether (%)",
+  "ultimate_battle_music.config.volume.fluid_pitch": "Pitch nei fluidi (%)",
+  "ultimate_battle_music.config.volume.fluid_pitch.tooltip": "Pitch in acqua o lava. 75 = più grave.",
+
+  "ultimate_battle_music.config.fade.use_fade": "Dissolvenza",
+  "ultimate_battle_music.config.fade.use_fade.tooltip": "Abilita fade in/out. Disattiva per tagli netti.",
+  "ultimate_battle_music.config.fade.fade_out": "Fade out (Tick)",
+  "ultimate_battle_music.config.fade.fade_out.tooltip": "Durata dissolvenza in uscita. 60 = 3 secondi.",
+  "ultimate_battle_music.config.fade.revive_fade_in": "Fade in (Tick)",
+  "ultimate_battle_music.config.fade.revive_fade_in.tooltip": "Tempo di ritorno dopo silenzio. 40 = 2 secondi.",
+  "ultimate_battle_music.config.fade.ghost_duration": "Durata ghost (Tick)",
+  "ultimate_battle_music.config.fade.ghost_duration.tooltip": "Tempo in cui la traccia continua in silenzio prima di fermarsi. 200 = 10 secondi."
+}

@@ -1,0 +1,26 @@
+{
+  "feature": "dragonminez:demon_realm_makai_bush",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+        "value": {
+          "max_inclusive": 3,
+          "min_inclusive": 0
+        }
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "dragonminez:surface_in_band",
+      "bottom": 530,
+      "top": 766
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

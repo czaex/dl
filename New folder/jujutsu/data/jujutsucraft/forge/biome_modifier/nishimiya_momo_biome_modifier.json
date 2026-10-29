@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "jujutsucraft:nishimiya_momo",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dragonminez",
+  "ingredients": [
+    {
+      "type": "forge:nbt",
+      "count": 1,
+      "item": "minecraft:potion",
+      "nbt": "{CustomPotionColor:10354432,Potion:\"dragonminez:curative\"}"
+    },
+    {
+      "item": "dragonminez:turtle_scale"
+    },
+    {
+      "item": "dragonminez:empty_capsule"
+    },
+    {
+      "item": "dragonminez:katchin_sprout"
+    },
+    {
+      "item": "dragonminez:katchin_sprout"
+    }
+  ],
+  "result": {
+    "item": "dragonminez:yellow_capsule"
+  }
+}

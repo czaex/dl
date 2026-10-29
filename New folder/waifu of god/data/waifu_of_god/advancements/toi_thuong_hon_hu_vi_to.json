@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:barrier"
+    },
+    "title": {
+      "translate": "advancements.toi_thuong_hon_hu_vi_to.title"
+    },
+    "description": {
+      "translate": "advancements.toi_thuong_hon_hu_vi_to.descr"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "toi_thuong_hon_hu_vi_to_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "waifu_of_god:tuyet_doi_sieu_vien"
+}

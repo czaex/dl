@@ -1,0 +1,42 @@
+{
+  "parent": "dragonminez:sacredkai",
+  "criteria": {
+    "oldkaipillar": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "dragonminez:oldkai_pillar"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.oldkaipillar.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "dragonminez:sacred_chrysanthemum_flower"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.oldkaipillar.title"
+    }
+  },
+  "requirements": [
+    [
+      "oldkaipillar"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

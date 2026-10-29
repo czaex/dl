@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "cataclysm:maledictus",
+    "cataclysm:ancient_remnant",
+
+    "cataclysm:modern_remnant",
+    "cataclysm:koboleton",
+    "cataclysm:kobolediator",
+    "cataclysm:wadjet",
+    "cataclysm:ignited_berserker",
+    "cataclysm:ignited_revenant",
+    "cataclysm:draugr",
+    "cataclysm:royal_draugr",
+    "cataclysm:aptrgangr",
+    "cataclysm:elite_draugr",
+    "cataclysm:drowned_host"
+  ]
+}

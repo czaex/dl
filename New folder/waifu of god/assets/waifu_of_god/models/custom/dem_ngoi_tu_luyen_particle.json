@@ -1,0 +1,7 @@
+
+{
+  "parent": "waifu_of_god:displaysettings/dem_ngoi_tu_luyen.item",
+  "textures": {
+    "particle": "waifu_of_god:block/dem_ngoi_tu_luyen"
+  }
+}

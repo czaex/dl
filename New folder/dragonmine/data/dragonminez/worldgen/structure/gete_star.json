@@ -1,0 +1,6 @@
+{
+  "type": "dragonminez:gete_star",
+  "biomes": "#dragonminez:is_namekworld",
+  "spawn_overrides": {},
+  "step": "surface_structures"
+}

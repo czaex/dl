@@ -1,0 +1,42 @@
+{
+  "parent": "dragonminez:root",
+  "criteria": {
+    "piccolohouse": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "dragonminez:piccolo_house"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.piccolohouse.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "dragonminez:weight_piccolo_cape"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.piccolohouse.title"
+    }
+  },
+  "requirements": [
+    [
+      "piccolohouse"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

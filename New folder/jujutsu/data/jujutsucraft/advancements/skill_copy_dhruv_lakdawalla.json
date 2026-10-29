@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "jujutsucraft:domain"
+    },
+    "title": {
+      "translate": "advancements.skill_copy_dhruv_lakdawalla.title"
+    },
+    "description": {
+      "translate": "advancements.skill_copy_dhruv_lakdawalla.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "skill_copy_dhruv_lakdawalla_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:skill_copy_cursed_speech"
+}

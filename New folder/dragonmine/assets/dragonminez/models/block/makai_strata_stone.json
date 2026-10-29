@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "dragonminez:block/makai_stone",
+    "side": "dragonminez:block/makai_strata_stone"
+  }
+}

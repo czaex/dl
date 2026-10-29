@@ -1,0 +1,50 @@
+{
+  "required": true,
+  "package": "app.sedu.mc.parties.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "refmap": "parties.refmap.json",
+  "plugin": "app.sedu.mc.parties.mixin_util._lytecore.LyteMixinPlugin",
+  "mixins": [
+    "_dynamics.EntityEffectMixin",
+    "_dynamics.PlayerXpSharingMixin",
+    "_dynamics.compat.irons.AbstractProjectileMixin",
+    "_dynamics.compat.irons.CastFriendlyFireMixin",
+    "_lytecore.team.EntityTeamMixin",
+    "_lytecore.team.LevelTickMixin",
+    "_lytecore.team.PlayerColorMixin",
+    "accessors.ChunkMapAccessor",
+    "accessors.LivingEntityAccessor",
+    "accessors.PlayerAccessor",
+    "accessors.TrackedEntityAccessor",
+    "compat.ars.ManaCapAttachMixin",
+    "compat.ars.ManaCapMixin",
+    "compat.irons.AbstractSpellMixin",
+    "compat.irons.CancelCastPacketMixin",
+    "vanilla.AttributeMapMixin",
+    "vanilla.FoodDataMixin",
+    "vanilla.LivingEntityMixin",
+    "vanilla.PlayerMixin"
+  ],
+  "client": [
+    "_lytecore.accessors.ui.EditBoxAccessor",
+    "_lytecore.util.MinecraftMixin",
+    "_lytecore.util.MinecraftTitleMixin",
+    "_lytecore.util.MixinClientPacketListener",
+    "compat.irons.ClientCastDataMixin",
+    "compat.irons.ClientManaDataMixin",
+    "vanilla.AbstractClientPlayerMixin",
+    "vanilla.ChatScreenMixin",
+    "vanilla.ClientPacketListenerMixin",
+    "vanilla.EntityRendererMixin",
+    "vanilla.LivingEntityRendererMixin",
+    "vanilla.LocalPlayerMixin",
+    "vanilla.MixinClientPacketListener",
+    "vanilla.MixinSyncedEntityData",
+    "vanilla.PlayerEntryMixin",
+    "vanilla.RenderTypeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

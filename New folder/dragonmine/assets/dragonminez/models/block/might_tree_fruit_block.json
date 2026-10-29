@@ -1,0 +1,211 @@
+{
+  "parent": "minecraft:block/block",
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "forge_data": {
+            "block_light": 12,
+            "sky_light": 12
+          },
+          "texture": "#top"
+        },
+        "east": {
+          "forge_data": {
+            "block_light": 12,
+            "sky_light": 12
+          },
+          "texture": "#skin"
+        },
+        "north": {
+          "forge_data": {
+            "block_light": 12,
+            "sky_light": 12
+          },
+          "texture": "#skin"
+        },
+        "south": {
+          "forge_data": {
+            "block_light": 12,
+            "sky_light": 12
+          },
+          "texture": "#skin"
+        },
+        "up": {
+          "forge_data": {
+            "block_light": 12,
+            "sky_light": 12
+          },
+          "texture": "#top"
+        },
+        "west": {
+          "forge_data": {
+            "block_light": 12,
+            "sky_light": 12
+          },
+          "texture": "#skin"
+        }
+      },
+      "from": [
+        2,
+        3,
+        3
+      ],
+      "to": [
+        14,
+        13,
+        13
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "forge_data": {
+            "block_light": 12,
+            "sky_light": 12
+          },
+          "texture": "#top"
+        },
+        "east": {
+          "forge_data": {
+            "block_light": 12,
+            "sky_light": 12
+          },
+          "texture": "#skin"
+        },
+        "north": {
+          "forge_data": {
+            "block_light": 12,
+            "sky_light": 12
+          },
+          "texture": "#skin"
+        },
+        "south": {
+          "forge_data": {
+            "block_light": 12,
+            "sky_light": 12
+          },
+          "texture": "#skin"
+        },
+        "up": {
+          "forge_data": {
+            "block_light": 12,
+            "sky_light": 12
+          },
+          "texture": "#top"
+        },
+        "west": {
+          "forge_data": {
+            "block_light": 12,
+            "sky_light": 12
+          },
+          "texture": "#skin"
+        }
+      },
+      "from": [
+        3,
+        3,
+        2
+      ],
+      "to": [
+        13,
+        13,
+        14
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "forge_data": {
+            "block_light": 12,
+            "sky_light": 12
+          },
+          "texture": "#top"
+        },
+        "east": {
+          "forge_data": {
+            "block_light": 12,
+            "sky_light": 12
+          },
+          "texture": "#skin"
+        },
+        "north": {
+          "forge_data": {
+            "block_light": 12,
+            "sky_light": 12
+          },
+          "texture": "#skin"
+        },
+        "south": {
+          "forge_data": {
+            "block_light": 12,
+            "sky_light": 12
+          },
+          "texture": "#skin"
+        },
+        "up": {
+          "forge_data": {
+            "block_light": 12,
+            "sky_light": 12
+          },
+          "texture": "#top"
+        },
+        "west": {
+          "forge_data": {
+            "block_light": 12,
+            "sky_light": 12
+          },
+          "texture": "#skin"
+        }
+      },
+      "from": [
+        3,
+        2,
+        3
+      ],
+      "to": [
+        13,
+        14,
+        13
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#stem"
+        },
+        "east": {
+          "texture": "#stem"
+        },
+        "north": {
+          "texture": "#stem"
+        },
+        "south": {
+          "texture": "#stem"
+        },
+        "up": {
+          "texture": "#stem"
+        },
+        "west": {
+          "texture": "#stem"
+        }
+      },
+      "from": [
+        7,
+        14,
+        7
+      ],
+      "to": [
+        9,
+        16,
+        9
+      ]
+    }
+  ],
+  "textures": {
+    "particle": "dragonminez:block/might_tree_fruit_block",
+    "skin": "dragonminez:block/might_tree_fruit_block",
+    "stem": "dragonminez:block/might_tree_root",
+    "top": "dragonminez:block/might_tree_fruit_block_top"
+  }
+}

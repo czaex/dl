@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dragonminez",
+  "ingredients": [
+    {
+      "item": "dragonminez:namek_moss"
+    },
+    {
+      "item": "dragonminez:namek_moss"
+    },
+    {
+      "item": "dragonminez:namek_moss"
+    },
+    {
+      "item": "dragonminez:namek_moss"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    }
+  ],
+  "result": {
+    "item": "dragonminez:zenkai_lotus"
+  }
+}

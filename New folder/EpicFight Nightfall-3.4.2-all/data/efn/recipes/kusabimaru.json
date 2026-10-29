@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        " AS",
+        "ACA",
+        "BA "
+    ],
+    "key":
+    {
+        "A": { "item" : "minecraft:netherite_scrap" },
+        "B": { "item" : "minecraft:bamboo" },
+        "C": { "item" : "epicfight:netherite_tachi" },
+        "S": { "item" : "minecraft:ghast_tear" }
+    },
+    "result": {
+        "item": "efn:kusabimaru"
+        }
+}

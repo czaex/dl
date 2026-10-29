@@ -1,0 +1,7 @@
+
+{
+  "parent": "waifu_of_god:displaysettings/tien_pham_linh_mach.item",
+  "textures": {
+    "particle": "waifu_of_god:block/tien_pham_linh_mach"
+  }
+}

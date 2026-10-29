@@ -1,0 +1,10 @@
+{
+  "parent": "waifu_of_god:custom/darkness_torch_floor",
+  "textures": {
+    "all": "waifu_of_god:block/base_torch",
+    "particle": "waifu_of_god:block/base_torch",
+    "0": "waifu_of_god:block/base_torch",
+    "1": "waifu_of_god:block/darkness_flames"
+  },
+  "render_type": "cutout"
+}

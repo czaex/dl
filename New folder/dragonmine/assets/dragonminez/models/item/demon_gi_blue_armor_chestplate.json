@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dragonminez:item/armors/demon_gi_blue_armor_chestplate"
+  }
+}

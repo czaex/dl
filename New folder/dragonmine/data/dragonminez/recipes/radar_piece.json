@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "dragonminez",
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    "SIS",
+    "IRI",
+    "SIS"
+  ],
+  "result": {
+    "item": "dragonminez:radar_piece"
+  },
+  "show_notification": true
+}

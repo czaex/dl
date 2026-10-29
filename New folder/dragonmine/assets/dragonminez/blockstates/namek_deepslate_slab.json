@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dragonminez:block/namek_deepslate_slab"
+    },
+    "type=double": {
+      "model": "dragonminez:block/namek_deepslate"
+    },
+    "type=top": {
+      "model": "dragonminez:block/namek_deepslate_slab_top"
+    }
+  }
+}

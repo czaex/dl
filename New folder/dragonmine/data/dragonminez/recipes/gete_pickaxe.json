@@ -1,0 +1,29 @@
+{
+  "type": "dragonminez:kikono_crafting",
+  "crafting_time": 100,
+  "energy_cost": 1000,
+  "output": {
+    "item": "dragonminez:gete_pickaxe"
+  },
+  "pattern": {
+    "item": "dragonminez:pattern_gete"
+  },
+  "slot_1": {
+    "item": "dragonminez:gete_ingot"
+  },
+  "slot_2": {
+    "item": "dragonminez:gete_ingot"
+  },
+  "slot_3": {
+    "item": "dragonminez:gete_ingot"
+  },
+  "slot_5": {
+    "item": "dragonminez:kikono_stick"
+  },
+  "slot_8": {
+    "item": "dragonminez:kikono_stick"
+  },
+  "template": {
+    "item": "minecraft:netherite_pickaxe"
+  }
+}

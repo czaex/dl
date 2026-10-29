@@ -1,0 +1,35 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_z"
+    },
+    "B": {
+      "item": "minecraft:blue_dye"
+    },
+    "E": {
+      "item": "minecraft:green_dye"
+    },
+    "K": {
+      "item": "minecraft:black_dye"
+    },
+    "R": {
+      "item": "minecraft:red_dye"
+    },
+    "W": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "pattern": [
+    "EE  EE",
+    "WBWWBW",
+    "WBBBBW",
+    " B#BB ",
+    "REEEER",
+    "R KK R"
+  ],
+  "result": {
+    "item": "dragonminez:pattern_bardock1"
+  }
+}

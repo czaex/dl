@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "waifu_of_god:linh_mach_gen",
+  "step": "underground_ores"
+}

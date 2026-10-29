@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "jujutsucraft:cursed_technique_changer"
+    },
+    "title": {
+      "translate": "advancements.advancement_select_technique.title"
+    },
+    "description": {
+      "translate": "advancements.advancement_select_technique.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "advancement_select_technique_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:start_jujutsu_craft"
+}

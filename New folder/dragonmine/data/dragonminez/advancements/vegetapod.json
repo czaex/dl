@@ -1,0 +1,42 @@
+{
+  "parent": "dragonminez:rockybiome",
+  "criteria": {
+    "vegetapod": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "dragonminez:vegeta_pod"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.vegetapod.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "dragonminez:saiyan_ship"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.vegetapod.title"
+    }
+  },
+  "requirements": [
+    [
+      "vegetapod"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

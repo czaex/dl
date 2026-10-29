@@ -1,0 +1,14 @@
+{
+  "type": "dragonminez:fitted_template",
+  "biomes": "#dragonminez:is_sacredkai",
+  "spawn_overrides": {},
+  "step": "top_layer_modification",
+  "template": "dragonminez:oldkai_pillar",
+  "terrain_fit": {
+    "carve": 32,
+    "foundation": 64,
+    "ground_level": 0,
+    "skirt": 6,
+    "template_foundation": true
+  }
+}

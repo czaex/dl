@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "dragonminez",
+  "key": {
+    "C": {
+      "item": "dragonminez:t1_radar_chip"
+    },
+    "W": {
+      "item": "minecraft:black_wool"
+    }
+  },
+  "pattern": [
+    " W ",
+    "WCW",
+    " W "
+  ],
+  "result": {
+    "count": 4,
+    "item": "dragonminez:energy_cable"
+  },
+  "show_notification": true
+}

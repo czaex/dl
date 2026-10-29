@@ -1,0 +1,12 @@
+{
+  "enchantment.stealth.camouflage": "Camouflage",
+  "enchantment.stealth.silent_step": "Silent Step",
+  "effect.stealth.muffled": "Muffled",
+  "effect.stealth.blur": "Blur",
+  "item.minecraft.potion.effect.muffled": "Potion of Muffling",
+  "item.minecraft.potion.effect.blur": "Potion of Blur",
+  "item.minecraft.splash_potion.effect.muffled": "Splash Potion of Muffling",
+  "item.minecraft.splash_potion.effect.blur": "Splash Potion of Blur",
+  "item.minecraft.lingering_potion.effect.muffled": "Lingering Potion of Muffling",
+  "item.minecraft.lingering_potion.effect.blur": "Lingering Potion of Blur"
+}

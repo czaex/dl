@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dragonminez:item/armors/cooler_soldier_armor_chestplate"
+  }
+}

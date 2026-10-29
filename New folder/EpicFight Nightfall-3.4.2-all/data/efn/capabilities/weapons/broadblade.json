@@ -1,0 +1,10 @@
+{
+  "type": "efn:broadblade",
+  "attributes": {
+    "common": {
+      "impact": 3,
+      "armor_negation":30.0,
+      "max_strikes":5
+    }
+  }
+}

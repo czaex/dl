@@ -1,0 +1,15 @@
+{
+  "renderer": "epic_fight_avalon:mesh_item",
+  "texture": "efn:textures/item/weapon/sword_of_pioneer.png",
+  "mesh_main":"efn:weapon/sword_of_pioneer",
+  "trail": {
+    "color": [180, 180, 180],
+    "begin_pos": [0.0, 0.13, -0.3],
+    "end_pos": [0.0, 0.13, -1.65],
+    "lifetime": 4,
+    "interpolations": 5,
+    "texture_path": "efn:textures/trail/sop.png",
+    "particle_type": "efn:bloom_trail"
+  },
+  "appeared_in_afterimage":false
+}

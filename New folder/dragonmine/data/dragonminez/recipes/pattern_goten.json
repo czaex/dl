@@ -1,0 +1,29 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_z"
+    },
+    "B": {
+      "item": "minecraft:blue_dye"
+    },
+    "K": {
+      "item": "minecraft:black_dye"
+    },
+    "O": {
+      "item": "minecraft:orange_dye"
+    }
+  },
+  "pattern": [
+    "OO  OO",
+    "OOKKOO",
+    "BOKKOB",
+    "BO#OOB",
+    " OOOO ",
+    "BBKKBB"
+  ],
+  "result": {
+    "item": "dragonminez:pattern_goten"
+  }
+}

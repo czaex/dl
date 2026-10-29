@@ -1,0 +1,14 @@
+{
+  "entries": [
+    {
+      "enum": "net/minecraft/client/model/HumanoidModel$ArmPose",
+      "name": "MAHOUTSUKAI_RIFLE",
+      "constructor": "(ZLnet/neoforged/neoforge/client/IArmPoseTransformer;)V",
+      "parameters": {
+        "class": "stepsword/mahoutsukai/render/pose/ModPoses",
+        "field": "MAHOUTSUKAI_ARMPOSE_PROXY"
+      }
+    }
+  ]
+}
+

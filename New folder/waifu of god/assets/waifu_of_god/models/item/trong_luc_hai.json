@@ -1,0 +1,6 @@
+{
+  "parent": "waifu_of_god:displaysettings/god_scythe.item",
+  "textures": {
+    "layer0": "waifu_of_god:item/god_scythe"
+  }
+}

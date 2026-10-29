@@ -1,0 +1,29 @@
+{
+    "trail_effects": [
+        {
+            "start_time": 1.55,
+            "end_time": 1.7,
+            "joint": "Tool_L",
+            "begin_pos": [0, 1, 0],
+            "end_pos": [0, 6, 0],
+            "lifetime": 20,
+            "interpolations": 20,
+            "color": [255,255,255],
+            "texture_path": "efn:textures/trail/katana_trail.png",
+            "particle_type": "efn:bloom_trail"
+        },
+        {
+            "start_time": 1.55,
+            "end_time": 1.7,
+            "fade_time": 0.0001,
+            "joint": "Tool_L",
+            "begin_pos": [0, 1, 0],
+            "end_pos": [0, 6, 0],
+            "lifetime": 20,
+            "interpolations": 20,
+            "color": [255,255,255],
+            "texture_path": "efn:textures/trail/katana_trail_end.png",
+            "particle_type": "efn:bloom_trail"
+        }
+    ]
+}

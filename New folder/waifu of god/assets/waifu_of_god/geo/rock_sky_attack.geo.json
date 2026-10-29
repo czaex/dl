@@ -1,0 +1,29 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Rock_Sky_Attack",
+				"texture_width": 512,
+				"texture_height": 512,
+				"visible_bounds_width": 7,
+				"visible_bounds_height": 10.5,
+				"visible_bounds_offset": [0, 4.75, 0]
+			},
+			"bones": [
+				{
+					"name": "RockSky",
+					"pivot": [0, 149, 0]
+				},
+				{
+					"name": "bone2",
+					"parent": "RockSky",
+					"pivot": [0, 149, 0],
+					"cubes": [
+						{"origin": [-47, 0, -47], "size": [94, 149, 94], "uv": [136, 123]}
+					]
+				}
+			]
+		}
+	]
+}

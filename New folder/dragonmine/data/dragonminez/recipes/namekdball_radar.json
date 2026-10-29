@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "dragonminez",
+  "key": {
+    "C": {
+      "item": "dragonminez:t2_radar_chip"
+    },
+    "G": {
+      "item": "dragonminez:t2_radar_cpu"
+    },
+    "O": {
+      "item": "minecraft:observer"
+    },
+    "P": {
+      "item": "dragonminez:radar_piece"
+    }
+  },
+  "pattern": [
+    "OCO",
+    "PGP",
+    "CPC"
+  ],
+  "result": {
+    "item": "dragonminez:namekdball_radar"
+  },
+  "show_notification": true
+}

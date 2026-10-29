@@ -1,0 +1,31 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"0": {
+			"animation_length": 0.04167,
+			"start_delay": "0",
+			"bones": {
+				"General": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"1": {
+			"loop": true,
+			"animation_length": 1,
+			"override_previous_animation": true,
+			"start_delay": "0",
+			"loop_delay": "0",
+			"bones": {
+				"General": {
+					"scale": {
+						"vector": [10, 10, 10]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

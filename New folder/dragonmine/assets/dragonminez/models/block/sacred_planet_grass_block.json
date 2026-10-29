@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "dragonminez:block/sacred_planet_grass_block_down",
+    "side": "dragonminez:block/sacred_planet_grass_block_side",
+    "top": "dragonminez:block/sacred_planet_grass_block_top"
+  }
+}

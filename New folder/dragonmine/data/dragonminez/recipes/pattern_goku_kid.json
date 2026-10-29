@@ -1,0 +1,32 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_z"
+    },
+    "B": {
+      "item": "minecraft:blue_dye"
+    },
+    "K": {
+      "item": "minecraft:black_dye"
+    },
+    "R": {
+      "item": "minecraft:red_dye"
+    },
+    "Y": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "pattern": [
+    "RR  RR",
+    "RRKKRR",
+    "KRRRYK",
+    "KR#RRK",
+    " RRRR ",
+    "BBRRBB"
+  ],
+  "result": {
+    "item": "dragonminez:pattern_goku_kid"
+  }
+}

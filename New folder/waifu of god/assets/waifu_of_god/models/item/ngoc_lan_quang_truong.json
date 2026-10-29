@@ -1,0 +1,6 @@
+{
+  "parent": "waifu_of_god:displaysettings/ngoc_lan_quang_truong.item",
+  "textures": {
+    "layer0": "waifu_of_god:item/ngoc_lan_quang_truong"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:white_wool"
+    },
+    {
+      "item": "mahoutsukai:dagger"
+    }
+  ],
+  "result": {
+    "id": "mahoutsukai:spell_cloth",
+    "count": 4
+  }
+}

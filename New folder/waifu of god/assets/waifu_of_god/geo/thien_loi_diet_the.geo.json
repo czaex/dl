@@ -1,0 +1,93 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Thiên Lôi Diệt Thế",
+				"texture_width": 360,
+				"texture_height": 570,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2,
+				"visible_bounds_offset": [0, 0, 0]
+			},
+			"bones": [
+				{
+					"name": "magic",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "Body",
+					"parent": "magic",
+					"pivot": [0, -12, 0],
+					"cubes": [
+						{"origin": [-4, -12, -5], "size": [8, 12, 4], "uv": [51, 0]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "Body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-4, 0, -7], "size": [8, 8, 8], "uv": [48, 0]}
+					]
+				},
+				{
+					"name": "lightning",
+					"parent": "Head",
+					"pivot": [0, 0, 0],
+					"rotation": [-90, 0, 0]
+				},
+				{
+					"name": "general",
+					"parent": "lightning",
+					"pivot": [0, 0, 0],
+					"rotation": [0, -90, 0]
+				},
+				{
+					"name": "Halo2",
+					"parent": "general",
+					"pivot": [0, -254.54497, -0.00001],
+					"rotation": [-90, 0, 45],
+					"cubes": [
+						{
+							"origin": [-180, -254.54997, -180.00001],
+							"size": [7, 0, 7],
+							"uv": {
+								"down": {"uv": [360, 0], "uv_size": [-360, 360]}
+							}
+						},
+						{
+							"origin": [-180, -254.53997, -180.00001],
+							"size": [7, 0, 7],
+							"uv": {
+								"up": {"uv": [360, 360], "uv_size": [-360, -360]}
+							}
+						}
+					]
+				},
+				{
+					"name": "Halo",
+					"parent": "lightning",
+					"pivot": [0, -254.54497, -0.00001],
+					"rotation": [-90, 0, 45],
+					"cubes": [
+						{
+							"origin": [-180, -254.54997, -180.00001],
+							"size": [7, 0, 7],
+							"uv": {
+								"down": {"uv": [360, 0], "uv_size": [-360, 360]}
+							}
+						},
+						{
+							"origin": [-180, -254.53997, -180.00001],
+							"size": [7, 0, 7],
+							"uv": {
+								"up": {"uv": [360, 360], "uv_size": [-360, -360]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

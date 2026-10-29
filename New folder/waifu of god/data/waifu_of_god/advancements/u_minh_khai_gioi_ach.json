@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "waifu_of_god:u_minh_khai_gioi_disc"
+    },
+    "title": {
+      "translate": "advancements.u_minh_khai_gioi_ach.title"
+    },
+    "description": {
+      "translate": "advancements.u_minh_khai_gioi_ach.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "u_minh_khai_gioi_ach_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "waifu_of_god:entities/u_minh_khai_gioi_loot"
+    ]
+  },
+  "parent": "waifu_of_god:tu_tien_gioi"
+}

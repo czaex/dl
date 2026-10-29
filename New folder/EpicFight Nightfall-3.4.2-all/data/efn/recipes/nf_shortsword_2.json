@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "minecraft:blue_ice"
+  },
+  "base": {
+    "item": "efn:nf_shortsword"
+  },
+  "result": {
+    "item": "efn:nf_shortsword_2"
+  },
+  "template": {
+    "item": "minecraft:soul_lantern"
+  }
+}

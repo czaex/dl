@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "linh_thach",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "waifu_of_god:linh_thach_tien_pham"
+    }
+  },
+  "result": {
+    "item": "waifu_of_god:linh_thach_thanh_pham",
+    "count": 1
+  }
+}

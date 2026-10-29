@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "APA",
+        "EBE",
+        "APA"
+    ],
+    "key": {
+        "B": {
+            "item": "minecraft:book"
+        },
+        "P": {
+            "item": "minecraft:phantom_membrane"
+        },
+        "E": {
+            "item": "minecraft:ender_pearl"
+        },
+        "A": {
+            "item": "minecraft:amethyst_shard"
+        }
+    },
+    "result": {
+        "item": "minecraft:enchanted_book",
+        "nbt": "{StoredEnchantments:[{id:\"efn:yamato_heavy_rain\",lvl:1s}]}"
+    }
+}

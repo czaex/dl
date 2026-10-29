@@ -1,0 +1,11 @@
+{
+  "type": "dragonminez:fitted_template",
+  "biomes": "#dragonminez:is_htc",
+  "rotation": "none",
+  "spawn_overrides": {},
+  "step": "top_layer_modification",
+  "template": "dragonminez:timechamber",
+  "terrain_fit": {
+    "ground_level": 0
+  }
+}

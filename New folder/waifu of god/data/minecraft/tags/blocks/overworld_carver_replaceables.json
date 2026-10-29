@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stone",
+    "minecraft:air",
+    "minecraft:dirt",
+    "minecraft:grass_block",
+    "waifu_of_god:darkness_dirt",
+    "waifu_of_god:darkness_grass",
+    "minecraft:blackstone"
+  ]
+}

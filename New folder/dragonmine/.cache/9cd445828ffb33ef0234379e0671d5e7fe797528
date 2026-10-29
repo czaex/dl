@@ -1,0 +1,23 @@
+// 1.20.1	2026-10-21T19:12:58.7022539	Tags for minecraft:item mod id dragonminez
+4cb3f70c4ea50c92eebb49a975638951945588f5 data/dragonminez/tags/items/namek_alog.json
+00ec82eeaaa18261c7452cc9c7d456ce7bc1aa20 data/dragonminez/tags/items/namek_slog.json
+e6960e9d8387c17e9f3225384322031639a0e8c3 data/dragonminez/tags/items/senzu_beans.json
+7b791a22fd69d96ab5d665332f26b72563b7ed68 data/dragonminez/tags/items/weighted_items.json
+566e07237cd13a414b3fd599ad50438f50722c8d data/forge/tags/items/ingots.json
+fc4b4f64070d4ceb13eb5ee7b2578c895464a377 data/forge/tags/items/seeds.json
+85ecc121d8cf84377419af1ea4181c4c7157ece3 data/minecraft/tags/items/coal_ores.json
+dfb4f762ca6513763d21b0e0ffbbe3c22c51179c data/minecraft/tags/items/copper_ores.json
+65ff0b34e06fd99ea3951ae2999a4f27a2c8da9f data/minecraft/tags/items/diamond_ores.json
+3f9c2d240c5ca2ed6799f8533aa76625e4591fcd data/minecraft/tags/items/emerald_ores.json
+9ec1f60bf1207c7fd2f7722f2e6962e77950efa1 data/minecraft/tags/items/flowers.json
+94498d2c0e65e63acd42c4f15c4d2fa4e7ad55b3 data/minecraft/tags/items/gold_ores.json
+d9ae67011a3d65301dd01fc01706140745d3fd68 data/minecraft/tags/items/iron_ores.json
+692a1c129ae14af26ada5afaa87e7ae7ea5a6952 data/minecraft/tags/items/lapis_ores.json
+dd4ef009215a474e4c2ad2dd583e321450f9d0be data/minecraft/tags/items/leaves.json
+6a4bdd1f75a4a3b86a3396cc833938eec4241b6e data/minecraft/tags/items/logs.json
+6a4bdd1f75a4a3b86a3396cc833938eec4241b6e data/minecraft/tags/items/logs_that_burn.json
+373d4295021784b7943d3df903e697ae502529bc data/minecraft/tags/items/planks.json
+8a3a2d0d931ed76f2b658457640416aa8557d31a data/minecraft/tags/items/redstone_ores.json
+d561940189244ec0b0978e440314643685b54870 data/minecraft/tags/items/stone_crafting_materials.json
+d561940189244ec0b0978e440314643685b54870 data/minecraft/tags/items/stone_tool_materials.json
+54b86a50f04d42c56cd4a0f74e20209126431857 data/minecraft/tags/items/tools.json

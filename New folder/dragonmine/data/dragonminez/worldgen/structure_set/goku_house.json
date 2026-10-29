@@ -1,0 +1,13 @@
+{
+  "placement": {
+    "type": "dragonminez:biome_aware_placement",
+    "salt": 12345678,
+    "valid_biomes": "#dragonminez:is_plainslike"
+  },
+  "structures": [
+    {
+      "structure": "dragonminez:goku_house",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "parent": "dragonminez:radarnamek",
+  "criteria": {
+    "namekballs": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:dball1_namek"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:dball2_namek"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:dball3_namek"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:dball4_namek"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:dball5_namek"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:dball6_namek"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:dball7_namek"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.namekballs.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "dragonminez:dball1_namek"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.namekballs.title"
+    }
+  },
+  "requirements": [
+    [
+      "namekballs"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

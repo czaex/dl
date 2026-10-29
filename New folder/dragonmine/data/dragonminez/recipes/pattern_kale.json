@@ -1,0 +1,29 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_super"
+    },
+    "K": {
+      "item": "minecraft:black_dye"
+    },
+    "R": {
+      "item": "minecraft:red_dye"
+    },
+    "Y": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "pattern": [
+    "RR  RR",
+    "RRRRRR",
+    "KRRRRK",
+    " R#RR ",
+    " RRRR ",
+    "Y    Y"
+  ],
+  "result": {
+    "item": "dragonminez:pattern_kale"
+  }
+}

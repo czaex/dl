@@ -1,0 +1,11 @@
+{
+  "type": "dragonminez:otherworld",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "dragonminez:other_world"
+    },
+    "settings": "dragonminez:otherworld"
+  }
+}

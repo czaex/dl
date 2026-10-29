@@ -1,0 +1,12 @@
+{
+  "type":"efn:scythe",
+  "attributes":
+  {
+    "common":
+    {
+      "impact":2.5,
+      "max_strikes":2,
+      "armor_negation":30.0
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "parent": "dragonminez:patternsuper",
+  "criteria": {
+    "age1000armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:age1000_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:age1000_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:age1000_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.age1000armor.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "dragonminez:age1000_armor_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.age1000armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "age1000armor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

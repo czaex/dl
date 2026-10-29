@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "dragonminez:block/namek_deepslate",
+    "side": "dragonminez:block/namek_deepslate"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "mahoutsukai:mystic_staff"
+    },
+    "title": {
+      "translate": "advancements.bakuretsu.title"
+    },
+    "description": {
+      "translate": "advancements.bakuretsu.description"
+    }
+  },
+  "parent": "mahoutsukai:root",
+  "criteria": {
+    "mahoutsukai:bakuretsu": {
+      "trigger": "mahoutsukai:bakuretsu"
+    }
+  }
+}

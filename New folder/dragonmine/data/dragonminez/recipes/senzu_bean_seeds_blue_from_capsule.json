@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dragonminez",
+  "ingredients": [
+    {
+      "item": "dragonminez:namek_moss"
+    },
+    {
+      "item": "dragonminez:blue_capsule"
+    }
+  ],
+  "result": {
+    "item": "dragonminez:senzu_bean_seeds_blue"
+  }
+}

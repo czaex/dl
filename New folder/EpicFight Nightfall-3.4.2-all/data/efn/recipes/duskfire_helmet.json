@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": {
+        "item": "minecraft:netherite_helmet"
+    },
+    "addition": {
+        "item" : "efn:duskfire_ingot"
+    },
+    "result": {
+        "item": "efn:duskfire_helmet"
+    },
+    "template": {
+      "item": "minecraft:blaze_rod"
+    }
+}

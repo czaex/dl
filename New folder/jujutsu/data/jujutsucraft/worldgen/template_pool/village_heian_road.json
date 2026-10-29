@@ -1,0 +1,17 @@
+{
+  "name": "jujutsucraft:village_heian_road",
+  "fallback": "jujutsucraft:village_heian_road",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "jujutsucraft:village_heian_road",
+        "projection": "terrain_matching",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}

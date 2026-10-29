@@ -1,0 +1,118 @@
+{
+  "mappings": {
+    "org/admany/taczt/platform/forge/mixin/client/GpuItemFrameMixin": {
+      "render(Lnet/minecraft/world/entity/decoration/ItemFrame;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V": "Lnet/minecraft/client/renderer/entity/ItemFrameRenderer;m_7392_(Lnet/minecraft/world/entity/decoration/ItemFrame;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V"
+    },
+    "org/admany/taczt/platform/forge/mixin/client/GpuMinecraftLifecycleMixin": {
+      "Lnet/minecraft/client/renderer/GameRenderer;render(FJZ)V": "Lnet/minecraft/client/renderer/GameRenderer;m_109093_(FJZ)V",
+      "Lcom/mojang/blaze3d/platform/Window;updateDisplay()V": "Lcom/mojang/blaze3d/platform/Window;m_85435_()V",
+      "runTick": "Lnet/minecraft/client/Minecraft;m_91383_(Z)V",
+      "close": "Lnet/minecraft/client/Minecraft;close()V"
+    },
+    "org/admany/taczt/platform/forge/mixin/EntityPathCollisionMixin": {
+      "Lnet/minecraft/world/phys/AABB;clip(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)Ljava/util/Optional;": "Lnet/minecraft/world/phys/AABB;m_82371_(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)Ljava/util/Optional;"
+    },
+    "org/admany/taczt/platform/forge/mixin/LazyJsonDataManagerMixin": {
+      "Lnet/minecraft/server/packs/resources/Resource;openAsReader()Ljava/io/BufferedReader;": "Lnet/minecraft/server/packs/resources/Resource;m_215508_()Ljava/io/BufferedReader;"
+    },
+    "org/admany/taczt/platform/forge/mixin/client/EntityBulletRendererMixin": {
+      "Lnet/minecraft/client/renderer/RenderType;energySwirl(Lnet/minecraft/resources/ResourceLocation;FF)Lnet/minecraft/client/renderer/RenderType;": "Lnet/minecraft/client/renderer/RenderType;m_110436_(Lnet/minecraft/resources/ResourceLocation;FF)Lnet/minecraft/client/renderer/RenderType;"
+    },
+    "org/admany/taczt/platform/forge/mixin/client/GunItemRenderProfileMixin": {
+      "renderByItem": "Lcom/tacz/guns/client/renderer/item/GunItemRendererWrapper;m_108829_(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V"
+    },
+    "org/admany/taczt/platform/forge/mixin/EntityKineticBulletMixin": {
+      "Lnet/minecraft/world/phys/Vec3;distanceTo(Lnet/minecraft/world/phys/Vec3;)D": "Lnet/minecraft/world/phys/Vec3;m_82554_(Lnet/minecraft/world/phys/Vec3;)D"
+    },
+    "org/admany/taczt/platform/forge/mixin/client/FunctionalBedrockPartMixin": {
+      "Lcom/mojang/blaze3d/vertex/PoseStack;pushPose()V": "Lcom/mojang/blaze3d/vertex/PoseStack;m_85836_()V",
+      "Lcom/mojang/blaze3d/vertex/PoseStack;popPose()V": "Lcom/mojang/blaze3d/vertex/PoseStack;m_85849_()V"
+    },
+    "org/admany/taczt/platform/forge/mixin/client/GunHudOverlayMixin": {
+      "Lnet/minecraft/client/gui/GuiGraphics;drawString(Lnet/minecraft/client/gui/Font;Ljava/lang/String;III)I": "Lnet/minecraft/client/gui/GuiGraphics;m_280488_(Lnet/minecraft/client/gui/Font;Ljava/lang/String;III)I"
+    },
+    "org/admany/taczt/platform/forge/mixin/client/ScopeGeometryMixin": {
+      "Lcom/mojang/blaze3d/vertex/PoseStack;popPose()V": "Lcom/mojang/blaze3d/vertex/PoseStack;m_85849_()V"
+    },
+    "org/admany/taczt/platform/forge/mixin/client/BedrockModelMixin": {
+      "Lnet/minecraft/client/renderer/MultiBufferSource$BufferSource;endBatch(Lnet/minecraft/client/renderer/RenderType;)V": "Lnet/minecraft/client/renderer/MultiBufferSource$BufferSource;m_109912_(Lnet/minecraft/client/renderer/RenderType;)V"
+    },
+    "org/admany/taczt/platform/forge/mixin/client/GpuVertexBufferAccess": {
+      "mode": "f_166864_:Lcom/mojang/blaze3d/vertex/VertexFormat$Mode;",
+      "indexCount": "f_166863_:I",
+      "vertexBufferId": "f_231217_:I",
+      "format": "f_85917_:Lcom/mojang/blaze3d/vertex/VertexFormat;",
+      "sequentialIndices": "f_166865_:Lcom/mojang/blaze3d/systems/RenderSystem$AutoStorageIndexBuffer;"
+    },
+    "org/admany/taczt/platform/forge/mixin/client/PoseStackMixin": {
+      "pushPose": "Lcom/mojang/blaze3d/vertex/PoseStack;m_85836_()V",
+      "popPose": "Lcom/mojang/blaze3d/vertex/PoseStack;m_85849_()V"
+    },
+    "org/admany/taczt/platform/forge/mixin/client/BedrockPartMixin": {
+      "Lcom/mojang/blaze3d/vertex/PoseStack;mulPose(Lorg/joml/Quaternionf;)V": "Lcom/mojang/blaze3d/vertex/PoseStack;m_252781_(Lorg/joml/Quaternionf;)V",
+      "Lcom/mojang/blaze3d/vertex/PoseStack;pushPose()V": "Lcom/mojang/blaze3d/vertex/PoseStack;m_85836_()V",
+      "Lcom/mojang/blaze3d/vertex/PoseStack;popPose()V": "Lcom/mojang/blaze3d/vertex/PoseStack;m_85849_()V",
+      "Lcom/mojang/blaze3d/vertex/PoseStack;translate(FFF)V": "Lcom/mojang/blaze3d/vertex/PoseStack;m_252880_(FFF)V",
+      "Lcom/mojang/blaze3d/vertex/PoseStack;scale(FFF)V": "Lcom/mojang/blaze3d/vertex/PoseStack;m_85841_(FFF)V"
+    }
+  },
+  "data": {
+    "searge": {
+      "org/admany/taczt/platform/forge/mixin/client/GpuItemFrameMixin": {
+        "render(Lnet/minecraft/world/entity/decoration/ItemFrame;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V": "Lnet/minecraft/client/renderer/entity/ItemFrameRenderer;m_7392_(Lnet/minecraft/world/entity/decoration/ItemFrame;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V"
+      },
+      "org/admany/taczt/platform/forge/mixin/client/GpuMinecraftLifecycleMixin": {
+        "Lnet/minecraft/client/renderer/GameRenderer;render(FJZ)V": "Lnet/minecraft/client/renderer/GameRenderer;m_109093_(FJZ)V",
+        "Lcom/mojang/blaze3d/platform/Window;updateDisplay()V": "Lcom/mojang/blaze3d/platform/Window;m_85435_()V",
+        "runTick": "Lnet/minecraft/client/Minecraft;m_91383_(Z)V",
+        "close": "Lnet/minecraft/client/Minecraft;close()V"
+      },
+      "org/admany/taczt/platform/forge/mixin/EntityPathCollisionMixin": {
+        "Lnet/minecraft/world/phys/AABB;clip(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)Ljava/util/Optional;": "Lnet/minecraft/world/phys/AABB;m_82371_(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)Ljava/util/Optional;"
+      },
+      "org/admany/taczt/platform/forge/mixin/LazyJsonDataManagerMixin": {
+        "Lnet/minecraft/server/packs/resources/Resource;openAsReader()Ljava/io/BufferedReader;": "Lnet/minecraft/server/packs/resources/Resource;m_215508_()Ljava/io/BufferedReader;"
+      },
+      "org/admany/taczt/platform/forge/mixin/client/EntityBulletRendererMixin": {
+        "Lnet/minecraft/client/renderer/RenderType;energySwirl(Lnet/minecraft/resources/ResourceLocation;FF)Lnet/minecraft/client/renderer/RenderType;": "Lnet/minecraft/client/renderer/RenderType;m_110436_(Lnet/minecraft/resources/ResourceLocation;FF)Lnet/minecraft/client/renderer/RenderType;"
+      },
+      "org/admany/taczt/platform/forge/mixin/client/GunItemRenderProfileMixin": {
+        "renderByItem": "Lcom/tacz/guns/client/renderer/item/GunItemRendererWrapper;m_108829_(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemDisplayContext;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;II)V"
+      },
+      "org/admany/taczt/platform/forge/mixin/EntityKineticBulletMixin": {
+        "Lnet/minecraft/world/phys/Vec3;distanceTo(Lnet/minecraft/world/phys/Vec3;)D": "Lnet/minecraft/world/phys/Vec3;m_82554_(Lnet/minecraft/world/phys/Vec3;)D"
+      },
+      "org/admany/taczt/platform/forge/mixin/client/FunctionalBedrockPartMixin": {
+        "Lcom/mojang/blaze3d/vertex/PoseStack;pushPose()V": "Lcom/mojang/blaze3d/vertex/PoseStack;m_85836_()V",
+        "Lcom/mojang/blaze3d/vertex/PoseStack;popPose()V": "Lcom/mojang/blaze3d/vertex/PoseStack;m_85849_()V"
+      },
+      "org/admany/taczt/platform/forge/mixin/client/GunHudOverlayMixin": {
+        "Lnet/minecraft/client/gui/GuiGraphics;drawString(Lnet/minecraft/client/gui/Font;Ljava/lang/String;III)I": "Lnet/minecraft/client/gui/GuiGraphics;m_280488_(Lnet/minecraft/client/gui/Font;Ljava/lang/String;III)I"
+      },
+      "org/admany/taczt/platform/forge/mixin/client/ScopeGeometryMixin": {
+        "Lcom/mojang/blaze3d/vertex/PoseStack;popPose()V": "Lcom/mojang/blaze3d/vertex/PoseStack;m_85849_()V"
+      },
+      "org/admany/taczt/platform/forge/mixin/client/BedrockModelMixin": {
+        "Lnet/minecraft/client/renderer/MultiBufferSource$BufferSource;endBatch(Lnet/minecraft/client/renderer/RenderType;)V": "Lnet/minecraft/client/renderer/MultiBufferSource$BufferSource;m_109912_(Lnet/minecraft/client/renderer/RenderType;)V"
+      },
+      "org/admany/taczt/platform/forge/mixin/client/GpuVertexBufferAccess": {
+        "mode": "f_166864_:Lcom/mojang/blaze3d/vertex/VertexFormat$Mode;",
+        "indexCount": "f_166863_:I",
+        "vertexBufferId": "f_231217_:I",
+        "format": "f_85917_:Lcom/mojang/blaze3d/vertex/VertexFormat;",
+        "sequentialIndices": "f_166865_:Lcom/mojang/blaze3d/systems/RenderSystem$AutoStorageIndexBuffer;"
+      },
+      "org/admany/taczt/platform/forge/mixin/client/PoseStackMixin": {
+        "pushPose": "Lcom/mojang/blaze3d/vertex/PoseStack;m_85836_()V",
+        "popPose": "Lcom/mojang/blaze3d/vertex/PoseStack;m_85849_()V"
+      },
+      "org/admany/taczt/platform/forge/mixin/client/BedrockPartMixin": {
+        "Lcom/mojang/blaze3d/vertex/PoseStack;mulPose(Lorg/joml/Quaternionf;)V": "Lcom/mojang/blaze3d/vertex/PoseStack;m_252781_(Lorg/joml/Quaternionf;)V",
+        "Lcom/mojang/blaze3d/vertex/PoseStack;pushPose()V": "Lcom/mojang/blaze3d/vertex/PoseStack;m_85836_()V",
+        "Lcom/mojang/blaze3d/vertex/PoseStack;popPose()V": "Lcom/mojang/blaze3d/vertex/PoseStack;m_85849_()V",
+        "Lcom/mojang/blaze3d/vertex/PoseStack;translate(FFF)V": "Lcom/mojang/blaze3d/vertex/PoseStack;m_252880_(FFF)V",
+        "Lcom/mojang/blaze3d/vertex/PoseStack;scale(FFF)V": "Lcom/mojang/blaze3d/vertex/PoseStack;m_85841_(FFF)V"
+      }
+    }
+  }
+}

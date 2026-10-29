@@ -1,0 +1,49 @@
+{
+  "parent": "dragonminez:patternsuper",
+  "criteria": {
+    "fusionzamasuarmor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:fusion_zamasu_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:fusion_zamasu_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:fusion_zamasu_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.fusionzamasuarmor.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "dragonminez:fusion_zamasu_armor_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.fusionzamasuarmor.title"
+    }
+  },
+  "requirements": [
+    [
+      "fusionzamasuarmor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

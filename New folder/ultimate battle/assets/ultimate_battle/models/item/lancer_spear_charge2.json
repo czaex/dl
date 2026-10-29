@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/spear_in_hand",
+  "textures": {
+    "layer0": "ultimate_battle:item/lancer_spear_charge2"
+  }
+}

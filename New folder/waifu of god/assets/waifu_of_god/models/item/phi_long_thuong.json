@@ -1,0 +1,6 @@
+{
+  "parent": "waifu_of_god:displaysettings/god_lance.item",
+  "textures": {
+    "layer0": "waifu_of_god:item/god_lance"
+  }
+}

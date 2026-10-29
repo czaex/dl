@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:block",
+  "pools":
+  [
+    {
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "rolls": 1,
+      "entries":
+      [
+        {
+          "type": "minecraft:item",
+          "name": "mahoutsukai:fog_projector",
+          "functions":
+          [
+            {
+              "function": "copy_components",
+              "source": "block_entity",
+              "include":
+              [
+                "mahoutsukai:fog_projector_values_mahou"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

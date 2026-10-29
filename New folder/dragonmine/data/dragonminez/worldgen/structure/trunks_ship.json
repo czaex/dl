@@ -1,0 +1,14 @@
+{
+  "type": "dragonminez:fitted_template",
+  "biomes": "#dragonminez:is_land",
+  "spawn_overrides": {},
+  "step": "top_layer_modification",
+  "template": "dragonminez:trunks_ship",
+  "terrain_fit": {
+    "carve": 24,
+    "foundation": 16,
+    "ground_level": 0,
+    "skirt": 4,
+    "template_foundation": true
+  }
+}

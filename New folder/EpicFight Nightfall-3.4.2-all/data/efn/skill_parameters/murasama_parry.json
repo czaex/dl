@@ -1,0 +1,21 @@
+{
+	"xp_requirement": 114514,
+	"penalizer": 0,
+	"parry_window": 6,
+	"shake_parrywindow_punish": 2,
+	"parry_delay_protection": 2,
+	"parry_direction_reset_time": 40,
+	"shake_auto_reset_time": 22,
+	"shake_detection_time": 12,
+	"shake_penalty_min_window": 3,
+	"shake_penalty_multiplier": 0.9,
+	"high_impact_threshold": 6.0,
+	"entity_high_impact_thresholds": {
+		"minecraft:ender_dragon": 30.0,
+		"minecraft:wither": 6.0,
+		"minecraft:ravager": 9.0,
+		"minecraft:iron_golem": 9.0,
+		"nightfall_invade:arterius": 7.0,
+		"ba_bt:land_golem": 12.0
+	}
+}

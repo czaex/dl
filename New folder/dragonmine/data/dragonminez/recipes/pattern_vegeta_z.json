@@ -1,0 +1,44 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_z"
+    },
+    "A": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "B": {
+      "item": "minecraft:blue_dye"
+    },
+    "K": {
+      "item": "minecraft:black_dye"
+    },
+    "N": {
+      "item": "minecraft:brown_dye"
+    },
+    "O": {
+      "item": "minecraft:orange_dye"
+    },
+    "S": {
+      "item": "minecraft:light_gray_dye"
+    },
+    "W": {
+      "item": "minecraft:white_dye"
+    },
+    "Y": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "pattern": [
+    "NO  ON",
+    "BWBBWB",
+    "AWWWWA",
+    "AW#WWA",
+    "BSNYSB",
+    "BKNNKB"
+  ],
+  "result": {
+    "item": "dragonminez:pattern_vegeta_z"
+  }
+}

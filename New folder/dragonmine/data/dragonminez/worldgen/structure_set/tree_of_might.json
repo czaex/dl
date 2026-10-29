@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "dragonminez:biome_aware_placement",
+    "min_distance_from_spawn": 1000,
+    "salt": 28475016,
+    "valid_biomes": "#dragonminez:is_swamplike"
+  },
+  "structures": [
+    {
+      "structure": "dragonminez:tree_of_might",
+      "weight": 1
+    }
+  ]
+}

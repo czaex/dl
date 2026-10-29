@@ -1,0 +1,35 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_z"
+    },
+    "A": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "C": {
+      "item": "minecraft:cyan_dye"
+    },
+    "N": {
+      "item": "minecraft:brown_dye"
+    },
+    "O": {
+      "item": "minecraft:orange_dye"
+    },
+    "R": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "pattern": [
+    "RR  RR",
+    "RRCCRR",
+    "ARRRRA",
+    "AR#RRA",
+    " NRRN ",
+    "COOOOC"
+  ],
+  "result": {
+    "item": "dragonminez:pattern_kibito"
+  }
+}

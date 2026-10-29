@@ -1,0 +1,6 @@
+{
+  "parent": "waifu_of_god:displaysettings/luan_hoi_than_kiem.item",
+  "textures": {
+    "layer0": "waifu_of_god:item/luan_hoi_than_kiem"
+  }
+}

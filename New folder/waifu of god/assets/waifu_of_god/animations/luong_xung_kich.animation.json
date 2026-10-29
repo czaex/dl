@@ -1,0 +1,27 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"1": {
+			"loop": true,
+			"start_delay": "0",
+			"bones": {
+				"up4": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"up3": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"Body": {
+					"position": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

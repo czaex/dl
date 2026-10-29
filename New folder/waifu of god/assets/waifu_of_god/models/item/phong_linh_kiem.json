@@ -1,0 +1,6 @@
+{
+  "parent": "waifu_of_god:displaysettings/sword_2.item",
+  "textures": {
+    "layer0": "waifu_of_god:item/sword_2"
+  }
+}

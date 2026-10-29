@@ -1,0 +1,6 @@
+{
+  "parent": "waifu_of_god:displaysettings/truc_bi_ky.item",
+  "textures": {
+    "layer0": "waifu_of_god:item/truc_bi_ky"
+  }
+}

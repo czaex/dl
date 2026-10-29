@@ -1,0 +1,57 @@
+{
+    "vertices": {
+        "positions": {
+            "stride": 3,
+            "count": 4,
+            "array": [-1.5, 1.5, 0.125, -1.5, -1.5, 0.125, 1.5, -1.5, 0.125, 1.5, 1.5, 0.125]
+        },
+        "uvs": {
+            "stride": 2,
+            "count": 4,
+            "array": [0.75, 0.75, 0.0, 0.0, 0.0, 0.75, 0.75, 0.0]
+        },
+        "normals": {
+            "stride": 3,
+            "count": 1,
+            "array": [0.0, 0.0, 1.0]
+        },
+        "vcounts": {
+            "stride": 1,
+            "count": 4,
+            "array": [1, 1, 1, 1]
+        },
+        "weights": {
+            "stride": 1,
+            "count": 1,
+            "array": [1.0]
+        },
+        "vindices": {
+            "stride": 1,
+            "count": 8,
+            "array": [1, 0, 1, 0, 1, 0, 1, 0]
+        },
+        "parts": {
+            "noGroups": {
+                "stride": 3,
+                "count": 6,
+                "array": [2, 0, 0, 0, 1, 0, 1, 2, 0, 2, 0, 0, 3, 3, 0, 0, 1, 0]
+            }
+        }
+    },
+    "armature": {
+        "joints": ["Root", "xyz"],
+        "hierarchy": [
+            {
+                "name": "Root",
+                "transform": [1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, -0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0],
+                "children": [
+                    {
+                        "name": "xyz",
+                        "transform": [1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, -0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0],
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    }
+}

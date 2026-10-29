@@ -1,0 +1,72 @@
+{
+  "parent": "dragonminez:patternsuper",
+  "criteria": {
+    "brolyarmor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:broly_super_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:broly_super_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:broly_super_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "brolyarmor_z": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:broly_z_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:broly_z_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:broly_z_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.brolyarmor.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "dragonminez:broly_super_armor_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.brolyarmor.title"
+    }
+  },
+  "requirements": [
+    [
+      "brolyarmor",
+      "brolyarmor_z"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

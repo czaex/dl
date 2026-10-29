@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "dragonminez:block/makai_grass_block_down",
+    "side": "dragonminez:block/makai_grass_block_side",
+    "top": "dragonminez:block/makai_grass_block_top"
+  }
+}

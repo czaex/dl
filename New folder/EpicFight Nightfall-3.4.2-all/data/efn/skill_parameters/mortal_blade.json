@@ -1,0 +1,6 @@
+{
+  "cooldown": 600,
+  "cooldown_enhance": 400,
+  "stack_cost": 3,
+  "stamina_cost": 3.0
+}

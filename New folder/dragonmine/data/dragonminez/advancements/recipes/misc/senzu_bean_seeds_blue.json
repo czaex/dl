@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_senzu_bean_blue": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:senzu_bean_blue"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "dragonminez:senzu_bean_seeds_blue"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_senzu_bean_blue",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dragonminez:senzu_bean_seeds_blue"
+    ]
+  },
+  "sends_telemetry_event": false
+}

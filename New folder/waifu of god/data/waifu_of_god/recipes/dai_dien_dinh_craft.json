@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "a a",
+    "bcb",
+    "bdb"
+  ],
+  "key": {
+    "a": {
+      "item": "waifu_of_god:linh_thach_cao_pham"
+    },
+    "b": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "c": {
+      "item": "minecraft:nether_star"
+    },
+    "d": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "item": "waifu_of_god:dai_dien_dinh",
+    "count": 1
+  }
+}

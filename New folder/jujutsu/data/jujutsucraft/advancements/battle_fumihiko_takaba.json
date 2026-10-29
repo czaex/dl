@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "jujutsucraft:harisen"
+    },
+    "title": {
+      "translate": "advancements.battle_fumihiko_takaba.title"
+    },
+    "description": {
+      "translate": "advancements.battle_fumihiko_takaba.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "battle_fumihiko_takaba_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:battle_rokujushi_miyo"
+}

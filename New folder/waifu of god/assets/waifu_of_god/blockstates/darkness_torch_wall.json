@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "waifu_of_god:block/darkness_torch_wall"
+    },
+    "facing=east": {
+      "model": "waifu_of_god:block/darkness_torch_wall",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "waifu_of_god:block/darkness_torch_wall",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "waifu_of_god:block/darkness_torch_wall",
+      "y": 270
+    }
+  }
+}

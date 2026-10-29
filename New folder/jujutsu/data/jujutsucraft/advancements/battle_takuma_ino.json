@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "jujutsucraft:clothes_ino_takuma_2_helmet"
+    },
+    "title": {
+      "translate": "advancements.battle_takuma_ino.title"
+    },
+    "description": {
+      "translate": "advancements.battle_takuma_ino.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "battle_takuma_ino_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:junpei_yoshino"
+}

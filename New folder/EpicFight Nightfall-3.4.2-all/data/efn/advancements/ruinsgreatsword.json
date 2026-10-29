@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": {
+      "item": "efn:ruinsgreatsword"
+    },
+    "title": {
+      "translate": "advancement.efn.obtain_ruinsgreatsword.title"
+    },
+    "description": {
+      "translate": "advancement.efn.obtain_ruinsgreatsword.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["efn:ruinsgreatsword"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

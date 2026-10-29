@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "dragonminez:car_red"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_vehicle_engine": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:vehicle_engine"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_vehicle_engine",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dragonminez:car_red"
+    ]
+  },
+  "sends_telemetry_event": false
+}

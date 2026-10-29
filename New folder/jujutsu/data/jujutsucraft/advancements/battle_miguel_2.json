@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "jujutsucraft:clothes_miguel_helmet"
+    },
+    "title": {
+      "translate": "advancements.battle_miguel_2.title"
+    },
+    "description": {
+      "translate": "advancements.battle_miguel_2.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "battle_miguel_2_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:battle_miguel_1"
+}

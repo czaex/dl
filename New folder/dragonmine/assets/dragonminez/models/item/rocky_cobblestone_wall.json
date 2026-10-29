@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "dragonminez:block/rocky_cobblestone"
+  }
+}

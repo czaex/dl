@@ -1,0 +1,22 @@
+{
+  "renderer": "efn:mesh_item_murasama",
+
+  "mesh1_texture": "efn:textures/item/weapon/hf_murasama.png",
+  "mesh1_texture_l": "efn:textures/item/weapon/hf_murasama.png",
+  "mesh1_main": "efn:weapon/hf_murasama",
+
+  "mesh2_texture": "efn:textures/item/weapon/hf_murasama.png",
+  "mesh2_texture_l": "efn:textures/item/weapon/hf_murasama.png",
+  "mesh2_main": "efn:weapon/hf_murasama_sheath",
+
+  "trail": {
+    "color": [200, 200, 200],
+    "begin_pos": [0.0, 0.0, -0.2],
+    "end_pos": [0.0, 0.4, -2.2],
+    "lifetime": 6,
+    "interpolations": 4,
+    "texture_path": "efn:textures/trail/cy.png",
+    "particle_type": "efn:bloom_trail"
+  },
+  "appeared_in_afterimage":false
+}

@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "ultimate_battle_music",
+	"version": "26.3",
+	"name": "Ultimate Battle Music",
+	"description": "Plays music during combat",
+	"authors": [
+		"Nanaky"
+	],
+	"contact": {
+		"homepage": "https://github.com/nanakytim",
+		"sources": "https://github.com/nanakytim/ultimate_battle_music"
+	},
+	"license": "GPL-3.0",
+	"icon": "icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": ["net.nanaky.ultimate_battle_music.UltimateBattleMusicMod"],
+    	"client": ["net.nanaky.ultimate_battle_music.UltimateBattleMusicClient"],
+    	"modmenu": ["net.nanaky.ultimate_battle_music.ModMenuIntegration"]
+	},
+	"mixins": [
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*",
+		"cloth-config": "*"
+	}
+}

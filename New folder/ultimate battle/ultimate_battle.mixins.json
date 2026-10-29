@@ -1,0 +1,35 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.jevelyn.ultimatebattle.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "AvatarCloneMixin",
+    "AvatarHandMixin",
+    "AvatarPoseMixin",
+    "AvatarRotationMixin",
+    "BattleAttackMixin",
+    "BeastRenderMixin",
+    "CameraMixin",
+    "FirstPersonItemMixin",
+    "FirstPersonSpearMixin",
+    "GameRendererMixin",
+    "GuiScreenMixin",
+    "KeyboardHandlerMixin",
+    "KeyboardInputMixin",
+    "LevelExtractorMixin",
+    "LevelRendererMixin",
+    "LivingCloneMixin",
+    "LivingTiltMixin",
+    "MouseScrollMixin",
+    "MouseTurnMixin",
+    "PlayerModelPoseMixin",
+    "SoundEngineAccess",
+    "SpearAttackMixin",
+    "SoundManagerAccess",
+    "WeighedSoundEventsAccess"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "efn:thornwheel",
+  "attributes": {
+    "common": {
+      "impact": 5,
+      "armor_negation":45.0,
+      "max_strikes":7
+    }
+  }
+}

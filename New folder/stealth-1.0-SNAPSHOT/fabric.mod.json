@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "stealth",
+  "version": "1.0-SNAPSHOT",
+  "name": "Stealth Mod",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/stealth/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "bestiary.labs.stealth.client.StealthDataGenerator"
+    ],
+    "client": [
+      "bestiary.labs.stealth.client.StealthClient"
+    ],
+    "main": [
+      "bestiary.labs.stealth.Stealth"
+    ]
+  },
+  "mixins": [
+    "stealth.mixins.json",
+    {
+      "config": "stealth.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "fabric-api": "*",
+    "minecraft": "1.21.11"
+  }
+}

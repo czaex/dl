@@ -1,0 +1,25 @@
+{
+  "feature": "dragonminez:sacredkai_flowers",
+  "placement": [
+    {
+      "type": "minecraft:noise_threshold_count",
+      "above_noise": 3,
+      "below_noise": 8,
+      "noise_level": -0.800000011920929
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 10
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

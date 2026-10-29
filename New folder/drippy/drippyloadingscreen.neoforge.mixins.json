@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "de.keksuccino.drippyloadingscreen.mixin.mixins.neoforge",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "client.MixinMinecraft"
+  ],
+  "client": [
+    "client.MixinNeoForgeCustomizationOverlayUI"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "drippyloadingscreen.refmap.json",
+  "plugin": "de.keksuccino.drippyloadingscreen.mixin.DrippyMixinPlugin",
+  "minVersion": "0.8"
+}

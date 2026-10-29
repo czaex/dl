@@ -1,0 +1,6 @@
+{
+  "parent": "waifu_of_god:displaysettings/lilith_sword.item",
+  "textures": {
+    "layer0": "waifu_of_god:item/lilith_sword"
+  }
+}

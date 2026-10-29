@@ -1,0 +1,13 @@
+{
+  "placement": {
+    "type": "dragonminez:biome_aware_placement",
+    "salt": 44332211,
+    "valid_biomes": "#dragonminez:is_sacredland"
+  },
+  "structures": [
+    {
+      "structure": "dragonminez:elder_guru",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 3.5,
+  "group": "gete",
+  "ingredient": {
+    "item": "dragonminez:gete_debris_ore"
+  },
+  "result": "dragonminez:gete_scrap"
+}

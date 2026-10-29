@@ -1,0 +1,7 @@
+{
+  "animation": "dragonminez:animations/entity/dragon/porunga_daima.animation.json",
+  "id": "porunga_daima",
+  "model": "dragonminez:geo/entity/dragon/porunga_daima.geo.json",
+  "renderer_type": "default",
+  "texture": "dragonminez:textures/entity/dragon/porunga_daima.png"
+}

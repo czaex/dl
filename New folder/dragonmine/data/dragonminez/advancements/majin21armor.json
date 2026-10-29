@@ -1,0 +1,49 @@
+{
+  "parent": "dragonminez:patternsuper",
+  "criteria": {
+    "majin21armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:majin21_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:majin21_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:majin21_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.majin21armor.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "dragonminez:majin21_armor_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.majin21armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "majin21armor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,77 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"1": {
+			"loop": true,
+			"animation_length": 4,
+			"start_delay": "0",
+			"loop_delay": "0",
+			"bones": {
+				"Circle3": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"4.0": {
+							"vector": [0, -360, 0]
+						}
+					}
+				},
+				"wing": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"4.0": {
+							"vector": [0, 360, 0]
+						}
+					}
+				},
+				"Sword_fly": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"2": {
+			"loop": true,
+			"animation_length": 1,
+			"start_delay": "0",
+			"loop_delay": "0",
+			"bones": {
+				"Circle3": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"wing": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"Sword_fly": {
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"Sword": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"wing2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.0": {
+							"vector": [0, 360, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

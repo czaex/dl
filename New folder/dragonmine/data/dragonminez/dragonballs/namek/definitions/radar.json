@@ -1,0 +1,16 @@
+{
+  "asset_definition": "namek_radar",
+  "ball_set": "namek",
+  "dimensions": [
+    "dragonminez:namek"
+  ],
+  "display_name": "Namek Dragon Radar",
+  "id": "namek_radar",
+  "item_registry_name": "namekdball_radar",
+  "ranges": [
+    150,
+    300
+  ],
+  "recipe_definition": "namek_radar_recipe",
+  "tooltip_key": "item.dragonminez.namekdball_radar.tooltip"
+}

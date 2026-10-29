@@ -1,0 +1,17 @@
+// 1.20.1	2026-10-21T19:12:58.7226803	DragonMineZ dragonballs definition datapack provider
+197e94364c95867685c996ccb2b1380e1f0516ad data/dragonminez/dragonballs/demon/assets/ballset.json
+22d32e289ed78e9acd0fba789b2fd1426539fa91 data/dragonminez/dragonballs/demon/assets/dragon.json
+8443a813865b776a6fc53345a28444baa35b2338 data/dragonminez/dragonballs/demon/definitions/ballset.json
+92ed6801db8ef21b99582ec99f33e646e884c706 data/dragonminez/dragonballs/demon/definitions/dragon.json
+c9fcfd801a822fb8395393f1fa3e98296bd65deb data/dragonminez/dragonballs/earth/assets/ballset.json
+0977974a997f20c18303a0699d2c02f92935ec9a data/dragonminez/dragonballs/earth/assets/dragon.json
+d89ff81dcaa4c15e0a4f6502298d24b7555e38a5 data/dragonminez/dragonballs/earth/assets/radar.json
+a3ba61c2a5ceebe8f09968b783a41d7200eaf3da data/dragonminez/dragonballs/earth/definitions/ballset.json
+6e33e7a3534d310ce138aa27ed11a2e4402c24a4 data/dragonminez/dragonballs/earth/definitions/dragon.json
+4ee6877eebaf0d0c700b6db999e9566571ccda1b data/dragonminez/dragonballs/earth/definitions/radar.json
+894014b6598350d48b1972a2475d66d3061c7065 data/dragonminez/dragonballs/namek/assets/ballset.json
+2ed04adea53214bb5a2b9f2362be6a0220e76d62 data/dragonminez/dragonballs/namek/assets/dragon.json
+c894ae2860a1ee3e6e0d49780e0dda1491d9b016 data/dragonminez/dragonballs/namek/assets/radar.json
+9f188e2527466c34f7541c4e49a57983e846ab0b data/dragonminez/dragonballs/namek/definitions/ballset.json
+e005963b367721f64c1bed688a5a41ac4fd2589f data/dragonminez/dragonballs/namek/definitions/dragon.json
+07bda9461039de15cfabb217f9a37a116a465515 data/dragonminez/dragonballs/namek/definitions/radar.json

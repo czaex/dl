@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "BBB",
+        "BSB",
+        "BBB"
+    ],
+    "key":
+    {
+        "B": { "item" : "minecraft:emerald" },
+        "S": { "item" : "minecraft:book" }
+    },
+    "result": {
+        "item": "epicfight:skillbook",
+        "count": 1,
+        "nbt": {
+            "skill": "efn:stomp"
+        }
+    }
+}

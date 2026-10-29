@@ -1,0 +1,13 @@
+{
+  "placement": {
+    "type": "dragonminez:biome_aware_placement",
+    "salt": 31415926,
+    "valid_biomes": "#minecraft:is_ocean"
+  },
+  "structures": [
+    {
+      "structure": "dragonminez:baba_palace",
+      "weight": 1
+    }
+  ]
+}

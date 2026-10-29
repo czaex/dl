@@ -1,0 +1,31 @@
+{
+  "parent": "builtin/entity",
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [101, -90, 54],
+      "translation": [0.25, -4, 0],
+      "scale": [2.03, 2.03, 2]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [0, 90, 45],
+      "translation": [0.75, -4.25, 0],
+      "scale": [2.03, 2.03, 2]
+    },
+    "firstperson_righthand": {
+      "rotation": [-16, -89, -60],
+      "translation": [1.13, 2.7, 2.25],
+      "scale": [0.94, 0.94, 0.8]
+    },
+    "firstperson_lefthand": {
+      "rotation": [-18, 89, 60],
+      "translation": [2.13, 2.7, 2.25],
+      "scale": [0.94, 0.94, 0.8]
+    },
+    "gui": {
+      "scale": [0.8,0.8,0.8]
+    }
+  },
+  "textures": {
+    "particle": "mahoutsukai:item/emrys"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "waifu_of_god:custom/o_thiet_dinh_particle"
+    },
+    "blockstate=1": {
+      "model": "waifu_of_god:block/o_thiet_dinh_blockstate_0"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "waifu_of_god:hu_linh_mong_canh",
+    "weight": 3,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

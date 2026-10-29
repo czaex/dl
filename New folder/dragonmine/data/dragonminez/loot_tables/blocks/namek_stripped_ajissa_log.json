@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dragonminez:namek_stripped_ajissa_log"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "dragonminez:blocks/namek_stripped_ajissa_log"
+}

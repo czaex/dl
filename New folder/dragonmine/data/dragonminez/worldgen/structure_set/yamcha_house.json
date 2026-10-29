@@ -1,0 +1,13 @@
+{
+  "placement": {
+    "type": "dragonminez:biome_aware_placement",
+    "salt": 55114477,
+    "valid_biomes": "#dragonminez:is_desertlike"
+  },
+  "structures": [
+    {
+      "structure": "dragonminez:yamcha_house",
+      "weight": 1
+    }
+  ]
+}

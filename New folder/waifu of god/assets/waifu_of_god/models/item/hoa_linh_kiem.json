@@ -1,0 +1,6 @@
+{
+  "parent": "waifu_of_god:displaysettings/liet_viem_kiem.item",
+  "textures": {
+    "layer0": "waifu_of_god:item/liet_viem_kiem"
+  }
+}

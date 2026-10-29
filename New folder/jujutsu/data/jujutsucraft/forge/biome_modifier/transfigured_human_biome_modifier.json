@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "jujutsucraft:transfigured_human",
+    "weight": 1,
+    "minCount": 2,
+    "maxCount": 4
+  }
+}

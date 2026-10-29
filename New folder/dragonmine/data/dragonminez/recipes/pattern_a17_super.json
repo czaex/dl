@@ -1,0 +1,32 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_super"
+    },
+    "E": {
+      "item": "minecraft:green_dye"
+    },
+    "K": {
+      "item": "minecraft:black_dye"
+    },
+    "S": {
+      "item": "minecraft:light_gray_dye"
+    },
+    "W": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "pattern": [
+    "EE  EE",
+    "EKKKKE",
+    "EKWWKE",
+    "ES#WSE",
+    " SSSS ",
+    "EK  KE"
+  ],
+  "result": {
+    "item": "dragonminez:pattern_a17_super"
+  }
+}

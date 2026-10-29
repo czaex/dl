@@ -1,0 +1,34 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"0": {
+			"loop": true,
+			"start_delay": "0"
+		},
+		"run": {
+			"loop": true,
+			"animation_length": 2,
+			"start_delay": "0",
+			"loop_delay": "0",
+			"bones": {
+				"circle1": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"2.0": {
+							"vector": [0, 0, 360]
+						}
+					},
+					"position": {
+						"vector": [0, 0, -8]
+					},
+					"scale": {
+						"vector": [2.5, 2.5, 2.5]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

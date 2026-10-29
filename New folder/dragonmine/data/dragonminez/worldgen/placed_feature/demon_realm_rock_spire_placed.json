@@ -1,0 +1,22 @@
+{
+  "feature": "dragonminez:demon_realm_rock_spire",
+  "placement": [
+    {
+      "type": "minecraft:noise_threshold_count",
+      "above_noise": 5,
+      "below_noise": 0,
+      "noise_level": 0.35
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "dragonminez:surface_in_band",
+      "bottom": -60,
+      "top": 226
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

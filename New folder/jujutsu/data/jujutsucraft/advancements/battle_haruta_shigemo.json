@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "jujutsucraft:sword_shigemo"
+    },
+    "title": {
+      "translate": "advancements.battle_haruta_shigemo.title"
+    },
+    "description": {
+      "translate": "advancements.battle_haruta_shigemo.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "battle_haruta_shigemo_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:battle_miguel_2"
+}

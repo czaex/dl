@@ -1,0 +1,10 @@
+{
+  "type": "efn:yamato",
+  "attributes": {
+    "common": {
+      "impact": 2,
+      "armor_negation":100.0,
+      "max_strikes":5
+    }
+  }
+}

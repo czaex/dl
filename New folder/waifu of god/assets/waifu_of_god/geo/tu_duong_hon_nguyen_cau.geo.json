@@ -1,0 +1,150 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Tử Dương Hỗn Nguyên Cầu",
+				"texture_width": 240,
+				"texture_height": 120,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "general",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "main1",
+					"parent": "general",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "1",
+					"parent": "main1",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, -8, -8],
+							"size": [16, 16, 16],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 16]},
+								"east": {"uv": [0, 0], "uv_size": [16, 16]},
+								"south": {"uv": [0, 0], "uv_size": [16, 16]},
+								"west": {"uv": [0, 0], "uv_size": [16, 16]},
+								"up": {"uv": [0, 0], "uv_size": [16, 16]},
+								"down": {"uv": [0, 16], "uv_size": [16, -16]}
+							}
+						}
+					]
+				},
+				{
+					"name": "circle1",
+					"parent": "1",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-17, 0.01, -17],
+							"size": [34, 0, 34],
+							"uv": {
+								"up": {"uv": [18, 0], "uv_size": [87, 87]}
+							}
+						},
+						{
+							"origin": [-17, -0.01, -17],
+							"size": [34, 0, 34],
+							"uv": {
+								"down": {"uv": [18, 87], "uv_size": [87, -87]}
+							}
+						}
+					]
+				},
+				{
+					"name": "2",
+					"parent": "main1",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, -8, -8],
+							"size": [16, 16, 16],
+							"pivot": [0, 0, 0],
+							"rotation": [0, 0, -45],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 16]},
+								"east": {"uv": [0, 0], "uv_size": [16, 16]},
+								"south": {"uv": [0, 0], "uv_size": [16, 16]},
+								"west": {"uv": [0, 0], "uv_size": [16, 16]},
+								"up": {"uv": [0, 0], "uv_size": [16, 16]},
+								"down": {"uv": [0, 16], "uv_size": [16, -16]}
+							}
+						}
+					]
+				},
+				{
+					"name": "circle2",
+					"parent": "2",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-21, 0.01, -21],
+							"size": [42, 0, 42],
+							"uv": {
+								"up": {"uv": [126, 7], "uv_size": [92, 92]}
+							}
+						},
+						{
+							"origin": [-21, -0.01, -21],
+							"size": [42, 0, 42],
+							"uv": {
+								"down": {"uv": [126, 99], "uv_size": [92, -92]}
+							}
+						}
+					]
+				},
+				{
+					"name": "3",
+					"parent": "main1",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, -8, -8],
+							"size": [16, 16, 16],
+							"pivot": [0, 0, 0],
+							"rotation": [0, 45, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 16]},
+								"east": {"uv": [0, 0], "uv_size": [16, 16]},
+								"south": {"uv": [0, 0], "uv_size": [16, 16]},
+								"west": {"uv": [0, 0], "uv_size": [16, 16]},
+								"up": {"uv": [0, 0], "uv_size": [16, 16]},
+								"down": {"uv": [0, 16], "uv_size": [16, -16]}
+							}
+						}
+					]
+				},
+				{
+					"name": "circle3",
+					"parent": "3",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-15, 0.01, -15],
+							"size": [30, 0, 30],
+							"uv": {
+								"up": {"uv": [18, 0], "uv_size": [87, 87]}
+							}
+						},
+						{
+							"origin": [-15, -0.01, -15],
+							"size": [30, 0, 30],
+							"uv": {
+								"down": {"uv": [18, 87], "uv_size": [87, -87]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

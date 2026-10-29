@@ -1,0 +1,13 @@
+{
+  "placement": {
+    "type": "dragonminez:biome_aware_placement",
+    "salt": 87654321,
+    "valid_biomes": "#minecraft:is_ocean"
+  },
+  "structures": [
+    {
+      "structure": "dragonminez:roshi_house",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "renderer": "epic_fight_avalon:animation_item",
+  "texture": "efn:textures/item/weapon/thornwheel.png",
+  "mesh": "efn:weapon/thornwheel",
+  "appeared_in_afterimage":false
+}

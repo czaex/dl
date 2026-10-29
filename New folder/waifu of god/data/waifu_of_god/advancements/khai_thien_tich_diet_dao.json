@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:barrier"
+    },
+    "title": {
+      "translate": "advancements.khai_thien_tich_diet_dao.title"
+    },
+    "description": {
+      "translate": "advancements.khai_thien_tich_diet_dao.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "khai_thien_tich_diet_dao_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "waifu_of_god:van_gioi_chi_ton"
+}

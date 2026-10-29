@@ -1,0 +1,5 @@
+{
+  "playerrevive.chat.bleeding": "%s krvácí...",
+  "playerrevive.gui.label.time_left": "Zbývající čas: %s",
+  "playerrevive.gui.hold": "Drž '%s' po dobu %s sekund"
+}

@@ -1,0 +1,97 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.Thiên Trận Nhãn Lilith",
+				"texture_width": 800,
+				"texture_height": 400,
+				"visible_bounds_width": 44,
+				"visible_bounds_height": 33,
+				"visible_bounds_offset": [0, -0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "magic",
+					"pivot": [0, -32, 0]
+				},
+				{
+					"name": "bone2",
+					"parent": "magic",
+					"pivot": [0, 410, 0],
+					"cubes": [
+						{
+							"origin": [-161, 140, -161],
+							"size": [322, 0, 322],
+							"inflate": 100,
+							"uv": {
+								"up": {"uv": [271, 15], "uv_size": [322, 322]}
+							}
+						}
+					]
+				},
+				{
+					"name": "circle3",
+					"parent": "magic",
+					"pivot": [0, 356, 0],
+					"cubes": [
+						{
+							"origin": [-102, 103, -102],
+							"size": [204, 0, 204],
+							"inflate": 80,
+							"uv": {
+								"up": {"uv": [596, 0], "uv_size": [204, 204]}
+							}
+						},
+						{
+							"origin": [-102, 102.95, -102],
+							"size": [204, 0, 204],
+							"inflate": 80,
+							"uv": {
+								"up": {"uv": [596, 0], "uv_size": [204, 204]}
+							}
+						}
+					]
+				},
+				{
+					"name": "circle2",
+					"parent": "magic",
+					"pivot": [0, 221, 0],
+					"cubes": [
+						{
+							"origin": [-102, -32, -102],
+							"size": [204, 0, 204],
+							"inflate": 240,
+							"uv": {
+								"up": {"uv": [596, 0], "uv_size": [204, 204]}
+							}
+						},
+						{
+							"origin": [-102, -32.05, -102],
+							"size": [204, 0, 204],
+							"inflate": 240,
+							"uv": {
+								"up": {"uv": [596, 0], "uv_size": [204, 204]}
+							}
+						}
+					]
+				},
+				{
+					"name": "bone4",
+					"parent": "magic",
+					"pivot": [0, 280, 0],
+					"cubes": [
+						{
+							"origin": [-43, 157, -43],
+							"size": [86, 0, 86],
+							"inflate": 60,
+							"uv": {
+								"up": {"uv": [162, 97], "uv_size": [86, 86]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

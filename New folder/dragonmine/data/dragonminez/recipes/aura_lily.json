@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dragonminez",
+  "ingredients": [
+    {
+      "item": "dragonminez:namek_moss"
+    },
+    {
+      "item": "dragonminez:namek_moss"
+    },
+    {
+      "item": "dragonminez:namek_moss"
+    },
+    {
+      "item": "dragonminez:namek_moss"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    }
+  ],
+  "result": {
+    "item": "dragonminez:aura_lily"
+  }
+}

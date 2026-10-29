@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "waifu_of_god:ruin_thai_co_hu_khong",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 600,
+    "separation": 300,
+    "salt": 1698056962
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:bypasses_invulnerability",
+    "cataclysm:shredder",
+    "neoforge:poison",
+    "minecraft:wither",
+    "cataclysm:maledictio_sagitta",
+    "cataclysm:abyssal_burn"
+  ]
+}

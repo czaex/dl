@@ -1,0 +1,10 @@
+{
+  "consumption": 5.0,
+  "xp_requirement": 0,
+
+  "charge_bonus": 0.05,
+  "base_puncture_chance": 0.10,
+  "puncture_chance_increment": 0.02,
+  "max_puncture_chance": 0.40,
+  "puncture_reset_threshold": 0.20
+}

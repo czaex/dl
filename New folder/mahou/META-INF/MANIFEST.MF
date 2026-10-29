@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: mahoutsukai
+Specification-Vendor: stepsword
+Specification-Version: 1.21.1-v1.36.29
+Implementation-Title: mahoutsukai-1.21
+Implementation-Version: unspecified
+Implementation-Vendor: stepsword
+Implementation-Timestamp: 2026-10-24T00:59:22-0400
+MixinConfigs: mahoutsukai.mixins.json
+

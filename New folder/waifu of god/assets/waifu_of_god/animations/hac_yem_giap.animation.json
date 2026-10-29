@@ -1,0 +1,27 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"idle": {
+			"loop": true,
+			"animation_length": 0.08333,
+			"start_delay": "0",
+			"loop_delay": "0",
+			"bones": {
+				"Hat": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"Hat2": {
+					"position": {
+						"vector": [0, 0.15, 0]
+					},
+					"scale": {
+						"vector": [1.25, 1.05, 1.25]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

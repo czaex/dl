@@ -1,0 +1,29 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_super"
+    },
+    "K": {
+      "item": "minecraft:black_dye"
+    },
+    "S": {
+      "item": "minecraft:light_gray_dye"
+    },
+    "U": {
+      "item": "minecraft:purple_dye"
+    }
+  },
+  "pattern": [
+    "UU  UU",
+    " UUUU ",
+    " UKKU ",
+    " U#UU ",
+    " UUUU ",
+    " SSSS "
+  ],
+  "result": {
+    "item": "dragonminez:pattern_warrior_clan"
+  }
+}

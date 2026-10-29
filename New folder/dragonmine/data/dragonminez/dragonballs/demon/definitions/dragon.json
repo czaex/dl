@@ -1,0 +1,13 @@
+{
+  "asset_definition": "porunga_daima",
+  "ball_set": "demon",
+  "dimensions": [
+    "dragonminez:demon_realm"
+  ],
+  "entity_height": 20.0,
+  "entity_registry_name": "porunga_daima",
+  "entity_width": 4.0,
+  "id": "porunga_daima",
+  "wish_count": 3,
+  "wish_screen_id": "porunga_daima"
+}

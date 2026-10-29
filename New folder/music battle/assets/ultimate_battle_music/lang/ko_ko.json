@@ -1,0 +1,62 @@
+{
+  "ultimate_battle_music.config.title": "ULTIMATE BATTLE MUSIC",
+
+  "ultimate_battle_music.config.mode.on": "ON",
+  "ultimate_battle_music.config.mode.on.tooltip": "고유 트랙 재생",
+  "ultimate_battle_music.config.mode.fallback": "NORMAL",
+  "ultimate_battle_music.config.mode.fallback.tooltip": "기본 트랙 사용",
+  "ultimate_battle_music.config.mode.off": "OFF",
+  "ultimate_battle_music.config.mode.off.tooltip": "이 유형 무음",
+
+  "ultimate_battle_music.config.category.music": "음악",
+  "ultimate_battle_music.config.category.detection": "감지 유형",
+  "ultimate_battle_music.config.category.radius": "반경",
+  "ultimate_battle_music.config.category.bosses": "보스",
+  "ultimate_battle_music.config.category.volume": "볼륨",
+  "ultimate_battle_music.config.category.fade": "페이드",
+
+  "ultimate_battle_music.config.music.enable": "전투 음악 활성화",
+  "ultimate_battle_music.config.music.enable.tooltip": "메인 스위치. 끄면 전투 음악이 재생되지 않습니다.",
+  "ultimate_battle_music.config.music.variant_mode": "변형 음악",
+  "ultimate_battle_music.config.music.illager_mode": "일리저 음악",
+  "ultimate_battle_music.config.music.nether_mode": "네더 음악",
+  "ultimate_battle_music.config.music.raid_mode": "습격 음악",
+
+  "ultimate_battle_music.config.detection.require_targeting": "몹이 플레이어를 타겟해야 함",
+  "ultimate_battle_music.config.detection.require_targeting.tooltip": "몹이 공격할 때만 음악이 재생됩니다.",
+  "ultimate_battle_music.config.detection.check_interval": "체크 간격 (틱)",
+  "ultimate_battle_music.config.detection.check_interval.tooltip": "전투 감지 주기. 20 = 1초.",
+
+  "ultimate_battle_music.config.radius.normal": "일반 몹 반경",
+  "ultimate_battle_music.config.radius.variant": "변형 몹 반경",
+  "ultimate_battle_music.config.radius.illager": "일리저 반경",
+  "ultimate_battle_music.config.radius.far": "원거리 적 반경",
+  "ultimate_battle_music.config.radius.creeper": "크리퍼 반경",
+  "ultimate_battle_music.config.radius.creeper.tooltip": "크리퍼는 기본적으로 매우 가까이에서만 발동합니다.",
+  "ultimate_battle_music.config.radius.boss": "보스 반경",
+  "ultimate_battle_music.config.radius.boss.tooltip": "위더 | 워든 | 엔더 드래곤 감지 범위",
+
+  "ultimate_battle_music.config.bosses.warden_mode": "워든 음악",
+  "ultimate_battle_music.config.bosses.warden_volume": "워든 볼륨 (%)",
+  "ultimate_battle_music.config.bosses.wither_mode": "위더 음악",
+  "ultimate_battle_music.config.bosses.wither_volume": "위더 볼륨 (%)",
+  "ultimate_battle_music.config.bosses.dragon_mode": "엔더 드래곤 음악",
+  "ultimate_battle_music.config.bosses.dragon_volume": "엔더 드래곤 볼륨 (%)",
+
+  "ultimate_battle_music.config.volume.default": "기본 볼륨 (%)",
+  "ultimate_battle_music.config.volume.default.tooltip": "오버월드 일반 전투 음악 볼륨",
+  "ultimate_battle_music.config.volume.illager": "일리저 볼륨 (%)",
+  "ultimate_battle_music.config.volume.raid": "습격 볼륨 (%)",
+  "ultimate_battle_music.config.volume.nether": "네더 볼륨 (%)",
+  "ultimate_battle_music.config.volume.fluid_pitch": "유체 피치 (%)",
+  "ultimate_battle_music.config.volume.fluid_pitch.tooltip": "물 또는 용암에서의 피치. 75 = 더 낮은 소리",
+
+  "ultimate_battle_music.config.fade.use_fade": "페이드",
+  "ultimate_battle_music.config.fade.use_fade.tooltip": "페이드 인/아웃 활성화. 끄면 즉시 전환",
+  "ultimate_battle_music.config.fade.fade_out": "페이드 아웃 (틱)",
+  "ultimate_battle_music.config.fade.fade_out.tooltip": "페이드 아웃 시간. 60 = 3초",
+  "ultimate_battle_music.config.fade.revive_fade_in": "페이드 인 (틱)",
+  "ultimate_battle_music.config.fade.revive_fade_in.tooltip": "무음 후 복귀 시간. 40 = 2초",
+  "ultimate_battle_music.config.fade.ghost_duration": "고스트 지속 시간 (틱)",
+  "ultimate_battle_music.config.fade.ghost_duration.tooltip": "정지 전 무음 재생 시간. 200 = 10초"
+}

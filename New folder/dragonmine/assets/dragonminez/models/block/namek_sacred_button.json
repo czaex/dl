@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "dragonminez:block/namek_sacred_planks"
+  }
+}

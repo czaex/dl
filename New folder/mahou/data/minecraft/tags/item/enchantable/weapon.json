@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "mahoutsukai:caliburn",
+    "mahoutsukai:morgan",
+    "mahoutsukai:clarent",
+    {
+      "id":"mahoutsukai:rhongomyniad",
+      "required": false
+    }
+  ]
+}

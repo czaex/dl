@@ -1,0 +1,72 @@
+{
+  "parent": "dragonminez:patternz",
+  "criteria": {
+    "gotenarmor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:goten_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:goten_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:goten_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "gotenarmor_super": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:goten_super_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:goten_super_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:goten_super_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.gotenarmor.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "dragonminez:goten_armor_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.gotenarmor.title"
+    }
+  },
+  "requirements": [
+    [
+      "gotenarmor",
+      "gotenarmor_super"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

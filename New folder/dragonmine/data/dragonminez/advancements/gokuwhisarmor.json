@@ -1,0 +1,49 @@
+{
+  "parent": "dragonminez:patternsuper",
+  "criteria": {
+    "gokuwhisarmor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:goku_whis_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:goku_whis_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:goku_whis_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.gokuwhisarmor.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "dragonminez:goku_whis_armor_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.gokuwhisarmor.title"
+    }
+  },
+  "requirements": [
+    [
+      "gokuwhisarmor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

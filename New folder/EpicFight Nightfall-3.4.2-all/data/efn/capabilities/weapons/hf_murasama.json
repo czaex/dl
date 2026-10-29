@@ -1,0 +1,10 @@
+{
+  "type": "efn:murasama",
+  "attributes": {
+    "common": {
+      "impact": 2,
+      "armor_negation":80.0,
+      "max_strikes":8
+    }
+  }
+}

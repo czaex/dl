@@ -1,0 +1,18 @@
+{
+    "required": true,
+    "package": "team.creative.playerrevive.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "refmap": "playerrevive.mixin.refmap.json",
+    "server": [
+    ],
+    "mixins": [
+        "CombatTrackerAccessor",
+        "PlayerMixin",
+        "ServerPlayerMixin"
+    ],
+    "client": [
+        "LocalPlayerAccessor",
+        "MinecraftAccessor"
+    ],
+    "minVersion": "0.8"
+}

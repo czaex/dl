@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:replace_single_block",
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "stone_ore_replaceables"
+        },
+        "state": {
+          "Name": "waifu_of_god:ha_pham_linh_mach"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "minecraft:base_stone_nether"
+        },
+        "state": {
+          "Name": "waifu_of_god:ha_pham_linh_mach"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "block_match",
+          "block": "minecraft:end_stone"
+        },
+        "state": {
+          "Name": "waifu_of_god:ha_pham_linh_mach"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "forge:stone"
+        },
+        "state": {
+          "Name": "waifu_of_god:ha_pham_linh_mach"
+        }
+      }
+    ]
+  }
+}

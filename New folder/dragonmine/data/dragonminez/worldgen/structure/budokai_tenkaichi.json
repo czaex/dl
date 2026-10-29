@@ -1,0 +1,25 @@
+{
+  "type": "dragonminez:incremental_fitted_template",
+  "biomes": [
+    "minecraft:ocean",
+    "minecraft:deep_ocean",
+    "minecraft:lukewarm_ocean",
+    "minecraft:deep_lukewarm_ocean",
+    "minecraft:warm_ocean",
+    "minecraft:cold_ocean",
+    "minecraft:deep_cold_ocean"
+  ],
+  "min_water": 0.98,
+  "rotation": "none",
+  "spawn_overrides": {},
+  "step": "top_layer_modification",
+  "template": "dragonminez:budokai_tenkaichi",
+  "terrain_fit": {
+    "carve": 24,
+    "foundation": 64,
+    "ground_level": 23,
+    "skirt": 16,
+    "template_foundation": true,
+    "y_offset": 2
+  }
+}

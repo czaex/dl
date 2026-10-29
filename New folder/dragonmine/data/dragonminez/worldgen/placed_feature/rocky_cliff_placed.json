@@ -1,0 +1,25 @@
+{
+  "feature": "dragonminez:rocky_cliff",
+  "placement": [
+    {
+      "type": "minecraft:noise_threshold_count",
+      "above_noise": 2,
+      "below_noise": 4,
+      "noise_level": -0.800000011920929
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 18
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

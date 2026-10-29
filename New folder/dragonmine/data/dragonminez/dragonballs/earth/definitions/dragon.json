@@ -1,0 +1,13 @@
+{
+  "asset_definition": "shenron",
+  "ball_set": "earth",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "entity_height": 17.0,
+  "entity_registry_name": "shenron",
+  "entity_width": 3.0,
+  "id": "shenron",
+  "wish_count": 1,
+  "wish_screen_id": "shenron"
+}

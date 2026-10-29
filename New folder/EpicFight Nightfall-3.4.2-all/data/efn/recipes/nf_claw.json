@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": {
+        "item": "epicfight:glove"
+    },
+    "addition": {
+        "item" : "minecraft:netherite_ingot"
+    },
+    "result": {
+        "item": "efn:nf_claw"
+    },
+    "template": {
+      "item": "minecraft:bone"
+    }
+}

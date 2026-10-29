@@ -1,0 +1,17 @@
+{
+  "asset_definition": "demon_ballset",
+  "blocks": {
+    "1": "dball1_demon",
+    "2": "dball2_demon",
+    "3": "dball3_demon"
+  },
+  "copies": 1,
+  "dimensions": [
+    "dragonminez:demon_realm"
+  ],
+  "display_name": "Demon Realm Dragon Ball",
+  "id": "demon",
+  "natural_spawn": false,
+  "spawn_range": 1000,
+  "summon_radius": 5
+}

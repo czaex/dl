@@ -1,0 +1,31 @@
+{
+  "feature": "waifu_of_god:than_pham_gen",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 200
+    },
+    {
+      "type": "minecraft:count",
+      "count": 1
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": -63
+        },
+        "max_inclusive": {
+          "absolute": 300
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

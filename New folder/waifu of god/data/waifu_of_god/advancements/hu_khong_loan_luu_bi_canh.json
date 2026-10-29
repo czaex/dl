@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "waifu_of_god:khong_gian_loan_luu_chi_mon"
+    },
+    "title": {
+      "translate": "advancements.hu_khong_loan_luu_bi_canh.title"
+    },
+    "description": {
+      "translate": "advancements.hu_khong_loan_luu_bi_canh.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hu_khong_loan_luu_bi_canh_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "waifu_of_god:tu_tien_gioi"
+}

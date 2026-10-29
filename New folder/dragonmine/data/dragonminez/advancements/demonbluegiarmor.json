@@ -1,0 +1,72 @@
+{
+  "parent": "dragonminez:patternz",
+  "criteria": {
+    "demonbluegiarmor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:demon_gi_blue_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:demon_gi_blue_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:demon_gi_blue_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "demonbluegiarmor_gohan_super": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:gohan_super_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:gohan_super_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:gohan_super_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.demonbluegiarmor.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "dragonminez:demon_gi_blue_armor_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.demonbluegiarmor.title"
+    }
+  },
+  "requirements": [
+    [
+      "demonbluegiarmor",
+      "demonbluegiarmor_gohan_super"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

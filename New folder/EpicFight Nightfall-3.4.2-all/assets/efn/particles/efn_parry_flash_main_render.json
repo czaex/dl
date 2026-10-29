@@ -1,0 +1,11 @@
+{
+	"textures":
+	[
+		"efn:efn_parry_flash_main_render1",
+		"efn:efn_parry_flash_main_render2",
+		"efn:efn_parry_flash_main_render3",
+		"efn:efn_parry_flash_main_render4",
+		"efn:efn_parry_flash_main_render5",
+		"efn:efn_parry_flash_main_render6"
+	]
+}

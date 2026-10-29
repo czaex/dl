@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "dragonminez",
+  "key": {
+    "A": {
+      "item": "minecraft:anvil"
+    },
+    "C": {
+      "item": "minecraft:diamond_chestplate"
+    },
+    "K": {
+      "item": "dragonminez:kikono_block"
+    },
+    "P": {
+      "item": "minecraft:heavy_weighted_pressure_plate"
+    },
+    "S": {
+      "item": "minecraft:smithing_table"
+    },
+    "T": {
+      "item": "dragonminez:t2_radar_cpu"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "KTK",
+    "PSP"
+  ],
+  "result": {
+    "item": "dragonminez:kikono_station"
+  },
+  "show_notification": true
+}

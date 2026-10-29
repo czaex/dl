@@ -1,0 +1,31 @@
+{
+  "forge_marker": 1,
+  "variants": {
+    "facing=north,opposite=north": { "model": "mahoutsukai:block/mana_circuit_magitech", "x" : 90 },
+    "facing=east,opposite=north": { "model": "mahoutsukai:block/mana_circuit_magitech", "x" : 90 },
+    "facing=west,opposite=north": { "model": "mahoutsukai:block/mana_circuit_magitech", "x" : 90 },
+    "facing=south,opposite=north": { "model": "mahoutsukai:block/mana_circuit_magitech", "x" : 90 },
+    "facing=north,opposite=south":  { "model": "mahoutsukai:block/mana_circuit_magitech", "x": 270 },
+    "facing=east,opposite=south":  { "model": "mahoutsukai:block/mana_circuit_magitech", "x": 270 },
+    "facing=west,opposite=south":  { "model": "mahoutsukai:block/mana_circuit_magitech", "x": 270 },
+    "facing=south,opposite=south":  { "model": "mahoutsukai:block/mana_circuit_magitech", "x": 270 },
+    "facing=north,opposite=east": { "model": "mahoutsukai:block/mana_circuit_magitech", "x": 90, "y": 90 },
+    "facing=east,opposite=east": { "model": "mahoutsukai:block/mana_circuit_magitech", "x": 90, "y": 90 },
+    "facing=west,opposite=east": { "model": "mahoutsukai:block/mana_circuit_magitech", "x": 90, "y": 90 },
+    "facing=south,opposite=east": { "model": "mahoutsukai:block/mana_circuit_magitech", "x": 90, "y": 90 },
+    "facing=north,opposite=west":  { "model": "mahoutsukai:block/mana_circuit_magitech", "x": 270, "y": 90 },
+    "facing=east,opposite=west":  { "model": "mahoutsukai:block/mana_circuit_magitech", "x": 270, "y": 90 },
+    "facing=west,opposite=west":  { "model": "mahoutsukai:block/mana_circuit_magitech", "x": 270, "y": 90 },
+    "facing=south,opposite=west":  { "model": "mahoutsukai:block/mana_circuit_magitech", "x": 270, "y": 90 },
+    "facing=north,opposite=up":  { "model": "mahoutsukai:block/mana_circuit_magitech", "y": 0 },
+    "facing=east,opposite=up":  { "model": "mahoutsukai:block/mana_circuit_magitech", "y": 90 },
+    "facing=west,opposite=up":  { "model": "mahoutsukai:block/mana_circuit_magitech", "y": 270 },
+    "facing=south,opposite=up":  { "model": "mahoutsukai:block/mana_circuit_magitech", "y": 180 },
+    "facing=north,opposite=down":  { "model": "mahoutsukai:block/mana_circuit_magitech", "y": 0, "x": 180 },
+    "facing=east,opposite=down":  { "model": "mahoutsukai:block/mana_circuit_magitech", "y": 90, "x": 180 },
+    "facing=west,opposite=down":  { "model": "mahoutsukai:block/mana_circuit_magitech", "y": 270, "x": 180 },
+    "facing=south,opposite=down":  { "model": "mahoutsukai:block/mana_circuit_magitech", "y" : 180, "x": 180 }
+
+
+  }
+}

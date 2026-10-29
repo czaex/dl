@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "waifu_of_god:infinite_darkness",
+  "features": "waifu_of_god:darkness_grass",
+  "step": "underground_ores"
+}

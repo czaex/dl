@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dragonminez",
+  "ingredients": [
+    {
+      "item": "dragonminez:red_capsule"
+    },
+    {
+      "item": "dragonminez:gete_ingot"
+    }
+  ],
+  "result": {
+    "item": "dragonminez:gete_red_capsule"
+  }
+}

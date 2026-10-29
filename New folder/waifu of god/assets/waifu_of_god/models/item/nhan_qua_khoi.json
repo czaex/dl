@@ -1,0 +1,6 @@
+{
+  "parent": "waifu_of_god:displaysettings/nhan_qua_khoi.item",
+  "textures": {
+    "layer0": "waifu_of_god:item/nhan_qua_khoi"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_giant_turtle_raw": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:giant_turtle_raw"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "dragonminez:giant_turtle_cooked_campfire"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_giant_turtle_raw",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dragonminez:giant_turtle_cooked_campfire"
+    ]
+  },
+  "sends_telemetry_event": false
+}

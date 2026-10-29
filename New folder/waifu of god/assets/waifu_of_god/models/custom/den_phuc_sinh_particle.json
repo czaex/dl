@@ -1,0 +1,7 @@
+
+{
+  "parent": "waifu_of_god:displaysettings/den_phuc_sinh_lilith.item",
+  "textures": {
+    "particle": "waifu_of_god:block/den_phuc_sinh_lilith"
+  }
+}

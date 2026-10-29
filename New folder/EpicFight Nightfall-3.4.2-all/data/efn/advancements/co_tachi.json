@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": {
+      "item": "efn:co_tachi"
+    },
+    "title": {
+      "translate": "advancement.efn.obtain_co_tachi.title"
+    },
+    "description": {
+      "translate": "advancement.efn.obtain_co_tachi.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["efn:co_tachi"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

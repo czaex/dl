@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "waifu_of_god:linh_thach_cao_pham"
+    },
+    "title": {
+      "translate": "advancements.hop_the_canh.title"
+    },
+    "description": {
+      "translate": "advancements.hop_the_canh.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hop_the_canh_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "waifu_of_god:entities/hop_the_loot"
+    ]
+  },
+  "parent": "waifu_of_god:luyen_hu_canh"
+}

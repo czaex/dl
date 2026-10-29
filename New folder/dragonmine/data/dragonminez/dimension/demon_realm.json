@@ -1,0 +1,57 @@
+{
+  "type": "dragonminez:demon_realm",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "dragonminez:first_demon_world",
+          "parameters": {
+            "continentalness": 0.0,
+            "depth": [
+              -1.0,
+              -0.2163
+            ],
+            "erosion": 0.0,
+            "humidity": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "weirdness": 0.0
+          }
+        },
+        {
+          "biome": "dragonminez:second_demon_world",
+          "parameters": {
+            "continentalness": 0.0,
+            "depth": [
+              -0.2163,
+              0.3365
+            ],
+            "erosion": 0.0,
+            "humidity": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "weirdness": 0.0
+          }
+        },
+        {
+          "biome": "dragonminez:third_demon_world",
+          "parameters": {
+            "continentalness": 0.0,
+            "depth": [
+              0.3365,
+              1.0
+            ],
+            "erosion": 0.0,
+            "humidity": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "weirdness": 0.0
+          }
+        }
+      ]
+    },
+    "settings": "dragonminez:demon_realm"
+  }
+}

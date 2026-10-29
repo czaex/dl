@@ -1,0 +1,24 @@
+{
+  "name": "mahoutsukai:reality_marble",
+  "ultrawarm": false,
+  "natural": true,
+  "shrunk": false,
+  "piglin_safe": true,
+  "height": 256,
+  "respawn_anchor_works": false,
+  "bed_works": false,
+  "has_raids": false,
+  "has_skylight": true,
+  "has_ceiling": false,
+  "min_y": 0,
+  "ambient_light": 0.75,
+  "logical_height": 256,
+  "infiniburn": "#minecraft:infiniburn_overworld",
+  "coordinate_scale": 1,
+  "monster_spawn_block_light_limit": 0,
+  "monster_spawn_light_level": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 0,
+    "max_inclusive": 7
+  }
+}

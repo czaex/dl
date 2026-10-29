@@ -1,0 +1,7 @@
+{
+  "parent": "waifu_of_god:custom/god_axe",
+  "textures": {
+    "0": "waifu_of_god:block/god_axe",
+    "particle": "waifu_of_god:item/waifu"
+  }
+}

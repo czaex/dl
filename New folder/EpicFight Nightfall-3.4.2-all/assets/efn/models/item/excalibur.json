@@ -1,0 +1,6 @@
+{
+  "parent": "efn:displaysettings/excalibur.item",
+  "textures": {
+    "layer0": "efn:item/excalibur"
+  }
+}

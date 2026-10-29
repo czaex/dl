@@ -1,0 +1,30 @@
+{
+    "trail_effects": [
+        {
+            "joint": "Tool_R",
+            "start_time": 0.1,
+            "end_time": 0.5,
+            "fade_time": 0.001,
+            "begin_pos": [0.0, 0.3, -2.8],
+            "end_pos": [0.0, 0.5, -2.8],
+            "lifetime": 12,
+            "interpolations": 5,
+            "texture_path": "efn:textures/trail/hfzd.png",
+            "particle_type": "efn:bloom_trail",
+            "item_skin_hand": "main_hand"
+        },
+        {
+            "joint": "Tool_R",
+            "start_time": 0.1,
+            "end_time": 0.5,
+            "fade_time": 0.001,
+            "begin_pos": [0.0, 0.3, -2.8],
+            "end_pos": [0.0, 0.5, -2.8],
+            "lifetime": 12,
+            "interpolations": 5,
+            "texture_path": "efn:textures/trail/hfzd.png",
+            "particle_type": "efn:air_trail",
+            "item_skin_hand": "main_hand"
+        }
+    ]
+}

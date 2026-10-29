@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: parties
+Specification-Vendor: Jayden Lyte
+Specification-Version: 1
+Implementation-Title: Parties
+Implementation-Version: 1.20.1-2.3.0
+Implementation-Vendor: Jayden Lyte
+Implementation-Timestamp: 2026-10-16T14:01:00-0700
+MixinConfigs: parties.mixins.json
+

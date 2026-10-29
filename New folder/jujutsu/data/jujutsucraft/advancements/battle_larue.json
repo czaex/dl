@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:honeycomb"
+    },
+    "title": {
+      "translate": "advancements.battle_larue.title"
+    },
+    "description": {
+      "translate": "advancements.battle_larue.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "battle_larue_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:battle_toshihisa_negi"
+}

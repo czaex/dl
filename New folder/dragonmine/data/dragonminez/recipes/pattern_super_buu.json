@@ -1,0 +1,26 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_z"
+    },
+    "K": {
+      "item": "minecraft:black_dye"
+    },
+    "Y": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "pattern": [
+    "Y    Y",
+    "K    K",
+    "K #  K",
+    "K    K",
+    "K    K",
+    "Y    Y"
+  ],
+  "result": {
+    "item": "dragonminez:pattern_super_buu"
+  }
+}

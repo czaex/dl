@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dragonminez",
+  "ingredients": [
+    {
+      "type": "forge:nbt",
+      "count": 1,
+      "item": "minecraft:potion",
+      "nbt": "{CustomPotionColor:10354432,Potion:\"dragonminez:curative\"}"
+    },
+    {
+      "item": "minecraft:amethyst_shard"
+    },
+    {
+      "item": "dragonminez:empty_capsule"
+    },
+    {
+      "item": "dragonminez:zenkai_lotus"
+    },
+    {
+      "item": "dragonminez:zenkai_lotus"
+    }
+  ],
+  "result": {
+    "item": "dragonminez:mastery_capsule"
+  }
+}

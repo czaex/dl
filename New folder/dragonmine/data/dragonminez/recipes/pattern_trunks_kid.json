@@ -1,0 +1,29 @@
+{
+  "type": "dragonminez:pattern_crafting",
+  "group": "dragonminez",
+  "key": {
+    "#": {
+      "item": "dragonminez:blank_pattern_z"
+    },
+    "C": {
+      "item": "minecraft:cyan_dye"
+    },
+    "K": {
+      "item": "minecraft:black_dye"
+    },
+    "O": {
+      "item": "minecraft:orange_dye"
+    }
+  },
+  "pattern": [
+    "CC  CC",
+    "CCKKCC",
+    "KCCCCK",
+    "KC#CCK",
+    " CKKC ",
+    "OKCCKO"
+  ],
+  "result": {
+    "item": "dragonminez:pattern_trunks_kid"
+  }
+}

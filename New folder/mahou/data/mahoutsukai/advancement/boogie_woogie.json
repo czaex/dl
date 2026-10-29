@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "mahoutsukai:scroll_selective_displacement"
+    },
+    "title": {
+      "translate": "advancements.boogie_woogie.title"
+    },
+    "description": {
+      "translate": "advancements.boogie_woogie.description"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "mahoutsukai:root",
+  "criteria": {
+    "boogie_woogie": {
+      "trigger": "mahoutsukai:boogie_woogie"
+    }
+  }
+}

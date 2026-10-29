@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "waifu_of_god:item/hac_yem_giap_mu"
+  }
+}

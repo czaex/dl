@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "dragonminez:cc576"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_vehicle_propeller": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:vehicle_propeller"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_vehicle_propeller",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dragonminez:cc576"
+    ]
+  },
+  "sends_telemetry_event": false
+}

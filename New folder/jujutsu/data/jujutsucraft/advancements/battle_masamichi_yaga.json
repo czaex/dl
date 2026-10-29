@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "jujutsucraft:item_doll"
+    },
+    "title": {
+      "translate": "advancements.battle_masamichi_yaga.title"
+    },
+    "description": {
+      "translate": "advancements.battle_masamichi_yaga.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "battle_masamichi_yaga_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:battle_kirara_hoshi"
+}

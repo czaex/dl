@@ -1,0 +1,155 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"idle": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1,
+			"bones": {
+				"body1": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"body2": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"body3": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"body4": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"idle1": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1,
+			"bones": {
+				"body1": {
+					"scale": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.125": {
+							"vector": [1, 1, 1]
+						}
+					}
+				},
+				"body2": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"body3": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"body4": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"idle2": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1,
+			"bones": {
+				"body1": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"body2": {
+					"scale": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.125": {
+							"vector": [1, 1, 1]
+						}
+					}
+				},
+				"body3": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"body4": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"idle3": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1,
+			"bones": {
+				"body1": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"body2": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"body3": {
+					"scale": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.125": {
+							"vector": [1, 1, 1]
+						}
+					}
+				},
+				"body4": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"idle4": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1,
+			"bones": {
+				"body1": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"body2": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"body3": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"body4": {
+					"scale": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.125": {
+							"vector": [1, 1, 1]
+						}
+					}
+				}
+			}
+		}
+	}
+}

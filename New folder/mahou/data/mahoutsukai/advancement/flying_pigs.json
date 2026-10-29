@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "mahoutsukai:spatial_disorientation_staff"
+    },
+    "title": {
+      "translate": "advancements.flying_pigs.title"
+    },
+    "description": {
+      "translate": "advancements.flying_pigs.description"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "mahoutsukai:root",
+  "criteria": {
+    "flying_pigs": {
+      "trigger": "mahoutsukai:flying_pigs"
+    }
+  }
+}

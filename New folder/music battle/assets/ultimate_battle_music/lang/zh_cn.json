@@ -1,0 +1,62 @@
+{
+  "ultimate_battle_music.config.title": "ULTIMATE BATTLE MUSIC",
+
+  "ultimate_battle_music.config.mode.on": "ON",
+  "ultimate_battle_music.config.mode.on.tooltip": "播放独特音轨",
+  "ultimate_battle_music.config.mode.fallback": "NORMAL",
+  "ultimate_battle_music.config.mode.fallback.tooltip": "使用默认音轨",
+  "ultimate_battle_music.config.mode.off": "OFF",
+  "ultimate_battle_music.config.mode.off.tooltip": "关闭此类型",
+
+  "ultimate_battle_music.config.category.music": "音乐",
+  "ultimate_battle_music.config.category.detection": "检测类型",
+  "ultimate_battle_music.config.category.radius": "范围",
+  "ultimate_battle_music.config.category.bosses": "Boss",
+  "ultimate_battle_music.config.category.volume": "音量",
+  "ultimate_battle_music.config.category.fade": "淡入淡出",
+
+  "ultimate_battle_music.config.music.enable": "启用战斗音乐",
+  "ultimate_battle_music.config.music.enable.tooltip": "主开关。关闭后不会播放战斗音乐。",
+  "ultimate_battle_music.config.music.variant_mode": "变种音乐",
+  "ultimate_battle_music.config.music.illager_mode": "灾厄村民音乐",
+  "ultimate_battle_music.config.music.nether_mode": "下界音乐",
+  "ultimate_battle_music.config.music.raid_mode": "袭击音乐",
+
+  "ultimate_battle_music.config.detection.require_targeting": "需要生物锁定玩家",
+  "ultimate_battle_music.config.detection.require_targeting.tooltip": "只有当生物攻击你时才触发音乐。",
+  "ultimate_battle_music.config.detection.check_interval": "检测间隔（tick）",
+  "ultimate_battle_music.config.detection.check_interval.tooltip": "战斗检测频率。20 = 1秒。",
+
+  "ultimate_battle_music.config.radius.normal": "普通生物范围",
+  "ultimate_battle_music.config.radius.variant": "变种生物范围",
+  "ultimate_battle_music.config.radius.illager": "灾厄村民范围",
+  "ultimate_battle_music.config.radius.far": "远距离敌对范围",
+  "ultimate_battle_music.config.radius.creeper": "苦力怕范围",
+  "ultimate_battle_music.config.radius.creeper.tooltip": "苦力怕通常只在非常近距离触发音乐。",
+  "ultimate_battle_music.config.radius.boss": "Boss范围",
+  "ultimate_battle_music.config.radius.boss.tooltip": "侦测：凋灵 | 监守者 | 末影龙",
+
+  "ultimate_battle_music.config.bosses.warden_mode": "监守者音乐",
+  "ultimate_battle_music.config.bosses.warden_volume": "监守者音量 (%)",
+  "ultimate_battle_music.config.bosses.wither_mode": "凋灵音乐",
+  "ultimate_battle_music.config.bosses.wither_volume": "凋灵音量 (%)",
+  "ultimate_battle_music.config.bosses.dragon_mode": "末影龙音乐",
+  "ultimate_battle_music.config.bosses.dragon_volume": "末影龙音量 (%)",
+
+  "ultimate_battle_music.config.volume.default": "默认音量 (%)",
+  "ultimate_battle_music.config.volume.default.tooltip": "主世界普通战斗音乐音量。",
+  "ultimate_battle_music.config.volume.illager": "灾厄村民音量 (%)",
+  "ultimate_battle_music.config.volume.raid": "袭击音量 (%)",
+  "ultimate_battle_music.config.volume.nether": "下界音量 (%)",
+  "ultimate_battle_music.config.volume.fluid_pitch": "液体音高 (%)",
+  "ultimate_battle_music.config.volume.fluid_pitch.tooltip": "水或岩浆中的音高。75 = 更低音。",
+
+  "ultimate_battle_music.config.fade.use_fade": "淡入淡出",
+  "ultimate_battle_music.config.fade.use_fade.tooltip": "启用淡入/淡出。关闭则瞬间切换。",
+  "ultimate_battle_music.config.fade.fade_out": "淡出（tick）",
+  "ultimate_battle_music.config.fade.fade_out.tooltip": "淡出持续时间。60 = 3秒。",
+  "ultimate_battle_music.config.fade.revive_fade_in": "淡入（tick）",
+  "ultimate_battle_music.config.fade.revive_fade_in.tooltip": "静音后的恢复时间。40 = 2秒。",
+  "ultimate_battle_music.config.fade.ghost_duration": "幽灵持续时间（tick）",
+  "ultimate_battle_music.config.fade.ghost_duration.tooltip": "停止前静音播放时间。200 = 10秒。"
+}

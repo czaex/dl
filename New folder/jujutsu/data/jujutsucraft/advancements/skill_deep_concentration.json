@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "jujutsucraft:cursed_technique_starter"
+    },
+    "title": {
+      "translate": "advancements.skill_deep_concentration.title"
+    },
+    "description": {
+      "translate": "advancements.skill_deep_concentration.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "skill_deep_concentration_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:skill_divergent_fist"
+}

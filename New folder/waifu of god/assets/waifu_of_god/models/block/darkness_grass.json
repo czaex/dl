@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "waifu_of_god:block/dirt",
+    "up": "waifu_of_god:block/darkness_grass_block_top",
+    "north": "waifu_of_god:block/grass_block_side",
+    "east": "waifu_of_god:block/grass_block_side",
+    "south": "waifu_of_god:block/grass_block_side",
+    "west": "waifu_of_god:block/grass_block_side",
+    "particle": "waifu_of_god:block/dirt"
+  },
+  "render_type": "solid"
+}

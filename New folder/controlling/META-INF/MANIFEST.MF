@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Vendor: Jaredlll08
+Built-On-Java: 25.0.1+8-LTS (Eclipse Adoptium)
+Implementation-Version: 26.3.4
+Specification-Version: 26.3.4
+Specification-Title: Controlling
+Implementation-Title: neoforge
+Built-On-Minecraft: 26.3
+Implementation-Vendor: Jaredlll08
+

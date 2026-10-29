@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "jujutsucraft:g_staff"
+    },
+    "title": {
+      "translate": "advancements.battle_charles_bernard.title"
+    },
+    "description": {
+      "translate": "advancements.battle_charles_bernard.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "battle_charles_bernard_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:battle_ryu_ishigori"
+}

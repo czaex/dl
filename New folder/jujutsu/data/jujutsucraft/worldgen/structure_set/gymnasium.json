@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "jujutsucraft:gymnasium",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 150,
+    "separation": 130,
+    "salt": 985170625
+  }
+}

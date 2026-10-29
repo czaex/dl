@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "jujutsucraft:clothes_dabura_karaba_helmet"
+    },
+    "title": {
+      "translate": "advancements.battle_dabura_karaba.title"
+    },
+    "description": {
+      "translate": "advancements.battle_dabura_karaba.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "battle_dabura_karaba_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:battle_yuji_itadori_modulo"
+}

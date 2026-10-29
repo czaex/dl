@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "dragonminez:block/namek_deepslate_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "dragonminez:block/namek_deepslate"
+    },
+    "axis=z": {
+      "model": "dragonminez:block/namek_deepslate_horizontal",
+      "x": 90
+    }
+  }
+}

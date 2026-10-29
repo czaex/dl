@@ -1,0 +1,52 @@
+{
+  "jars": [
+    {
+      "identifier": {
+        "group": "curse.maven",
+        "artifact": "geckolib-388172"
+      },
+      "version": {
+        "range": "[4.8.2,)",
+        "artifactVersion": "7025129"
+      },
+      "path": "META-INF/jarjar/geckolib-388172-7025129.jar",
+      "isObfuscated": true
+    },
+    {
+      "identifier": {
+        "group": "curse.maven",
+        "artifact": "guhaos-vix-1531111"
+      },
+      "version": {
+        "range": "[1.3.2,)",
+        "artifactVersion": "8660033"
+      },
+      "path": "META-INF/jarjar/guhaos-vix-1531111-8660033.jar",
+      "isObfuscated": true
+    },
+    {
+      "identifier": {
+        "group": "com.bawnorton.mixinsquared",
+        "artifact": "mixinsquared-forge"
+      },
+      "version": {
+        "range": "[0.2.0-beta.6,)",
+        "artifactVersion": "0.2.0-beta.6"
+      },
+      "path": "META-INF/jarjar/mixinsquared-forge-0.2.0-beta.6.jar",
+      "isObfuscated": false
+    },
+    {
+      "identifier": {
+        "group": "io.github.llamalad7",
+        "artifact": "mixinextras-forge"
+      },
+      "version": {
+        "range": "[0.4.1,)",
+        "artifactVersion": "0.4.1"
+      },
+      "path": "META-INF/jarjar/mixinextras-forge-0.4.1.jar",
+      "isObfuscated": false
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "jujutsucraft:mahoraga_body_helmet"
+    },
+    "title": {
+      "translate": "advancements.battle_mahoraga.title"
+    },
+    "description": {
+      "translate": "advancements.battle_mahoraga.descr"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "battle_mahoraga_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jujutsucraft:battle_megumi_fushiguro_shibuya"
+}

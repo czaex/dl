@@ -1,0 +1,52 @@
+{
+  "carvers": {},
+  "downfall": 0.0,
+  "effects": {
+    "fog_color": 13532861,
+    "foliage_color": 14480127,
+    "grass_color": 8047429,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "sky_color": 12473770,
+    "water_color": 4214155,
+    "water_fog_color": 4214120
+  },
+  "features": [
+    [
+      "dragonminez:otherworld_crystal_spike_placed"
+    ],
+    [],
+    [
+      "dragonminez:otherworld_candy_orb_placed"
+    ],
+    [],
+    [
+      "dragonminez:otherworld_bone_spine_placed"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "dragonminez:otherworld_thorn_ball_placed"
+    ]
+  ],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "dragonminez:wild_enemy": [],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 1.0
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "dragonminez",
+  "key": {
+    "K": {
+      "item": "dragonminez:armor_crafting_kit"
+    },
+    "Q": {
+      "item": "minecraft:quartz_block"
+    },
+    "S": {
+      "item": "minecraft:quartz_slab"
+    },
+    "T": {
+      "item": "minecraft:crafting_table"
+    }
+  },
+  "pattern": [
+    "TST",
+    "QKQ",
+    "TST"
+  ],
+  "result": {
+    "item": "dragonminez:pattern_station"
+  },
+  "show_notification": true
+}

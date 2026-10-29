@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "mahoutsukai:morgan",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancements.breadcrumbs.title"
+    },
+    "description": {
+      "translate": "advancements.breadcrumbs.description"
+    },
+    "announce_to_chat": true
+  },
+  "parent": "mahoutsukai:morgan",
+  "criteria": {
+    "breadcrumbs": {
+      "trigger": "mahoutsukai:breadcrumbs"
+    }
+  }
+}

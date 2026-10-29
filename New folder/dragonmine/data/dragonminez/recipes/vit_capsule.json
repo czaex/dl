@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dragonminez",
+  "ingredients": [
+    {
+      "type": "forge:nbt",
+      "count": 1,
+      "item": "minecraft:potion",
+      "nbt": "{CustomPotionColor:10354432,Potion:\"dragonminez:curative\"}"
+    },
+    {
+      "item": "dragonminez:senzu_bean_red"
+    },
+    {
+      "item": "dragonminez:empty_capsule"
+    },
+    {
+      "item": "dragonminez:hermit_fern"
+    },
+    {
+      "item": "dragonminez:hermit_fern"
+    }
+  ],
+  "result": {
+    "item": "dragonminez:green_capsule"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "mahoutsukai:item/weapon_projectile_bow_pulling_1"
+  }
+}

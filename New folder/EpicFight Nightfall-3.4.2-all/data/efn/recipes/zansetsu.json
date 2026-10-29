@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern":
+    [
+        "HNH",
+        "DBD",
+        "HNH"
+    ],
+    "key":
+    {
+        "H": { "item": "efn:hf_ingot" },
+        "N": { "item": "minecraft:nether_star" },
+        "D": { "item": "minecraft:dragon_breath" },
+        "B": { "item": "minecraft:book" }
+    },
+    "result": {
+        "item": "epicfight:skillbook",
+        "count": 1,
+        "nbt": {
+            "skill": "efn:zansetsu"
+        }
+    }
+}

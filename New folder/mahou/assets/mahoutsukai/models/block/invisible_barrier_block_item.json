@@ -1,0 +1,37 @@
+{
+  "textures": {
+    "circle": "mahoutsukai:block/invisible_barrier",
+    "particle": "mahoutsukai:block/empty_image"
+  },
+  "render_type": "translucent",
+  "elements": [
+    {
+      "from": [0,0,0],
+      "to": [16,16,16],
+      "faces": {
+        "up": {
+          "uv": [0, 0, 16, 16],
+          "texture": "#circle"
+        },
+        "down": {
+          "uv": [0, 0, 16, 16],
+          "texture": "#circle"
+        },
+        "north": {
+          "uv": [0, 0, 16, 16],
+          "texture": "#circle"
+        },
+        "south": {
+          "uv": [0, 0, 16, 16],
+          "texture": "#circle"
+        }, "east": {
+          "uv": [0, 0, 16, 16],
+          "texture": "#circle"
+        }, "west": {
+          "uv": [0, 0, 16, 16],
+          "texture": "#circle"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "renderer": "epic_fight_avalon:animation_item",
+  "texture": "efn:textures/item/weapon/broadblade.png",
+  "mesh":"efn:weapon/broadblade",
+  "trail": {
+  "color": [170, 170, 170],
+  "begin_pos": [0.0, 0.0, -0.2],
+  "end_pos": [0.0, 0.0, -1.95],
+  "lifetime": 4,
+  "interpolations": 4,
+  "texture_path": "efn:textures/trail/broad_blade.png",
+  "particle_type": "efn:bloom_trail"
+},
+  "appeared_in_afterimage":false
+}

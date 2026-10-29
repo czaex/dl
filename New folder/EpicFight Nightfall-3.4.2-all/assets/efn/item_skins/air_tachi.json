@@ -1,0 +1,16 @@
+
+{
+  "renderer": "epic_fight_avalon:mesh_item",
+  "texture": "efn:textures/item/weapon/air_tachi.png",
+  "mesh_main":"efn:weapon/air_tachi",
+  "trail": {
+    "color": [150, 150, 150],
+    "begin_pos": [0.0, 0.1, -0.2],
+    "end_pos": [0.0, 0.3, -2.1],
+    "lifetime": 4,
+    "interpolations": 5,
+    "texture_path": "efn:textures/trail/blood.png",
+    "particle_type": "efn:bloom_trail"
+  },
+  "appeared_in_afterimage":false
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "waifu_of_god:linh_thach_toan_uy_pham"
+    },
+    "title": {
+      "translate": "advancements.tu_tien_gioi.title"
+    },
+    "description": {
+      "translate": "advancements.tu_tien_gioi.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tu_tien_gioi_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

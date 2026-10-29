@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "waifu_of_god:ancient_hu_am_so_cau",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 250,
+    "separation": 120,
+    "salt": 1551525113
+  }
+}

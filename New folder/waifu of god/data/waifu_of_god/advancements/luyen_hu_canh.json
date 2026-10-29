@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "waifu_of_god:linh_thach_cao_pham"
+    },
+    "title": {
+      "translate": "advancements.luyen_hu_canh.title"
+    },
+    "description": {
+      "translate": "advancements.luyen_hu_canh.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "luyen_hu_canh_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "waifu_of_god:entities/luyen_hu_loot"
+    ]
+  },
+  "parent": "waifu_of_god:hoa_than_canh"
+}

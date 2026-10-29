@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_inventory",
+  "textures": {
+    "texture": "dragonminez:block/namek_ajissa_planks"
+  }
+}

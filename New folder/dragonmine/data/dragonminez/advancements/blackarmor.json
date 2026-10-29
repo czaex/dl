@@ -1,0 +1,49 @@
+{
+  "parent": "dragonminez:patternsuper",
+  "criteria": {
+    "blackarmor": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dragonminez:blackgoku_armor_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:blackgoku_armor_leggings"
+            ]
+          },
+          {
+            "items": [
+              "dragonminez:blackgoku_armor_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.dragonminez.blackarmor.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "dragonminez:blackgoku_armor_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.dragonminez.blackarmor.title"
+    }
+  },
+  "requirements": [
+    [
+      "blackarmor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
